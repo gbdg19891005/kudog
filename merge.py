@@ -29,11 +29,15 @@ def normalize_name(name: str) -> str:
     return name
 
 def assign_group(name: str) -> str:
-    """根据规则分组"""
+    """根据规则分组（优先 CCTV，收紧卫视）"""
     for group, keywords in rules.items():
         for kw in keywords:
-            if re.search(kw, name, re.IGNORECASE):
-                return group
+            try:
+                if re.search(kw, name, re.IGNORECASE):
+                    return group
+            except re.error:
+                if kw.lower() in name.lower():
+                    return group
     return "综合"
 
 # 拉取远程 interface.txt
@@ -58,6 +62,7 @@ for i in range(0, len(all_lines), 2):
     if all_lines[i].startswith("#EXTINF"):
         line = all_lines[i]
         url_line = all_lines[i+1] if i+1 < len(all_lines) else ""
+        # ⚠️ 确保用 tvg-name，而不是 svg-name
         match = re.search(r'tvg-name="([^"]+)"', line)
         raw_name = match.group(1) if match else "未知频道"
         norm_name = normalize_name(raw_name)   # 先统一别名
