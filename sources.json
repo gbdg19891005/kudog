@@ -1,0 +1,11 @@
+{
+  "remote_urls": [
+    "https://raw.githubusercontent.com/develop202/migu_video/main/interface.txt",
+    "https://raw.githubusercontent.com/someone/iptv/main/extra1.txt"
+  ],
+  "local_files": [
+    "kudog.txt",
+    "extra_local1.txt",
+    "extra_local2.txt"
+  ]
+}
