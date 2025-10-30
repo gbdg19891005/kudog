@@ -1,7 +1,7 @@
 {
   "rules": {
-    "CCTV": ["^CCTV", "央视", "中央"],
-    "卫视": ["衛視\\b", "卫视\\b"],
+    "央视频道": ["^CCTV", "央视", "中央"],
+    "卫视频道": ["衛視\\b", "卫视\\b"],
     "新闻": ["新聞", "新闻", "NEWS", "INFO"],
     "综艺": ["綜藝", "综艺", "娱乐"],
     "体育": ["體育", "体育", "SPORT", "NBA", "球"],
@@ -13,11 +13,11 @@
     "纪录片": ["紀錄", "纪录", "纪实", "DOCUMENTARY", "History", "Nature", "MagellanTV", "CI"],
     "国际台": ["国际", "國際", "WORLD", "NHK", "FRANCE24", "ARIRANG", "Bloomberg", "CGTN"],
     "教育": ["教育", "CETV", "EDU", "LEARN"],
-    "地方台": ["地方", "都市", "省台", "频道$", "台$"]
+    "地方台": ["地方", "都市","频道$"] 
   },
   "custom_channels": [
     {
-      "name": "kudog提供",
+      "name": "kudogxy提供",
       "logo": "https://example.com/logo.png",
       "group": "000-我的收藏",
       "url": "https://example.com/test.m3u8"
