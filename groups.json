@@ -2,9 +2,9 @@
   "rules": {
     "央视频道": ["^CCTV", "央视", "中央"],
     "卫视频道": ["衛視\\b", "卫视\\b"],
-    "新闻": ["新聞", "新闻", "NEWS", "INFO"],
+    "新闻": ["新聞", "新闻", "NEWS","綜合台", "視", "INFO"],
     "综艺": ["綜藝", "综艺", "娱乐", "TVBS"],
-    "体育": ["體育", "体育", "SPORT", "NBA", "球"],
+    "体育": ["體育", "体育", "SPORT","体","赛","鱼", "武术", "NBA", "球"],
     "电影": ["電影", "电影", "MOVIE", "CINEMA", "影视", "amc", "CinemaWorld"],
     "少儿": ["少儿", "兒童", "KIDS", "CARTOON", "動漫", "动画", "卡通"],
     "财经": ["財經", "财经", "FINANCE", "BUSINESS", "ECONOMY"],
@@ -13,20 +13,20 @@
     "纪录片": ["紀錄", "纪录", "纪实", "DOCUMENTARY", "History", "Nature", "MagellanTV", "CI"],
     "国际台": ["国际", "國際", "WORLD", "NHK", "FRANCE24", "ARIRANG", "Bloomberg", "CGTN"],
     "教育": ["教育", "CETV", "EDU", "LEARN"],
-    "地方台": ["地方", "都市", "省台", "频道$"]
+    "地方台": ["地方", "都市", "省台", "陕西","新闻综合","频道$"]
   },
   "custom_channels": [
     {
-      "name": "kudog提供",
-      "logo": "https://example.com/logo.png",
-      "group": "000-我的收藏",
-      "url": "https://example.com/test.m3u8"
+      "name": "kudogxy提供",
+      "logo": "https://wx3.sinaimg.cn/mw1024/007cJZBPly1hzdz1ycl36g30a00a0q7w.gif",
+      "group": "kudogxy提供",
+      "url": "https://kudog.chatgb.dpdns.org/?id=9"
     },
     {
-      "name": "家庭视频",
-      "logo": "https://example.com/family.png",
-      "group": "000-家庭专用",
-      "url": "https://example.com/family.mp4"
+      "name": "微信:kudogxy",
+      "logo": "https://gss0.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/fd039245d688d43f219dbba5771ed21b0ef43bb4.jpg",
+      "group": "微信:kudogxy",
+      "url": "https://148668.xyz/upload/mmqrcode1747220950496.png"
     }
   ]
 }
