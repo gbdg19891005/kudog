@@ -1,0 +1,84 @@
+name: Merge and Group M3U Files
+
+on:
+  schedule:
+    - cron: "0 2 * * *"   # 每天北京时间上午10点运行
+  workflow_dispatch:       # 允许手动触发
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Merge kudog.txt + interface.txt with grouping
+        run: |
+          python <<'EOF'
+          import requests, re
+
+          # GitHub 上的 interface.txt
+          url = "https://raw.githubusercontent.com/develop202/migu_video/main/interface.txt"
+          resp = requests.get(url)
+          github_content = resp.text.splitlines()
+
+          # 本地 kudog.txt
+          with open("kudog.txt", "r", encoding="utf-8") as f:
+              kudog_content = f.read().splitlines()
+
+          # 合并，保留一个 #EXTM3U
+          merged = ['#EXTM3U x-tvg-url="https://epg.catvod.com/epg.xml"']
+          all_lines = github_content[1:] + kudog_content[1:]
+
+          def assign_group(name: str) -> str:
+              if "CCTV" in name.upper():
+                  return "CCTV"
+              if re.search("新聞|新闻|NEWS", name, re.IGNORECASE):
+                  return "新闻"
+              if re.search("綜藝|综艺", name):
+                  return "综艺"
+              if re.search("體育|体育|SPORT", name, re.IGNORECASE):
+                  return "体育"
+              if re.search("電影|电影|MOVIE|CINEMA", name, re.IGNORECASE):
+                  return "电影"
+              if re.search("少儿|兒童|KIDS|Cartoon|動漫|动画", name, re.IGNORECASE):
+                  return "少儿"
+              return "综合"
+
+          # 遍历并修正 group-title
+          for i in range(0, len(all_lines), 2):
+              if all_lines[i].startswith("#EXTINF"):
+                  line = all_lines[i]
+                  url_line = all_lines[i+1] if i+1 < len(all_lines) else ""
+                  # 提取频道名
+                  match = re.search(r'tvg-name="([^"]+)"', line)
+                  name = match.group(1) if match else "未知频道"
+                  group = assign_group(name)
+                  # 替换或添加 group-title
+                  if "group-title" in line:
+                      line = re.sub(r'group-title=".*?"', f'group-title="{group}"', line)
+                  else:
+                      line = line + f' group-title="{group}"'
+                  merged.append(line)
+                  merged.append(url_line)
+
+          # 保存合并后的文件
+          with open("merged.m3u", "w", encoding="utf-8") as f:
+              f.write("\n".join(merged))
+          EOF
+
+      - name: Commit merged.m3u
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add merged.m3u
+          git commit -m "Auto update merged.m3u with grouping" || echo "No changes"
+          git push
