@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://epg.catvod.com/epg.xml"
-#EXTINF:-1 tvg-name="kudog提供" tvg-logo="https://example.com/logo.png" group-title="000-我的收藏"
+#EXTINF:-1 tvg-name="kudogxy提供" tvg-logo="https://example.com/logo.png" group-title="000-我的收藏"
 https://example.com/test.m3u8
 #EXTINF:-1 tvg-name="家庭视频" tvg-logo="https://example.com/family.png" group-title="000-家庭专用"
 https://example.com/family.mp4
@@ -247,7 +247,7 @@ https://kudog.chatgb.dpdns.org/?id=268
 https://kudog.chatgb.dpdns.org/?id=30
 #EXTINF:-1 tvg-name="三立新聞iNEWS" tvg-logo="https://logo.catvod.com/三立新聞iNEWS.png" group-title="新闻",三立新聞iNEWS
 https://kudog.chatgb.dpdns.org/?id=229
-#EXTINF:-1 tvg-name="原住民族電視台" tvg-logo="https://logo.catvod.com/原住民族電視台.png" group-title="地方台",原住民族電視台
+#EXTINF:-1 tvg-name="原住民族電視台" tvg-logo="https://logo.catvod.com/原住民族電視台.png" group-title="综合",原住民族電視台
 https://kudog.chatgb.dpdns.org/?id=273
 #EXTINF:-1 tvg-name="DW德國之聲" tvg-logo="https://logo.catvod.com/DW德國之聲.png" group-title="综合",DW德國之聲
 https://kudog.chatgb.dpdns.org/?id=226
@@ -325,7 +325,7 @@ https://kudog.chatgb.dpdns.org/?id=286
 https://kudog.chatgb.dpdns.org/?id=6
 #EXTINF:-1 tvg-name="大愛電視" tvg-logo="https://logo.catvod.com/大愛電視.png" group-title="综合",大愛電視
 https://kudog.chatgb.dpdns.org/?id=209
-#EXTINF:-1 tvg-name="戲劇免費看 1台" tvg-logo="https://logo.catvod.com/戲劇免費看 1台.png" group-title="地方台",戲劇免費看 1台
+#EXTINF:-1 tvg-name="戲劇免費看 1台" tvg-logo="https://logo.catvod.com/戲劇免費看 1台.png" group-title="综合",戲劇免費看 1台
 https://kudog.chatgb.dpdns.org/?id=270
 #EXTINF:-1 tvg-name="精選動漫台" tvg-logo="https://logo.catvod.com/精選動漫台.png" group-title="少儿",精選動漫台
 https://kudog.chatgb.dpdns.org/?id=204
@@ -335,33 +335,33 @@ https://kudog.chatgb.dpdns.org/?id=201
 https://kudog.chatgb.dpdns.org/?id=202
 #EXTINF:-1 tvg-name="Nick Jr. 兒童頻道" tvg-logo="https://logo.catvod.com/Nick Jr. 兒童頻道.png" group-title="少儿",Nick Jr. 兒童頻道
 https://kudog.chatgb.dpdns.org/?id=219
-#EXTINF:-1 tvg-name="fun探索娛樂台" tvg-logo="https://logo.catvod.com/fun探索娛樂台.png" group-title="地方台",fun探索娛樂台
+#EXTINF:-1 tvg-name="fun探索娛樂台" tvg-logo="https://logo.catvod.com/fun探索娛樂台.png" group-title="综合",fun探索娛樂台
 https://kudog.chatgb.dpdns.org/?id=274
-#EXTINF:-1 tvg-name="客家電視台" tvg-logo="https://logo.catvod.com/客家電視台.png" group-title="地方台",客家電視台
+#EXTINF:-1 tvg-name="客家電視台" tvg-logo="https://logo.catvod.com/客家電視台.png" group-title="综合",客家電視台
 https://kudog.chatgb.dpdns.org/?id=107
-#EXTINF:-1 tvg-name="亞洲旅遊台" tvg-logo="https://logo.catvod.com/亞洲旅遊台.png" group-title="地方台",亞洲旅遊台
+#EXTINF:-1 tvg-name="亞洲旅遊台" tvg-logo="https://logo.catvod.com/亞洲旅遊台.png" group-title="综合",亞洲旅遊台
 https://kudog.chatgb.dpdns.org/?id=250
 #EXTINF:-1 tvg-name="滾動力rollor" tvg-logo="https://logo.catvod.com/滾動力rollor.png" group-title="综合",滾動力rollor
 https://kudog.chatgb.dpdns.org/?id=249
-#EXTINF:-1 tvg-name="民視第一台" tvg-logo="https://logo.catvod.com/民視第一台.png" group-title="地方台",民視第一台
+#EXTINF:-1 tvg-name="民視第一台" tvg-logo="https://logo.catvod.com/民視第一台.png" group-title="综合",民視第一台
 https://kudog.chatgb.dpdns.org/?id=1
-#EXTINF:-1 tvg-name="民視台灣台" tvg-logo="https://logo.catvod.com/民視台灣台.png" group-title="地方台",民視台灣台
+#EXTINF:-1 tvg-name="民視台灣台" tvg-logo="https://logo.catvod.com/民視台灣台.png" group-title="综合",民視台灣台
 https://kudog.chatgb.dpdns.org/?id=2
 #EXTINF:-1 tvg-name="民視綜藝台" tvg-logo="https://logo.catvod.com/民視綜藝台.png" group-title="综艺",民視綜藝台
 https://kudog.chatgb.dpdns.org/?id=16
-#EXTINF:-1 tvg-name="民視影劇台" tvg-logo="https://logo.catvod.com/民視影劇台.png" group-title="地方台",民視影劇台
+#EXTINF:-1 tvg-name="民視影劇台" tvg-logo="https://logo.catvod.com/民視影劇台.png" group-title="综合",民視影劇台
 https://kudog.chatgb.dpdns.org/?id=24
 #EXTINF:-1 tvg-name="Love Nature" tvg-logo="https://logo.catvod.com/Love Nature.png" group-title="纪录片",Love Nature
 https://kudog.chatgb.dpdns.org/?id=139
-#EXTINF:-1 tvg-name="采昌影劇台" tvg-logo="https://logo.catvod.com/采昌影劇台.png" group-title="地方台",采昌影劇台
+#EXTINF:-1 tvg-name="采昌影劇台" tvg-logo="https://logo.catvod.com/采昌影劇台.png" group-title="综合",采昌影劇台
 https://kudog.chatgb.dpdns.org/?id=25
-#EXTINF:-1 tvg-name="靖天綜合台" tvg-logo="https://logo.catvod.com/靖天綜合台.png" group-title="地方台",靖天綜合台
+#EXTINF:-1 tvg-name="靖天綜合台" tvg-logo="https://logo.catvod.com/靖天綜合台.png" group-title="综合",靖天綜合台
 https://kudog.chatgb.dpdns.org/?id=21
 #EXTINF:-1 tvg-name="靖天映畫" tvg-logo="https://logo.catvod.com/靖天映畫.png" group-title="综合",靖天映畫
 https://kudog.chatgb.dpdns.org/?id=42
 #EXTINF:-1 tvg-name="公視戲劇" tvg-logo="https://logo.catvod.com/公視戲劇.png" group-title="综合",公視戲劇
 https://kudog.chatgb.dpdns.org/?id=7
-#EXTINF:-1 tvg-name="靖天育樂台" tvg-logo="https://logo.catvod.com/靖天育樂台.png" group-title="地方台",靖天育樂台
+#EXTINF:-1 tvg-name="靖天育樂台" tvg-logo="https://logo.catvod.com/靖天育樂台.png" group-title="综合",靖天育樂台
 https://kudog.chatgb.dpdns.org/?id=83
 #EXTINF:-1 tvg-name="尼克兒童頻道" tvg-logo="https://logo.catvod.com/尼克兒童頻道.png" group-title="少儿",尼克兒童頻道
 https://kudog.chatgb.dpdns.org/?id=185
@@ -369,13 +369,13 @@ https://kudog.chatgb.dpdns.org/?id=185
 https://kudog.chatgb.dpdns.org/?id=40
 #EXTINF:-1 tvg-name="智林體育台" tvg-logo="https://logo.catvod.com/智林體育台.png" group-title="体育",智林體育台
 https://kudog.chatgb.dpdns.org/?id=58
-#EXTINF:-1 tvg-name="靖天日本台" tvg-logo="https://logo.catvod.com/靖天日本台.png" group-title="地方台",靖天日本台
+#EXTINF:-1 tvg-name="靖天日本台" tvg-logo="https://logo.catvod.com/靖天日本台.png" group-title="综合",靖天日本台
 https://kudog.chatgb.dpdns.org/?id=22
 #EXTINF:-1 tvg-name="靖天電影台" tvg-logo="https://logo.catvod.com/靖天電影台.png" group-title="电影",靖天電影台
 https://kudog.chatgb.dpdns.org/?id=82
-#EXTINF:-1 tvg-name="中視菁采台" tvg-logo="https://logo.catvod.com/中視菁采台.png" group-title="地方台",中視菁采台
+#EXTINF:-1 tvg-name="中視菁采台" tvg-logo="https://logo.catvod.com/中視菁采台.png" group-title="综合",中視菁采台
 https://kudog.chatgb.dpdns.org/?id=123
-#EXTINF:-1 tvg-name="三立綜合台" tvg-logo="https://logo.catvod.com/三立綜合台.png" group-title="地方台",三立綜合台
+#EXTINF:-1 tvg-name="三立綜合台" tvg-logo="https://logo.catvod.com/三立綜合台.png" group-title="综合",三立綜合台
 https://kudog.chatgb.dpdns.org/?id=169
 #EXTINF:-1 tvg-name="History 歷史頻道" tvg-logo="https://logo.catvod.com/History 歷史頻道.png" group-title="纪录片",History 歷史頻道
 https://kudog.chatgb.dpdns.org/?id=214
@@ -389,21 +389,21 @@ https://kudog.chatgb.dpdns.org/?id=11
 https://kudog.chatgb.dpdns.org/?id=15
 #EXTINF:-1 tvg-name="靖洋卡通Nice Bingo" tvg-logo="https://logo.catvod.com/靖洋卡通Nice Bingo.png" group-title="少儿",靖洋卡通Nice Bingo
 https://kudog.chatgb.dpdns.org/?id=59
-#EXTINF:-1 tvg-name="ELTV生活英語台" tvg-logo="https://logo.catvod.com/ELTV生活英語台.png" group-title="地方台",ELTV生活英語台
+#EXTINF:-1 tvg-name="ELTV生活英語台" tvg-logo="https://logo.catvod.com/ELTV生活英語台.png" group-title="综合",ELTV生活英語台
 https://kudog.chatgb.dpdns.org/?id=106
 #EXTINF:-1 tvg-name="LiveABC互動英語頻道" tvg-logo="https://logo.catvod.com/LiveABC互動英語頻道.png" group-title="综合",LiveABC互動英語頻道
 https://kudog.chatgb.dpdns.org/?id=188
-#EXTINF:-1 tvg-name="MOMO親子台" tvg-logo="https://logo.catvod.com/MOMO親子台.png" group-title="地方台",MOMO親子台
+#EXTINF:-1 tvg-name="MOMO親子台" tvg-logo="https://logo.catvod.com/MOMO親子台.png" group-title="综合",MOMO親子台
 https://kudog.chatgb.dpdns.org/?id=231
 #EXTINF:-1 tvg-name="霹靂布袋戲" tvg-logo="https://logo.catvod.com/霹靂布袋戲.png" group-title="综合",霹靂布袋戲
 https://kudog.chatgb.dpdns.org/?id=301
-#EXTINF:-1 tvg-name="TVBS台劇台" tvg-logo="https://logo.catvod.com/TVBS台劇台.png" group-title="地方台",TVBS台劇台
+#EXTINF:-1 tvg-name="TVBS台劇台" tvg-logo="https://logo.catvod.com/TVBS台劇台.png" group-title="综合",TVBS台劇台
 https://kudog.chatgb.dpdns.org/?id=285
-#EXTINF:-1 tvg-name="八大精彩台" tvg-logo="https://logo.catvod.com/八大精彩台.png" group-title="地方台",八大精彩台
+#EXTINF:-1 tvg-name="八大精彩台" tvg-logo="https://logo.catvod.com/八大精彩台.png" group-title="综合",八大精彩台
 https://kudog.chatgb.dpdns.org/?id=172
-#EXTINF:-1 tvg-name="靖天戲劇台" tvg-logo="https://logo.catvod.com/靖天戲劇台.png" group-title="地方台",靖天戲劇台
+#EXTINF:-1 tvg-name="靖天戲劇台" tvg-logo="https://logo.catvod.com/靖天戲劇台.png" group-title="综合",靖天戲劇台
 https://kudog.chatgb.dpdns.org/?id=116
-#EXTINF:-1 tvg-name="靖洋戲劇台" tvg-logo="https://logo.catvod.com/靖洋戲劇台.png" group-title="地方台",靖洋戲劇台
+#EXTINF:-1 tvg-name="靖洋戲劇台" tvg-logo="https://logo.catvod.com/靖洋戲劇台.png" group-title="综合",靖洋戲劇台
 https://kudog.chatgb.dpdns.org/?id=118
 #EXTINF:-1 tvg-name="CinemaWorld" tvg-logo="https://logo.catvod.com/CinemaWorld.png" group-title="电影",CinemaWorld
 https://kudog.chatgb.dpdns.org/?id=225
@@ -417,23 +417,23 @@ https://kudog.chatgb.dpdns.org/?id=186
 https://kudog.chatgb.dpdns.org/?id=178
 #EXTINF:-1 tvg-name="LUXE TV Channel" tvg-logo="https://logo.catvod.com/LUXE TV Channel.png" group-title="综合",LUXE TV Channel
 https://kudog.chatgb.dpdns.org/?id=175
-#EXTINF:-1 tvg-name="民視旅遊台" tvg-logo="https://logo.catvod.com/民視旅遊台.png" group-title="地方台",民視旅遊台
+#EXTINF:-1 tvg-name="民視旅遊台" tvg-logo="https://logo.catvod.com/民視旅遊台.png" group-title="综合",民視旅遊台
 https://kudog.chatgb.dpdns.org/?id=61
-#EXTINF:-1 tvg-name="幸福空間居家台" tvg-logo="https://logo.catvod.com/幸福空間居家台.png" group-title="地方台",幸福空間居家台
+#EXTINF:-1 tvg-name="幸福空間居家台" tvg-logo="https://logo.catvod.com/幸福空間居家台.png" group-title="综合",幸福空間居家台
 https://kudog.chatgb.dpdns.org/?id=168
 #EXTINF:-1 tvg-name="ARIRANG阿里郎頻道" tvg-logo="https://logo.catvod.com/ARIRANG阿里郎頻道.png" group-title="国际台",ARIRANG阿里郎頻道
 https://kudog.chatgb.dpdns.org/?id=189
-#EXTINF:-1 tvg-name="愛爾達生活旅遊台" tvg-logo="https://logo.catvod.com/愛爾達生活旅遊台.png" group-title="地方台",愛爾達生活旅遊台
+#EXTINF:-1 tvg-name="愛爾達生活旅遊台" tvg-logo="https://logo.catvod.com/愛爾達生活旅遊台.png" group-title="综合",愛爾達生活旅遊台
 https://kudog.chatgb.dpdns.org/?id=237
-#EXTINF:-1 tvg-name="亞洲旅遊台" tvg-logo="https://logo.catvod.com/亞洲旅遊台.png" group-title="地方台",亞洲旅遊台
+#EXTINF:-1 tvg-name="亞洲旅遊台" tvg-logo="https://logo.catvod.com/亞洲旅遊台.png" group-title="综合",亞洲旅遊台
 https://kudog.chatgb.dpdns.org/?id=261
-#EXTINF:-1 tvg-name="中視經典台" tvg-logo="https://logo.catvod.com/中視經典台.png" group-title="地方台",中視經典台
+#EXTINF:-1 tvg-name="中視經典台" tvg-logo="https://logo.catvod.com/中視經典台.png" group-title="综合",中視經典台
 https://kudog.chatgb.dpdns.org/?id=124
 #EXTINF:-1 tvg-name="八大綜藝台" tvg-logo="https://logo.catvod.com/八大綜藝台.png" group-title="综艺",八大綜藝台
 https://kudog.chatgb.dpdns.org/?id=114
 #EXTINF:-1 tvg-name="TVBS精采台" tvg-logo="https://logo.catvod.com/TVBS精采台.png" group-title="综艺",TVBS精采台
 https://kudog.chatgb.dpdns.org/?id=227
-#EXTINF:-1 tvg-name="愛爾達娛樂台" tvg-logo="https://logo.catvod.com/愛爾達娛樂台.png" group-title="地方台",愛爾達娛樂台
+#EXTINF:-1 tvg-name="愛爾達娛樂台" tvg-logo="https://logo.catvod.com/愛爾達娛樂台.png" group-title="综合",愛爾達娛樂台
 https://kudog.chatgb.dpdns.org/?id=19
 #EXTINF:-1 tvg-name="Bloomberg TV" tvg-logo="https://logo.catvod.com/Bloomberg TV.png" group-title="国际台",Bloomberg TV
 https://kudog.chatgb.dpdns.org/?id=283
@@ -441,9 +441,9 @@ https://kudog.chatgb.dpdns.org/?id=283
 https://kudog.chatgb.dpdns.org/?id=183
 #EXTINF:-1 tvg-name="KLT-靖天國際台" tvg-logo="https://logo.catvod.com/KLT-靖天國際台.png" group-title="国际台",KLT-靖天國際台
 https://kudog.chatgb.dpdns.org/?id=84
-#EXTINF:-1 tvg-name="Nice TV 靖天歡樂台" tvg-logo="https://logo.catvod.com/Nice TV 靖天歡樂台.png" group-title="地方台",Nice TV 靖天歡樂台
+#EXTINF:-1 tvg-name="Nice TV 靖天歡樂台" tvg-logo="https://logo.catvod.com/Nice TV 靖天歡樂台.png" group-title="综合",Nice TV 靖天歡樂台
 https://kudog.chatgb.dpdns.org/?id=119
-#EXTINF:-1 tvg-name="靖天資訊台" tvg-logo="https://logo.catvod.com/靖天資訊台.png" group-title="地方台",靖天資訊台
+#EXTINF:-1 tvg-name="靖天資訊台" tvg-logo="https://logo.catvod.com/靖天資訊台.png" group-title="综合",靖天資訊台
 https://kudog.chatgb.dpdns.org/?id=88
 #EXTINF:-1 tvg-name="TVBS歡樂台" tvg-logo="https://logo.catvod.com/TVBS歡樂台.png" group-title="综艺",TVBS歡樂台
 https://kudog.chatgb.dpdns.org/?id=184
@@ -473,17 +473,17 @@ https://kudog.chatgb.dpdns.org/?id=179
 https://kudog.chatgb.dpdns.org/?id=450
 #EXTINF:-1 tvg-name="CI 罪案偵查頻道" tvg-logo="https://logo.catvod.com/CI 罪案偵查頻道.png" group-title="纪录片",CI 罪案偵查頻道
 https://kudog.chatgb.dpdns.org/?id=215
-#EXTINF:-1 tvg-name="影迷數位紀實台" tvg-logo="https://logo.catvod.com/影迷數位紀實台.png" group-title="地方台",影迷數位紀實台
+#EXTINF:-1 tvg-name="影迷數位紀實台" tvg-logo="https://logo.catvod.com/影迷數位紀實台.png" group-title="综合",影迷數位紀實台
 https://kudog.chatgb.dpdns.org/?id=445
 #EXTINF:-1 tvg-name="My Cinema Europe HD 我的歐洲電影" tvg-logo="https://logo.catvod.com/My Cinema Europe HD 我的歐洲電影.png" group-title="电影",My Cinema Europe HD 我的歐洲電影
 https://kudog.chatgb.dpdns.org/?id=463
 #EXTINF:-1 tvg-name="好消息" tvg-logo="https://logo.catvod.com/好消息.png" group-title="综合",好消息
 https://kudog.chatgb.dpdns.org/?id=9
-#EXTINF:-1 tvg-name="好消息2台" tvg-logo="https://logo.catvod.com/好消息2台.png" group-title="地方台",好消息2台
+#EXTINF:-1 tvg-name="好消息2台" tvg-logo="https://logo.catvod.com/好消息2台.png" group-title="综合",好消息2台
 https://kudog.chatgb.dpdns.org/?id=8
-#EXTINF:-1 tvg-name="大愛二台" tvg-logo="https://logo.catvod.com/大愛二台.png" group-title="地方台",大愛二台
+#EXTINF:-1 tvg-name="大愛二台" tvg-logo="https://logo.catvod.com/大愛二台.png" group-title="综合",大愛二台
 https://kudog.chatgb.dpdns.org/?id=230
-#EXTINF:-1 tvg-name="人間衛視" tvg-logo="https://logo.catvod.com/人間衛視.png" group-title="卫视",人間衛視
+#EXTINF:-1 tvg-name="人間衛視" tvg-logo="https://logo.catvod.com/人間衛視.png" group-title="卫视频道",人間衛視
 https://kudog.chatgb.dpdns.org/?id=210
 #EXTINF:-1 tvg-name="NHK WORLD-JAPAN" tvg-logo="https://logo.catvod.com/NHK WORLD-JAPAN.png" group-title="国际台",NHK WORLD-JAPAN
 https://kudog.chatgb.dpdns.org/?id=461
@@ -491,9 +491,9 @@ https://kudog.chatgb.dpdns.org/?id=461
 https://kudog.chatgb.dpdns.org/?id=316
 #EXTINF:-1 tvg-name="半島國際新聞台" tvg-logo="https://logo.catvod.com/半島國際新聞台.png" group-title="新闻",半島國際新聞台
 https://kudog.chatgb.dpdns.org/?id=462
-#EXTINF:-1 tvg-name="鳳梨直擊台" tvg-logo="https://logo.catvod.com/鳳梨直擊台.png" group-title="地方台",鳳梨直擊台
+#EXTINF:-1 tvg-name="鳳梨直擊台" tvg-logo="https://logo.catvod.com/鳳梨直擊台.png" group-title="综合",鳳梨直擊台
 https://kudog.chatgb.dpdns.org/?id=93
-#EXTINF:-1 tvg-name="香蕉直擊台" tvg-logo="https://logo.catvod.com/香蕉直擊台.png" group-title="地方台",香蕉直擊台
+#EXTINF:-1 tvg-name="香蕉直擊台" tvg-logo="https://logo.catvod.com/香蕉直擊台.png" group-title="综合",香蕉直擊台
 https://kudog.chatgb.dpdns.org/?id=94
 #EXTINF:-1 tvg-name="TVBS綜藝台" tvg-logo="https://logo.catvod.com/TVBS綜藝台.png" group-title="综艺",TVBS綜藝台
 https://kudog.chatgb.dpdns.org/?id=284
