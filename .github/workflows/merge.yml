@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write   # 允许 Actions 写入仓库
+  contents: write
 
 jobs:
   merge:
@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Merge kudog.txt + interface.txt with grouping
+      - name: Merge kudog.txt + interface.txt with grouping + alias
         run: |
           python <<'EOF'
           import requests, re, json
@@ -34,6 +34,26 @@ jobs:
 
           rules = config["rules"]
           custom_channels = config["custom_channels"]
+
+          # 读取 alias.txt
+          alias_map = {}
+          with open("alias.txt", "r", encoding="utf-8") as f:
+              for line in f:
+                  if not line.strip() or line.startswith("#"):
+                      continue
+                  parts = line.strip().split(",")
+                  main = parts[0]
+                  for alias in parts[1:]:
+                      alias_map[alias] = main
+
+          def normalize_name(name: str) -> str:
+              for alias, main in alias_map.items():
+                  if alias.startswith("re:"):
+                      if re.search(alias[3:], name, re.IGNORECASE):
+                          return main
+                  elif alias.lower() == name.lower():
+                      return main
+              return name
 
           def assign_group(name: str) -> str:
               for group, keywords in rules.items():
@@ -66,7 +86,8 @@ jobs:
                   url_line = all_lines[i+1] if i+1 < len(all_lines) else ""
                   match = re.search(r'tvg-name="([^"]+)"', line)
                   name = match.group(1) if match else "未知频道"
-                  group = assign_group(name)
+                  name = normalize_name(name)   # 先统一别名
+                  group = assign_group(name)    # 再分组
                   if "group-title" in line:
                       line = re.sub(r'group-title=".*?"', f'group-title="{group}"', line)
                   else:
@@ -84,5 +105,5 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add kudog.m3u
-          git commit -m "Auto update kudog.m3u with grouping and custom channels on top" || echo "No changes"
+          git commit -m "Auto update kudog.m3u with alias mapping and grouping" || echo "No changes"
           git push
