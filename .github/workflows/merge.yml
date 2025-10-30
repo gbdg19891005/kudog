@@ -5,6 +5,9 @@ on:
     - cron: "0 2 * * *"   # 每天北京时间上午10点运行
   workflow_dispatch:       # 允许手动触发
 
+permissions:
+  contents: write   # 👈 关键：允许 Actions 写入仓库
+
 jobs:
   merge:
     runs-on: ubuntu-latest
