@@ -57,6 +57,22 @@ def is_blocked(name: str) -> bool:
 # ===== 全量重建：从空开始 =====
 channels = {}
 
+# ===== TXT 转换为 M3U =====
+def convert_txt_to_m3u(lines):
+    new_lines = ["#EXTM3U"]
+    for line in lines:
+        if not line.strip() or line.startswith("#"):
+            continue
+        try:
+            name, url = line.split(",", 1)
+        except ValueError:
+            continue
+        name = name.strip()
+        url = url.strip()
+        new_lines.append(f'#EXTINF:-1 tvg-name="{name}" group-title="综合",{name}')
+        new_lines.append(url)
+    return new_lines
+
 # ===== 处理函数 =====
 def process_lines(lines):
     for i in range(0, len(lines), 2):
@@ -94,6 +110,8 @@ for fname in local_files:
     if os.path.exists(fname):
         with open(fname, "r", encoding="utf-8") as f:
             lines = f.read().splitlines()
+            if not lines[0].startswith("#EXTM3U"):
+                lines = convert_txt_to_m3u(lines)
             process_lines(lines[1:])
         print(f"[INFO] 成功读取本地文件: {fname}")
 
@@ -103,6 +121,8 @@ for url in remote_urls:
         resp = requests.get(url, timeout=10)
         resp.raise_for_status()
         lines = resp.text.splitlines()
+        if not lines[0].startswith("#EXTM3U"):
+            lines = convert_txt_to_m3u(lines)
         process_lines(lines[1:])
         print(f"[INFO] 成功读取远程文件: {url}")
     except Exception as e:
