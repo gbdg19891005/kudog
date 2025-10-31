@@ -1,4 +1,10 @@
-import requests, re, json, os
+import requests, re, json, os, logging
+
+# ===== 日志配置 =====
+logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
+
+# ===== 配置开关 =====
+keep_multiple_urls = False  # True=保留多个URL，False=只保留第一个
 
 # ===== 读取 sources.json =====
 with open("sources.json", "r", encoding="utf-8") as f:
@@ -73,7 +79,7 @@ def convert_txt_to_m3u(lines):
         new_lines.append(url)
     return new_lines
 
-# ===== 处理函数（优化版） =====
+# ===== 处理函数 =====
 def process_lines(lines, primary=False, source_name="未知源"):
     i = 0
     while i < len(lines):
@@ -81,10 +87,9 @@ def process_lines(lines, primary=False, source_name="未知源"):
         if line.startswith("#EXTINF"):
             url_line = lines[i+1] if i+1 < len(lines) else ""
 
-            # 修复错误字段
             line = line.replace("svg-name", "tvg-name").replace("svg-id", "tvg-id")
 
-            # 提取频道名：优先 tvg-name，没有就取逗号后的名字，再兜底 tvg-id
+            # 提取频道名
             m = re.search(r'tvg-name="([^"]+)"', line)
             if m:
                 raw_name = m.group(1).strip()
@@ -99,7 +104,7 @@ def process_lines(lines, primary=False, source_name="未知源"):
             norm_name = normalize_name(raw_name)
 
             if is_blocked(norm_name):
-                print(f"[BLOCKED][{source_name}] {raw_name} → {norm_name}")
+                logging.info(f"[BLOCKED][{source_name}] {raw_name} → {norm_name}")
                 i += 2
                 continue
 
@@ -111,17 +116,21 @@ def process_lines(lines, primary=False, source_name="未知源"):
 
             action = None
             if norm_name not in channels:
-                channels[norm_name] = {"line": line, "urls": set([url_line]), "group": group}
+                channels[norm_name] = {"line": line, "urls": [url_line], "group": group}
                 action = "ADD"
             else:
                 if primary:
                     if url_line and url_line not in channels[norm_name]["urls"]:
-                        channels[norm_name]["urls"].add(url_line)
-                        action = "APPEND"
+                        if keep_multiple_urls:
+                            channels[norm_name]["urls"].append(url_line)
+                        else:
+                            # 只保留第一个 URL，不追加
+                            pass
+                        action = "APPEND" if keep_multiple_urls else "IGNORE"
                 else:
                     action = "SKIP"
 
-            print(f"[DEBUG][{source_name}] 原始: {raw_name} → 归并: {norm_name} → 分组: {group} → 动作: {action}")
+            logging.debug(f"[DEBUG][{source_name}] 原始: {raw_name} → 归并: {norm_name} → 分组: {group} → 动作: {action}")
             i += 2
         else:
             i += 1
@@ -134,7 +143,7 @@ for fname in local_files:
             if not lines[0].startswith("#EXTM3U"):
                 lines = convert_txt_to_m3u(lines)
             process_lines(lines[1:], primary=True, source_name=f"本地:{fname}")
-        print(f"[INFO] 成功读取本地文件: {fname}")
+        logging.info(f"[INFO] 成功读取本地文件: {fname}")
 
 # ===== 远程源 =====
 is_primary = True
@@ -146,10 +155,10 @@ for url in remote_urls:
         if not lines[0].startswith("#EXTM3U"):
             lines = convert_txt_to_m3u(lines)
         process_lines(lines[1:], primary=is_primary, source_name=f"远程:{url}")
-        print(f"[INFO] 成功读取远程文件: {url}")
+        logging.info(f"[INFO] 成功读取远程文件: {url}")
         is_primary = False
     except Exception as e:
-        print(f"[WARN] 远程文件 {url} 读取失败: {e}")
+        logging.warning(f"[WARN] 远程文件 {url} 读取失败: {e}")
 
 # ===== 输出，按分组排序 =====
 merged = ['#EXTM3U x-tvg-url="https://epg.catvod.com/epg.xml"']
@@ -160,13 +169,21 @@ for ch in custom_channels:
     merged.append(ch["url"])
 
 # 按 group_order 排序输出
+group_counts = {}
 for group in group_order + ["综合"]:
     for name, ch in channels.items():
         if ch.get("group") == group:
             merged.append(ch["line"])
-            merged.extend(ch["urls"])
+            urls = sorted(ch["urls"]) if keep_multiple_urls else [ch["urls"][0]]
+            merged.extend(urls)
+            group_counts[group] = group_counts.get(group, 0) + 1
 
 with open("kudog.m3u", "w", encoding="utf-8") as f:
     f.write("\n".join(merged))
 
-print(f"[DONE] 全量重建完成，最终频道数: {len(channels)}")
+# ===== 分组统计 =====
+logging.info("[SUMMARY] 分组统计：")
+for group, count in group_counts.items():
+    logging.info(f"  {group}: {count} 个频道")
+
+logging.info(f"[DONE] 全量重建完成，最终频道数: {len(channels)}")
