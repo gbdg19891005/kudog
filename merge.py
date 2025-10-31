@@ -23,10 +23,10 @@ if os.path.exists("alias.txt"):
         for line in f:
             if not line.strip() or line.startswith("#"):
                 continue
-            parts = line.strip().split(",")
+            parts = [p.strip() for p in line.split(",") if p.strip()]
             main = parts[0]
-            for alias in parts[1:]:
-                alias_map[alias] = main
+            for alias in parts:
+                alias_map[alias] = main  # 保证 main 自己也能映射
 
 def normalize_name(name: str) -> str:
     for alias, main in alias_map.items():
@@ -73,20 +73,34 @@ def convert_txt_to_m3u(lines):
         new_lines.append(url)
     return new_lines
 
-# ===== 处理函数 =====
-def process_lines(lines, primary=False):
-    for i in range(0, len(lines), 2):
-        if lines[i].startswith("#EXTINF"):
-            line = lines[i]
+# ===== 处理函数（优化版） =====
+def process_lines(lines, primary=False, source_name="未知源"):
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        if line.startswith("#EXTINF"):
             url_line = lines[i+1] if i+1 < len(lines) else ""
 
+            # 修复错误字段
             line = line.replace("svg-name", "tvg-name").replace("svg-id", "tvg-id")
+
+            # 提取频道名：优先 tvg-name，没有就取逗号后的名字，再兜底 tvg-id
             m = re.search(r'tvg-name="([^"]+)"', line)
-            raw_name = m.group(1) if m else "未知频道"
+            if m:
+                raw_name = m.group(1).strip()
+            else:
+                parts = line.split(",", 1)
+                if len(parts) > 1 and parts[1].strip():
+                    raw_name = parts[1].strip()
+                else:
+                    m2 = re.search(r'tvg-id="([^"]+)"', line)
+                    raw_name = m2.group(1).strip() if m2 else "未知频道"
+
             norm_name = normalize_name(raw_name)
 
             if is_blocked(norm_name):
-                print(f"[BLOCKED] {raw_name} → {norm_name}")
+                print(f"[BLOCKED][{source_name}] {raw_name} → {norm_name}")
+                i += 2
                 continue
 
             group = assign_group(norm_name)
@@ -95,18 +109,22 @@ def process_lines(lines, primary=False):
             else:
                 line = line + f' group-title="{group}"'
 
+            action = None
             if norm_name not in channels:
                 channels[norm_name] = {"line": line, "urls": set([url_line]), "group": group}
-                print(f"[ADD] 新频道: {raw_name} → {norm_name} → {group}")
+                action = "ADD"
             else:
                 if primary:
-                    # 主力源：允许追加新 URL
-                    if url_line not in channels[norm_name]["urls"]:
+                    if url_line and url_line not in channels[norm_name]["urls"]:
                         channels[norm_name]["urls"].add(url_line)
-                        print(f"[ADD] 主源新URL: {norm_name}")
+                        action = "APPEND"
                 else:
-                    # 后续源：已有频道直接跳过
-                    print(f"[SKIP] 已存在频道: {raw_name} → {norm_name}")
+                    action = "SKIP"
+
+            print(f"[DEBUG][{source_name}] 原始: {raw_name} → 归并: {norm_name} → 分组: {group} → 动作: {action}")
+            i += 2
+        else:
+            i += 1
 
 # ===== 本地优先（当作主源） =====
 for fname in local_files:
@@ -115,7 +133,7 @@ for fname in local_files:
             lines = f.read().splitlines()
             if not lines[0].startswith("#EXTM3U"):
                 lines = convert_txt_to_m3u(lines)
-            process_lines(lines[1:], primary=True)
+            process_lines(lines[1:], primary=True, source_name=f"本地:{fname}")
         print(f"[INFO] 成功读取本地文件: {fname}")
 
 # ===== 远程源 =====
@@ -127,7 +145,7 @@ for url in remote_urls:
         lines = resp.text.splitlines()
         if not lines[0].startswith("#EXTM3U"):
             lines = convert_txt_to_m3u(lines)
-        process_lines(lines[1:], primary=is_primary)
+        process_lines(lines[1:], primary=is_primary, source_name=f"远程:{url}")
         print(f"[INFO] 成功读取远程文件: {url}")
         is_primary = False
     except Exception as e:
