@@ -1,19 +1,20 @@
 import requests, re, json, os
 
-# ===== 读取配置 =====
+# ===== 读取 sources.json =====
 with open("sources.json", "r", encoding="utf-8") as f:
     sources = json.load(f)
 
 remote_urls = sources.get("remote_urls", [])
 local_files = sources.get("local_files", [])
 
+# ===== 读取 groups.json =====
 with open("groups.json", "r", encoding="utf-8") as f:
     config = json.load(f)
 
 rules = config["rules"]
 custom_channels = config["custom_channels"]
 blocklist = config.get("blocklist", [])
-group_order = list(rules.keys())  # 按配置里的顺序排序
+group_order = list(rules.keys())
 
 # ===== alias.txt =====
 alias_map = {}
@@ -68,12 +69,12 @@ if os.path.exists("kudog.m3u"):
                 norm_name = normalize_name(raw_name)
                 url_line = lines[i+1] if i+1 < len(lines) else ""
                 if norm_name not in channels:
-                    channels[norm_name] = {"line": lines[i], "urls": set()}
+                    channels[norm_name] = {"line": lines[i], "urls": set(), "group": assign_group(norm_name)}
                 channels[norm_name]["urls"].add(url_line)
     print(f"[INFO] 已加载现有 kudog.m3u，共 {len(channels)} 个频道")
 
 # ===== 增量合并 =====
-def process_lines(lines):
+def process_lines(lines, primary=False):
     for i in range(0, len(lines), 2):
         if lines[i].startswith("#EXTINF"):
             line = lines[i]
@@ -98,28 +99,37 @@ def process_lines(lines):
                 channels[norm_name] = {"line": line, "urls": set([url_line]), "group": group}
                 print(f"[ADD] 新频道: {raw_name} → {norm_name} → {group}")
             else:
-                if url_line not in channels[norm_name]["urls"]:
-                    channels[norm_name]["urls"].add(url_line)
-                    print(f"[ADD] 新源: {raw_name} → {norm_name}")
+                if primary:
+                    # 主远程源：允许追加新 URL
+                    if url_line not in channels[norm_name]["urls"]:
+                        channels[norm_name]["urls"].add(url_line)
+                        print(f"[ADD] 主源新URL: {norm_name}")
                 else:
-                    print(f"[SKIP] 已存在频道和源: {raw_name} → {norm_name}")
+                    # 后续远程源：只补充主源没有的 URL
+                    if url_line not in channels[norm_name]["urls"]:
+                        channels[norm_name]["urls"].add(url_line)
+                        print(f"[ADD] 新源: {raw_name} → {norm_name}")
+                    else:
+                        print(f"[SKIP] 已存在频道和源: {raw_name} → {norm_name}")
 
-# 本地优先
+# ===== 本地优先 =====
 for fname in local_files:
     if os.path.exists(fname):
         with open(fname, "r", encoding="utf-8") as f:
             lines = f.read().splitlines()
-            process_lines(lines[1:])
+            process_lines(lines[1:], primary=True)  # 本地也当作主源
         print(f"[INFO] 成功读取本地文件: {fname}")
 
-# 远程源
+# ===== 远程源 =====
+is_primary = True
 for url in remote_urls:
     try:
         resp = requests.get(url, timeout=10)
         resp.raise_for_status()
         lines = resp.text.splitlines()
-        process_lines(lines[1:])
+        process_lines(lines[1:], primary=is_primary)
         print(f"[INFO] 成功读取远程文件: {url}")
+        is_primary = False
     except Exception as e:
         print(f"[WARN] 远程文件 {url} 读取失败: {e}")
 
