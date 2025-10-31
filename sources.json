@@ -2,7 +2,7 @@
   "remote_urls": [
     "https://raw.githubusercontent.com/develop202/migu_video/main/interface.txt",
     "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u",
-    "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u"
+    "github.com/Supprise0901/TVBox_live/blob/main/live.txt"
     
   ],
   "local_files": [
