@@ -1,8 +1,8 @@
 #EXTM3U x-tvg-url="https://epg.catvod.com/epg.xml"
-#EXTINF:-1 tvg-name="kudogxy提供" tvg-logo="https://wx3.sinaimg.cn/mw1024/007cJZBPly1hzdz1ycl36g30a00a0q7w.gif" group-title="kudogxy提供"
+#EXTINF:-1 tvg-name="kudogxy提供" tvg-logo="https://kudog.a0001.net/var/albums/bd3eb13533fa828b927fdc6ef51f4134960a5ada.jpg" group-title="kudogxy提供"
 https://kudog.chatgb.dpdns.org/?id=9
 #EXTINF:-1 tvg-name="微信:kudogxy" tvg-logo="https://gss0.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/fd039245d688d43f219dbba5771ed21b0ef43bb4.jpg" group-title="微信:kudogxy"
-https://148668.xyz/upload/mmqrcode1747220950496.png
+https://kudog.a0001.net/var/albums/ku.mp4
 #EXTINF:-1 tvg-id="CCTV1综合" tvg-name="CCTV1综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2201/057/821/202204010054_1626677671392_H32_1080.webp" group-title="央视频道",CCTV1综合
 http://gslbmgsplive.miguvideo.com/wd_r2/cctv/cctv1hd/1200/index.m3u8?msisdn=20251031080049955c5b4843244e0087c5278164ec3da8&mdspid=&spid=699004&netType=0&sid=2201057821&pid=2028597139&timestamp=20251031080049&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=608807420&ParentNodeID=-99&assertID=2201057821&client_ip=106.13.250.88&SecurityKey=20251031080049&promotionId=&mvid=2201057821&mcid=500020&playurlVersion=ZQ-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=fa352d71325aed2b8de040ec50d5c693&ddCalcu=3f9ae633c58520dd0751c3e2054a0eedd28b
 #EXTINF:-1 tvg-id="CCTV2财经" tvg-name="CCTV2财经" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/346/945/202205311432_1626678578843_H32_1080.webp" group-title="央视频道",CCTV2财经
