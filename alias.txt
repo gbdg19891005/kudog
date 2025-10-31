@@ -1,14 +1,14 @@
 # ===== CCTV 系列 =====
 CCTV-1,re:CCTV[-\s]*0?1(?!\d),CCTV1,CCTV-01,CCTV1综合,CCTV-1综合
-CCTV-2,re:CCTV[-\s]*0?2,CCTV2,CCTV-02,CCTV2财经,CCTV-2财经
-CCTV-3,re:CCTV[-\s]*0?3,CCTV3,CCTV-03,CCTV3综艺,CCTV-3综艺
-CCTV-4,re:CCTV[-\s]*0?4,CCTV4,CCTV-04,CCTV4中文国际,CCTV-4中文国际
-CCTV-5,re:CCTV[-\s]*0?5,CCTV5,CCTV-05,CCTV5体育,CCTV-5体育
-CCTV-5+,re:CCTV[-\s]*0?5\+,CCTV5+,CCTV-5+,CCTV5＋
-CCTV-6,re:CCTV[-\s]*0?6,CCTV6,CCTV-06,CCTV6电影,CCTV-6电影
-CCTV-7,re:CCTV[-\s]*0?7,CCTV7,CCTV-07,CCTV7军事,CCTV-7军事
-CCTV-8,re:CCTV[-\s]*0?8,CCTV8,CCTV-08,CCTV8电视剧,CCTV-8电视剧
-CCTV-9,re:CCTV[-\s]*0?9,CCTV9,CCTV-09,CCTV9纪录,CCTV-9纪录
+CCTV-2,re:CCTV[-\s]*0?2(?!\d),CCTV2,CCTV-02,CCTV2财经,CCTV-2财经
+CCTV-3,re:CCTV[-\s]*0?3(?!\d),CCTV3,CCTV-03,CCTV3综艺,CCTV-3综艺
+CCTV-4,re:CCTV[-\s]*0?4(?!\d),CCTV4,CCTV-04,CCTV4中文国际,CCTV-4中文国际
+CCTV-5,re:CCTV[-\s]*0?5(?!\+),CCTV5,CCTV-05,CCTV5体育,CCTV-5体育
+CCTV-5+,re:CCTV[-\s]*0?5\+,CCTV5+,CCTV-5+,CCTV5＋,CCTV5plus,CCTV5Plus
+CCTV-6,re:CCTV[-\s]*0?6(?!\d),CCTV6,CCTV-06,CCTV6电影,CCTV-6电影
+CCTV-7,re:CCTV[-\s]*0?7(?!\d),CCTV7,CCTV-07,CCTV7军事,CCTV-7军事
+CCTV-8,re:CCTV[-\s]*0?8(?!\d),CCTV8,CCTV-08,CCTV8电视剧,CCTV-8电视剧
+CCTV-9,re:CCTV[-\s]*0?9(?!\d),CCTV9,CCTV-09,CCTV9纪录,CCTV-9纪录
 CCTV-10,re:CCTV[-\s]*10,CCTV10,CCTV-10,CCTV10科教,CCTV-10科教
 CCTV-11,re:CCTV[-\s]*11,CCTV11,CCTV-11,CCTV11戏曲,CCTV-11戏曲
 CCTV-12,re:CCTV[-\s]*12,CCTV12,CCTV-12,CCTV12社会与法,CCTV-12社会与法
@@ -18,26 +18,102 @@ CCTV-15,re:CCTV[-\s]*15,CCTV15,CCTV-15,CCTV15音乐,CCTV-15音乐
 CCTV-16,re:CCTV[-\s]*16,CCTV16,CCTV-16,CCTV16奥林匹克,CCTV-16奥林匹克
 CCTV-17,re:CCTV[-\s]*17,CCTV17,CCTV-17,CCTV17农业农村,CCTV-17农业农村
 
-# ===== 卫视常见别名 =====
-湖南卫视,HunanTV
-浙江卫视,ZJTV
-江苏卫视,JSTV
-东方卫视,DragonTV,上海卫视
-北京卫视,BTV
-广东卫视,GDTV
-深圳卫视,SZTV
-安徽卫视,AHTV
-山东卫视,SDTV
-湖北卫视,HubeiTV
-黑龙江卫视,HLJTV
-辽宁卫视,LNTV
-天津卫视,TJTV
-重庆卫视,CQTV
-江西卫视,JXTV
-河北卫视,HEBTV
-河南卫视,HNTV
-东南卫视,SETV
-广西卫视,GXTV
-云南卫视,YNTV
-贵州卫视,GZTV
-海南卫视,HNNTV
+# ===== 卫视频道 =====
+湖南卫视,HunanTV,Hunan Satellite
+浙江卫视,ZJTV,Zhejiang Satellite
+江苏卫视,JSTV,Jiangsu Satellite
+东方卫视,DragonTV,上海卫视,Shanghai Dragon
+北京卫视,BTV,Beijing Satellite
+广东卫视,GDTV,Guangdong Satellite
+深圳卫视,SZTV,Shenzhen Satellite
+安徽卫视,AHTV,Anhui Satellite
+山东卫视,SDTV,Shandong Satellite
+湖北卫视,HubeiTV,Hubei Satellite
+黑龙江卫视,HLJTV,Heilongjiang Satellite
+辽宁卫视,LNTV,Liaoning Satellite
+天津卫视,TJTV,Tianjin Satellite
+重庆卫视,CQTV,Chongqing Satellite
+江西卫视,JXTV,Jiangxi Satellite
+河北卫视,HEBTV,Hebei Satellite
+河南卫视,HNTV,Henan Satellite
+东南卫视,SETV,Southeast Satellite
+广西卫视,GXTV,Guangxi Satellite
+云南卫视,YNTV,Yunnan Satellite
+贵州卫视,GZTV,Guizhou Satellite
+海南卫视,HNNTV,Hainan Satellite
+山西卫视,SXTV,Shanxi Satellite
+陕西卫视,SXTV-2,Shaanxi Satellite
+甘肃卫视,GSTV,Gansu Satellite
+宁夏卫视,NXTV,Ningxia Satellite
+青海卫视,QHTV,Qinghai Satellite
+西藏卫视,XZTV,Tibet Satellite
+新疆卫视,XJTV,Xinjiang Satellite
+内蒙古卫视,NMTV,Inner Mongolia Satellite
+
+# ===== 港澳台频道 =====
+凤凰中文,凤凰卫视中文,凤凰中文台,Phoenix Chinese
+凤凰资讯,凤凰卫视资讯,凤凰资讯台,Phoenix Info
+凤凰香港,凤凰卫视香港,凤凰香港台,Phoenix HK
+翡翠台,TVB翡翠,TVB Jade
+明珠台,TVB明珠,TVB Pearl
+无线新闻,TVB新闻,TVB News
+无线财经,TVB财经,TVB Finance
+ViuTV,HKTV,HK ViuTV
+RTHK31,香港电台31,RTHK-31
+RTHK32,香港电台32,RTHK-32
+澳门莲花,莲花卫视,Macau Lotus
+澳门卫视,澳视澳门,Macau TV
+台视,台湾电视台,台视综合
+中视,中华电视公司,中视综合
+华视,华视综合,CTS
+民视,民视综合,FTV
+东森新闻,ETTV新闻,ETtoday新闻
+东森财经,ETTV财经,ETtoday财经
+三立新闻,SET News,三立新闻台
+三立都会,SET Metro,三立都会台
+TVBS新闻,TVBS News,TVBS-N
+TVBS欢乐,TVBS Joy,TVBS综艺
+年代新闻,年代新闻台,ERA News
+八大综合,八大电视,八大综合台
+
+# ===== 国际频道 =====
+CNN,CNN International,CNN新闻
+BBC World,BBC News,BBC国际新闻
+Sky News,SkyNews,天空新闻
+Fox News,FoxNews,Fox新闻
+CNBC,CNBC Asia,CNBC财经
+Bloomberg,Bloomberg TV,彭博财经
+NHK综合,NHK General,NHK G
+NHK教育,NHK E,NHK Edu
+NHK World,NHK国际,NHK World TV
+KBS1,KBS 1,KBS综合
+KBS2,KBS 2,KBS娱乐
+MBC,MBC TV,韩国MBC
+SBS,SBS TV,韩国SBS
+Arirang,Arirang TV,韩国Arirang
+HBO,HBO HD,HBO频道
+HBO2,HBO 2,HBO次频道
+HBO Family,HBO家庭,HBO Family频道
+HBO Signature,HBO签名,HBO Sig
+Cinemax,Cinemax HD,MAX频道
+Discovery,Discovery Channel,探索频道
+National Geographic,NatGeo,国家地理
+NatGeo Wild,国家地理野生,NG Wild
+History,History Channel,历史频道
+Animal Planet,动物星球,AnimalPlanet
+TLC,TLC旅游生活,TLC频道
+AXN,AXN动作台,AXN频道
+Star Movies,星空电影,StarMovies
+Star World,星空卫视,StarWorld
+
+# ===== 常见地方台 =====
+北京新闻,BTV新闻
+北京文艺,BTV文艺
+北京影视,BTV影视
+北京财经,BTV财经
+北京生活,BTV生活
+北京科教,BTV科教
+广东珠江,珠江频道
+广东新闻,广东新闻频道
+深圳都市,SZTV都市
+深圳财经,SZTV财经
