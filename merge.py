@@ -53,27 +53,30 @@ def is_blocked(name: str) -> bool:
             return True
     return False
 
-# ===== 读取已有 kudog.m3u，收集已存在频道 =====
-existing_channels = set()
-merged = []
+# ===== 读取已有 kudog.m3u，收集已存在频道和源 =====
+channels = {}
 
 if os.path.exists("kudog.m3u"):
     with open("kudog.m3u", "r", encoding="utf-8") as f:
         lines = f.read().splitlines()
-        merged.extend(lines)
         for i in range(0, len(lines), 2):
             if lines[i].startswith("#EXTINF"):
                 m = re.search(r'tvg-name="([^"]+)"', lines[i])
-                if m:
-                    existing_channels.add(normalize_name(m.group(1)))
-    print(f"[INFO] 已加载现有 kudog.m3u，共 {len(existing_channels)} 个频道")
+                if not m:
+                    continue
+                raw_name = m.group(1)
+                norm_name = normalize_name(raw_name)
+                url_line = lines[i+1] if i+1 < len(lines) else ""
+                if norm_name not in channels:
+                    channels[norm_name] = {"line": lines[i], "urls": set()}
+                channels[norm_name]["urls"].add(url_line)
+    print(f"[INFO] 已加载现有 kudog.m3u，共 {len(channels)} 个频道")
 else:
-    merged = ['#EXTM3U x-tvg-url="https://epg.catvod.com/epg.xml"']
     print("[INFO] 没有找到现有 kudog.m3u，将新建")
 
 # ===== 增量合并：先本地，再远程 =====
 def process_lines(lines):
-    global merged, existing_channels
+    global channels
     for i in range(0, len(lines), 2):
         if lines[i].startswith("#EXTINF"):
             line = lines[i]
@@ -88,20 +91,21 @@ def process_lines(lines):
                 print(f"[BLOCKED] {raw_name} → {norm_name}")
                 continue
 
-            if norm_name in existing_channels:
-                print(f"[SKIP] 已存在频道: {raw_name} → {norm_name}")
-                continue
-
             group = assign_group(norm_name)
             if "group-title" in line:
                 line = re.sub(r'group-title=".*?"', f'group-title="{group}"', line)
             else:
                 line = line + f' group-title="{group}"'
 
-            merged.append(line)
-            merged.append(url_line)
-            existing_channels.add(norm_name)
-            print(f"[ADD] 新频道: {raw_name} → {norm_name} → {group}")
+            if norm_name not in channels:
+                channels[norm_name] = {"line": line, "urls": set([url_line])}
+                print(f"[ADD] 新频道: {raw_name} → {norm_name} → {group}")
+            else:
+                if url_line not in channels[norm_name]["urls"]:
+                    channels[norm_name]["urls"].add(url_line)
+                    print(f"[ADD] 新源: {raw_name} → {norm_name}")
+                else:
+                    print(f"[SKIP] 已存在频道和源: {raw_name} → {norm_name}")
 
 # 本地文件优先
 for fname in local_files:
@@ -124,8 +128,20 @@ for url in remote_urls:
     except Exception as e:
         print(f"[WARN] 远程文件 {url} 读取失败: {e}")
 
-# ===== 写回 kudog.m3u =====
+# ===== 生成合并后的 M3U =====
+merged = ['#EXTM3U x-tvg-url="https://epg.catvod.com/epg.xml"']
+
+# 自定义频道置顶
+for ch in custom_channels:
+    merged.append(f'#EXTINF:-1 tvg-name="{ch["name"]}" tvg-logo="{ch["logo"]}" group-title="{ch["group"]}"')
+    merged.append(ch["url"])
+
+# 输出频道和所有源
+for ch in channels.values():
+    merged.append(ch["line"])
+    merged.extend(ch["urls"])
+
 with open("kudog.m3u", "w", encoding="utf-8") as f:
     f.write("\n".join(merged))
 
-print(f"[DONE] 合并完成，最终频道数: {len(existing_channels)}")
+print(f"[DONE] 合并完成，最终频道数: {len(channels)}")
