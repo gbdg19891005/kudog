@@ -2,7 +2,7 @@ name: Merge and Group M3U Files
 
 on:
   schedule:
-    - cron: "0 2 * * *"   # 每天北京时间上午10点运行
+    - cron: "0 */2 * * *"   # 两小时运行一次运行
   workflow_dispatch:
 
 permissions:
