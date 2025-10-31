@@ -1,7 +1,7 @@
 {
   "remote_urls": [
     "https://raw.githubusercontent.com/develop202/migu_video/main/interface.txt",
-    "https://raw.githubusercontent.com/Tzwcard/ChinaTelecom-GuangdongIPTV-RTP-List/refs/heads/master/GuangdongIPTV_rtp_hd.m3u"
+    "https://raw.githubusercontent.com/xiongjian83/TvBox/refs/heads/main/live.txt"
     
   ],
   "local_files": [
