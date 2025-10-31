@@ -1,8 +1,8 @@
 {
   "remote_urls": [
     "https://raw.githubusercontent.com/develop202/migu_video/main/interface.txt",
-    "https://raw.githubusercontent.com/maccmsapp/iptv/refs/heads/main/iptv.m3u",
-    "https://raw.githubusercontent.com/Ethan-Men/8159-TV/refs/heads/master/output/user_result.txt"
+    "https://raw.githubusercontent.com/maccmsapp/iptv/refs/heads/main/iptv.m3u"
+    
   ],
   "local_files": [
     "kudog.txt",
