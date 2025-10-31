@@ -54,27 +54,11 @@ def is_blocked(name: str) -> bool:
             return True
     return False
 
-# ===== 已有频道和源 =====
+# ===== 全量重建：从空开始 =====
 channels = {}
 
-if os.path.exists("kudog.m3u"):
-    with open("kudog.m3u", "r", encoding="utf-8") as f:
-        lines = f.read().splitlines()
-        for i in range(0, len(lines), 2):
-            if lines[i].startswith("#EXTINF"):
-                m = re.search(r'tvg-name="([^"]+)"', lines[i])
-                if not m:
-                    continue
-                raw_name = m.group(1)
-                norm_name = normalize_name(raw_name)
-                url_line = lines[i+1] if i+1 < len(lines) else ""
-                if norm_name not in channels:
-                    channels[norm_name] = {"line": lines[i], "urls": set(), "group": assign_group(norm_name)}
-                channels[norm_name]["urls"].add(url_line)
-    print(f"[INFO] 已加载现有 kudog.m3u，共 {len(channels)} 个频道")
-
-# ===== 增量合并 =====
-def process_lines(lines, primary=False):
+# ===== 处理函数 =====
+def process_lines(lines):
     for i in range(0, len(lines), 2):
         if lines[i].startswith("#EXTINF"):
             line = lines[i]
@@ -99,33 +83,28 @@ def process_lines(lines, primary=False):
                 channels[norm_name] = {"line": line, "urls": set([url_line]), "group": group}
                 print(f"[ADD] 新频道: {raw_name} → {norm_name} → {group}")
             else:
-                if primary:
-                    # 主源：允许追加新 URL
-                    if url_line not in channels[norm_name]["urls"]:
-                        channels[norm_name]["urls"].add(url_line)
-                        print(f"[ADD] 主源新URL: {norm_name}")
+                if url_line not in channels[norm_name]["urls"]:
+                    channels[norm_name]["urls"].add(url_line)
+                    print(f"[ADD] 新源: {raw_name} → {norm_name}")
                 else:
-                    # 后续源：已有频道直接跳过
-                    print(f"[SKIP] 已存在频道: {raw_name} → {norm_name}")
+                    print(f"[SKIP] 已存在频道和源: {raw_name} → {norm_name}")
 
 # ===== 本地优先 =====
 for fname in local_files:
     if os.path.exists(fname):
         with open(fname, "r", encoding="utf-8") as f:
             lines = f.read().splitlines()
-            process_lines(lines[1:], primary=True)  # 本地也当作主源
+            process_lines(lines[1:])
         print(f"[INFO] 成功读取本地文件: {fname}")
 
 # ===== 远程源 =====
-is_primary = True
 for url in remote_urls:
     try:
         resp = requests.get(url, timeout=10)
         resp.raise_for_status()
         lines = resp.text.splitlines()
-        process_lines(lines[1:], primary=is_primary)
+        process_lines(lines[1:])
         print(f"[INFO] 成功读取远程文件: {url}")
-        is_primary = False
     except Exception as e:
         print(f"[WARN] 远程文件 {url} 读取失败: {e}")
 
@@ -147,4 +126,4 @@ for group in group_order + ["综合"]:
 with open("kudog.m3u", "w", encoding="utf-8") as f:
     f.write("\n".join(merged))
 
-print(f"[DONE] 合并完成，最终频道数: {len(channels)}")
+print(f"[DONE] 全量重建完成，最终频道数: {len(channels)}")
