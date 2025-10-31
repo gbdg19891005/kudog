@@ -73,56 +73,40 @@ def convert_txt_to_m3u(lines):
         new_lines.append(url)
     return new_lines
 
-# ===== 处理函数（修正版） =====
+# ===== 处理函数 =====
 def process_lines(lines, primary=False):
     for i in range(0, len(lines), 2):
         if lines[i].startswith("#EXTINF"):
             line = lines[i]
             url_line = lines[i+1] if i+1 < len(lines) else ""
 
-            # 修复错误字段
             line = line.replace("svg-name", "tvg-name").replace("svg-id", "tvg-id")
-
-            # 提取频道名：优先 tvg-name，没有就取逗号后的名字
             m = re.search(r'tvg-name="([^"]+)"', line)
-            if m:
-                raw_name = m.group(1).strip()
-            else:
-                parts = line.split(",", 1)
-                raw_name = parts[1].strip() if len(parts) > 1 else "未知频道"
-
-            # 归并别名
+            raw_name = m.group(1) if m else "未知频道"
             norm_name = normalize_name(raw_name)
 
-            # 屏蔽名单
             if is_blocked(norm_name):
                 print(f"[BLOCKED] {raw_name} → {norm_name}")
                 continue
 
-            # 分组
             group = assign_group(norm_name)
             if "group-title" in line:
                 line = re.sub(r'group-title=".*?"', f'group-title="{group}"', line)
             else:
                 line = line + f' group-title="{group}"'
 
-            # 调试输出
-            action = None
             if norm_name not in channels:
                 channels[norm_name] = {"line": line, "urls": set([url_line]), "group": group}
-                action = "ADD"
                 print(f"[ADD] 新频道: {raw_name} → {norm_name} → {group}")
             else:
                 if primary:
-                    if url_line and url_line not in channels[norm_name]["urls"]:
+                    # 主力源：允许追加新 URL
+                    if url_line not in channels[norm_name]["urls"]:
                         channels[norm_name]["urls"].add(url_line)
-                        action = "APPEND"
-                        print(f"[APPEND] 主源新URL: {norm_name}")
+                        print(f"[ADD] 主源新URL: {norm_name}")
                 else:
-                    action = "SKIP"
+                    # 后续源：已有频道直接跳过
                     print(f"[SKIP] 已存在频道: {raw_name} → {norm_name}")
-
-            print(f"[DEBUG] 原始: {raw_name} → 归并: {norm_name} → 分组: {group} → 动作: {action}")
 
 # ===== 本地优先（当作主源） =====
 for fname in local_files:
