@@ -13,6 +13,7 @@ with open("groups.json", "r", encoding="utf-8") as f:
 
 rules = config["rules"]
 custom_channels = config["custom_channels"]
+blocklist = config.get("blocklist", [])
 
 # ===== 读取 alias.txt =====
 alias_map = {}
@@ -45,10 +46,26 @@ def assign_group(name: str) -> str:
                     return group
     return "综合"
 
-# ===== 合并源文件 =====
+def is_blocked(name: str) -> bool:
+    for kw in blocklist:
+        if re.search(kw, name, re.IGNORECASE):
+            return True
+    return False
+
+# ===== 合并源文件（本地优先，远程其次） =====
 all_lines = []
 
-# 远程文件
+# 本地文件优先
+for fname in local_files:
+    try:
+        with open(fname, "r", encoding="utf-8") as f:
+            lines = f.read().splitlines()
+            all_lines += lines[1:]  # 跳过第一行 #EXTM3U
+        print(f"[INFO] 成功读取本地文件: {fname}")
+    except FileNotFoundError:
+        print(f"[WARN] 本地文件 {fname} 不存在，跳过")
+
+# 然后再读远程文件
 for url in remote_urls:
     try:
         resp = requests.get(url, timeout=10)
@@ -59,15 +76,36 @@ for url in remote_urls:
     except Exception as e:
         print(f"[WARN] 远程文件 {url} 读取失败: {e}")
 
-# 本地文件
-for fname in local_files:
-    try:
-        with open(fname, "r", encoding="utf-8") as f:
-            lines = f.read().splitlines()
-            all_lines += lines[1:]
-        print(f"[INFO] 成功读取本地文件: {fname}")
-    except FileNotFoundError:
-        print(f"[WARN] 本地文件 {fname} 不存在，跳过")
+# ===== 名字去重 + 源不去重 =====
+channels = {}
+
+for i in range(0, len(all_lines), 2):
+    if all_lines[i].startswith("#EXTINF"):
+        line = all_lines[i]
+        url_line = all_lines[i+1] if i+1 < len(all_lines) else ""
+
+        line = line.replace("svg-name", "tvg-name").replace("svg-id", "tvg-id")
+
+        match = re.search(r'tvg-name="([^"]+)"', line)
+        raw_name = match.group(1) if match else "未知频道"
+        norm_name = normalize_name(raw_name)
+
+        if is_blocked(norm_name):
+            print(f"[BLOCKED] {raw_name} → {norm_name}")
+            continue
+
+        group = assign_group(norm_name)
+        if "group-title" in line:
+            line = re.sub(r'group-title=".*?"', f'group-title="{group}"', line)
+        else:
+            line = line + f' group-title="{group}"'
+
+        if norm_name not in channels:
+            channels[norm_name] = {"line": line, "urls": [url_line]}
+            print(f"[DEBUG] 新频道: {raw_name} → {norm_name} → {group}")
+        else:
+            channels[norm_name]["urls"].append(url_line)
+            print(f"[DEBUG] 已存在频道: {raw_name} → {norm_name}，追加源")
 
 # ===== 生成合并后的 M3U =====
 merged = ['#EXTM3U x-tvg-url="https://epg.catvod.com/epg.xml"']
@@ -77,28 +115,10 @@ for ch in custom_channels:
     merged.append(f'#EXTINF:-1 tvg-name="{ch["name"]}" tvg-logo="{ch["logo"]}" group-title="{ch["group"]}"')
     merged.append(ch["url"])
 
-# 处理所有频道
-for i in range(0, len(all_lines), 2):
-    if all_lines[i].startswith("#EXTINF"):
-        line = all_lines[i]
-        url_line = all_lines[i+1] if i+1 < len(all_lines) else ""
-
-        # 修正字段名
-        line = line.replace("svg-name", "tvg-name").replace("svg-id", "tvg-id")
-
-        match = re.search(r'tvg-name="([^"]+)"', line)
-        raw_name = match.group(1) if match else "未知频道"
-        norm_name = normalize_name(raw_name)
-        group = assign_group(norm_name)
-
-        print(f"[DEBUG] {raw_name} → {norm_name} → {group}")
-
-        if "group-title" in line:
-            line = re.sub(r'group-title=".*?"', f'group-title="{group}"', line)
-        else:
-            line = line + f' group-title="{group}"'
-        merged.append(line)
-        merged.append(url_line)
+# 输出去重后的频道（名字唯一，源全部保留）
+for ch in channels.values():
+    merged.append(ch["line"])
+    merged.extend(ch["urls"])
 
 with open("kudog.m3u", "w", encoding="utf-8") as f:
     f.write("\n".join(merged))
