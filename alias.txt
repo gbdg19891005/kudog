@@ -51,30 +51,37 @@ CCTV-17,re:CCTV[-\s]*17,CCTV17,CCTV-17,CCTV17农业农村,CCTV-17农业农村
 内蒙古卫视,NMTV,Inner Mongolia Satellite
 
 # ===== 港澳台频道 =====
-凤凰中文,凤凰卫视中文,凤凰中文台,Phoenix Chinese
-凤凰资讯,凤凰卫视资讯,凤凰资讯台,Phoenix Info
-凤凰香港,凤凰卫视香港,凤凰香港台,Phoenix HK
+凤凰中文,凤凰衛視中文,鳳凰中文,鳳凰衛視中文,Phoenix Chinese
+凤凰资讯,凤凰衛視資訊,鳳凰資訊,鳳凰衛視資訊,Phoenix Info
+凤凰香港,凤凰衛視香港,鳳凰香港,鳳凰衛視香港,Phoenix HK
+
 翡翠台,TVB翡翠,TVB Jade
 明珠台,TVB明珠,TVB Pearl
-无线新闻,TVB新闻,TVB News
-无线财经,TVB财经,TVB Finance
+无线新闻,無線新聞,TVB新闻,TVB新聞,TVB News
+无线财经,無線財經,TVB财经,TVB財經,TVB Finance
+
 ViuTV,HKTV,HK ViuTV
-RTHK31,香港电台31,RTHK-31
-RTHK32,香港电台32,RTHK-32
-澳门莲花,莲花卫视,Macau Lotus
-澳门卫视,澳视澳门,Macau TV
-台视,台湾电视台,台视综合
-中视,中华电视公司,中视综合
-华视,华视综合,CTS
-民视,民视综合,FTV
-东森新闻,ETTV新闻,ETtoday新闻
-东森财经,ETTV财经,ETtoday财经
-三立新闻,SET News,三立新闻台
-三立都会,SET Metro,三立都会台
-TVBS新闻,TVBS News,TVBS-N
-TVBS欢乐,TVBS Joy,TVBS综艺
-年代新闻,年代新闻台,ERA News
-八大综合,八大电视,八大综合台
+RTHK31,香港电台31,香港電台31,RTHK-31
+RTHK32,香港电台32,香港電台32,RTHK-32
+
+澳门莲花,澳門蓮花,莲花卫视,蓮花衛視,Macau Lotus
+澳门卫视,澳門衛視,澳视澳门,澳視澳門,Macau TV
+
+台视,台視,台湾电视台,台灣電視台,台视综合,台視綜合
+中视,中視,中华电视公司,中華電視公司,中视综合,中視綜合
+华视,華視,华视综合,華視綜合,CTS
+民视,民視,民视综合,民視綜合,FTV
+
+东森新闻,東森新聞,ETTV新闻,ETTV新聞,ETtoday新闻
+东森财经,東森財經,ETTV财经,ETTV財經,ETtoday财经
+三立新闻,三立新聞,SET News,三立新闻台
+三立都会,三立都會,SET Metro,三立都会台
+
+TVBS新闻,TVBS新聞,TVBS News,TVBS-N
+TVBS欢乐,TVBS歡樂,TVBS Joy,TVBS综艺,TVBS綜藝
+年代新闻,年代新聞,ERA News
+八大综合,八大綜合,八大电视,八大電視,八大综合台,八大綜合台
+
 
 # ===== 国际频道 =====
 CNN,CNN International,CNN新闻
