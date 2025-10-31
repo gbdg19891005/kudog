@@ -1,7 +1,6 @@
 {
   "remote_urls": [
-    "https://raw.githubusercontent.com/develop202/migu_video/main/interface.txt",
-    "https://raw.githubusercontent.com/skddyj/iptv/refs/heads/main/IPTV.m3u"
+    "https://raw.githubusercontent.com/develop202/migu_video/main/interface.txt"
   ],
   "local_files": [
     "kudog.txt",
