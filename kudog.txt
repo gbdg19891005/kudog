@@ -20,7 +20,7 @@ https://kudog.chatgb.dpdns.org/?id=377
 #EXTINF:-1 tvg-name="民視新聞台" tvg-logo="https://logo.catvod.com/民視新聞台.png" group-title="未分组",民視新聞台
 https://kudog.chatgb.dpdns.org/?id=31
 #EXTINF:-1 tvg-name="TVBS新聞" tvg-logo="https://logo.catvod.com/TVBS新聞.png" group-title="未分组",TVBS新聞
-https://kudog.chatgb.dpdns.org/?id=291
+https://kudog.chatgb.dpdns.org/?id=183
 #EXTINF:-1 tvg-name="東森新聞台" tvg-logo="https://logo.catvod.com/東森新聞台.png" group-title="未分组",東森新聞台
 https://kudog.chatgb.dpdns.org/?id=292
 #EXTINF:-1 tvg-name="中視新聞" tvg-logo="https://logo.catvod.com/中視新聞.png" group-title="未分组",中視新聞
@@ -227,8 +227,6 @@ https://kudog.chatgb.dpdns.org/?id=227
 https://kudog.chatgb.dpdns.org/?id=19
 #EXTINF:-1 tvg-name="Bloomberg TV" tvg-logo="https://logo.catvod.com/Bloomberg TV.png" group-title="未分组",Bloomberg TV
 https://kudog.chatgb.dpdns.org/?id=283
-#EXTINF:-1 tvg-name="TVBS" tvg-logo="https://logo.catvod.com/TVBS.png" group-title="未分组",TVBS
-https://kudog.chatgb.dpdns.org/?id=183
 #EXTINF:-1 tvg-name="KLT-靖天國際台" tvg-logo="https://logo.catvod.com/KLT-靖天國際台.png" group-title="未分组",KLT-靖天國際台
 https://kudog.chatgb.dpdns.org/?id=84
 #EXTINF:-1 tvg-name="Nice TV 靖天歡樂台" tvg-logo="https://logo.catvod.com/Nice TV 靖天歡樂台.png" group-title="未分组",Nice TV 靖天歡樂台
