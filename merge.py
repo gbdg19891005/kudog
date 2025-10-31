@@ -74,7 +74,7 @@ def convert_txt_to_m3u(lines):
     return new_lines
 
 # ===== 处理函数 =====
-def process_lines(lines):
+def process_lines(lines, primary=False):
     for i in range(0, len(lines), 2):
         if lines[i].startswith("#EXTINF"):
             line = lines[i]
@@ -99,23 +99,27 @@ def process_lines(lines):
                 channels[norm_name] = {"line": line, "urls": set([url_line]), "group": group}
                 print(f"[ADD] 新频道: {raw_name} → {norm_name} → {group}")
             else:
-                if url_line not in channels[norm_name]["urls"]:
-                    channels[norm_name]["urls"].add(url_line)
-                    print(f"[ADD] 新源: {raw_name} → {norm_name}")
+                if primary:
+                    # 主力源：允许追加新 URL
+                    if url_line not in channels[norm_name]["urls"]:
+                        channels[norm_name]["urls"].add(url_line)
+                        print(f"[ADD] 主源新URL: {norm_name}")
                 else:
-                    print(f"[SKIP] 已存在频道和源: {raw_name} → {norm_name}")
+                    # 后续源：已有频道直接跳过
+                    print(f"[SKIP] 已存在频道: {raw_name} → {norm_name}")
 
-# ===== 本地优先 =====
+# ===== 本地优先（当作主源） =====
 for fname in local_files:
     if os.path.exists(fname):
         with open(fname, "r", encoding="utf-8") as f:
             lines = f.read().splitlines()
             if not lines[0].startswith("#EXTM3U"):
                 lines = convert_txt_to_m3u(lines)
-            process_lines(lines[1:])
+            process_lines(lines[1:], primary=True)
         print(f"[INFO] 成功读取本地文件: {fname}")
 
 # ===== 远程源 =====
+is_primary = True
 for url in remote_urls:
     try:
         resp = requests.get(url, timeout=10)
@@ -123,8 +127,9 @@ for url in remote_urls:
         lines = resp.text.splitlines()
         if not lines[0].startswith("#EXTM3U"):
             lines = convert_txt_to_m3u(lines)
-        process_lines(lines[1:])
+        process_lines(lines[1:], primary=is_primary)
         print(f"[INFO] 成功读取远程文件: {url}")
+        is_primary = False
     except Exception as e:
         print(f"[WARN] 远程文件 {url} 读取失败: {e}")
 
