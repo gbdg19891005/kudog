@@ -100,17 +100,13 @@ def process_lines(lines, primary=False):
                 print(f"[ADD] 新频道: {raw_name} → {norm_name} → {group}")
             else:
                 if primary:
-                    # 主远程源：允许追加新 URL
+                    # 主源：允许追加新 URL
                     if url_line not in channels[norm_name]["urls"]:
                         channels[norm_name]["urls"].add(url_line)
                         print(f"[ADD] 主源新URL: {norm_name}")
                 else:
-                    # 后续远程源：只补充主源没有的 URL
-                    if url_line not in channels[norm_name]["urls"]:
-                        channels[norm_name]["urls"].add(url_line)
-                        print(f"[ADD] 新源: {raw_name} → {norm_name}")
-                    else:
-                        print(f"[SKIP] 已存在频道和源: {raw_name} → {norm_name}")
+                    # 后续源：已有频道直接跳过
+                    print(f"[SKIP] 已存在频道: {raw_name} → {norm_name}")
 
 # ===== 本地优先 =====
 for fname in local_files:
