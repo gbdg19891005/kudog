@@ -55,14 +55,6 @@
       "DISNEY CHANNEL", "DISNEY JR", "卡通", "卡通台", "布袋戲",
       "Anime", "靖天映画", "靖天映畫", "ANIME"
     ],
-    "财经": [
-      "财经", "財經", "Finance", "FINANCE", "Business", "BUSINESS",
-      "财富", "財富", "Economy", "ECONOMY", "Bloomberg", "CNBC",
-      "Cheddar News"
-    ],
-    "购物": [
-      "购物", "購物", "Shopping", "SHOPPING", "Shop", "SHOP"
-    ],
     "音乐": [
       "音乐", "音樂", "Music", "MUSIC", "MTV", "Live", "LIVE", "TRACE", "KTV"
     ],
@@ -87,6 +79,14 @@
       "教育", "CETV", "EDU", "Edu", "LEARN", "Learn", "学习", "學習",
       "MOMO", "幸福", "車迷", "育乐", "科教",
       "Redbull", "FIFA+", "PowerNation", "Outdoor Channel"
+          ],
+    "购物": [
+      "购物", "購物", "Shopping", "SHOPPING", "Shop", "SHOP"
+    ],
+    "财经": [
+      "财经", "財經", "Finance", "FINANCE", "Business", "BUSINESS",
+      "财富", "財富", "Economy", "ECONOMY", "Bloomberg", "CNBC",
+      "Cheddar News"
     ],
     "地方台": [
       "BTV", "北京", "廣東", "广东", "深圳", "珠江", "山东", "山東",
@@ -100,15 +100,15 @@
   "custom_channels": [
     {
       "name": "kudogxy提供",
-      "logo": "https://kudog.a0001.net/var/albums/bd3eb13533fa828b927fdc6ef51f4134960a5ada.jpg",
+      "logo": "https://gss0.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/fd039245d688d43f219dbba5771ed21b0ef43bb4.jpg",
       "group": "kudogxy提供",
-      "url": "https://kudog.chatgb.dpdns.org/?id=9"
+      "url": "https://bcian.cn/ku.mp4"
     },
     {
       "name": "微信:kudogxy",
       "logo": "https://gss0.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/fd039245d688d43f219dbba5771ed21b0ef43bb4.jpg",
       "group": "微信:kudogxy",
-      "url": "https://kudog.chatgb.dpdns.org/?id=171"
+      "url": "https://bcian.cn/ku.mp4"
     }
   ],
   "blocklist": [
