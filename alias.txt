@@ -21,6 +21,7 @@ CCTV-17,re:CCTV[-\s]*17,CCTV17,CCTV-17,CCTV17农业农村,CCTV-17农业农村
 # ===== CCTV 风云系列 =====
 CCTV风云剧场,风云剧场
 CCTV风云音乐,风云音乐
+CCTV风云足球,风云足球
 
 # ===== CCTV 特色频道 =====
 CCTV兵器科技,兵器科技
