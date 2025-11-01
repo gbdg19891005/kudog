@@ -29,10 +29,6 @@
       "八大综艺", "八大綜藝", "旅遊", "旅游", "豬哥亮",
       "爱尔达", "愛爾達"
     ],
-    "戏剧": [
-      "戏剧", "戲劇", "影劇", "影劇台", "电视剧", "電視劇",
-      "Drama", "DRAMA"
-    ],
     "体育": [
       "体育", "體育", "Sport", "SPORT", "NBA", "足球", "篮球", "籃球",
       "Real Madrid", "Tennis Channel", "NFL Channel", "Billiard TV",
@@ -55,9 +51,6 @@
       "DISNEY CHANNEL", "DISNEY JR", "卡通", "卡通台", "布袋戲",
       "Anime", "靖天映画", "靖天映畫", "ANIME"
     ],
-    "音乐": [
-      "音乐", "音樂", "Music", "MUSIC", "MTV", "Live", "LIVE", "TRACE", "KTV"
-    ],
     "纪录片": [
       "纪录", "紀錄", "纪实", "紀實", "Documentary", "DOCUMENTARY",
       "History", "HISTORY", "自然", "Nature", "NATURE", "Magellan",
@@ -74,6 +67,13 @@
       "Arirang", "KBS", "MBC", "SBS", "英语", "CGTN", "CNA",
       "Al Jazeera", "半岛", "半島", "日本", "德國", "ROCK", "HITS",
       "INULTRA", "Global", "LUXE"
+    ],
+    "戏剧": [
+      "戏剧", "戲劇", "影劇", "影劇台", "电视剧", "電視劇",
+      "Drama", "DRAMA"
+    ],
+    "音乐": [
+      "音乐", "音樂", "Music", "MUSIC", "MTV", "Live", "LIVE", "TRACE", "KTV"
     ],
     "教育": [
       "教育", "CETV", "EDU", "Edu", "LEARN", "Learn", "学习", "學習",
