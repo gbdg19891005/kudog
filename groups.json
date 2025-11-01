@@ -15,8 +15,8 @@
       "有线", "有線", "台视", "台視", "中视", "中視", "华视", "華視", "民视", "民視",
       "VIU", "原住民", "滾動力", "东森", "東森", "三立", "TVBS", "年代", "八大",
       "astro", "环球", "生命", "番薯", "寰宇", "中天", "鏡電視", "镜电视", "客家",
-      "大愛", "靖天", "國會", "好消息", "非凡", "东风", "東風", "纬来", "緯來",
-      "JET", "壹电视", "壹電視", "Taiwan Plus",
+      "大愛", "靖天", "國會", "好消息", "非凡", "东风", "東風", "纬来", "緯來", "莲花",
+      "JET", "壹电视", "壹電視", "Taiwan Plus", 
       "新闻台$", "新聞台$", "资讯台$", "資訊台$"
     ],
     "🌈综艺": [
@@ -32,16 +32,16 @@
     "⚽️体育": [
       "体育", "體育", "Sport", "SPORT", "NBA", "足球", "篮球", "籃球",
       "Real Madrid", "Tennis Channel", "NFL Channel", "Billiard TV",
-      "Stadium", "Overtime", "MLB Network", "SEC Network",
+      "Stadium", "Overtime", "MLB Network", "SEC Network", "運動",
       "球赛", "球賽", "赛事", "賽事", "武术", "武術", "搏击", "搏擊",
       "Red Bull", "Fishing", "钓鱼", "釣魚", "体坛"
     ],
     "🎥电影": [
-      "电影", "電影", "Movie", "MOVIE", "Cinema", "CINEMA", "天映",
+      "电影", "電影", "Movie", "MOVIE", "Cinema", "CINEMA", "天映", "新片",
       "Action Hollywood", "Thrillers", "Thriller TV", "Universal Monsters",
-      "ION", "ION Plus", "Paramount Network", "Showtime", "Showtime 2",
+      "ION", "ION Plus", "Paramount Network", "Showtime", "Showtime 2", "象视界",
       "Showtime Extreme", "TNT", "Sony One FAVES", "Icon Film Channel",
-      "Popflix", "LG 1 Film", "影视", "影視", "影片", "大片", "HBO",
+      "Popflix", "LG 1 Film", "影视", "影視", "影片", "大片", "HBO", "网神", "千禧经典",
       "影院", "剧场", "影城", "剧集", "港剧", "Cinemax", "Star Movies",
       "CinemaWorld"
     ],
@@ -70,18 +70,19 @@
     ],
     "⚡️戏剧": [
       "戏剧", "戲劇", "影劇", "影劇台", "电视剧", "電視劇",
+      "梨园", "移动戏曲",
       "Drama", "DRAMA"
     ],
     "🎵音乐": [
-      "音乐", "音樂", "Music", "MUSIC", "MTV", "Live", "LIVE", "TRACE", "KTV"
+      "音乐", "音樂", "Music", "MUSIC", "MTV", "Live", "LIVE", "TRACE", "古典", "KTV"
     ],
     "⚡️教育": [
       "教育", "CETV", "EDU", "Edu", "LEARN", "Learn", "学习", "學習",
-      "MOMO", "幸福", "車迷", "育乐", "科教",
+      "MOMO", "幸福", "車迷", "育乐", "科教", "ELTV",
       "Redbull", "FIFA+", "PowerNation", "Outdoor Channel"
           ],
     "⚡️购物": [
-      "购物", "購物", "Shopping", "SHOPPING", "Shop", "SHOP"
+      "购物", "購物", "Shopping", "SHOPPING", "時尚", "Shop", "SHOP"
     ],
     "⚡️财经": [
       "财经", "財經", "Finance", "FINANCE", "Business", "BUSINESS",
@@ -89,9 +90,9 @@
       "Cheddar News"
     ],
     "💎地方台": [
-      "BTV", "北京", "廣東", "广东", "深圳", "珠江", "山东", "山東",
-      "江苏", "江蘇", "浙江", "湖北", "湖南", "黑龙江", "黑龍江",
-      "辽宁", "遼寧", "吉林", "河北", "河南", "山西", "陕西", "陝西",
+      "BTV", "北京", "廣東", "广东", "深圳", "珠江", "山东", "山東", "民生",
+      "江苏", "江蘇", "浙江", "湖北", "湖南", "黑龙江", "黑龍江", "法制", "公共",
+      "辽宁", "遼寧", "吉林", "河北", "河南", "山西", "陕西", "陝西", "南京",
       "甘肃", "甘肅", "云南", "雲南", "贵州", "貴州", "广西", "廣西",
       "海南", "宁夏", "寧夏", "青海", "西藏", "新疆", "内蒙古", "內蒙古",
       "都市", "都市频道", "省台", "省臺", "新闻综合", "新闻频道", "公共新闻"
@@ -118,7 +119,7 @@
     }
   ],
   "blocklist": [
-    "测试", "測試", "广告", "廣告", "购物频道", "購物頻道",
+    "测试", "測試", "广告", "廣告", "购物频道", "IPV4", "IPV6", "组播线路", "国学", "文物",
     "Promo", "咪咕直播", "付费频道", "達文西", "熊猫频道", "凤凰古城东关门", "凤凰古城南华山",
     "福建漳州醉美沙滩翡翠湾", "LG", "Test"
   ]
