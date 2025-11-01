@@ -460,9 +460,7 @@ https://fl30.moveonjoy.com/NBA_TV/index.m3u8
 #EXTINF:-1 tvg-id="SEC.Network.HD.us2" tvg-name="SEC Network" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/sec-network-us.png?raw=true" group-title="⚽️体育",SEC Network
 http://23.237.104.106:8080/USA_SEC_NETWORK/index.m3u8
 #EXTINF:-1 tvg-name="武术频道" group-title="⚽️体育",武术频道
-http://tvcdn.stream3.hndt.com/tv/65b4b750017e1000dbb9306200000000_transios/playlist.m3u8?wsSecret=d24d27b343d82f95b22d239a1d0779d3&wsTime=1762027200
-#EXTINF:-1 tvg-name="体育休闲频道" group-title="⚽️体育",体育休闲频道
-http://gslbmgsplive.miguvideo.com/wd_r2/jstv/jstiyu/600/index.m3u8?msisdn=20251102000045fb06adca806c4570ac9d501dda7f9ce4&mdspid=&spid=699067&netType=0&sid=5500260554&pid=2028597139&timestamp=20251102000045&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=626064707&ParentNodeID=-99&assertID=5500260554&client_ip=106.13.250.89&SecurityKey=20251102000045&promotionId=&mvid=5100186459&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=80e7e4b1301e8522a7473049900438fd&ddCalcu=d8f0e8e03764e0040b919340013e784572a2
+http://tvcdn.stream3.hndt.com/tv/65b4b750017e1000dbb9306200000000_transios/playlist.m3u8?wsSecret=bdca7d755f0457aafea5990358d24556&wsTime=1762034403
 #EXTINF:-1 tvg-name="UK: SKY SPORTS Cricket" group-title="⚽️体育",UK: SKY SPORTS Cricket
 http://nocable.cc:8080//OURTV/OURTV@4806/45940
 #EXTINF:-1 tvg-name="UK: SKY SPORTS F1" group-title="⚽️体育",UK: SKY SPORTS F1
@@ -756,7 +754,7 @@ https://kudog.chatgb.dpdns.org/?id=7
 #EXTINF:-1 tvg-name="靖洋戲劇台" tvg-logo="https://logo.catvod.com/靖洋戲劇台.png" group-title="⚡️戏剧",靖洋戲劇台
 https://kudog.chatgb.dpdns.org/?id=118
 #EXTINF:-1 tvg-name="电视剧频道" group-title="⚡️戏剧",电视剧频道
-http://tvcdn.stream3.hndt.com/tv/65bd329b017e1000648cd2ed00000000_transios/playlist.m3u8?wsSecret=d629c3c53eaa24b3fe522cbfe997db9f&wsTime=1762027200
+http://tvcdn.stream3.hndt.com/tv/65bd329b017e1000648cd2ed00000000_transios/playlist.m3u8?wsSecret=a66b170d8d2ee4800ba42481348663e8&wsTime=1762034403
 #EXTINF:-1 tvg-name="LiveABC互動英語頻道" tvg-logo="https://logo.catvod.com/LiveABC互動英語頻道.png" group-title="🎵音乐",LiveABC互動英語頻道
 https://kudog.chatgb.dpdns.org/?id=188
 #EXTINF:-1 tvg-name="TRACE Urban" tvg-logo="https://logo.catvod.com/TRACE Urban.png" group-title="🎵音乐",TRACE Urban
@@ -796,7 +794,7 @@ https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz
 #EXTINF:-1 tvg-id="24.7.Dummy.us" tvg-logo="https://img.platform.wurl.dev/channel/1781/lg/e1d25f/LG-Logo-PNG-100x100_v2.png" group-title="⚡️教育",FIFA+
 https://339a32f2.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfRklGQVBsdXNFbmdsaXNoX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-name="欢腾购物" group-title="⚡️购物",欢腾购物
-http://tvcdn.stream3.hndt.com/tv/65ba653b017e1000d4ee41c700000000_transios/playlist.m3u8?wsSecret=5f4d42fc872344d82c1434083cef08c5&wsTime=1762027200
+http://tvcdn.stream3.hndt.com/tv/65ba653b017e1000d4ee41c700000000_transios/playlist.m3u8?wsSecret=2a6d872de1508128f7b2ef6eaa6d185d&wsTime=1762034403
 #EXTINF:-1 tvg-name="SBN全球財經台" tvg-logo="https://logo.catvod.com/SBN全球財經台.png" group-title="⚡️财经",SBN全球財經台
 https://kudog.chatgb.dpdns.org/?id=224
 #EXTINF:-1 tvg-name="Bloomberg TV" tvg-logo="https://logo.catvod.com/Bloomberg TV.png" group-title="⚡️财经",Bloomberg TV
@@ -850,11 +848,11 @@ http://gslbmgsplive.miguvideo.com/migu/kailu/sxxwzx/51/20250804/index.m3u8?msisd
 #EXTINF:-1 tvg-name="🇨🇳河南地方" group-title="💎地方台",🇨🇳河南地方
 #genre#
 #EXTINF:-1 tvg-name="新闻频道" group-title="💎地方台",新闻频道
-http://tvcdn.stream3.hndt.com/tv/65bb6966017e100059b75a8500000000_transios/playlist.m3u8?wsSecret=57e133176e8a9331d1c8e37ec46265ae&wsTime=1762027200
+http://tvcdn.stream3.hndt.com/tv/65bb6966017e100059b75a8500000000_transios/playlist.m3u8?wsSecret=8cbdf5bcdc8dab4a1538a31c079529aa&wsTime=1762034403
 #EXTINF:-1 tvg-name="都市频道" group-title="💎地方台",都市频道
-http://tvcdn.stream3.hndt.com/tv/65c3fbc5017e1000fde13faa00000000_transios/playlist.m3u8?wsSecret=6bc5f59034126766b83fb1ca22f27c81&wsTime=1762027200
+http://tvcdn.stream3.hndt.com/tv/65c3fbc5017e1000fde13faa00000000_transios/playlist.m3u8?wsSecret=485e822f75d1488f75bd74f60b96b728&wsTime=1762034403
 #EXTINF:-1 tvg-name="河南乡村频道" group-title="💎地方台",河南乡村频道
-http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=6c8fd0b0b76e4dcb49112dea236b8a3d&wsTime=1762027200
+http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=bccf50d640c55d1c4eb6e66d849bcaae&wsTime=1762034403
 #EXTINF:-1 tvg-name="ELTV生活英語台" tvg-logo="https://logo.catvod.com/ELTV生活英語台.png" group-title="综合",ELTV生活英語台
 https://kudog.chatgb.dpdns.org/?id=106
 #EXTINF:-1 tvg-name="TV5MONDE STYLE HD 生活時尚" tvg-logo="https://logo.catvod.com/TV5MONDE STYLE HD 生活時尚.png" group-title="综合",TV5MONDE STYLE HD 生活時尚
@@ -898,21 +896,21 @@ https://fl30.moveonjoy.com/FOOD_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="ESPNEWS.HD.us2" tvg-name="ESPN NEWS" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16485_dark_360w_270h.png" group-title="综合",ESPN NEWS
 https://fl30.moveonjoy.com/ESPN_NEWS/index.m3u8
 #EXTINF:-1 tvg-name="民生频道" group-title="综合",民生频道
-http://tvcdn.stream3.hndt.com/tv/65bef28a017e10009c49d5f900000000_transios/playlist.m3u8?wsSecret=5f40310d1499f249929e4ffb5ef43904&wsTime=1762027200
+http://tvcdn.stream3.hndt.com/tv/65bef28a017e10009c49d5f900000000_transios/playlist.m3u8?wsSecret=df83600d3e3bc40c2f0ea141f84c013d&wsTime=1762034403
 #EXTINF:-1 tvg-name="法治频道" group-title="综合",法治频道
-http://tvcdn.stream3.hndt.com/tv/65be54a9017e1000af59fb4800000000_transios/playlist.m3u8?wsSecret=1a60d53a25b941260da54253d9211357&wsTime=1762027200
+http://tvcdn.stream3.hndt.com/tv/65be54a9017e1000af59fb4800000000_transios/playlist.m3u8?wsSecret=f6847357838d331b3c6cee48ce1ae42e&wsTime=1762034403
 #EXTINF:-1 tvg-name="公共频道" group-title="综合",公共频道
-http://tvcdn.stream3.hndt.com/tv/65b93894017e10000ae6b07d00000000_transios/playlist.m3u8?wsSecret=5617546d7a0bbfdb69f97bbb6554d7b7&wsTime=1762027200
+http://tvcdn.stream3.hndt.com/tv/65b93894017e10000ae6b07d00000000_transios/playlist.m3u8?wsSecret=9c343174f182371faf4c19bdf761f311&wsTime=1762034403
 #EXTINF:-1 tvg-name="梨园频道" group-title="综合",梨园频道
-https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=0e7470732d3c99e796d1a9d340564de6&wsTime=1762027200
+https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=00af4aa91390bdd1ee88507bfc0f0789&wsTime=1762034403
 #EXTINF:-1 tvg-name="文物宝库" group-title="综合",文物宝库
-http://tvcdn.stream3.hndt.com/tv/65b5a69d017e1000aa645bea00000000_transios/playlist.m3u8?wsSecret=d70fa11d4d0aa5234bf68c1aae40b519&wsTime=1762027200
+http://tvcdn.stream3.hndt.com/tv/65b5a69d017e1000aa645bea00000000_transios/playlist.m3u8?wsSecret=9edaddf7df2fa242af5f1e9267ac6b13&wsTime=1762034403
 #EXTINF:-1 tvg-name="移动戏曲频道" group-title="综合",移动戏曲频道
-https://tvcdn.stream3.hndt.com/tv/160ea8971f8b41f0905f88c7afe3effe_transios/playlist.m3u8?wsSecret=d678feb03ef87d247386331ab0963e3b&wsTime=1762027200
+https://tvcdn.stream3.hndt.com/tv/160ea8971f8b41f0905f88c7afe3effe_transios/playlist.m3u8?wsSecret=7543b66020e97a008753ed06d0907b9c&wsTime=1762034403
 #EXTINF:-1 tvg-name="象视界" group-title="综合",象视界
-http://tvcdn.stream3.hndt.com/tv/d34d1a2b0178100022de972e00000000_transios/playlist.m3u8?wsSecret=18809ee4c43d7afa621acadcf98b1ac7&wsTime=1762027200
+http://tvcdn.stream3.hndt.com/tv/d34d1a2b0178100022de972e00000000_transios/playlist.m3u8?wsSecret=b1a1c3d62d345053c71e89cf58bdc91d&wsTime=1762034403
 #EXTINF:-1 tvg-name="国学频道" group-title="综合",国学频道
-rtmp://rtmp.tv.stream3.hndt.com/tv/647f9277018410008cf925e200000000?wsSecret=9a23316ee66e918684e097f&wsSecret=6aec012854886b4f6c897c656ea1b95a&wsTime=1762027200
+rtmp://rtmp.tv.stream3.hndt.com/tv/647f9277018410008cf925e200000000?wsSecret=9a23316ee66e918684e097f&wsSecret=fe6a00b1a9ba940dd1ea648e23c13514&wsTime=1762034403
 #EXTINF:-1 tvg-name="🇨🇳IPV4线路" group-title="综合",🇨🇳IPV4线路
 #genre#
 #EXTINF:-1 tvg-name="莲花卫视" group-title="综合",莲花卫视
