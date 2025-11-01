@@ -99,15 +99,21 @@
   },
   "custom_channels": [
     {
-      "name": "kudogxy提供",
+      "name": "kudogxy提供、自建接口、",
       "logo": "https://gss0.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/fd039245d688d43f219dbba5771ed21b0ef43bb4.jpg",
       "group": "kudogxy提供",
       "url": "https://bcian.cn/ku.mp4"
     },
     {
-      "name": "微信:kudogxy",
+      "name": "接口专人维护、保障观看、",
       "logo": "https://gss0.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/fd039245d688d43f219dbba5771ed21b0ef43bb4.jpg",
-      "group": "微信:kudogxy",
+      "group": "接口专人维护、保障观看、",
+      "url": "https://bcian.cn/ku.mp4"
+    },
+    {
+      "name": "唯一服务微信:kudogxy",
+      "logo": "https://gss0.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/fd039245d688d43f219dbba5771ed21b0ef43bb4.jpg",
+      "group": "唯一服务微信:kudogxy",
       "url": "https://bcian.cn/ku.mp4"
     }
   ],
