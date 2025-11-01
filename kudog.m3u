@@ -1,8 +1,8 @@
 #EXTM3U x-tvg-url="https://epg.catvod.com/epg.xml"
-#EXTINF:-1 tvg-name="kudogxy提供" tvg-logo="https://kudog.a0001.net/var/albums/bd3eb13533fa828b927fdc6ef51f4134960a5ada.jpg" group-title="kudogxy提供"
-https://kudog.chatgb.dpdns.org/?id=9
+#EXTINF:-1 tvg-name="kudogxy提供" tvg-logo="https://gss0.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/fd039245d688d43f219dbba5771ed21b0ef43bb4.jpg" group-title="kudogxy提供"
+https://bcian.cn/ku.mp4
 #EXTINF:-1 tvg-name="微信:kudogxy" tvg-logo="https://gss0.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/fd039245d688d43f219dbba5771ed21b0ef43bb4.jpg" group-title="微信:kudogxy"
-https://kudog.chatgb.dpdns.org/?id=171
+https://bcian.cn/ku.mp4
 #EXTINF:-1 tvg-id="CCTV1综合" tvg-name="CCTV1综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2201/057/821/202204010054_1626677671392_H32_1080.webp" group-title="央视频道",CCTV1综合
 http://gslbmgsplive.miguvideo.com/wd_r2/cctv/cctv1hd/1200/index.m3u8?msisdn=20251101060033151d85bb4914478495e7d4d876924371&mdspid=&spid=699004&netType=0&sid=2201057821&pid=2028597139&timestamp=20251101060033&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=608807420&ParentNodeID=-99&assertID=2201057821&client_ip=106.13.250.89&SecurityKey=20251101060033&promotionId=&mvid=2201057821&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=8a9381c4b74e24abf1ef469afdad7bc4&ddCalcu=48caeb90738d80a1dcf4ab97644ef2e41afb
 #EXTINF:-1 tvg-id="CCTV2财经" tvg-name="CCTV2财经" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/346/945/202205311432_1626678578843_H32_1080.webp" group-title="央视频道",CCTV2财经
@@ -245,10 +245,6 @@ http://gslbmgsplive.miguvideo.com/migu/kailu/hqly/51/20250915/index.m3u8?msisdn=
 https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8
 #EXTINF:-1 tvg-name="凤凰电影" group-title="港澳台",凤凰电影
 http://iot-mqqt.111yao.cn:8080/live/diyp_fhdy.m3u8
-#EXTINF:-1 tvg-name="凤凰古城东关门" group-title="港澳台",凤凰古城东关门
-https://gcalic.v.myalicdn.com/gc/fhgcdgm_1/index.m3u8
-#EXTINF:-1 tvg-name="凤凰古城南华山" group-title="港澳台",凤凰古城南华山
-https://gcalic.v.myalicdn.com/gc/fhgcdnhs_1/index.m3u8
 #EXTINF:-1 tvg-name="凤凰香港" group-title="港澳台",凤凰香港
 http://43.152.143.193:80/1.v.smtcdns.net/tvlive.fengshows.cn/live/0701phk72.flv
 #EXTINF:-1 tvg-name="凤凰中文" group-title="港澳台",凤凰中文
@@ -673,26 +669,6 @@ https://fl30.moveonjoy.com/DISNEY/index.m3u8
 https://fl30.moveonjoy.com/DISNEY_JR/index.m3u8
 #EXTINF:-1 tvg-id="Cartoon.Network.HD.us2" tvg-name="CARTOON NETWORK" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s12131_dark_360w_270h.png" group-title="动画",CARTOON NETWORK
 https://fl30.moveonjoy.com/CARTOON_NETWORK/index.m3u8
-#EXTINF:-1 tvg-name="SBN全球財經台" tvg-logo="https://logo.catvod.com/SBN全球財經台.png" group-title="财经",SBN全球財經台
-https://kudog.chatgb.dpdns.org/?id=224
-#EXTINF:-1 tvg-name="CNBC Asia 財經台" tvg-logo="https://logo.catvod.com/CNBC Asia 財經台.png" group-title="财经",CNBC Asia 財經台
-https://kudog.chatgb.dpdns.org/?id=235
-#EXTINF:-1 tvg-name="Bloomberg TV" tvg-logo="https://logo.catvod.com/Bloomberg TV.png" group-title="财经",Bloomberg TV
-https://kudog.chatgb.dpdns.org/?id=283
-#EXTINF:-1 tvg-id="财富天下" tvg-name="财富天下" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/193/202508061552_1754385779498_H32_1080.webp" group-title="财经",财富天下
-http://gslbmgsplive.miguvideo.com/migu/kailu/cftx/51/20250804/index.m3u8?msisdn=202511010600400f20471cc0494bc8a0e456a721105c23&mdspid=&spid=600697&netType=0&sid=5910022193&pid=2028597139&timestamp=20251101060040&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=956923159&ParentNodeID=-99&assertID=5910022193&client_ip=106.13.250.89&SecurityKey=20251101060040&promotionId=&mvid=5900006715&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=dfbc83e8641905c0114ee120ac1efb05&ddCalcu=5d0febb0fc6e8013cea8062411e9e0451c10
-#EXTINF:-1 group-title="财经",Cheddar News
-https://cheddar-us.samsung.wurl.tv/playlist_4300k.m3u8
-#EXTINF:-1 group-title="财经",CNBC 
-https://fl30.moveonjoy.com/CNBC/index.m3u8
-#EXTINF:-1 tvg-id="24.7.Dummy.us" tvg-logo="https://img.platform.wurl.dev/channel/389/lg/6f2a84/LG-Logo-PNG-100x100_v3.png" group-title="财经",Bloomberg TV+
-https://ab352235.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYXVfQmxvb21iZXJnVFZQbHVzX0hMUw/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://img.platform.wurl.dev/channel/1179/lg/816767/LG-Logo-PNG-100x100_v1.png" group-title="财经",Bloomberg Originals
-https://86fdc85a.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfQmxvb21iZXJnT3JpZ2luYWxzX0hMUw/playlist.m3u8
-#EXTINF:-1 tvg-name="耀才财经" group-title="财经",耀才财经
-https://v3.mediacast.hk/webcast/bshdlive-pc/playlist.m3u8
-#EXTINF:-1 tvg-name="欢腾购物" group-title="购物",欢腾购物
-http://tvcdn.stream3.hndt.com/tv/65ba653b017e1000d4ee41c700000000_transios/playlist.m3u8?wsSecret=9cb2f970d1a91b612b83a9ac136d4207&wsTime=1761962407
 #EXTINF:-1 tvg-name="LiveABC互動英語頻道" tvg-logo="https://logo.catvod.com/LiveABC互動英語頻道.png" group-title="音乐",LiveABC互動英語頻道
 https://kudog.chatgb.dpdns.org/?id=188
 #EXTINF:-1 tvg-name="TRACE Urban" tvg-logo="https://logo.catvod.com/TRACE Urban.png" group-title="音乐",TRACE Urban
@@ -759,6 +735,8 @@ https://fl30.moveonjoy.com/Discovery_Science/index.m3u8
 http://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/1425e1d505654cb48ba82b807b221193/1200.m3u8
 #EXTINF:-1 tvg-name="DW德國之聲" tvg-logo="https://logo.catvod.com/DW德國之聲.png" group-title="国际台",DW德國之聲
 https://kudog.chatgb.dpdns.org/?id=226
+#EXTINF:-1 tvg-name="CNBC Asia 財經台" tvg-logo="https://logo.catvod.com/CNBC Asia 財經台.png" group-title="国际台",CNBC Asia 財經台
+https://kudog.chatgb.dpdns.org/?id=235
 #EXTINF:-1 tvg-name="ROCK Entertainment" tvg-logo="https://logo.catvod.com/ROCK Entertainment.png" group-title="国际台",ROCK Entertainment
 https://kudog.chatgb.dpdns.org/?id=275
 #EXTINF:-1 tvg-name="Global Trekker" tvg-logo="https://logo.catvod.com/Global Trekker.png" group-title="国际台",Global Trekker
@@ -821,6 +799,8 @@ https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8
 https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8
 #EXTINF:-1 group-title="国际台",Newsy
 https://547f72e6652371c3.mediapackage.us-east-1.amazonaws.com/out/v1/e3e6e29095844c4ba7d887f01e44a5ef/index_8.m3u8
+#EXTINF:-1 group-title="国际台",CNBC 
+https://fl30.moveonjoy.com/CNBC/index.m3u8
 #EXTINF:-1 tvg-id="24.7.Dummy.us" tvg-logo="https://d1biytugnv36sr.cloudfront.net/resize?width=400&height=200&url=https://static.frequency.com/studio/sony/channels/EN_LG_FAST_ComedyHits_ChannelLogo_Horizontal.png" group-title="国际台",Sony One Comedy HITS
 https://9f8e2ffcd87f4c469be7194e48f84874.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-802-UK-SONYONECOMEDYHITS-LG_UK/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://img.platform.wurl.dev/channel/1721/lg/a3ad6c/LG-Logo-PNG-100x100_v1.png" group-title="国际台",News 12 
@@ -853,6 +833,22 @@ http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8
 #EXTINF:-1 tvg-id="24.7.Dummy.us" tvg-logo="https://img.platform.wurl.dev/channel/1781/lg/e1d25f/LG-Logo-PNG-100x100_v2.png" group-title="教育",FIFA+
 https://339a32f2.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfRklGQVBsdXNFbmdsaXNoX0hMUw/playlist.m3u8
+#EXTINF:-1 tvg-name="欢腾购物" group-title="购物",欢腾购物
+http://tvcdn.stream3.hndt.com/tv/65ba653b017e1000d4ee41c700000000_transios/playlist.m3u8?wsSecret=9cb2f970d1a91b612b83a9ac136d4207&wsTime=1761962407
+#EXTINF:-1 tvg-name="SBN全球財經台" tvg-logo="https://logo.catvod.com/SBN全球財經台.png" group-title="财经",SBN全球財經台
+https://kudog.chatgb.dpdns.org/?id=224
+#EXTINF:-1 tvg-name="Bloomberg TV" tvg-logo="https://logo.catvod.com/Bloomberg TV.png" group-title="财经",Bloomberg TV
+https://kudog.chatgb.dpdns.org/?id=283
+#EXTINF:-1 tvg-id="财富天下" tvg-name="财富天下" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/193/202508061552_1754385779498_H32_1080.webp" group-title="财经",财富天下
+http://gslbmgsplive.miguvideo.com/migu/kailu/cftx/51/20250804/index.m3u8?msisdn=202511010600400f20471cc0494bc8a0e456a721105c23&mdspid=&spid=600697&netType=0&sid=5910022193&pid=2028597139&timestamp=20251101060040&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=956923159&ParentNodeID=-99&assertID=5910022193&client_ip=106.13.250.89&SecurityKey=20251101060040&promotionId=&mvid=5900006715&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=dfbc83e8641905c0114ee120ac1efb05&ddCalcu=5d0febb0fc6e8013cea8062411e9e0451c10
+#EXTINF:-1 group-title="财经",Cheddar News
+https://cheddar-us.samsung.wurl.tv/playlist_4300k.m3u8
+#EXTINF:-1 tvg-id="24.7.Dummy.us" tvg-logo="https://img.platform.wurl.dev/channel/389/lg/6f2a84/LG-Logo-PNG-100x100_v3.png" group-title="财经",Bloomberg TV+
+https://ab352235.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYXVfQmxvb21iZXJnVFZQbHVzX0hMUw/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://img.platform.wurl.dev/channel/1179/lg/816767/LG-Logo-PNG-100x100_v1.png" group-title="财经",Bloomberg Originals
+https://86fdc85a.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfQmxvb21iZXJnT3JpZ2luYWxzX0hMUw/playlist.m3u8
+#EXTINF:-1 tvg-name="耀才财经" group-title="财经",耀才财经
+https://v3.mediacast.hk/webcast/bshdlive-pc/playlist.m3u8
 #EXTINF:-1 tvg-id="上海新闻综合" tvg-name="上海新闻综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/002/275/202107191641_5100001716_H32_1080.webp" group-title="地方台",上海新闻综合
 http://gslbmgsplive.miguvideo.com/wd_r4/dfl/xinwenzonghehd/1200/index.m3u8?msisdn=20251101060037d4e07a45f8fb4e6f96ec0a991ca9a91c&mdspid=&spid=699212&netType=0&sid=5500002275&pid=2028597139&timestamp=20251101060037&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=651632657&ParentNodeID=-99&assertID=5500002275&client_ip=106.13.250.89&SecurityKey=20251101060037&promotionId=&mvid=5100001716&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=ddc7f983d25d5ae9e960c005b3675808&ddCalcu=8d0de8c05717f06938b35d0205cd056a9ee9
 #EXTINF:-1 tvg-id="南京新闻综合频道" tvg-name="南京新闻综合频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/021/863/202307121521_1689144372702_H32_1080.webp" group-title="地方台",南京新闻综合频道
