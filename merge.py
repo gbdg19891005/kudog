@@ -4,7 +4,7 @@ import requests, re, json, os, logging
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 # ===== 配置开关 =====
-keep_multiple_urls = False  # True=保留多个URL，False=只保留第一个
+keep_multiple_urls = True  # True=保留多个URL，False=只保留第一个
 
 # ===== 读取 sources.json =====
 with open("sources.json", "r", encoding="utf-8") as f:
