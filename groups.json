@@ -46,9 +46,9 @@
     ],
     "🎥电影": [
       "电影", "電影", "Movie", "MOVIE", "Cinema", "CINEMA", "天映", "新片",
-      "Action Hollywood", "Thrillers", "Thriller TV", "Universal Monsters",
+      "Action Hollywood", "Thrillers", "Thriller TV", "Universal Monsters", "经典",
       "ION", "ION Plus", "Paramount Network", "Showtime", "Showtime 2", "象视界",
-      "Showtime Extreme", "TNT", "Sony One FAVES", "Icon Film Channel",
+      "Showtime Extreme", "TNT", "Sony One FAVES", "Icon Film Channel", "冰冰",
       "Popflix", "LG 1 Film", "影视", "影視", "影片", "大片", "HBO", "网神", "千禧经典",
       "影院", "剧场", "影城", "剧集", "港剧", "Cinemax", "Star Movies",
       "CinemaWorld"
@@ -60,7 +60,7 @@
       "Anime", "靖天映画", "靖天映畫", "ANIME"
     ],
     "🐷纪录片": [
-      "纪录", "紀錄", "纪实", "紀實", "Documentary", "DOCUMENTARY",
+      "纪录", "紀錄", "纪实", "紀實", "Documentary", "DOCUMENTARY", "贝爷",
       "History", "HISTORY", "自然", "Nature", "NATURE", "Magellan", "老故事",
       "Wild Earth", "Travel XP", "4K Travel", "探索", "Discovery", "DISCOVERY",
       "WeatherSpy", "GoUSA TV", "Autentic Travel", "Inside Outside", "Historian",
@@ -72,7 +72,7 @@
       "GB News", "RT News", "Euronews", "NBC", "CBC News", "法·时尚",
       "Newsmax", "TBS Seoul", "WION", "Newsy", "News 12", "Scripps News",
       "Sky News", "FOX NEWS", "Fox News", "France24", "FRANCE24",
-      "Arirang", "KBS", "MBC", "SBS", "英语", "CGTN", "CNA",
+      "Arirang", "KBS", "MBC", "SBS", "英语", "CGTN", "CNA", "半島國際新聞台",
       "Al Jazeera", "半岛", "半島", "日本", "德國", "ROCK", "HITS",
       "INULTRA", "Global", "LUXE"
     ],
@@ -90,7 +90,7 @@
       "Redbull", "FIFA+", "PowerNation", "Outdoor Channel"
     ],
     "⚡️购物": [
-      "购物", "購物", "Shopping", "SHOPPING", "TV5MONDE", "Shop", "SHOP"
+      "购物", "購物", "Shopping", "SHOPPING", "TV5MONDE", "Shop", "東森購物一台", "東森購物二台", "東森購物三台", "東森購物三台", "東森購物四台", "SHOP"
     ],
     "⚡️财经": [
       "财经", "財經", "Finance", "FINANCE", "Business", "BUSINESS",
@@ -121,7 +121,7 @@
   "blocklist": [
     "测试", "測試", "广告", "廣告", "购物频道", "IPV4", "IPV6", "组播线路", "国学", "文物",
     "Promo", "咪咕直播", "付费频道", "達文西", "熊猫频道", "凤凰古城东关门", "凤凰古城南华山",
-    "🇨🇳河南地方",
+    "🇨🇳河南地方", "CCTV20241",
     "福建漳州醉美沙滩翡翠湾", "LG", "Test"
   ]
 }
