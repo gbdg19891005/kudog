@@ -1,7 +1,13 @@
-import requests, re, json, os, logging
+import requests, re, json, os, logging, argparse
+
+# ===== 参数解析 =====
+parser = argparse.ArgumentParser(description="Merge and group IPTV M3U files")
+parser.add_argument("--debug", action="store_true", help="Enable debug logging")
+args = parser.parse_args()
 
 # ===== 日志配置 =====
-logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
+log_level = logging.DEBUG if args.debug else logging.INFO
+logging.basicConfig(level=log_level, format="%(levelname)s: %(message)s")
 
 # ===== 配置开关 =====
 keep_multiple_urls = True  # True=保留多个URL，False=只保留第一个
@@ -114,23 +120,14 @@ def process_lines(lines, primary=False, source_name="未知源"):
             else:
                 line = line + f' group-title="{group}"'
 
-            action = None
             if norm_name not in channels:
                 channels[norm_name] = {"line": line, "urls": [url_line], "group": group}
-                action = "ADD"
             else:
-                if primary:
-                    if url_line and url_line not in channels[norm_name]["urls"]:
-                        if keep_multiple_urls:
-                            channels[norm_name]["urls"].append(url_line)
-                        else:
-                            # 只保留第一个 URL，不追加
-                            pass
-                        action = "APPEND" if keep_multiple_urls else "IGNORE"
-                else:
-                    action = "SKIP"
+                if primary and url_line and url_line not in channels[norm_name]["urls"]:
+                    if keep_multiple_urls:
+                        channels[norm_name]["urls"].append(url_line)
 
-            logging.debug(f"[DEBUG][{source_name}] 原始: {raw_name} → 归并: {norm_name} → 分组: {group} → 动作: {action}")
+            logging.debug(f"[DEBUG][{source_name}] 原始: {raw_name} → 归并: {norm_name} → 分组: {group}")
             i += 2
         else:
             i += 1
@@ -165,7 +162,7 @@ merged = ['#EXTM3U x-tvg-url="https://epg.catvod.com/epg.xml"']
 
 # 自定义频道置顶
 for ch in custom_channels:
-    merged.append(f'#EXTINF:-1 tvg-name="{ch["name"]}" tvg-logo="{ch["logo"]}" group-title="{ch["group"]}"')
+    merged.append(f'#EXTINF:-1 tvg-name="{ch["name"]}" tvg-logo="{ch["logo"]}" group-title="{ch["group"]}",{ch["name"]}')
     merged.append(ch["url"])
 
 # 按 group_order 排序输出
@@ -174,7 +171,7 @@ for group in group_order + ["综合"]:
     for name, ch in channels.items():
         if ch.get("group") == group:
             merged.append(ch["line"])
-            urls = sorted(ch["urls"]) if keep_multiple_urls else [ch["urls"][0]]
+            urls = ch["urls"] if keep_multiple_urls else [ch["urls"][0]]
             merged.extend(urls)
             group_counts[group] = group_counts.get(group, 0) + 1
 
