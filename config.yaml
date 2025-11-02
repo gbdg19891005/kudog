@@ -1,0 +1,5 @@
+ua: "Mozilla/5.0"
+referrer: "https://kudog.chatgb.dpdns.org/"
+epg: "https://epg.catvod.com/epg.xml"
+timeout: 10
+keep_multiple_urls: true
