@@ -1,5 +1,26 @@
+# ===== 基础配置 =====
 ua: "Mozilla/5.0"
 referrer: "https://kudog.chatgb.dpdns.org/"
 epg: "https://epg.catvod.com/epg.xml"
 timeout: 10
 keep_multiple_urls: true
+
+# ===== 日志配置 =====
+# 可选值: DEBUG / INFO / WARNING / ERROR
+log_level: "INFO"
+
+# ===== 输出配置 =====
+# 主输出文件
+output_file: "kudog.m3u"
+# 是否同时生成一个调试用的 merged.m3u
+generate_debug_file: true
+
+# ===== 默认分组配置 =====
+# 当频道未匹配到任何规则时，归入的分组
+default_group: "综合"
+
+# ===== 额外功能开关 =====
+# 是否在 EXTINF 中强制补全 tvg-logo (如果 groups.json 有定义)
+force_logo: true
+# 是否在 EXTINF 中强制补全 tvg-id (如果 alias 或 groups.json 有定义)
+force_tvg_id: false
