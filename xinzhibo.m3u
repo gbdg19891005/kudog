@@ -1,6 +1,28 @@
 #EXTM3U x-tvg-url="https://epg.catvod.com/epg.xml"
 #EXTINF:-1 tvg-name="ARIRANG阿里郎頻道" tvg-logo="https://logo.catvod.com/ARIRANG阿里郎頻道.png" group-title="未分组",ARIRANG阿里郎頻道
 https://kudog.bilib.cloudns.be/?id=QVJJUkFORamYvamHjOmDjumguamBkwxx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-name="Bloomberg TV" tvg-logo="https://logo.catvod.com/Bloomberg TV.png" group-title="未分组",Bloomberg TV
+https://kudog.bilib.cloudns.be/?id=Qmxvb21iZXJnIFRW&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-name="CLASSICA 古典樂" tvg-logo="https://logo.catvod.com/CLASSICA 古典樂.png" group-title="未分组",CLASSICA 古典樂
+https://kudog.bilib.cloudns.be/?id=Q0xBU1NJQ0Eg5Yak5YW45qiC&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-name="CI 罪案偵查頻道" tvg-logo="https://logo.catvod.com/CI 罪案偵查頻道.png" group-title="未分组",CI 罪案偵查頻道
+https://kudog.bilib.cloudns.be/?id=Q0kg572q5qGI5YG15pal6aC76YGT&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-name="CinemaWorld" tvg-logo="https://logo.catvod.com/CinemaWorld.png" group-title="未分组",CinemaWorld
+https://kudog.bilib.cloudns.be/?id=Q2luZW1hV29ybGQx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-name="CNBC Asia 財經台" tvg-logo="https://logo.catvod.com/CNBC Asia 財經台.png" group-title="未分组",CNBC Asia 財經台
+https://kudog.bilib.cloudns.be/?id=Q05CQyBBc2lhIOiyoee2kaWPsAxx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-name="DreamWorks 夢工廠動畫" tvg-logo="https://logo.catvod.com/DreamWorks 夢工廠動畫.png" group-title="未分组",DreamWorks 夢工廠動畫
+https://kudog.bilib.cloudns.be/?id=RHJlYW1Xb3JrcyDlpKLlt6Xlu6Dli5Xnlasx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-name="DW德國之聲" tvg-logo="https://logo.catvod.com/DW德國之聲.png" group-title="未分组",DW德國之聲
+https://kudog.bilib.cloudns.be/?id=RFflvrflnIvkuYvogbIx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-name="ELTV生活英語台" tvg-logo="https://logo.catvod.com/ELTV生活英語台.png" group-title="未分组",ELTV生活英語台
+https://kudog.bilib.cloudns.be/?id=RUxUVueUnaa0uaiLseiqnuWPsAxx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-name="FRANCE24 英文台" tvg-logo="https://logo.catvod.com/FRANCE24 英文台.png" group-title="未分组",FRANCE24 英文台
+https://kudog.bilib.cloudns.be/?id=RlJBTkNFMjQg6Iux5paH5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-name="Global Trekker" tvg-logo="https://logo.catvod.com/Global Trekker.png" group-title="未分组",Global Trekker
+https://kudog.bilib.cloudns.be/?id=R2xvYmFsIFRyZWtrZXIx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-name="GINX Esports TV" tvg-logo="https://logo.catvod.com/GINX Esports TV.png" group-title="未分组",GINX Esports TV
+https://kudog.bilib.cloudns.be/?id=R0lOWCBFc3BvcnRzIFRW&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-name="History 歷史頻道" tvg-logo="https://logo.catvod.com/History 歷史頻道.png" group-title="未分组",History 歷史頻道
 https://kudog.bilib.cloudns.be/?id=SGlzdG9yeSDmrbflj7LpoLvpgZMx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-name="HITS頻道" tvg-logo="https://logo.catvod.com/HITS頻道.png" group-title="未分组",HITS頻道
@@ -19,6 +41,20 @@ https://kudog.bilib.cloudns.be/?id=TG92ZSBOYXR1cmUx&auth=fb5f1c47187db62b1c3026c
 https://kudog.bilib.cloudns.be/?id=TFVYRSBUViBDaGFubmVs&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-name="MOMO親子台" tvg-logo="https://logo.catvod.com/MOMO親子台.png" group-title="未分组",MOMO親子台
 https://kudog.bilib.cloudns.be/?id=TU9NTaimquWtkOWPsAxx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-name="MTV Live HD 音樂頻道" tvg-logo="https://logo.catvod.com/MTV Live HD 音樂頻道.png" group-title="未分组",MTV Live HD 音樂頻道
+https://kudog.bilib.cloudns.be/?id=TVRWIExpdmUgSEQg6Zaz5qiC6aC76YGT&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-name="Mezzo Live HD" tvg-logo="https://logo.catvod.com/Mezzo Live HD.png" group-title="未分组",Mezzo Live HD
+https://kudog.bilib.cloudns.be/?id=TWV6em8gTGl2ZSBIRAxx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-name="MagellanTV頻道 (麥哲倫頻道)" tvg-logo="https://logo.catvod.com/MagellanTV頻道 (麥哲倫頻道).png" group-title="未分组",MagellanTV頻道 (麥哲倫頻道)
+https://kudog.bilib.cloudns.be/?id=TWFnZWxsYW5UVumguamBkyAo6bql5ZOy5YCr6aC76YGTKSAx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-name="My Cinema Europe HD 我的歐洲電影" tvg-logo="https://logo.catvod.com/My Cinema Europe HD 我的歐洲電影.png" group-title="未分组",My Cinema Europe HD 我的歐洲電影
+https://kudog.bilib.cloudns.be/?id=TXkgQ2luZW1hIEV1cm9wZSBIRCDmiJHnmoTmrZDmtLLpm7vlvbEx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-name="Nick Jr. 兒童頻道" tvg-logo="https://logo.catvod.com/Nick Jr. 兒童頻道.png" group-title="未分组",Nick Jr. 兒童頻道
+https://kudog.bilib.cloudns.be/?id=TmljayBKci4g5YWS56ul6aC76YGT&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-name="Nice TV 靖天歡樂台" tvg-logo="https://logo.catvod.com/Nice TV 靖天歡樂台.png" group-title="未分组",Nice TV 靖天歡樂台
+https://kudog.bilib.cloudns.be/?id=TmljZSBUViDpnZblpKnmraHmqILlj7Ax&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-name="NHK WORLD-JAPAN" tvg-logo="https://logo.catvod.com/NHK WORLD-JAPAN.png" group-title="未分组",NHK WORLD-JAPAN
+https://kudog.bilib.cloudns.be/?id=TkhLIFdPUkxELUpBUEFO&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-name="Pet Club TV" tvg-logo="https://logo.catvod.com/Pet Club TV.png" group-title="未分组",Pet Club TV
 https://kudog.bilib.cloudns.be/?id=UGV0IENsdWIgVFYx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-name="ROCK Entertainment" tvg-logo="https://logo.catvod.com/ROCK Entertainment.png" group-title="未分组",ROCK Entertainment
