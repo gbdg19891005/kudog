@@ -61,6 +61,38 @@ http://ipv4-go.825939.xyz:4033/udp/239.253.43.26:5146
 http://ipv4-go.825939.xyz:4033/udp/239.253.43.28:5146
 #EXTINF:-1 tvg-name="风云音乐" group-title="🔥央视频道",风云音乐
 http://ipv4-go.825939.xyz:4033/udp/239.253.43.29:5146
+#EXTINF:-1 tvg-name="睛彩青少" group-title="🔥央视频道",睛彩青少
+http://ipv4-go.825939.xyz:4033/udp/239.77.1.22:5146
+#EXTINF:-1 tvg-name="睛彩竞技" group-title="🔥央视频道",睛彩竞技
+http://ipv4-go.825939.xyz:4033/udp/239.77.1.20:5146
+#EXTINF:-1 tvg-name="睛彩篮球" group-title="🔥央视频道",睛彩篮球
+http://ipv4-go.825939.xyz:4033/udp/239.77.1.21:5146
+#EXTINF:-1 tvg-name="睛彩广场舞" group-title="🔥央视频道",睛彩广场舞
+http://ipv4-go.825939.xyz:4033/udp/239.77.1.23:5146
+#EXTINF:-1 tvg-name="IPTV1" group-title="🔥央视频道",IPTV1
+http://ipv4-go.825939.xyz:4033/udp/239.77.1.7:5146
+#EXTINF:-1 tvg-name="IPTV2" group-title="🔥央视频道",IPTV2
+http://ipv4-go.825939.xyz:4033/udp/239.77.1.8:5146
+#EXTINF:-1 tvg-name="IPTV3" group-title="🔥央视频道",IPTV3
+http://ipv4-go.825939.xyz:4033/udp/239.77.1.9:5146
+#EXTINF:-1 tvg-name="IPTV4" group-title="🔥央视频道",IPTV4
+http://ipv4-go.825939.xyz:4033/udp/239.77.1.10:5146
+#EXTINF:-1 tvg-name="IPTV谍战剧场" group-title="🔥央视频道",IPTV谍战剧场
+http://ipv4-go.825939.xyz:4033/udp/239.77.0.99:5146
+#EXTINF:-1 tvg-name="IPTV相声小品" group-title="🔥央视频道",IPTV相声小品
+http://ipv4-go.825939.xyz:4033/udp/239.77.0.100:5146
+#EXTINF:-1 tvg-name="IPTV野外" group-title="🔥央视频道",IPTV野外
+http://ipv4-go.825939.xyz:4033/udp/239.77.0.101:5146
+#EXTINF:-1 tvg-name="IPTV法治" group-title="🔥央视频道",IPTV法治
+http://ipv4-go.825939.xyz:4033/udp/239.77.1.86:5146
+#EXTINF:-1 tvg-name="IPTV魅力时尚" group-title="🔥央视频道",IPTV魅力时尚
+http://ipv4-go.825939.xyz:4033/udp/239.77.0.110:5146
+#EXTINF:-1 tvg-name="IPTV经典电影" group-title="🔥央视频道",IPTV经典电影
+http://ipv4-go.825939.xyz:4033/udp/239.77.0.104:5146
+#EXTINF:-1 tvg-name="IPTV热播剧场" group-title="🔥央视频道",IPTV热播剧场
+http://ipv4-go.825939.xyz:4033/udp/239.77.0.106:5146
+#EXTINF:-1 tvg-name="IPTV少儿动画" group-title="🔥央视频道",IPTV少儿动画
+http://ipv4-go.825939.xyz:4033/udp/239.77.0.109:5146
 #EXTINF:-1 tvg-name="CCTV文化精品" group-title="🔥央视频道",CCTV文化精品
 http://sh.lnott.top:880/dx104.m3u8
 #EXTINF:-1 tvg-name="CCTV高尔夫网球" group-title="🔥央视频道",CCTV高尔夫网球
@@ -379,6 +411,8 @@ http://ipv4-go.825939.xyz:4033/udp/239.77.0.85:5146
 http://ipv4-go.825939.xyz:4033/udp/239.77.0.217:5146
 #EXTINF:-1 tvg-name="广东少儿" group-title="💎地方台",广东少儿
 http://ipv4-go.825939.xyz:4033/udp/239.77.0.250:5146
+#EXTINF:-1 tvg-name="广州综合" group-title="💎地方台",广州综合
+http://ipv4-go.825939.xyz:4033/udp/239.253.43.71:5146
 #EXTINF:-1 tvg-name="深圳都市频道" group-title="💎地方台",深圳都市频道
 http://ipv4-go.825939.xyz:4033/udp/239.77.1.176:5146
 #EXTINF:-1 tvg-name="深圳电视剧频道" group-title="💎地方台",深圳电视剧频道
@@ -401,14 +435,40 @@ http://ipv4-go.825939.xyz:4033/udp/239.77.0.117:5146
 http://ipv4-go.825939.xyz:4033/udp/239.77.0.141:5146
 #EXTINF:-1 tvg-name="湛江公共" group-title="💎地方台",湛江公共
 http://ipv4-go.825939.xyz:4033/udp/239.77.0.140:5146
+#EXTINF:-1 tvg-name="揭阳综合" group-title="💎地方台",揭阳综合
+http://ipv4-go.825939.xyz:4033/udp/239.77.0.229:5146
 #EXTINF:-1 tvg-name="汕尾新闻综合" group-title="💎地方台",汕尾新闻综合
 http://ipv4-go.825939.xyz:4033/udp/239.77.0.25:5146
+#EXTINF:-1 tvg-name="江门综合" group-title="💎地方台",江门综合
+http://ipv4-go.825939.xyz:4033/udp/239.77.0.201:5146
+#EXTINF:-1 tvg-name="HZTV1" group-title="💎地方台",HZTV1
+http://ipv4-go.825939.xyz:4033/udp/239.77.1.232:5146
+#EXTINF:-1 tvg-name="HZTV2" group-title="💎地方台",HZTV2
+http://ipv4-go.825939.xyz:4033/udp/239.77.1.233:5146
+#EXTINF:-1 tvg-name="肇庆综合" group-title="💎地方台",肇庆综合
+http://ipv4-go.825939.xyz:4033/udp/239.253.43.1:5146
+#EXTINF:-1 tvg-name="河源综合" group-title="💎地方台",河源综合
+http://ipv4-go.825939.xyz:4033/udp/239.253.43.213:5146
 #EXTINF:-1 tvg-name="清远新闻综合" group-title="💎地方台",清远新闻综合
 http://ipv4-go.825939.xyz:4033/udp/239.253.43.33:5146
+#EXTINF:-1 tvg-name="云浮综合" group-title="💎地方台",云浮综合
+http://ipv4-go.825939.xyz:4033/udp/239.77.0.253:5146
+#EXTINF:-1 tvg-name="茂名综合" group-title="💎地方台",茂名综合
+http://ipv4-go.825939.xyz:4033/udp/239.77.0.206:5146
+#EXTINF:-1 tvg-name="汕头综合" group-title="💎地方台",汕头综合
+http://ipv4-go.825939.xyz:4033/udp/239.77.1.130:5146
+#EXTINF:-1 tvg-name="佛山综合" group-title="💎地方台",佛山综合
+http://ipv4-go.825939.xyz:4033/udp/239.253.43.57:5146
 #EXTINF:-1 tvg-name="东莞新闻综合" group-title="💎地方台",东莞新闻综合
 http://ipv4-go.825939.xyz:4033/udp/239.253.43.104:5146
+#EXTINF:-1 tvg-name="中山综合" group-title="💎地方台",中山综合
+http://ipv4-go.825939.xyz:4033/udp/239.77.0.185:5146
+#EXTINF:-1 tvg-name="潮州综合" group-title="💎地方台",潮州综合
+http://ipv4-go.825939.xyz:4033/udp/239.253.43.70:5146
 #EXTINF:-1 tvg-name="潮州民生" group-title="💎地方台",潮州民生
 http://ipv4-go.825939.xyz:4033/udp/239.253.43.75:5146
+#EXTINF:-1 tvg-name="梅州综合" group-title="💎地方台",梅州综合
+http://ipv4-go.825939.xyz:4033/udp/239.253.43.123:5146
 #EXTINF:-1 tvg-name="广东移动" group-title="💎地方台",广东移动
 http://ipv4-go.825939.xyz:4033/udp/239.77.0.20:5146
 #EXTINF:-1 tvg-name="深圳移动电视" group-title="💎地方台",深圳移动电视
@@ -494,8 +554,6 @@ https://kudog.chatgb.dpdns.org/?id=446
 http://gslbmgsplive.miguvideo.com/migu/kailu/zuiqiangzongyi/51/20250514/index.m3u8?msisdn=20251103180041ea5eef616c9a463db09c755af1377554&mdspid=&spid=699004&netType=0&sid=5500315654&pid=2028597139&timestamp=20251103180041&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=629942228&ParentNodeID=-99&assertID=5500315654&client_ip=106.13.250.88&SecurityKey=20251103180041&promotionId=&mvid=5101034202&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=4e7a5d3fde7e9f0b22117bb9e9021c27&ddCalcu=742eec701a92500d93ef9dbeb77e191f202b
 #EXTINF:-1 tvg-name="爱综艺" group-title="🌈综艺",爱综艺
 http://ipv4-go.825939.xyz:4033/udp/239.77.0.107:5146
-#EXTINF:-1 tvg-name="IPTV相声小品" group-title="🌈综艺",IPTV相声小品
-http://ipv4-go.825939.xyz:4033/udp/239.77.0.100:5146
 #EXTINF:-1 group-title="🌈综艺",HollyWire
 https://bozztv.com/hwotta/playlist/HD3400/HD3400.m3u8
 #EXTINF:-1 group-title="🌈综艺",Fashion Channel
@@ -562,8 +620,6 @@ http://gslbmgsplive.miguvideo.com/migu/lunbo/ouzhoubei/51/20240603/index.m3u8?ms
 http://gslbmgsplive.miguvideo.com/migu/kailu/wssj/51/20250915/index.m3u8?msisdn=202511031800341a4dadbdfdb44666a49680750135c0f8&mdspid=&spid=600697&netType=0&sid=5910022201&pid=2028597139&timestamp=20251103180034&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=958475359&ParentNodeID=-99&assertID=5910022201&client_ip=106.13.250.88&SecurityKey=20251103180034&promotionId=&mvid=5900006724&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=65acc07b51eb011989856bd9b70b9aff&ddCalcu=f6f5eaa09c8bc00077bb95d1be6b50819189
 #EXTINF:-1 tvg-id="体育休闲频道" tvg-name="体育休闲频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/260/554/202104022139_5100186459_H32_1080.webp" group-title="⚽️体育",体育休闲频道
 http://gslbmgsplive.miguvideo.com/wd_r2/jstv/jstiyu/600/index.m3u8?msisdn=20251103180036b66d869510b244229649a3758d8499a0&mdspid=&spid=699067&netType=0&sid=5500260554&pid=2028597139&timestamp=20251103180036&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=626064707&ParentNodeID=-99&assertID=5500260554&client_ip=106.13.250.88&SecurityKey=20251103180036&promotionId=&mvid=5100186459&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=e4995df0064f448cf209b13e9e9bcd93&ddCalcu=3e94ed90c96b509def90e03614bf940428fc
-#EXTINF:-1 tvg-name="睛彩篮球" group-title="⚽️体育",睛彩篮球
-http://ipv4-go.825939.xyz:4033/udp/239.77.1.21:5146
 #EXTINF:-1 tvg-name="爱体育" group-title="⚽️体育",爱体育
 http://ipv4-go.825939.xyz:4033/udp/239.77.0.108:5146
 #EXTINF:-1 group-title="⚽️体育",Trace Sport Stars
@@ -628,12 +684,6 @@ http://gslbmgsplive.miguvideo.com/wd_r1/2018/nfmedia/nfys/1000/index.m3u8?msisdn
 http://gslbmgsplive.miguvideo.com/migu/kailu/jingdiandonghua/51/20250514/index.m3u8?msisdn=20251103180041ea4dac76a47545399f00a177908b7a2e&mdspid=&spid=699004&netType=0&sid=5500315652&pid=2028597139&timestamp=20251103180041&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=629942219&ParentNodeID=-99&assertID=5500315652&client_ip=106.13.250.88&SecurityKey=20251103180041&promotionId=&mvid=5101034205&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=5ba1c49e77ee7658a6c29759904c4ee0&ddCalcu=05ebeea0419cc044099e97577e9e27c665a8
 #EXTINF:-1 tvg-name="爱电影" group-title="🎥电影",爱电影
 http://ipv4-go.825939.xyz:4033/udp/239.77.0.103:5146
-#EXTINF:-1 tvg-name="IPTV谍战剧场" group-title="🎥电影",IPTV谍战剧场
-http://ipv4-go.825939.xyz:4033/udp/239.77.0.99:5146
-#EXTINF:-1 tvg-name="IPTV经典电影" group-title="🎥电影",IPTV经典电影
-http://ipv4-go.825939.xyz:4033/udp/239.77.0.104:5146
-#EXTINF:-1 tvg-name="IPTV热播剧场" group-title="🎥电影",IPTV热播剧场
-http://ipv4-go.825939.xyz:4033/udp/239.77.0.106:5146
 #EXTINF:-1 group-title="🎥电影",WION
 https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
 #EXTINF:-1 group-title="🎥电影",MovieSphere
@@ -770,8 +820,6 @@ http://gslbmgsplive.miguvideo.com/wd_r2/jstv/ymkt/600/index.m3u8?msisdn=20251103
 http://gslbmgsplive.miguvideo.com/wd_r1/2018/nfmedia/jjkt/1000/index.m3u8?msisdn=20251103180041ff74ccd96fb942f8ba67284335ceb263&mdspid=&spid=699054&netType=0&sid=2206172388&pid=2028597139&timestamp=20251103180041&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=614952364&ParentNodeID=-99&assertID=2206172388&client_ip=106.13.250.88&SecurityKey=20251103180041&promotionId=&mvid=2206172388&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=6f6174769b766fd49042a5964ac0f230&ddCalcu=063fe260f14070c4a746699b57a6264f0d94
 #EXTINF:-1 tvg-name="金鹰卡通" group-title="🌝动画",金鹰卡通
 http://ipv4-go.825939.xyz:4033/udp/239.77.0.164:5146
-#EXTINF:-1 tvg-name="IPTV少儿动画" group-title="🌝动画",IPTV少儿动画
-http://ipv4-go.825939.xyz:4033/udp/239.77.0.109:5146
 #EXTINF:-1 tvg-name="卡酷少儿" group-title="🌝动画",卡酷少儿
 http://ipv4-go.825939.xyz:4033/udp/239.77.0.79:5146
 #EXTINF:-1 tvg-name="优漫卡通" group-title="🌝动画",优漫卡通
@@ -1000,44 +1048,24 @@ http://gslbmgsplive.miguvideo.com/migu/virtuallive2/5900002411/51/20210706/index
 #genre#
 #EXTINF:-1 tvg-name="岭南戏曲" group-title="🗑️综合",岭南戏曲
 http://ipv4-go.825939.xyz:4033/udp/239.77.0.122:5146
-#EXTINF:-1 tvg-name="广州综合" group-title="🗑️综合",广州综合
-http://ipv4-go.825939.xyz:4033/udp/239.253.43.71:5146
 #EXTINF:-1 tvg-name="广州新闻" group-title="🗑️综合",广州新闻
 http://ipv4-go.825939.xyz:4033/udp/239.253.43.72:5146
 #EXTINF:-1 tvg-name="广州法治" group-title="🗑️综合",广州法治
 http://ipv4-go.825939.xyz:4033/udp/239.253.43.74:5146
-#EXTINF:-1 tvg-name="揭阳综合" group-title="🗑️综合",揭阳综合
-http://ipv4-go.825939.xyz:4033/udp/239.77.0.229:5146
 #EXTINF:-1 tvg-name="揭阳生活" group-title="🗑️综合",揭阳生活
 http://ipv4-go.825939.xyz:4033/udp/239.77.0.251:5146
 #EXTINF:-1 tvg-name="汕尾文化生活" group-title="🗑️综合",汕尾文化生活
 http://ipv4-go.825939.xyz:4033/udp/239.77.0.187:5146
-#EXTINF:-1 tvg-name="江门综合" group-title="🗑️综合",江门综合
-http://ipv4-go.825939.xyz:4033/udp/239.77.0.201:5146
-#EXTINF:-1 tvg-name="HZTV1" group-title="🗑️综合",HZTV1
-http://ipv4-go.825939.xyz:4033/udp/239.77.1.232:5146
-#EXTINF:-1 tvg-name="HZTV2" group-title="🗑️综合",HZTV2
-http://ipv4-go.825939.xyz:4033/udp/239.77.1.233:5146
 #EXTINF:-1 tvg-name="珠海1" group-title="🗑️综合",珠海1
 http://ipv4-go.825939.xyz:4033/udp/239.77.0.155:5146
-#EXTINF:-1 tvg-name="肇庆综合" group-title="🗑️综合",肇庆综合
-http://ipv4-go.825939.xyz:4033/udp/239.253.43.1:5146
 #EXTINF:-1 tvg-name="肇庆生活服务" group-title="🗑️综合",肇庆生活服务
 http://ipv4-go.825939.xyz:4033/udp/239.253.43.2:5146
-#EXTINF:-1 tvg-name="河源综合" group-title="🗑️综合",河源综合
-http://ipv4-go.825939.xyz:4033/udp/239.253.43.213:5146
 #EXTINF:-1 tvg-name="河源生活" group-title="🗑️综合",河源生活
 http://ipv4-go.825939.xyz:4033/udp/239.253.43.214:5146
-#EXTINF:-1 tvg-name="云浮综合" group-title="🗑️综合",云浮综合
-http://ipv4-go.825939.xyz:4033/udp/239.77.0.253:5146
 #EXTINF:-1 tvg-name="云浮文旅" group-title="🗑️综合",云浮文旅
 http://ipv4-go.825939.xyz:4033/udp/239.77.0.254:5146
-#EXTINF:-1 tvg-name="茂名综合" group-title="🗑️综合",茂名综合
-http://ipv4-go.825939.xyz:4033/udp/239.77.0.206:5146
 #EXTINF:-1 tvg-name="茂名文化生活" group-title="🗑️综合",茂名文化生活
 http://ipv4-go.825939.xyz:4033/udp/239.77.0.207:5146
-#EXTINF:-1 tvg-name="汕头综合" group-title="🗑️综合",汕头综合
-http://ipv4-go.825939.xyz:4033/udp/239.77.1.130:5146
 #EXTINF:-1 tvg-name="汕头经济生活" group-title="🗑️综合",汕头经济生活
 http://ipv4-go.825939.xyz:4033/udp/239.77.1.131:5146
 #EXTINF:-1 tvg-name="佛山城市生活" group-title="🗑️综合",佛山城市生活
@@ -1046,18 +1074,10 @@ http://ipv4-go.825939.xyz:4033/udp/239.253.43.53:5146
 http://ipv4-go.825939.xyz:4033/udp/239.253.43.54:5146
 #EXTINF:-1 tvg-name="佛山顺德" group-title="🗑️综合",佛山顺德
 http://ipv4-go.825939.xyz:4033/udp/239.253.43.55:5146
-#EXTINF:-1 tvg-name="佛山综合" group-title="🗑️综合",佛山综合
-http://ipv4-go.825939.xyz:4033/udp/239.253.43.57:5146
 #EXTINF:-1 tvg-name="东莞生活资讯" group-title="🗑️综合",东莞生活资讯
 http://ipv4-go.825939.xyz:4033/udp/239.253.43.105:5146
-#EXTINF:-1 tvg-name="中山综合" group-title="🗑️综合",中山综合
-http://ipv4-go.825939.xyz:4033/udp/239.77.0.185:5146
 #EXTINF:-1 tvg-name="香山文化" group-title="🗑️综合",香山文化
 http://ipv4-go.825939.xyz:4033/udp/239.253.43.63:5146
-#EXTINF:-1 tvg-name="潮州综合" group-title="🗑️综合",潮州综合
-http://ipv4-go.825939.xyz:4033/udp/239.253.43.70:5146
-#EXTINF:-1 tvg-name="梅州综合" group-title="🗑️综合",梅州综合
-http://ipv4-go.825939.xyz:4033/udp/239.253.43.123:5146
 #EXTINF:-1 tvg-name="阳江1" group-title="🗑️综合",阳江1
 http://ipv4-go.825939.xyz:4033/udp/239.253.43.82:5146
 #EXTINF:-1 tvg-name="阳江2" group-title="🗑️综合",阳江2
@@ -1078,28 +1098,8 @@ http://ipv4-go.825939.xyz:4033/udp/239.77.0.15:5146
 http://ipv4-go.825939.xyz:4033/udp/239.77.0.145:5146
 #EXTINF:-1 tvg-name="天元围棋" group-title="🗑️综合",天元围棋
 http://ipv4-go.825939.xyz:4033/udp/239.253.43.98:5146
-#EXTINF:-1 tvg-name="睛彩青少" group-title="🗑️综合",睛彩青少
-http://ipv4-go.825939.xyz:4033/udp/239.77.1.22:5146
-#EXTINF:-1 tvg-name="睛彩竞技" group-title="🗑️综合",睛彩竞技
-http://ipv4-go.825939.xyz:4033/udp/239.77.1.20:5146
-#EXTINF:-1 tvg-name="睛彩广场舞" group-title="🗑️综合",睛彩广场舞
-http://ipv4-go.825939.xyz:4033/udp/239.77.1.23:5146
-#EXTINF:-1 tvg-name="IPTV1" group-title="🗑️综合",IPTV1
-http://ipv4-go.825939.xyz:4033/udp/239.77.1.7:5146
-#EXTINF:-1 tvg-name="IPTV2" group-title="🗑️综合",IPTV2
-http://ipv4-go.825939.xyz:4033/udp/239.77.1.8:5146
-#EXTINF:-1 tvg-name="IPTV3" group-title="🗑️综合",IPTV3
-http://ipv4-go.825939.xyz:4033/udp/239.77.1.9:5146
-#EXTINF:-1 tvg-name="IPTV4" group-title="🗑️综合",IPTV4
-http://ipv4-go.825939.xyz:4033/udp/239.77.1.10:5146
 #EXTINF:-1 tvg-name="爱大剧" group-title="🗑️综合",爱大剧
 http://ipv4-go.825939.xyz:4033/udp/239.77.0.105:5146
-#EXTINF:-1 tvg-name="IPTV野外" group-title="🗑️综合",IPTV野外
-http://ipv4-go.825939.xyz:4033/udp/239.77.0.101:5146
-#EXTINF:-1 tvg-name="IPTV法治" group-title="🗑️综合",IPTV法治
-http://ipv4-go.825939.xyz:4033/udp/239.77.1.86:5146
-#EXTINF:-1 tvg-name="IPTV魅力时尚" group-title="🗑️综合",IPTV魅力时尚
-http://ipv4-go.825939.xyz:4033/udp/239.77.0.110:5146
 #EXTINF:-1 tvg-name="国内标清" group-title="🗑️综合",国内标清
 #genre#
 #EXTINF:-1 tvg-name="发现之旅" group-title="🗑️综合",发现之旅
