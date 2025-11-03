@@ -422,17 +422,17 @@ http://ipv4-go.825939.xyz:4033/udp/239.77.0.20:5146
 #EXTINF:-1 tvg-name="深圳移动电视" group-title="💎地方台",深圳移动电视
 http://ipv4-go.825939.xyz:4033/udp/239.77.1.175:5146
 #EXTINF:-1 tvg-name="新闻频道" group-title="💎地方台",新闻频道
-http://tvcdn.stream3.hndt.com/tv/65bb6966017e100059b75a8500000000_transios/playlist.m3u8?wsSecret=d12e4d3bdc3ab103232b8dfa93f82281&wsTime=1762164017
+http://tvcdn.stream3.hndt.com/tv/65bb6966017e100059b75a8500000000_transios/playlist.m3u8?wsSecret=cec70eee837edbeb22ab5fdac718494f&wsTime=1762171219
 #EXTINF:-1 tvg-name="都市频道" group-title="💎地方台",都市频道
-http://tvcdn.stream3.hndt.com/tv/65c3fbc5017e1000fde13faa00000000_transios/playlist.m3u8?wsSecret=2ed7eaf6b27f0b4b05d40e099ff269d5&wsTime=1762164017
+http://tvcdn.stream3.hndt.com/tv/65c3fbc5017e1000fde13faa00000000_transios/playlist.m3u8?wsSecret=3e385639c5e9568a4fc46ab03a3aec6b&wsTime=1762171219
 #EXTINF:-1 tvg-name="民生频道" group-title="💎地方台",民生频道
-http://tvcdn.stream3.hndt.com/tv/65bef28a017e10009c49d5f900000000_transios/playlist.m3u8?wsSecret=5fe2ebfcb9cda605657ad8b23f643eef&wsTime=1762164017
+http://tvcdn.stream3.hndt.com/tv/65bef28a017e10009c49d5f900000000_transios/playlist.m3u8?wsSecret=371f13ccee28ff4cabd593ae1db1038f&wsTime=1762171219
 #EXTINF:-1 tvg-name="法治频道" group-title="💎地方台",法治频道
-http://tvcdn.stream3.hndt.com/tv/65be54a9017e1000af59fb4800000000_transios/playlist.m3u8?wsSecret=0c67f39847e2933a86ae5438108c0764&wsTime=1762164017
+http://tvcdn.stream3.hndt.com/tv/65be54a9017e1000af59fb4800000000_transios/playlist.m3u8?wsSecret=fb35d4f9df9db0cf59732ce927316ae4&wsTime=1762171219
 #EXTINF:-1 tvg-name="公共频道" group-title="💎地方台",公共频道
-http://tvcdn.stream3.hndt.com/tv/65b93894017e10000ae6b07d00000000_transios/playlist.m3u8?wsSecret=ddba92a2d445e76bef892870cbe0fbd5&wsTime=1762164017
+http://tvcdn.stream3.hndt.com/tv/65b93894017e10000ae6b07d00000000_transios/playlist.m3u8?wsSecret=a07fa324f5b0b6771164e27f1c014cf0&wsTime=1762171219
 #EXTINF:-1 tvg-name="河南乡村频道" group-title="💎地方台",河南乡村频道
-http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=8f4aba5ffc925671110e512dbc93b472&wsTime=1762164017
+http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=6355f63ab0c01edb655e5f9c37b54a89&wsTime=1762171219
 #EXTINF:-1 tvg-name="Lifetime 娛樂頻道" group-title="🌈综艺",Lifetime 娛樂頻道
 https://kudog.bilib.cloudns.be/?id=TGlmZXRpbWUg5aib5qiC6aC76YGT&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-name="fun探索娛樂台" group-title="🌈综艺",fun探索娛樂台
@@ -548,7 +548,7 @@ https://fl30.moveonjoy.com/NBA_TV/index.m3u8
 #EXTINF:-1 tvg-id="SEC.Network.HD.us2" tvg-name="SEC Network" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/sec-network-us.png?raw=true" group-title="⚽️体育",SEC Network
 http://23.237.104.106:8080/USA_SEC_NETWORK/index.m3u8
 #EXTINF:-1 tvg-name="武术频道" group-title="⚽️体育",武术频道
-http://tvcdn.stream3.hndt.com/tv/65b4b750017e1000dbb9306200000000_transios/playlist.m3u8?wsSecret=a81d63752690c18126dc01821e55bbb5&wsTime=1762164017
+http://tvcdn.stream3.hndt.com/tv/65b4b750017e1000dbb9306200000000_transios/playlist.m3u8?wsSecret=c41b4c54c91b8224e2774e617e59b21f&wsTime=1762171219
 #EXTINF:-1 tvg-name="UK: SKY SPORTS Cricket" group-title="⚽️体育",UK: SKY SPORTS Cricket
 http://nocable.cc:8080//OURTV/OURTV@4806/45940
 #EXTINF:-1 tvg-name="UK: SKY SPORTS F1" group-title="⚽️体育",UK: SKY SPORTS F1
@@ -648,7 +648,7 @@ https://fl30.moveonjoy.com/SHOWTIME_EXTREME/index.m3u8
 #EXTINF:-1 tvg-id="MoreMax.HD.us2" tvg-name="CINEMAX MOREMAX" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/MoreMAX.png" group-title="🎥电影",CINEMAX MOREMAX
 http://23.237.104.106:8080/USA_MOREMAX/index.m3u8
 #EXTINF:-1 tvg-name="象视界" group-title="🎥电影",象视界
-http://tvcdn.stream3.hndt.com/tv/d34d1a2b0178100022de972e00000000_transios/playlist.m3u8?wsSecret=82b49c2958eaafbdfa47c6c49a1e5c1a&wsTime=1762164017
+http://tvcdn.stream3.hndt.com/tv/d34d1a2b0178100022de972e00000000_transios/playlist.m3u8?wsSecret=a561d197686d74842a9e9568d3a1d480&wsTime=1762171219
 #EXTINF:-1 tvg-name="CHC家庭影院" group-title="🎥电影",CHC家庭影院
 https://migu.188766.xyz/?migutoken=6f95bdc14dfac34f1bd25fea1a3b13e7&id=CHC%E5%AE%B6%E5%BA%AD%E5%BD%B1%E9%99%A2&type=yy
 #EXTINF:-1 tvg-name="CHC动作电影" group-title="🎥电影",CHC动作电影
@@ -864,11 +864,11 @@ https://kudog.bilib.cloudns.be/?id=6YeH5piM5b2x5YqH5Yaw&auth=fb5f1c47187db62b1c3
 #EXTINF:-1 tvg-name="靖洋戲劇台" group-title="🧙‍♀️戏剧",靖洋戲劇台
 https://kudog.bilib.cloudns.be/?id=6Z2W5rSL5oiy5YqH5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-name="电视剧频道" group-title="🧙‍♀️戏剧",电视剧频道
-http://tvcdn.stream3.hndt.com/tv/65bd329b017e1000648cd2ed00000000_transios/playlist.m3u8?wsSecret=668ab57282ee1eaf11bfda37d831ed1f&wsTime=1762164017
+http://tvcdn.stream3.hndt.com/tv/65bd329b017e1000648cd2ed00000000_transios/playlist.m3u8?wsSecret=bf7784c93b61c41b99521109a3827b77&wsTime=1762171219
 #EXTINF:-1 tvg-name="梨园频道" group-title="🧙‍♀️戏剧",梨园频道
-https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=1c322862f4ce1c9b8db7ea70f5abcddf&wsTime=1762164017
+https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=e69ba1691305cac153dc7a73397f32c2&wsTime=1762171219
 #EXTINF:-1 tvg-name="移动戏曲频道" group-title="🧙‍♀️戏剧",移动戏曲频道
-https://tvcdn.stream3.hndt.com/tv/160ea8971f8b41f0905f88c7afe3effe_transios/playlist.m3u8?wsSecret=5821e3b3db0288229ba0645fb6e44559&wsTime=1762164017
+https://tvcdn.stream3.hndt.com/tv/160ea8971f8b41f0905f88c7afe3effe_transios/playlist.m3u8?wsSecret=714231f92b018e71ddbeeb26c5d8c844&wsTime=1762171219
 #EXTINF:-1 tvg-name="LiveABC互動英語頻道" group-title="🎵音乐",LiveABC互動英語頻道
 https://kudog.bilib.cloudns.be/?id=TGl2ZUFCQaS6kuWLleiLseiqnumguamBkwxx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-name="TRACE Urban" group-title="🎵音乐",TRACE Urban
@@ -906,7 +906,7 @@ https://339a32f2.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2
 #EXTINF:-1 tvg-name="南方购物" group-title="📦️购物",南方购物
 http://ipv4-go.825939.xyz:4033/udp/239.77.0.19:5146
 #EXTINF:-1 tvg-name="欢腾购物" group-title="📦️购物",欢腾购物
-http://tvcdn.stream3.hndt.com/tv/65ba653b017e1000d4ee41c700000000_transios/playlist.m3u8?wsSecret=b76a6cc9c7904f9875b5b2d46d87ada3&wsTime=1762164017
+http://tvcdn.stream3.hndt.com/tv/65ba653b017e1000d4ee41c700000000_transios/playlist.m3u8?wsSecret=02bd1b0ad4f00f309c5dcf4bdf3ff04d&wsTime=1762171219
 #EXTINF:-1 tvg-name="SBN全球財經台" group-title="⚡️财经",SBN全球財經台
 https://kudog.bilib.cloudns.be/?id=U0JO5YWo55CD6LKh57aT5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-id="财富天下" tvg-name="财富天下" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/193/202508061552_1754385779498_H32_1080.webp" group-title="⚡️财经",财富天下
