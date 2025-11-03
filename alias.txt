@@ -35,6 +35,18 @@ CCTV文化精品,央视文化精品
 CCTV戏曲,央视戏曲
 CCTV音乐,央视音乐
 
+# ===== 央视睛彩系列 =====
+CCTV睛彩体育,睛彩体育,睛彩體育
+CCTV睛彩篮球,睛彩篮球,睛彩籃球
+CCTV睛彩羽毛球,睛彩羽毛球
+CCTV睛彩乒乓球,睛彩乒乓球
+CCTV睛彩广场舞,睛彩广场舞
+
+# ===== IPTV 系列 =====
+IPTV综合,IPTV综合频道
+IPTV体育,IPTV体育频道
+IPTV电影,IPTV电影频道
+
 
 # ===== 卫视频道 =====
 湖南卫视,HunanTV,Hunan Satellite
