@@ -51,11 +51,20 @@ def export_m3u(channels, custom_channels, group_order, epg,
     for group in group_order + [default_group]:
         for idx, (name, ch) in enumerate(channels.items()):
             if ch.get("group") == group:
-                # 用原始 line，但修复 group-title 为空的情况
+                # 用原始 line，但修复 group-title 错误
                 line = ch["line"]
-                if 'group-title=""' in line:
-                    group_name = ch.get("group", default_group) or default_group
-                    line = line.replace('group-title=""', f'group-title="{group_name}"')
+
+                # 如果 group-title 为空或等于频道名，则替换为 default_group
+                if 'group-title=""' in line or f'group-title="{name}"' in line:
+                    group_name = ch.get("group")
+                    if not group_name or group_name == name:
+                        group_name = default_group
+                    line = line.replace(
+                        f'group-title="{name}"', f'group-title="{group_name}"'
+                    ).replace(
+                        'group-title=""', f'group-title="{group_name}"'
+                    )
+
                 merged.append(line)
 
                 # 判断当前远程源是否在 multi_source_indexes 里
