@@ -9,16 +9,31 @@ def load_config(config_file="config.yaml"):
     return {}
 
 def export_m3u(channels, custom_channels, group_order, epg,
+               keep_multiple_urls=None,
+               outfile=None, generate_debug_file=None, default_group=None,
                config_file="config.yaml"):
     """
-    导出 M3U 文件，支持通过 config.yaml 控制哪些远程源保留多个 URL
+    导出 M3U 文件
+    兼容旧参数调用，同时支持 config.yaml 配置
     """
     config = load_config(config_file)
 
-    multi_source_indexes = config.get("multi_source_indexes", [0])  # 默认第一个远程
-    outfile = config.get("output_file", "kudog.m3u")
-    generate_debug_file = config.get("generate_debug_file", False)
-    default_group = config.get("default_group", "综合")
+    # 新增的多源控制
+    multi_source_indexes = config.get("multi_source_indexes", [0])
+
+    # 兼容旧参数：如果 merge.py 传了，就覆盖配置文件里的
+    outfile = outfile or config.get("output_file", "kudog.m3u")
+    generate_debug_file = generate_debug_file if generate_debug_file is not None else config.get("generate_debug_file", False)
+    default_group = default_group or config.get("default_group", "综合")
+
+    # 如果还在用 keep_multiple_urls，就转成 multi_source_indexes
+    if keep_multiple_urls is not None:
+        if keep_multiple_urls:
+            # 等价于所有远程都保留多个
+            multi_source_indexes = list(range(len(channels)))
+        else:
+            # 等价于所有远程只取第一个
+            multi_source_indexes = []
 
     merged = [f'#EXTM3U x-tvg-url="{epg}"']
 
