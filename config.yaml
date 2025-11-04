@@ -3,7 +3,7 @@ ua: "Mozilla/5.0"
 referrer: "https://kudog.chatgb.dpdns.org/"
 epg: "https://epg.catvod.com/epg.xml"
 timeout: 10
-keep_multiple_urls: true
+keep_multiple_urls: false
 # true = 保留多个URL，false = 只保留第一个
 
 # ===== 日志配置 =====
