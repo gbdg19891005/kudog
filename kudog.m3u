@@ -143,8 +143,6 @@ http://39.164.160.249:9901/tsfile/live/0120_1.m3u8
 http://36.32.174.67:60080/newlive/live/hls/34/live.m3u8
 #EXTINF:-1 tvg-name="黑龙江卫视",黑龙江卫视 group-title="🔔卫视频道"
 http://39.164.160.249:9901/tsfile/live/0143_1.m3u8
-#EXTINF:-1  tvg-name="澳視澳門" group-title="🔔卫视频道",澳視澳門
-http://php.jdshipin.com/PLTV/iptv.php?id=asam
 #EXTINF:-1 tvg-name="凤凰卫视" group-title="🔔卫视频道",凤凰卫视
 http://122.152.202.33/s/81a8a44f/index.m3u8?id=15
 #EXTINF:-1 tvg-name="南方卫视" group-title="🔔卫视频道",南方卫视
@@ -281,72 +279,22 @@ http://live4play.uk/livehttpplay?channel_id=20199
 http://breezy-audrie-zspace-7524863c.koyeb.app/vipsir?token=leifeng&id=4gtv-4gtv058
 #EXTINF:-1 tvg-name="靖天映画",靖天映画 group-title="💥港|澳|台"
 http://breezy-audrie-zspace-7524863c.koyeb.app/vipsir?token=leifeng&id=4gtv-4gtv055
-#EXTINF:-1  tvg-name="翡翠台4K" group-title="💥港|澳|台",翡翠台4K
-http://cdn6.163189.xyz/163189/fct4k
-#EXTINF:-1  tvg-name="翡翠台" group-title="💥港|澳|台",翡翠台
-http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3
-#EXTINF:-1  tvg-name="翡翠台(廣東有線)" group-title="💥港|澳|台",翡翠台(廣東有線)
-http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct2
-#EXTINF:-1  tvg-name="TVB PLUS" group-title="💥港|澳|台",TVB PLUS
-http://php.jdshipin.com:8880/TVOD/iptv.php?id=tvbp
-#EXTINF:-1  tvg-name="無線新聞台" group-title="💥港|澳|台",無線新聞台
-http://php.jdshipin.com/TVOD/iptv.php?id=tvbxw
-#EXTINF:-1  tvg-name="明珠台" group-title="💥港|澳|台",明珠台
-https://php.946985.filegear-sg.me/iptv/jacktv.php?id=92ddma
-#EXTINF:-1  tvg-name="TVB娛樂新聞台" group-title="💥港|澳|台",TVB娛樂新聞台
-http://php.jdshipin.com/smt.php?id=Tvbentertainment
-#EXTINF:-1  tvg-name="翡翠劇集台" group-title="💥港|澳|台",翡翠劇集台
-https://php.946985.filegear-sg.me/iptv/jacktv.php?id=rfvjtb
-#EXTINF:-1  tvg-name="TVB星河" group-title="💥港|澳|台",TVB星河
-http://php.jdshipin.com/TVOD/iptv.php?id=xinghe
-#EXTINF:-1  tvg-name="TVB武俠" group-title="💥港|澳|台",TVB武俠
-https://php.946985.filegear-sg.me/iptv/jacktv.php?id=snfxor
-#EXTINF:-1  tvg-name="TVB千禧經典" group-title="💥港|澳|台",TVB千禧經典
-https://php.946985.filegear-sg.me/iptv/jacktv.php?id=4ed8ef
-#EXTINF:-1  tvg-name="TVB1" group-title="💥港|澳|台",TVB1
-https://php.946985.filegear-sg.me/iptv/jacktv.php?id=pk03j2
-#EXTINF:-1  tvg-name="TVB J1" group-title="💥港|澳|台",TVB J1
-https://php.946985.filegear-sg.me/iptv/jacktv.php?id=8fslul
-#EXTINF:-1  tvg-name="ViuTV" group-title="💥港|澳|台",ViuTV
-http://php.jdshipin.com/TVOD/iptv.php?id=viutv
-#EXTINF:-1  tvg-name="HOY(有線)77" group-title="💥港|澳|台",HOY(有線)77
-http://php.jdshipin.com/TVOD/iptv.php?id=hoytv2
-#EXTINF:-1  tvg-name="NOW新聞台" group-title="💥港|澳|台",NOW新聞台
-https://php.946985.filegear-sg.me/iptv/jacktv.php?id=3hg83d
-#EXTINF:-1  tvg-name="RTHK31" group-title="💥港|澳|台",RTHK31
-https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
-#EXTINF:-1  tvg-name="RTHK32" group-title="💥港|澳|台",RTHK32
-http://php.jdshipin.com/TVOD/iptv.php?id=rthk32
-#EXTINF:-1  tvg-name="RTHK33" group-title="💥港|澳|台",RTHK33
-https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/master.m3u8
-#EXTINF:-1  tvg-name="RTHK34" group-title="💥港|澳|台",RTHK34
-https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/master.m3u8
-#EXTINF:-1  tvg-name="RTHK35" group-title="💥港|澳|台",RTHK35
-https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/master.m3u8
-#EXTINF:-1  tvg-name="澳門蓮花" group-title="💥港|澳|台",澳門蓮花
-http://1033946631.cloudvdn.com/a.m3u8?domain=live-hdl.macaulotustv.com&player=1&streamid=lotustv:lotustv/macaulotustv&v3=1
-#EXTINF:-1  tvg-name="鳳凰香港" group-title="💥港|澳|台",鳳凰香港
-http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
-#EXTINF:-1  tvg-name="東森新聞" group-title="💥港|澳|台",東森新聞
-https://smt.858.qzz.io/Smart.php?id=ettvnews
-#EXTINF:-1  tvg-name="中天新聞" group-title="💥港|澳|台",中天新聞
-http://tlive24.uk/livehttpplay?channel_id=20163
-#EXTINF:-1  tvg-name="民視新聞" group-title="💥港|澳|台",民視新聞
-http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
-#EXTINF:-1  tvg-name="台視新聞" group-title="💥港|澳|台",台視新聞
-http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
-#EXTINF:-1  tvg-name="東森電影" group-title="💥港|澳|台",東森電影
-https://smt.858.qzz.io/Smart.php?id=ettvmovie
-#EXTINF:-1  tvg-name="東森洋片" group-title="💥港|澳|台",東森洋片
-https://smt.858.qzz.io/Smart.php?id=ettvwestern
 #EXTINF:-1 group-title="💥港|澳|台",Taiwan Plus
 https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8
+#EXTINF:-1 tvg-name="凤凰香港" group-title="💥港|澳|台",凤凰香港
+http://43.152.143.193:80/1.v.smtcdns.net/tvlive.fengshows.cn/live/0701phk72.flv
+#EXTINF:-1 tvg-name="莲花卫视" group-title="💥港|澳|台",莲花卫视
+http://live-hls.macaulotustv.com/lotustv/macaulotustv.m3u8
 #EXTINF:-1 tvg-name="台视新闻" group-title="💥港|澳|台",台视新闻
 https://stream1.freetv.fun/tai-shi-xin-wen-21.m3u8
 #EXTINF:-1 tvg-name="番薯111" group-title="💥港|澳|台",番薯111
 http://61.216.67.119:1935/TWHG/E1/chunklist_w7058102.m3u8
 #EXTINF:-1 tvg-name="TVB Plus" group-title="💥港|澳|台",TVB Plus
 http://php.jdshipin.com/PLTV/iptv.php?id=j2
+#EXTINF:-1 tvg-name="VIUTV" group-title="💥港|澳|台",VIUTV
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=viutv
+#EXTINF:-1 tvg-name="翡翠台" group-title="💥港|澳|台",翡翠台
+http://122.152.202.33/s/81a8a44f/index.m3u8?id=53
 #EXTINF:-1 tvg-name="TVB无线华丽" group-title="💥港|澳|台",TVB无线华丽
 http://php.jdshipin.com/TVOD/iptv.php?id=huali
 #EXTINF:-1 tvg-name="TVB无线新闻" group-title="💥港|澳|台",TVB无线新闻
@@ -357,6 +305,8 @@ http://php.jdshipin.com:8880/smt.php?id=pearl_twn
 http://php.jdshipin.com/PLTV/iptv.php?id=aod
 #EXTINF:-1 tvg-name="astro欢喜" group-title="💥港|澳|台",astro欢喜
 http://php.jdshipin.com/smt.php?id=Huahee
+#EXTINF:-1 tvg-name="TVB明珠" group-title="💥港|澳|台",TVB明珠
+http://122.152.202.33/s/81a8a44f/index.m3u8?id=23
 #EXTINF:-1 tvg-name="TVBS亚洲" group-title="💥港|澳|台",TVBS亚洲
 http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8?zshijd
 #EXTINF:-1 tvg-name="民视新闻" group-title="💥港|澳|台",民视新闻
@@ -1059,14 +1009,6 @@ http://stream9.jlntv.cn:80/aac_longjinggb/playlist.m3u8
 http://l.cztvcloud.com/channels/lantian/SXlongquan1/720p.m3u8
 #EXTINF:-1 tvg-name="龙游新闻综合",龙游新闻综合 group-title="💎地方台"
 https://l.cztvcloud.com/channels/lantian/SXlongyou1/720p.m3u8
-#EXTINF:-1  tvg-name="南國都市" group-title="💎地方台",南國都市
-https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=babbcbacdbcf13a3311a264e4dd66b8d&txTime=191b60b41a7
-#EXTINF:-1  tvg-name="廣東衞視" group-title="💎地方台",廣東衞視
-https://smt.858.qzz.io/Smart.php?id=guangdongweishi_twn
-#EXTINF:-1  tvg-name="廣東體育" group-title="💎地方台",廣東體育
-https://php.946985.filegear-sg.me/iptv/jacktv.php?id=4z9k6f
-#EXTINF:-1  tvg-name="廣東珠江" group-title="💎地方台",廣東珠江
-https://php.946985.filegear-sg.me/iptv/jacktv.php?id=2ocqfj
 #EXTINF:-1 tvg-name="新闻频道" group-title="💎地方台",新闻频道
 http://tvcdn.stream3.hndt.com/tv/65bb6966017e100059b75a8500000000_transios/playlist.m3u8?wsSecret=ff9b30a83299341e8a3641a41a04d158&wsTime=1762250415
 #EXTINF:-1 tvg-name="都市频道" group-title="💎地方台",都市频道
@@ -1183,10 +1125,6 @@ http://gslbmgsplive.miguvideo.com/wd_r2/jstv/jstiyu/600/index.m3u8?msisdn=202511
 https://epg.pw/stream/f7556eccd4ae06b0c2991fdc7a4f8388496559f728cc82459a8e50346040e226.m3u8
 #EXTINF:-1 tvg-name="足球频道",足球频道 group-title="⚽️体育"
 https://nmglive.imfc.cn/5n1r1c/182396.m3u8
-#EXTINF:-1  tvg-name="澳視體育" group-title="⚽️体育",澳視體育
-https://php.946985.filegear-sg.me/iptv/jacktv.php?id=acnzu3
-#EXTINF:-1  tvg-name="五星體育" group-title="⚽️体育",五星體育
-https://php.946985.filegear-sg.me/iptv/jacktv.php?id=gzq3gg
 #EXTINF:-1 group-title="⚽️体育",Trace Sport Stars
 https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="⚽️体育",SportsGrid
@@ -1311,24 +1249,6 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=595
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=743
 #EXTINF:-1 tvg-name="黑莓电影",黑莓电影 group-title="🎥电影"
 https://epg.pw/stream/ffcb6572863f0745a7369fbd9d901f1dfd0ab8fab8bad8bebb4e01c90b303c47.m3u8
-#EXTINF:-1  tvg-name="好萊塢電影台" group-title="🎥电影",好萊塢電影台
-https://smt.858.qzz.io/Smart.php?id=hollywoodmovies_twn
-#EXTINF:-1  tvg-name="美亞電影台(粵)" group-title="🎥电影",美亞電影台(粵)
-http://bxtv.3a.ink/api.php?id=meiya
-#EXTINF:-1  tvg-name="美亞電影台(普)" group-title="🎥电影",美亞電影台(普)
-https://smt.858.qzz.io/Smart.php?id=meiyamovie_twn
-#EXTINF:-1  tvg-name="天映頻道(粵)" group-title="🎥电影",天映頻道(粵)
-https://smt.858.qzz.io/Smart.php?id=Celestialindo
-#EXTINF:-1  tvg-name="天映頻道(普)" group-title="🎥电影",天映頻道(普)
-https://smt.858.qzz.io/Smart.php?id=Celestial
-#EXTINF:-1  tvg-name="天映頻道(懷舊)" group-title="🎥电影",天映頻道(懷舊)
-https://smt.858.qzz.io/Smart.php?id=Celestial2
-#EXTINF:-1  tvg-name="HBO_HD" group-title="🎥电影",HBO_HD
-https://smt.858.qzz.io/Smart.php?id=hbohd_twn
-#EXTINF:-1  tvg-name="ROCKAction" group-title="🎥电影",ROCKAction
-https://php.946985.filegear-sg.me/iptv/jacktv.php?id=n0qmty
-#EXTINF:-1  tvg-name="龍華電影" group-title="🎥电影",龍華電影
-https://php.946985.filegear-sg.me/iptv/jacktv.php?id=vw3npo
 #EXTINF:-1 group-title="🎥电影",WION
 https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
 #EXTINF:-1 group-title="🎥电影",MovieSphere
@@ -1463,8 +1383,6 @@ http://58.57.40.22:9901/tsfile/live/1059_1.m3u8
 http://104.244.79.187:4994/proxy?url=http%3A//104.244.79.187%3A5050/litv/4gtv-4gtv057
 #EXTINF:-1 tvg-name="韩国EBS少儿",韩国EBS少儿 group-title="🌝动画"
 http://ebsonairios.ebs.co.kr/ebsutablet500k/tablet500k/playlist.m3u8
-#EXTINF:-1  tvg-name="龍華卡通" group-title="🌝动画",龍華卡通
-https://php.946985.filegear-sg.me/iptv/jacktv.php?id=jq9j4e
 #EXTINF:-1 group-title="🌝动画",PBS Kids
 https://pbs2-pull-secure.akamaized.net/pbs2/stream.m3u8
 #EXTINF:-1 group-title="🌝动画",Kartoon Channel
@@ -1503,8 +1421,6 @@ http://120.76.248.139/live/bfgd/4200000113.m3u8
 http://111.31.106.140/downflv.brtvcloud.com/8klive/8kliveok.m3u8
 #EXTINF:-1 tvg-name="自然传奇",自然传奇 group-title="🐷纪录片"
 http://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/81a1ad3a661748bfb8560c92d38204ca/1200.m3u8
-#EXTINF:-1  tvg-name="LOVE NATURE" group-title="🐷纪录片",LOVE NATURE
-https://php.946985.filegear-sg.me/iptv/jacktv.php?id=zibfue
 #EXTINF:-1 group-title="🐷纪录片",RT Documentary
 https://rt-rtd.rttv.com/live/rtdoc/playlist_4500Kb.m3u8
 #EXTINF:-1 group-title="🐷纪录片",Wild Earth
@@ -1629,8 +1545,6 @@ https://kudog.chatgb.dpdns.org/?id=5oiy5YqH5YWN6LK755yLIDHlj7Ax&auth=fb5f1c47187
 https://kudog.chatgb.dpdns.org/?id=6YeH5piM5b2x5YqH5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🧙‍♀️戏剧",靖洋戲劇台
 https://kudog.chatgb.dpdns.org/?id=6Z2W5rSL5oiy5YqH5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
-#EXTINF:-1  tvg-name="龍華戲劇" group-title="🧙‍♀️戏剧",龍華戲劇
-https://php.946985.filegear-sg.me/iptv/jacktv.php?id=yojjwc
 #EXTINF:-1 tvg-name="电视剧频道" group-title="🧙‍♀️戏剧",电视剧频道
 http://tvcdn.stream3.hndt.com/tv/65bd329b017e1000648cd2ed00000000_transios/playlist.m3u8?wsSecret=92ba2f8f0da32ff2921a62624e168d40&wsTime=1762250415
 #EXTINF:-1 tvg-name="梨园频道" group-title="🧙‍♀️戏剧",梨园频道
@@ -1703,8 +1617,6 @@ http://gslbmgsplive.miguvideo.com/migu/kailu/cftx/51/20250804/index.m3u8?msisdn=
 https://satellitepull.cnr.cn/live/wx32dycjgb/playlist.m3u8
 #EXTINF:-1 tvg-name="第一财经",第一财经 group-title="⚡️财经"
 http://ls.qingting.fm/live/276.m3u8
-#EXTINF:-1  tvg-name="NOW財經台" group-title="⚡️财经",NOW財經台
-http://hls.168.us.kg/u/333/master.m3u8
 #EXTINF:-1 group-title="⚡️财经",Cheddar News
 https://cheddar-us.samsung.wurl.tv/playlist_4300k.m3u8
 #EXTINF:-1 tvg-id="24.7.Dummy.us" tvg-logo="https://img.platform.wurl.dev/channel/389/lg/6f2a84/LG-Logo-PNG-100x100_v3.png" group-title="⚡️财经",Bloomberg TV+
@@ -2161,30 +2073,6 @@ https://gcalic.v.myalicdn.com/gc/hlzycc_1/index.m3u8
 http://stream8.jlntv.cn/ljtv/sd/live.m3u8?zjild
 #EXTINF:-1 tvg-name="龙门飞甲",龙门飞甲 group-title="🗑️综合"
 http://jsmov2.a.yximgs.com/bs3/video-hls/5203346449046555193_hlsb.m3u8
-#EXTINF:-1  tvg-name="myTV SUPER 18台" group-title="🗑️综合",myTV SUPER 18台
-http://bxtv.3a.ink/api.php?id=18
-#EXTINF:-1  tvg-name="NOW直播台" group-title="🗑️综合",NOW直播台
-http://hls.168.us.kg/u/331/master.m3u8
-#EXTINF:-1  tvg-name="澳視衛星" group-title="🗑️综合",澳視衛星
-https://php.946985.filegear-sg.me/iptv/jacktv.php?id=uzmi0s
-#EXTINF:-1  tvg-name="澳門資訊" group-title="🗑️综合",澳門資訊
-http://grandprix2023.asuscomm.com:8891/bysid/94.m3u8
-#EXTINF:-1  tvg-name="Thrill" group-title="🗑️综合",Thrill
-https://smt.858.qzz.io/Smart.php?id=Thrill
-#EXTINF:-1  tvg-name="龍祥時代" group-title="🗑️综合",龍祥時代
-https://smt.858.qzz.io/Smart.php?id=lungxiangtime_twn
-#EXTINF:-1  tvg-name="龍華經典" group-title="🗑️综合",龍華經典
-https://php.946985.filegear-sg.me/iptv/jacktv.php?id=1pz6ai
-#EXTINF:-1  tvg-name="龍華偶像" group-title="🗑️综合",龍華偶像
-https://php.946985.filegear-sg.me/iptv/jacktv.php?id=egi3ed
-#EXTINF:-1  tvg-name="龍華日韓" group-title="🗑️综合",龍華日韓
-https://php.946985.filegear-sg.me/iptv/jacktv.php?id=s1l1rr
-#EXTINF:-1  tvg-name="龍華洋片" group-title="🗑️综合",龍華洋片
-https://php.946985.filegear-sg.me/iptv/jacktv.php?id=5mva8n
-#EXTINF:-1  tvg-name="廣州新聞" group-title="🗑️综合",廣州新聞
-https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=6f73647cae387d01a3c2132074132a83&txTime=18d00acf487
-#EXTINF:-1  tvg-name="廣州綜合" group-title="🗑️综合",廣州綜合
-https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=f0147ae6453a80f5989f382368b72aad&txTime=18d00acf487
 #EXTINF:-1 tvg-id="CMT.HD.us2" tvg-name="CMT" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10138_dark_360w_270h.png" group-title="🗑️综合",CMT
 https://fl30.moveonjoy.com/CMT/index.m3u8
 #EXTINF:-1 tvg-id="Cooking.Channel.HD.us2" tvg-name="COOKING" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30156_dark_360w_270h.png" group-title="🗑️综合",COOKING
