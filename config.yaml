@@ -7,7 +7,7 @@ timeout: 10
 # ===== URL 保留策略 =====
 # 指定哪些远程源保留多个 URL
 # 0 = 第一个远程，1 = 第二个远程，以此类推
-multi_source_indexes: [0]
+multi_source_indexes: [0,1,2]
 
 # ===== 日志配置 =====
 # 可选值: DEBUG / INFO / WARNING / ERROR
