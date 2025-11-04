@@ -1,35 +1,53 @@
 import logging
+import yaml
+import os
 
-def export_m3u(channels, custom_channels, group_order, epg, keep_multiple_urls,
-               outfile="kudog.m3u", generate_debug_file=False, default_group="综合"):
+def load_config(config_file="config.yaml"):
+    if os.path.exists(config_file):
+        with open(config_file, "r", encoding="utf-8") as f:
+            return yaml.safe_load(f)
+    return {}
+
+def export_m3u(channels, custom_channels, group_order, epg,
+               config_file="config.yaml"):
     """
-    导出 M3U 文件
-    :param channels: 频道字典
-    :param custom_channels: 自定义频道列表
-    :param group_order: 分组顺序
-    :param epg: EPG 地址
-    :param keep_multiple_urls: 是否保留多个 URL
-    :param outfile: 主输出文件名
-    :param generate_debug_file: 是否生成调试文件
-    :param default_group: 默认分组
+    导出 M3U 文件，支持通过 config.yaml 控制哪些远程源保留多个 URL
     """
+    config = load_config(config_file)
+
+    multi_source_indexes = config.get("multi_source_indexes", [0])  # 默认第一个远程
+    outfile = config.get("output_file", "kudog.m3u")
+    generate_debug_file = config.get("generate_debug_file", False)
+    default_group = config.get("default_group", "综合")
+
     merged = [f'#EXTM3U x-tvg-url="{epg}"']
 
     # 自定义频道置顶
     for ch in custom_channels:
+        group_name = ch.get("group", default_group) or default_group
         merged.append(
             f'#EXTINF:-1 tvg-name="{ch["name"]}" tvg-logo="{ch.get("logo","")}" '
-            f'group-title="{ch.get("group", default_group)}",{ch["name"]}'
+            f'group-title="{group_name}",{ch["name"]}'
         )
         merged.append(ch["url"])
 
     # 按 group_order 排序输出
     group_counts = {}
     for group in group_order + [default_group]:
-        for name, ch in channels.items():
+        for idx, (name, ch) in enumerate(channels.items()):
             if ch.get("group") == group:
-                merged.append(ch["line"])
-                urls = ch["urls"] if keep_multiple_urls else [ch["urls"][0]]
+                group_name = ch.get("group", default_group) or default_group
+                merged.append(
+                    f'#EXTINF:-1 tvg-name="{ch["name"]}" tvg-logo="{ch.get("logo","")}" '
+                    f'group-title="{group_name}",{ch["name"]}'
+                )
+
+                # 判断当前远程源是否在 multi_source_indexes 里
+                if idx in multi_source_indexes:
+                    urls = ch["urls"]  # 保留多个
+                else:
+                    urls = [ch["urls"][0]]  # 只取第一个
+
                 merged.extend(urls)
                 group_counts[group] = group_counts.get(group, 0) + 1
 
