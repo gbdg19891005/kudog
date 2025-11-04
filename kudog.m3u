@@ -95,8 +95,8 @@ http://ipv4-go.825939.xyz:4033/udp/239.77.0.106:5146
 http://ipv4-go.825939.xyz:4033/udp/239.77.0.109:5146
 #EXTINF:-1 tvg-name="CCTV央视台球" group-title="🔥央视频道",CCTV央视台球
 https://epg.pw/stream/ca9c1cd4b97fb824cedd7fedfd0c7a950afdd7f00751cfbb7c2d89831d7746a5.m3u8
-#EXTINF:-1 tvg-name="人間衛視" tvg-logo="https://logo.catvod.com/人間衛視.png" group-title="🔔卫视频道",人間衛視
-https://kudog.chatgb.dpdns.org/?id=210
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🔔卫视频道",人間衛視
+https://kudog.chatgb.dpdns.org/?id=5Lq66ZaT6KGb6KaW&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/185/202508040856_5100043384_H32_1080.webp" group-title="🔔卫视频道",东方卫视
 http://gslbmgsplive.miguvideo.com/wd_r4/dfl/dongfangwshd/1200/index.m3u8?msisdn=202511041200478acb57ecadb241c593befa0da2196705&mdspid=&spid=600697&netType=0&sid=5910022185&pid=2028597139&timestamp=20251104120047&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=651632648&ParentNodeID=-99&assertID=5910022185&client_ip=106.13.250.83&SecurityKey=20251104120047&promotionId=&mvid=5100043384&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=9953ee487e8221f28439f3febfca2ee7&ddCalcu=79e9ee50231ae0cef4b8e7fe38f292314f82
 #EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/199/408/202104022140_5100156802_H32_1080.webp" group-title="🔔卫视频道",江苏卫视
@@ -193,102 +193,112 @@ http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
 http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 #EXTINF:-1 tvg-name="亚洲卫视" group-title="🔔卫视频道",亚洲卫视
 https://fenghuang.tv12.xyz/173.m3u8
-#EXTINF:-1 tvg-name="民視新聞台" tvg-logo="https://logo.catvod.com/民視新聞台.png" group-title="💥港|澳|台",民視新聞台
-https://kudog.chatgb.dpdns.org/?id=31
-#EXTINF:-1 tvg-name="TVBS新聞" tvg-logo="https://logo.catvod.com/TVBS新聞.png" group-title="💥港|澳|台",TVBS新聞
-https://kudog.chatgb.dpdns.org/?id=291
-#EXTINF:-1 tvg-name="東森新聞台" tvg-logo="https://logo.catvod.com/東森新聞台.png" group-title="💥港|澳|台",東森新聞台
-https://kudog.chatgb.dpdns.org/?id=292
-#EXTINF:-1 tvg-name="中視新聞" tvg-logo="https://logo.catvod.com/中視新聞.png" group-title="💥港|澳|台",中視新聞
-https://kudog.chatgb.dpdns.org/?id=33
-#EXTINF:-1 tvg-name="華視新聞" tvg-logo="https://logo.catvod.com/華視新聞.png" group-title="💥港|澳|台",華視新聞
-https://kudog.chatgb.dpdns.org/?id=34
-#EXTINF:-1 tvg-name="寰宇新聞台灣台" tvg-logo="https://logo.catvod.com/寰宇新聞台灣台.png" group-title="💥港|澳|台",寰宇新聞台灣台
-https://kudog.chatgb.dpdns.org/?id=280
-#EXTINF:-1 tvg-name="寰宇新聞台" tvg-logo="https://logo.catvod.com/寰宇新聞台.png" group-title="💥港|澳|台",寰宇新聞台
-https://kudog.chatgb.dpdns.org/?id=36
-#EXTINF:-1 tvg-name="鏡電視新聞台" tvg-logo="https://logo.catvod.com/鏡電視新聞台.png" group-title="💥港|澳|台",鏡電視新聞台
-https://kudog.chatgb.dpdns.org/?id=268
-#EXTINF:-1 tvg-name="中天新聞台" tvg-logo="https://logo.catvod.com/中天新聞台.png" group-title="💥港|澳|台",中天新聞台
-https://kudog.chatgb.dpdns.org/?id=30
-#EXTINF:-1 tvg-name="三立新聞iNEWS" tvg-logo="https://logo.catvod.com/三立新聞iNEWS.png" group-title="💥港|澳|台",三立新聞iNEWS
-https://kudog.chatgb.dpdns.org/?id=229
-#EXTINF:-1 tvg-name="原住民族電視台" tvg-logo="https://logo.catvod.com/原住民族電視台.png" group-title="💥港|澳|台",原住民族電視台
-https://kudog.chatgb.dpdns.org/?id=273
-#EXTINF:-1 tvg-name="東森財經新聞台" tvg-logo="https://logo.catvod.com/東森財經新聞台.png" group-title="💥港|澳|台",東森財經新聞台
-https://kudog.chatgb.dpdns.org/?id=293
-#EXTINF:-1 tvg-name="國會頻道2" tvg-logo="https://logo.catvod.com/國會頻道2.png" group-title="💥港|澳|台",國會頻道2
-https://kudog.chatgb.dpdns.org/?id=171
-#EXTINF:-1 tvg-name="國會頻道1" tvg-logo="https://logo.catvod.com/國會頻道1.png" group-title="💥港|澳|台",國會頻道1
-https://kudog.chatgb.dpdns.org/?id=170
-#EXTINF:-1 tvg-name="東森購物四台" tvg-logo="https://logo.catvod.com/東森購物四台.png" group-title="💥港|澳|台",東森購物四台
-https://kudog.chatgb.dpdns.org/?id=286
-#EXTINF:-1 tvg-name="華視" tvg-logo="https://logo.catvod.com/華視.png" group-title="💥港|澳|台",華視
-https://kudog.chatgb.dpdns.org/?id=6
-#EXTINF:-1 tvg-name="大愛電視" tvg-logo="https://logo.catvod.com/大愛電視.png" group-title="💥港|澳|台",大愛電視
-https://kudog.chatgb.dpdns.org/?id=209
-#EXTINF:-1 tvg-name="客家電視台" tvg-logo="https://logo.catvod.com/客家電視台.png" group-title="💥港|澳|台",客家電視台
-https://kudog.chatgb.dpdns.org/?id=107
-#EXTINF:-1 tvg-name="滾動力rollor" tvg-logo="https://logo.catvod.com/滾動力rollor.png" group-title="💥港|澳|台",滾動力rollor
-https://kudog.chatgb.dpdns.org/?id=249
-#EXTINF:-1 tvg-name="民視第一台" tvg-logo="https://logo.catvod.com/民視第一台.png" group-title="💥港|澳|台",民視第一台
-https://kudog.chatgb.dpdns.org/?id=1
-#EXTINF:-1 tvg-name="民視台灣台" tvg-logo="https://logo.catvod.com/民視台灣台.png" group-title="💥港|澳|台",民視台灣台
-https://kudog.chatgb.dpdns.org/?id=2
-#EXTINF:-1 tvg-name="民視綜藝台" tvg-logo="https://logo.catvod.com/民視綜藝台.png" group-title="💥港|澳|台",民視綜藝台
-https://kudog.chatgb.dpdns.org/?id=16
-#EXTINF:-1 tvg-name="民視影劇台" tvg-logo="https://logo.catvod.com/民視影劇台.png" group-title="💥港|澳|台",民視影劇台
-https://kudog.chatgb.dpdns.org/?id=24
-#EXTINF:-1 tvg-name="靖天綜合台" tvg-logo="https://logo.catvod.com/靖天綜合台.png" group-title="💥港|澳|台",靖天綜合台
-https://kudog.chatgb.dpdns.org/?id=21
-#EXTINF:-1 tvg-name="靖天映畫" tvg-logo="https://logo.catvod.com/靖天映畫.png" group-title="💥港|澳|台",靖天映畫
-https://kudog.chatgb.dpdns.org/?id=42
-#EXTINF:-1 tvg-name="靖天育樂台" tvg-logo="https://logo.catvod.com/靖天育樂台.png" group-title="💥港|澳|台",靖天育樂台
-https://kudog.chatgb.dpdns.org/?id=83
-#EXTINF:-1 tvg-name="靖天日本台" tvg-logo="https://logo.catvod.com/靖天日本台.png" group-title="💥港|澳|台",靖天日本台
-https://kudog.chatgb.dpdns.org/?id=22
-#EXTINF:-1 tvg-name="靖天電影台" tvg-logo="https://logo.catvod.com/靖天電影台.png" group-title="💥港|澳|台",靖天電影台
-https://kudog.chatgb.dpdns.org/?id=82
-#EXTINF:-1 tvg-name="中視菁采台" tvg-logo="https://logo.catvod.com/中視菁采台.png" group-title="💥港|澳|台",中視菁采台
-https://kudog.chatgb.dpdns.org/?id=123
-#EXTINF:-1 tvg-name="三立綜合台" tvg-logo="https://logo.catvod.com/三立綜合台.png" group-title="💥港|澳|台",三立綜合台
-https://kudog.chatgb.dpdns.org/?id=169
-#EXTINF:-1 tvg-name="靖天卡通台" tvg-logo="https://logo.catvod.com/靖天卡通台.png" group-title="💥港|澳|台",靖天卡通台
-https://kudog.chatgb.dpdns.org/?id=15
-#EXTINF:-1 tvg-name="TVBS台劇台" tvg-logo="https://logo.catvod.com/TVBS台劇台.png" group-title="💥港|澳|台",TVBS台劇台
-https://kudog.chatgb.dpdns.org/?id=285
-#EXTINF:-1 tvg-name="八大精彩台" tvg-logo="https://logo.catvod.com/八大精彩台.png" group-title="💥港|澳|台",八大精彩台
-https://kudog.chatgb.dpdns.org/?id=172
-#EXTINF:-1 tvg-name="靖天戲劇台" tvg-logo="https://logo.catvod.com/靖天戲劇台.png" group-title="💥港|澳|台",靖天戲劇台
-https://kudog.chatgb.dpdns.org/?id=116
-#EXTINF:-1 tvg-name="民視旅遊台" tvg-logo="https://logo.catvod.com/民視旅遊台.png" group-title="💥港|澳|台",民視旅遊台
-https://kudog.chatgb.dpdns.org/?id=61
-#EXTINF:-1 tvg-name="中視經典台" tvg-logo="https://logo.catvod.com/中視經典台.png" group-title="💥港|澳|台",中視經典台
-https://kudog.chatgb.dpdns.org/?id=124
-#EXTINF:-1 tvg-name="八大綜藝台" tvg-logo="https://logo.catvod.com/八大綜藝台.png" group-title="💥港|澳|台",八大綜藝台
-https://kudog.chatgb.dpdns.org/?id=114
-#EXTINF:-1 tvg-name="TVBS精采台" tvg-logo="https://logo.catvod.com/TVBS精采台.png" group-title="💥港|澳|台",TVBS精采台
-https://kudog.chatgb.dpdns.org/?id=227
-#EXTINF:-1 tvg-name="TVBS" tvg-logo="https://logo.catvod.com/TVBS.png" group-title="💥港|澳|台",TVBS
-https://kudog.chatgb.dpdns.org/?id=183
-#EXTINF:-1 tvg-name="KLT-靖天國際台" tvg-logo="https://logo.catvod.com/KLT-靖天國際台.png" group-title="💥港|澳|台",KLT-靖天國際台
-https://kudog.chatgb.dpdns.org/?id=84
-#EXTINF:-1 tvg-name="Nice TV 靖天歡樂台" tvg-logo="https://logo.catvod.com/Nice TV 靖天歡樂台.png" group-title="💥港|澳|台",Nice TV 靖天歡樂台
-https://kudog.chatgb.dpdns.org/?id=119
-#EXTINF:-1 tvg-name="靖天資訊台" tvg-logo="https://logo.catvod.com/靖天資訊台.png" group-title="💥港|澳|台",靖天資訊台
-https://kudog.chatgb.dpdns.org/?id=88
-#EXTINF:-1 tvg-name="TVBS歡樂台" tvg-logo="https://logo.catvod.com/TVBS歡樂台.png" group-title="💥港|澳|台",TVBS歡樂台
-https://kudog.chatgb.dpdns.org/?id=184
-#EXTINF:-1 tvg-name="好消息" tvg-logo="https://logo.catvod.com/好消息.png" group-title="💥港|澳|台",好消息
-https://kudog.chatgb.dpdns.org/?id=9
-#EXTINF:-1 tvg-name="好消息2台" tvg-logo="https://logo.catvod.com/好消息2台.png" group-title="💥港|澳|台",好消息2台
-https://kudog.chatgb.dpdns.org/?id=8
-#EXTINF:-1 tvg-name="大愛二台" tvg-logo="https://logo.catvod.com/大愛二台.png" group-title="💥港|澳|台",大愛二台
-https://kudog.chatgb.dpdns.org/?id=230
-#EXTINF:-1 tvg-name="半島國際新聞台" tvg-logo="https://logo.catvod.com/半島國際新聞台.png" group-title="💥港|澳|台",半島國際新聞台
-https://kudog.chatgb.dpdns.org/?id=462
-#EXTINF:-1 tvg-name="TVBS綜藝台" tvg-logo="https://logo.catvod.com/TVBS綜藝台.png" group-title="💥港|澳|台",TVBS綜藝台
-https://kudog.chatgb.dpdns.org/?id=284
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",KLT-靖天國際台
+https://kudog.chatgb.dpdns.org/?id=S0xULemdluWkqeWciamamaWPsAxx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",Nice TV 靖天歡樂台
+https://kudog.chatgb.dpdns.org/?id=TmljZSBUViDpnZblpKnmraHmqILlj7Ax&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",TVBS精采台
+https://kudog.chatgb.dpdns.org/?id=VFZCUaeyvumHhaWPsAxx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",TVBS新聞
+https://kudog.chatgb.dpdns.org/?id=VFZCUaaWsOiBngxx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://live.fanmingming.com/tv/TVBS.png" group-title="💥港|澳|台",TVBS
+https://kudog.chatgb.dpdns.org/?id=VFZCUwxx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",TVBS歡樂台
+https://kudog.chatgb.dpdns.org/?id=VFZCUaatoeaoguWPsAxx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",TVBS綜藝台
+https://kudog.chatgb.dpdns.org/?id=VFZCUae2nOiXneWPsAxx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",TVBS台劇台
+https://kudog.chatgb.dpdns.org/?id=VFZCUaWPsOWKhaWPsAxx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",三立綜合台
+https://kudog.chatgb.dpdns.org/?id=5LiJ56uL57ac5ZCI5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",三立新聞iNEWS
+https://kudog.chatgb.dpdns.org/?id=5LiJ56uL5paw6IGeaU5FV1Mx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",中視
+https://kudog.chatgb.dpdns.org/?id=5Lit6KaW&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",中視經典台
+https://kudog.chatgb.dpdns.org/?id=5Lit6KaW57aT5YW45Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",中視菁采台
+https://kudog.chatgb.dpdns.org/?id=5Lit6KaW6IaB6YeH5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",中視新聞
+https://kudog.chatgb.dpdns.org/?id=5Lit6KaW5paw6IGe&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",中天新聞台
+https://kudog.chatgb.dpdns.org/?id=5Lit5aSp5paw6IGe5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",八大綜藝台
+https://kudog.chatgb.dpdns.org/?id=5YWr5aSn57ac6Jed5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",八大精彩台
+https://kudog.chatgb.dpdns.org/?id=5YWr5aSn57Ka5b2p5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",半島國際新聞台
+https://kudog.chatgb.dpdns.org/?id=5Y2K5bO25ZyL6Zqb5paw6IGe5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",原住民族電視台
+https://kudog.chatgb.dpdns.org/?id=5Y6f5L2P5rCR5peP6Zu76KaW5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",國會頻道1
+https://kudog.chatgb.dpdns.org/?id=5ZyL5pyD6aC76YGTMQxx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",國會頻道2
+https://kudog.chatgb.dpdns.org/?id=5ZyL5pyD6aC76YGTMgxx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",大愛電視
+https://kudog.chatgb.dpdns.org/?id=5aSn5oSb6Zu76KaW&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",大愛二台
+https://kudog.chatgb.dpdns.org/?id=5aSn5oSb5LqM5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",好消息
+https://kudog.chatgb.dpdns.org/?id=5aW95raI5oGv&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",好消息2台
+https://kudog.chatgb.dpdns.org/?id=5aW95raI5oGvMuWPsAxx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",客家電視台
+https://kudog.chatgb.dpdns.org/?id=5a6i5a626Zu76KaW5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",寰宇新聞台
+https://kudog.chatgb.dpdns.org/?id=5aaw5a6H5paw6IGe5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",寰宇新聞台灣台
+https://kudog.chatgb.dpdns.org/?id=5aaw5a6H5paw6IGe5Yaw54Gj5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",東森購物四台
+https://kudog.chatgb.dpdns.org/?id=5p2x5qOu6LO854mp5Zub5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",東森購物一台
+https://kudog.chatgb.dpdns.org/?id=5p2x5qOu6LO854mp5LiA5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",東森新聞台
+https://kudog.chatgb.dpdns.org/?id=5p2x5qOu5paw6IGe5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",東森財經新聞台
+https://kudog.chatgb.dpdns.org/?id=5p2x5qOu6LKh57aT5paw6IGe5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",東森購物二台
+https://kudog.chatgb.dpdns.org/?id=5p2x5qOu6LO854mp5LqM5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",東森購物三台
+https://kudog.chatgb.dpdns.org/?id=5p2x5qOu6LO854mp5LiJ5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",民視第一台
+https://kudog.chatgb.dpdns.org/?id=5rCR6KaW56ys5LiA5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",民視台灣台
+https://kudog.chatgb.dpdns.org/?id=5rCR6KaW5Yaw54Gj5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",民視
+https://kudog.chatgb.dpdns.org/?id=5rCR6KaW&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",民視新聞台
+https://kudog.chatgb.dpdns.org/?id=5rCR6KaW5paw6IGe5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",民視綜藝台
+https://kudog.chatgb.dpdns.org/?id=5rCR6KaW57ac6Jed5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",民視旅遊台
+https://kudog.chatgb.dpdns.org/?id=5rCR6KaW5peF6YGK5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",民視影劇台
+https://kudog.chatgb.dpdns.org/?id=5rCR6KaW5b2x5YqH5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",滾動力rollor
+https://kudog.chatgb.dpdns.org/?id=5rua5YuV5Yqbcm9sbG9y&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",華視
+https://kudog.chatgb.dpdns.org/?id=6Iav6KaW&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",華視新聞
+https://kudog.chatgb.dpdns.org/?id=6Iav6KaW5paw6IGe&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",鏡電視新聞台
+https://kudog.chatgb.dpdns.org/?id=6Yah6Zu76KaW5paw6IGe5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",靖天綜合台
+https://kudog.chatgb.dpdns.org/?id=6Z2W5aSp57ac5ZCI5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="靖天日本台" tvg-name="靖天日本台" tvg-logo="https://live.fanmingming.com/tv/靖天日本台.png" group-title="💥港|澳|台",靖天日本台
+https://kudog.chatgb.dpdns.org/?id=6Z2W5aSp5pel5pys5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",靖天卡通台
+https://kudog.chatgb.dpdns.org/?id=6Z2W5aSp5Y2h6YCa5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",靖天育樂台
+https://kudog.chatgb.dpdns.org/?id=6Z2W5aSp6IKy5qiC5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",靖天資訊台
+https://kudog.chatgb.dpdns.org/?id=6Z2W5aSp6LOH6KiK5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",靖天戲劇台
+https://kudog.chatgb.dpdns.org/?id=6Z2W5aSp5oiy5YqH5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",靖天映畫
+https://kudog.chatgb.dpdns.org/?id=6Z2W5aSp5pig55Wr&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",靖天電影台
+https://kudog.chatgb.dpdns.org/?id=6Z2W5aSp6Zu75b2x5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-id="环球旅游" tvg-name="环球旅游" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/200/202509251348_1758698362959_H32_1080.webp" group-title="💥港|澳|台",环球旅游
 http://gslbmgsplive.miguvideo.com/migu/kailu/hqly/51/20250915/index.m3u8?msisdn=202511041200547ad316066ba341a1bba6f507adbc71f4&mdspid=&spid=600697&netType=0&sid=5910022200&pid=2028597139&timestamp=20251104120054&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=958475356&ParentNodeID=-99&assertID=5910022200&client_ip=106.13.250.83&SecurityKey=20251104120054&promotionId=&mvid=5900006723&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=d46261143c51bbca5eb17128a99b6bb9&ddCalcu=9db4eb60628b609191a4832c15711bbbec5a
 #EXTINF:-1 tvg-name="梅州客家生活" group-title="💥港|澳|台",梅州客家生活
@@ -481,71 +491,20 @@ http://tvcdn.stream3.hndt.com/tv/65be54a9017e1000af59fb4800000000_transios/playl
 http://tvcdn.stream3.hndt.com/tv/65b93894017e10000ae6b07d00000000_transios/playlist.m3u8?wsSecret=b62ce35fc37fa2fb06c8107953807a6c&wsTime=1762243214
 #EXTINF:-1 tvg-name="河南乡村频道" group-title="💎地方台",河南乡村频道
 http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=b083e7b814de0430599e350291367775&wsTime=1762243214
-#EXTINF:-1 tvg-name="天才衝衝衝-FastTV飛速看" tvg-logo="https://logo.catvod.com/天才衝衝衝-FastTV飛速看.png" group-title="🌈综艺",天才衝衝衝-FastTV飛速看
-https://kudog.chatgb.dpdns.org/?id=343
-#EXTINF:-1 tvg-name="一字千金-FastTV飛速看" tvg-logo="https://logo.catvod.com/一字千金-FastTV飛速看.png" group-title="🌈综艺",一字千金-FastTV飛速看
-https://kudog.chatgb.dpdns.org/?id=344
-#EXTINF:-1 tvg-name="食尚玩家-FastTV飛速看" tvg-logo="https://logo.catvod.com/食尚玩家-FastTV飛速看.png" group-title="🌈综艺",食尚玩家-FastTV飛速看
-https://kudog.chatgb.dpdns.org/?id=348
-#EXTINF:-1 tvg-name="威廉沈歡樂送-FastTV飛速看" tvg-logo="https://logo.catvod.com/威廉沈歡樂送-FastTV飛速看.png" group-title="🌈综艺",威廉沈歡樂送-FastTV飛速看
-https://kudog.chatgb.dpdns.org/?id=435
-#EXTINF:-1 tvg-name="我的成長-FastTV飛速看" tvg-logo="https://logo.catvod.com/我的成長-FastTV飛速看.png" group-title="🌈综艺",我的成長-FastTV飛速看
-https://kudog.chatgb.dpdns.org/?id=390
-#EXTINF:-1 tvg-name="綜藝大集合-FastTV飛速看" tvg-logo="https://logo.catvod.com/綜藝大集合-FastTV飛速看.png" group-title="🌈综艺",綜藝大集合-FastTV飛速看
-https://kudog.chatgb.dpdns.org/?id=345
-#EXTINF:-1 tvg-name="女人我最大-FastTV飛速看" tvg-logo="https://logo.catvod.com/女人我最大-FastTV飛速看.png" group-title="🌈综艺",女人我最大-FastTV飛速看
-https://kudog.chatgb.dpdns.org/?id=347
-#EXTINF:-1 tvg-name="姊妹亮起來-FastTV飛速看" tvg-logo="https://logo.catvod.com/姊妹亮起來-FastTV飛速看.png" group-title="🌈综艺",姊妹亮起來-FastTV飛速看
-https://kudog.chatgb.dpdns.org/?id=377
-#EXTINF:-1 tvg-name="中國傳奇故事-FastTV飛速看" tvg-logo="https://logo.catvod.com/中國傳奇故事-FastTV飛速看.png" group-title="🌈综艺",中國傳奇故事-FastTV飛速看
-https://kudog.chatgb.dpdns.org/?id=458
-#EXTINF:-1 tvg-name="武媚娘傳奇-FastTV飛速看" tvg-logo="https://logo.catvod.com/武媚娘傳奇-FastTV飛速看.png" group-title="🌈综艺",武媚娘傳奇-FastTV飛速看
-https://kudog.chatgb.dpdns.org/?id=455
-#EXTINF:-1 tvg-name="花千骨-FastTV飛速看" tvg-logo="https://logo.catvod.com/花千骨-FastTV飛速看.png" group-title="🌈综艺",花千骨-FastTV飛速看
-https://kudog.chatgb.dpdns.org/?id=397
-#EXTINF:-1 tvg-name="台灣傳奇-FastTV飛速看" tvg-logo="https://logo.catvod.com/台灣傳奇-FastTV飛速看.png" group-title="🌈综艺",台灣傳奇-FastTV飛速看
-https://kudog.chatgb.dpdns.org/?id=419
-#EXTINF:-1 tvg-name="女力故事館-FastTV飛速看" tvg-logo="https://logo.catvod.com/女力故事館-FastTV飛速看.png" group-title="🌈综艺",女力故事館-FastTV飛速看
-https://kudog.chatgb.dpdns.org/?id=456
-#EXTINF:-1 tvg-name="怪獸之王-FastTV飛速看" tvg-logo="https://logo.catvod.com/怪獸之王-FastTV飛速看.png" group-title="🌈综艺",怪獸之王-FastTV飛速看
-https://kudog.chatgb.dpdns.org/?id=438
-#EXTINF:-1 tvg-name="以家人之名-FastTV飛速看" tvg-logo="https://logo.catvod.com/以家人之名-FastTV飛速看.png" group-title="🌈综艺",以家人之名-FastTV飛速看
-https://kudog.chatgb.dpdns.org/?id=383
-#EXTINF:-1 tvg-name="加油喜事-FastTV飛速看" tvg-logo="https://logo.catvod.com/加油喜事-FastTV飛速看.png" group-title="🌈综艺",加油喜事-FastTV飛速看
-https://kudog.chatgb.dpdns.org/?id=384
-#EXTINF:-1 tvg-name="去有風的地方-FastTV飛速看" tvg-logo="https://logo.catvod.com/去有風的地方-FastTV飛速看.png" group-title="🌈综艺",去有風的地方-FastTV飛速看
-https://kudog.chatgb.dpdns.org/?id=386
-#EXTINF:-1 tvg-name="別打擾我種田-FastTV飛速看" tvg-logo="https://logo.catvod.com/別打擾我種田-FastTV飛速看.png" group-title="🌈综艺",別打擾我種田-FastTV飛速看
-https://kudog.chatgb.dpdns.org/?id=398
-#EXTINF:-1 tvg-name="5566偶像劇-FastTV飛速看" tvg-logo="https://logo.catvod.com/5566偶像劇-FastTV飛速看.png" group-title="🌈综艺",5566偶像劇-FastTV飛速看
-https://kudog.chatgb.dpdns.org/?id=399
-#EXTINF:-1 tvg-name="不敗愛情偶像劇-FastTV飛速看" tvg-logo="https://logo.catvod.com/不敗愛情偶像劇-FastTV飛速看.png" group-title="🌈综艺",不敗愛情偶像劇-FastTV飛速看
-https://kudog.chatgb.dpdns.org/?id=401
-#EXTINF:-1 tvg-name="小資女孩向前衝-FastTV飛速看" tvg-logo="https://logo.catvod.com/小資女孩向前衝-FastTV飛速看.png" group-title="🌈综艺",小資女孩向前衝-FastTV飛速看
-https://kudog.chatgb.dpdns.org/?id=420
-#EXTINF:-1 tvg-name="以愛為營-FastTV飛速看" tvg-logo="https://logo.catvod.com/以愛為營-FastTV飛速看.png" group-title="🌈综艺",以愛為營-FastTV飛速看
-https://kudog.chatgb.dpdns.org/?id=424
-#EXTINF:-1 tvg-name="新兵日記-FastTV飛速看" tvg-logo="https://logo.catvod.com/新兵日記-FastTV飛速看.png" group-title="🌈综艺",新兵日記-FastTV飛速看
-https://kudog.chatgb.dpdns.org/?id=382
-#EXTINF:-1 tvg-name="台灣靈異事件-FastTV飛速看" tvg-logo="https://logo.catvod.com/台灣靈異事件-FastTV飛速看.png" group-title="🌈综艺",台灣靈異事件-FastTV飛速看
-https://kudog.chatgb.dpdns.org/?id=326
-#EXTINF:-1 tvg-name="戲說台灣-FastTV飛速看" tvg-logo="https://logo.catvod.com/戲說台灣-FastTV飛速看.png" group-title="🌈综艺",戲說台灣-FastTV飛速看
-https://kudog.chatgb.dpdns.org/?id=342
-#EXTINF:-1 tvg-name="飛龍在天-FastTV飛速看" tvg-logo="https://logo.catvod.com/飛龍在天-FastTV飛速看.png" group-title="🌈综艺",飛龍在天-FastTV飛速看
-https://kudog.chatgb.dpdns.org/?id=417
-#EXTINF:-1 tvg-name="花系列戲劇-FastTV飛速看" tvg-logo="https://logo.catvod.com/花系列戲劇-FastTV飛速看.png" group-title="🌈综艺",花系列戲劇-FastTV飛速看
-https://kudog.chatgb.dpdns.org/?id=329
-#EXTINF:-1 tvg-name="亞洲旅遊台" tvg-logo="https://logo.catvod.com/亞洲旅遊台.png" group-title="🌈综艺",亞洲旅遊台
-https://kudog.chatgb.dpdns.org/?id=250
-https://kudog.chatgb.dpdns.org/?id=261
-#EXTINF:-1 tvg-name="Lifetime 娛樂頻道" tvg-logo="https://logo.catvod.com/Lifetime 娛樂頻道.png" group-title="🌈综艺",Lifetime 娛樂頻道
-https://kudog.chatgb.dpdns.org/?id=217
-#EXTINF:-1 tvg-name="愛爾達生活旅遊台" tvg-logo="https://logo.catvod.com/愛爾達生活旅遊台.png" group-title="🌈综艺",愛爾達生活旅遊台
-https://kudog.chatgb.dpdns.org/?id=237
-#EXTINF:-1 tvg-name="愛爾達娛樂台" tvg-logo="https://logo.catvod.com/愛爾達娛樂台.png" group-title="🌈综艺",愛爾達娛樂台
-https://kudog.chatgb.dpdns.org/?id=19
-#EXTINF:-1 tvg-name="韓國娛樂台 KMTV" tvg-logo="https://logo.catvod.com/韓國娛樂台 KMTV.png" group-title="🌈综艺",韓國娛樂台 KMTV
-https://kudog.chatgb.dpdns.org/?id=446
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🌈综艺",Lifetime 娛樂頻道
+https://kudog.chatgb.dpdns.org/?id=TGlmZXRpbWUg5aib5qiC6aC76YGT&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🌈综艺",fun探索娛樂台
+https://kudog.chatgb.dpdns.org/?id=ZnVu5o6i57Si5aib5qiC5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🌈综艺",亞洲旅遊台
+https://kudog.chatgb.dpdns.org/?id=5Lqe5rSy5peF6YGK5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🌈综艺",愛爾達娛樂台
+https://kudog.chatgb.dpdns.org/?id=5oSb54ia6YGU5aib5qiC5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🌈综艺",愛爾達生活旅遊台
+https://kudog.chatgb.dpdns.org/?id=5oSb54ia6YGU55Sf5rS75peF6YGK5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🌈综艺",豬哥亮歌廳秀
+https://kudog.chatgb.dpdns.org/?id=6LGs5ZOl5Lqu5q2M5buz56eA&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🌈综艺",韓國娛樂台 KMTV
+https://kudog.chatgb.dpdns.org/?id=6ZaT5ZyL5aib5qiC5YawIEtNVFYx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-id="最强综艺趴" tvg-name="最强综艺趴" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/315/654/202204010047_5101034202_H32_1080.webp" group-title="🌈综艺",最强综艺趴
 http://gslbmgsplive.miguvideo.com/migu/kailu/zuiqiangzongyi/51/20250514/index.m3u8?msisdn=20251104120054d28c050bd5b04da0bac44f5c04e629e4&mdspid=&spid=699004&netType=0&sid=5500315654&pid=2028597139&timestamp=20251104120054&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=629942228&ParentNodeID=-99&assertID=5500315654&client_ip=106.13.250.83&SecurityKey=20251104120054&promotionId=&mvid=5101034202&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=7c55e273574988ebc660cf9482ef57c6&ddCalcu=67cce750559fe0e227834597f4c908686ecb
 #EXTINF:-1 tvg-name="爱综艺" group-title="🌈综艺",爱综艺
@@ -594,14 +553,14 @@ http://zzy789.xyz/douyu1.php?id=9403690
 http://zzy789.xyz/douyu1.php?id=9817716
 #EXTINF:-1 tvg-name="欢乐综艺" group-title="🌈综艺",欢乐综艺
 http://huanqiuzhibo.cn/manifest/douyu.php?id=131977
-#EXTINF:-1 tvg-name="智林體育台" tvg-logo="https://logo.catvod.com/智林體育台.png" group-title="⚽️体育",智林體育台
-https://kudog.chatgb.dpdns.org/?id=58
-#EXTINF:-1 tvg-name="TRACE Sport Stars" tvg-logo="https://logo.catvod.com/TRACE Sport Stars.png" group-title="⚽️体育",TRACE Sport Stars
-https://kudog.chatgb.dpdns.org/?id=57
-#EXTINF:-1 tvg-name="時尚運動X" tvg-logo="https://logo.catvod.com/時尚運動X.png" group-title="⚽️体育",時尚運動X
-https://kudog.chatgb.dpdns.org/?id=69
-#EXTINF:-1 tvg-name="GINX Esports TV" tvg-logo="https://logo.catvod.com/GINX Esports TV.png" group-title="⚽️体育",GINX Esports TV
-https://kudog.chatgb.dpdns.org/?id=179
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="⚽️体育",GINX Esports TV
+https://kudog.chatgb.dpdns.org/?id=R0lOWCBFc3BvcnRzIFRW&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="⚽️体育",TRACE Sport Stars
+https://kudog.chatgb.dpdns.org/?id=VFJBQ0UgU3BvcnQgU3RhcnMx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="⚽️体育",時尚運動X
+https://kudog.chatgb.dpdns.org/?id=5pmC5bCa6YGL5YuVWAxx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="⚽️体育",智林體育台
+https://kudog.chatgb.dpdns.org/?id=5pm65p6X6auU6IKy5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-id="赛事最经典" tvg-name="赛事最经典" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/592/947/202204010047_5101034296_H32_1080.webp" group-title="⚽️体育",赛事最经典
 http://gslbmgsplive.miguvideo.com/migu/kailu/saishijingdian/51/20250514/index.m3u8?msisdn=20251104120047e4651d802f8d4c6d89781b290f230490&mdspid=&spid=699004&netType=0&sid=5500592947&pid=2028597139&timestamp=20251104120047&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=646596895&ParentNodeID=-99&assertID=5500592947&client_ip=106.13.250.83&SecurityKey=20251104120047&promotionId=&mvid=5101034296&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=bda564153f657356343cc2af53c60ab5&ddCalcu=5bbdeaa0056660c43155f3af26c5c7334536
 #EXTINF:-1 tvg-id="体坛名栏汇" tvg-name="体坛名栏汇" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/315/687/202204010048_5101034219_H32_1080.webp" group-title="⚽️体育",体坛名栏汇
@@ -650,18 +609,20 @@ http://tvcdn.stream3.hndt.com/tv/65b4b750017e1000dbb9306200000000_transios/playl
 http://nocable.cc:8080//OURTV/OURTV@4806/45940
 #EXTINF:-1 tvg-name="UK: SKY SPORTS F1" group-title="⚽️体育",UK: SKY SPORTS F1
 http://nocable.cc:8080//OURTV/OURTV@4806/35244
-#EXTINF:-1 tvg-name="經典電影台" tvg-logo="https://logo.catvod.com/經典電影台.png" group-title="🎥电影",經典電影台
-https://kudog.chatgb.dpdns.org/?id=201
-#EXTINF:-1 tvg-name="影迷數位電影台" tvg-logo="https://logo.catvod.com/影迷數位電影台.png" group-title="🎥电影",影迷數位電影台
-https://kudog.chatgb.dpdns.org/?id=40
-#EXTINF:-1 tvg-name="CinemaWorld" tvg-logo="https://logo.catvod.com/CinemaWorld.png" group-title="🎥电影",CinemaWorld
-https://kudog.chatgb.dpdns.org/?id=225
-#EXTINF:-1 tvg-name="amc電影台" tvg-logo="https://logo.catvod.com/amc電影台.png" group-title="🎥电影",amc電影台
-https://kudog.chatgb.dpdns.org/?id=39
-#EXTINF:-1 tvg-name="電影原聲台CMusic" tvg-logo="https://logo.catvod.com/電影原聲台CMusic.png" group-title="🎥电影",電影原聲台CMusic
-https://kudog.chatgb.dpdns.org/?id=218
-#EXTINF:-1 tvg-name="My Cinema Europe HD 我的歐洲電影" tvg-logo="https://logo.catvod.com/My Cinema Europe HD 我的歐洲電影.png" group-title="🎥电影",My Cinema Europe HD 我的歐洲電影
-https://kudog.chatgb.dpdns.org/?id=463
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🎥电影",CinemaWorld
+https://kudog.chatgb.dpdns.org/?id=Q2luZW1hV29ybGQx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🎥电影",My Cinema Europe HD 我的歐洲電影
+https://kudog.chatgb.dpdns.org/?id=TXkgQ2luZW1hIEV1cm9wZSBIRCDmiJHnmoTmrZDmtLLpm7vlvbEx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🎥电影",ROCK Action
+https://kudog.chatgb.dpdns.org/?id=Uk9DSyBBY3Rpb24x&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🎥电影",amc電影台
+https://kudog.chatgb.dpdns.org/?id=YW1j6Zu75b2x5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🎥电影",影迷數位電影台
+https://kudog.chatgb.dpdns.org/?id=5b2x6La35pW45L2N6Zu75b2x5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🎥电影",經典電影台
+https://kudog.chatgb.dpdns.org/?id=57aT5YW46Zu75b2x5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🎥电影",電影原聲台CMusic
+https://kudog.chatgb.dpdns.org/?id=6Zu75b2x5Y6f6IGy5YawQ011c2lj&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-id="上视东方影视" tvg-name="上视东方影视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/002/274/202105271333_5100001715_2_H32_1080.webp" group-title="🎥电影",上视东方影视
 http://gslbmgsplive.miguvideo.com/wd_r4/dfl/dianshijuhd/1200/index.m3u8?msisdn=202511041200497ca354e7241045b0b1656a95949052c7&mdspid=&spid=699212&netType=0&sid=5500002274&pid=2028597139&timestamp=20251104120049&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=617290047&ParentNodeID=-99&assertID=5500002274&client_ip=106.13.250.83&SecurityKey=20251104120049&promotionId=&mvid=5100001715&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=b817838fda60881a4a1378594158268e&ddCalcu=eb88e61027788053184f9d5a86703818a14a
 #EXTINF:-1 tvg-id="经典香港电影" tvg-name="经典香港电影" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/242/089/202508211805_1755769511908_H32_1080.webp" group-title="🎥电影",经典香港电影
@@ -788,18 +749,22 @@ http://php.jdshipin.com/smt.php?id=Celestial2
 http://php.jdshipin.com/smt.php?id=Celestial
 #EXTINF:-1 tvg-name="千禧经典" group-title="🎥电影",千禧经典
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=tvbc
-#EXTINF:-1 tvg-name="DreamWorks 夢工廠動畫" tvg-logo="https://logo.catvod.com/DreamWorks 夢工廠動畫.png" group-title="🌝动画",DreamWorks 夢工廠動畫
-https://kudog.chatgb.dpdns.org/?id=282
-#EXTINF:-1 tvg-name="精選動漫台" tvg-logo="https://logo.catvod.com/精選動漫台.png" group-title="🌝动画",精選動漫台
-https://kudog.chatgb.dpdns.org/?id=204
-#EXTINF:-1 tvg-name="經典卡通台" tvg-logo="https://logo.catvod.com/經典卡通台.png" group-title="🌝动画",經典卡通台
-https://kudog.chatgb.dpdns.org/?id=202
-#EXTINF:-1 tvg-name="尼克兒童頻道" tvg-logo="https://logo.catvod.com/尼克兒童頻道.png" group-title="🌝动画",尼克兒童頻道
-https://kudog.chatgb.dpdns.org/?id=185
-#EXTINF:-1 tvg-name="靖洋卡通Nice Bingo" tvg-logo="https://logo.catvod.com/靖洋卡通Nice Bingo.png" group-title="🌝动画",靖洋卡通Nice Bingo
-https://kudog.chatgb.dpdns.org/?id=59
-#EXTINF:-1 tvg-name="霹靂布袋戲" tvg-logo="https://logo.catvod.com/霹靂布袋戲.png" group-title="🌝动画",霹靂布袋戲
-https://kudog.chatgb.dpdns.org/?id=301
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🌝动画",DreamWorks 夢工廠動畫
+https://kudog.chatgb.dpdns.org/?id=RHJlYW1Xb3JrcyDlpKLlt6Xlu6Dli5Xnlasx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🌝动画",Nick Jr. 兒童頻道
+https://kudog.chatgb.dpdns.org/?id=TmljayBKci4g5YWS56ul6aC76YGT&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🌝动画",尼克兒童頻道
+https://kudog.chatgb.dpdns.org/?id=5bC85YWL5YWS56ul6aC76YGT&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🌝动画",精選動漫台
+https://kudog.chatgb.dpdns.org/?id=57Ka6YG45YuV5ryr5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🌝动画",經典卡通台
+https://kudog.chatgb.dpdns.org/?id=57aT5YW45Y2h6YCa5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🌝动画",金光布袋戲
+https://kudog.chatgb.dpdns.org/?id=6YeR5YWJ5biD6KKL5oiy&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🌝动画",霹靂布袋戲
+https://kudog.chatgb.dpdns.org/?id=6Zy56Z2C5biD6KKL5oiy&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🌝动画",靖洋卡通Nice Bingo
+https://kudog.chatgb.dpdns.org/?id=6Z2W5rSL5Y2h6YCaTmljZSBCaW5nbwxx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-id="中学生" tvg-name="中学生" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/019/355/202405081702_1715158115119_H32_1080.webp" group-title="🌝动画",中学生
 http://gslbmgsplive.miguvideo.com/migu/kailu/20210415/cctvzhongxuesheng/51/index.m3u8?msisdn=20251104120047d988c1b90582427cbe1e910525cd2a25&mdspid=&spid=699004&netType=0&sid=5910019355&pid=2028597139&timestamp=20251104120047&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=708869532&ParentNodeID=-99&assertID=5910019355&client_ip=106.13.250.83&SecurityKey=20251104120047&promotionId=&mvid=5900002149&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=878f16a4e33b06f0329ca126b9093383&ddCalcu=3887e3803f8910069ab46e2313abc0962f30
 #EXTINF:-1 tvg-id="优漫卡通频道" tvg-name="优漫卡通频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/260/553/202104022139_5100186455_H32_1080.webp" group-title="🌝动画",优漫卡通频道
@@ -822,18 +787,18 @@ https://fl30.moveonjoy.com/DISNEY/index.m3u8
 https://fl30.moveonjoy.com/DISNEY_JR/index.m3u8
 #EXTINF:-1 tvg-id="Cartoon.Network.HD.us2" tvg-name="CARTOON NETWORK" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s12131_dark_360w_270h.png" group-title="🌝动画",CARTOON NETWORK
 https://fl30.moveonjoy.com/CARTOON_NETWORK/index.m3u8
-#EXTINF:-1 tvg-name="Love Nature" tvg-logo="https://logo.catvod.com/Love Nature.png" group-title="🐷纪录片",Love Nature
-https://kudog.chatgb.dpdns.org/?id=139
-#EXTINF:-1 tvg-name="History 歷史頻道" tvg-logo="https://logo.catvod.com/History 歷史頻道.png" group-title="🐷纪录片",History 歷史頻道
-https://kudog.chatgb.dpdns.org/?id=214
-#EXTINF:-1 tvg-name="視納華仁紀實頻道" tvg-logo="https://logo.catvod.com/視納華仁紀實頻道.png" group-title="🐷纪录片",視納華仁紀實頻道
-https://kudog.chatgb.dpdns.org/?id=38
-#EXTINF:-1 tvg-name="MagellanTV頻道 (麥哲倫頻道)" tvg-logo="https://logo.catvod.com/MagellanTV頻道 (麥哲倫頻道).png" group-title="🐷纪录片",MagellanTV頻道 (麥哲倫頻道)
-https://kudog.chatgb.dpdns.org/?id=450
-#EXTINF:-1 tvg-name="CI 罪案偵查頻道" tvg-logo="https://logo.catvod.com/CI 罪案偵查頻道.png" group-title="🐷纪录片",CI 罪案偵查頻道
-https://kudog.chatgb.dpdns.org/?id=215
-#EXTINF:-1 tvg-name="影迷數位紀實台" tvg-logo="https://logo.catvod.com/影迷數位紀實台.png" group-title="🐷纪录片",影迷數位紀實台
-https://kudog.chatgb.dpdns.org/?id=445
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🐷纪录片",CI 罪案偵查頻道
+https://kudog.chatgb.dpdns.org/?id=Q0kg572q5qGI5YG15pal6aC76YGT&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🐷纪录片",History 歷史頻道
+https://kudog.chatgb.dpdns.org/?id=SGlzdG9yeSDmrbflj7LpoLvpgZMx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🐷纪录片",Love Nature
+https://kudog.chatgb.dpdns.org/?id=TG92ZSBOYXR1cmUx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🐷纪录片",MagellanTV頻道 (麥哲倫頻道)
+https://kudog.chatgb.dpdns.org/?id=TWFnZWxsYW5UVumguamBkyAo6bql5ZOy5YCr6aC76YGTKSAx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🐷纪录片",影迷數位紀實台
+https://kudog.chatgb.dpdns.org/?id=5b2x6La35pW45L2N57SA5aam5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🐷纪录片",視納華仁紀實頻道
+https://kudog.chatgb.dpdns.org/?id=6KaW57SN6Iav5LuB57SA5aam6aC76YGT&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-id="CGTN外语纪录" tvg-name="CGTN外语纪录" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/356/202502251602_1740470541608_H32_1080.webp" group-title="🐷纪录片",CGTN外语纪录
 http://gslbmgsplive.miguvideo.com/envivo_v/2018/SD/cctv/doc/1000/index.m3u8?msisdn=20251104120046d91903ddd62f4e5a88b777b0ea39d9d3&mdspid=&spid=699004&netType=0&sid=2200179356&pid=2028597139&timestamp=20251104120046&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=609006487&ParentNodeID=-99&assertID=2200179356&client_ip=106.13.250.83&SecurityKey=20251104120046&promotionId=&mvid=2200179356&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=e06872f296a61e4f1858af79d011dfb9&ddCalcu=9eb0ef60d89170120fd29976faa6815e841f
 #EXTINF:-1 tvg-id="老故事" tvg-name="老故事" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/002/202405081702_1715158648861_H32_1080.webp" group-title="🐷纪录片",老故事
@@ -874,24 +839,26 @@ https://fl30.moveonjoy.com/DISCOVERY_LIFE/index.m3u8
 https://fl30.moveonjoy.com/Discovery_Science/index.m3u8
 #EXTINF:-1 tvg-name="贝爷贰厅" group-title="🐷纪录片",贝爷贰厅
 http://huanqiuzhibo.cn/manifest/douyu.php?id=4332
-#EXTINF:-1 tvg-name="DW德國之聲" tvg-logo="https://logo.catvod.com/DW德國之聲.png" group-title="🌍️国际台",DW德國之聲
-https://kudog.chatgb.dpdns.org/?id=226
-#EXTINF:-1 tvg-name="CNBC Asia 財經台" tvg-logo="https://logo.catvod.com/CNBC Asia 財經台.png" group-title="🌍️国际台",CNBC Asia 財經台
-https://kudog.chatgb.dpdns.org/?id=235
-#EXTINF:-1 tvg-name="Global Trekker" tvg-logo="https://logo.catvod.com/Global Trekker.png" group-title="🌍️国际台",Global Trekker
-https://kudog.chatgb.dpdns.org/?id=252
-#EXTINF:-1 tvg-name="HITS頻道" tvg-logo="https://logo.catvod.com/HITS頻道.png" group-title="🌍️国际台",HITS頻道
-https://kudog.chatgb.dpdns.org/?id=186
-#EXTINF:-1 tvg-name="LUXE TV Channel" tvg-logo="https://logo.catvod.com/LUXE TV Channel.png" group-title="🌍️国际台",LUXE TV Channel
-https://kudog.chatgb.dpdns.org/?id=175
-#EXTINF:-1 tvg-name="ARIRANG阿里郎頻道" tvg-logo="https://logo.catvod.com/ARIRANG阿里郎頻道.png" group-title="🌍️国际台",ARIRANG阿里郎頻道
-https://kudog.chatgb.dpdns.org/?id=189
-#EXTINF:-1 tvg-name="INULTRA" tvg-logo="https://logo.catvod.com/INULTRA.png" group-title="🌍️国际台",INULTRA
-https://kudog.chatgb.dpdns.org/?id=444
-#EXTINF:-1 tvg-name="NHK WORLD-JAPAN" tvg-logo="https://logo.catvod.com/NHK WORLD-JAPAN.png" group-title="🌍️国际台",NHK WORLD-JAPAN
-https://kudog.chatgb.dpdns.org/?id=461
-#EXTINF:-1 tvg-name="FRANCE24 英文台" tvg-logo="https://logo.catvod.com/FRANCE24 英文台.png" group-title="🌍️国际台",FRANCE24 英文台
-https://kudog.chatgb.dpdns.org/?id=316
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🌍️国际台",ARIRANG阿里郎頻道
+https://kudog.chatgb.dpdns.org/?id=QVJJUkFORamYvamHjOmDjumguamBkwxx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🌍️国际台",CNBC Asia 財經台
+https://kudog.chatgb.dpdns.org/?id=Q05CQyBBc2lhIOiyoee2kaWPsAxx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🌍️国际台",DW德國之聲
+https://kudog.chatgb.dpdns.org/?id=RFflvrflnIvkuYvogbIx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🌍️国际台",FRANCE24 英文台
+https://kudog.chatgb.dpdns.org/?id=RlJBTkNFMjQg6Iux5paH5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🌍️国际台",Global Trekker
+https://kudog.chatgb.dpdns.org/?id=R2xvYmFsIFRyZWtrZXIx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🌍️国际台",HITS頻道
+https://kudog.chatgb.dpdns.org/?id=SElUUamguamBkwxx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🌍️国际台",INULTRA
+https://kudog.chatgb.dpdns.org/?id=SU5VTFRSQQxx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🌍️国际台",LUXE TV Channel
+https://kudog.chatgb.dpdns.org/?id=TFVYRSBUViBDaGFubmVs&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🌍️国际台",NHK WORLD-JAPAN
+https://kudog.chatgb.dpdns.org/?id=TkhLIFdPUkxELUpBUEFO&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🌍️国际台",ROCK Entertainment
+https://kudog.chatgb.dpdns.org/?id=Uk9DSyBFbnRlcnRhaW5tZW50&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-id="CGTN阿拉伯语" tvg-name="CGTN阿拉伯语" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/303/202502251557_1740470230464_H32_1080.webp" group-title="🌍️国际台",CGTN阿拉伯语
 http://gslbmgsplive.miguvideo.com/envivo_v/SD/cctv/alabo/1000/index.m3u8?msisdn=202511041200466912b217220c4c64ad8a8aaefa684703&mdspid=&spid=699004&netType=0&sid=2200179303&pid=2028597139&timestamp=20251104120046&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=609154345&ParentNodeID=-99&assertID=2200179303&client_ip=106.13.250.83&SecurityKey=20251104120046&promotionId=&mvid=2200179303&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=48245999d5db899c81f42c6d1f2f8d43&ddCalcu=3448ed20849f5029f919dd65cd2b48f9198c
 #EXTINF:-1 tvg-id="CGTN西班牙语" tvg-name="CGTN西班牙语" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/337/202502251600_1740470437874_H32_1080.webp" group-title="🌍️国际台",CGTN西班牙语
@@ -952,30 +919,30 @@ http://iot-mqqt.111yao.cn:8080/live/diyp_xingkong.m3u8
 https://live-hls-web-aje.getaj.net/AJE/02.m3u8
 #EXTINF:-1 tvg-name="法·时尚" group-title="🌍️国际台",法·时尚
 http://lb.streaming.sk/fashiontv/stream/chunklist_w1906011378.m3u8
-#EXTINF:-1 tvg-name="戲劇免費看 1台" tvg-logo="https://logo.catvod.com/戲劇免費看 1台.png" group-title="🧙‍♀️戏剧",戲劇免費看 1台
-https://kudog.chatgb.dpdns.org/?id=270
-#EXTINF:-1 tvg-name="采昌影劇台" tvg-logo="https://logo.catvod.com/采昌影劇台.png" group-title="🧙‍♀️戏剧",采昌影劇台
-https://kudog.chatgb.dpdns.org/?id=25
-#EXTINF:-1 tvg-name="公視戲劇" tvg-logo="https://logo.catvod.com/公視戲劇.png" group-title="🧙‍♀️戏剧",公視戲劇
-https://kudog.chatgb.dpdns.org/?id=7
-#EXTINF:-1 tvg-name="靖洋戲劇台" tvg-logo="https://logo.catvod.com/靖洋戲劇台.png" group-title="🧙‍♀️戏剧",靖洋戲劇台
-https://kudog.chatgb.dpdns.org/?id=118
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🧙‍♀️戏剧",公視戲劇
+https://kudog.chatgb.dpdns.org/?id=5YWs6KaW5oiy5YqH&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🧙‍♀️戏剧",戲劇免費看 1台
+https://kudog.chatgb.dpdns.org/?id=5oiy5YqH5YWN6LK755yLIDHlj7Ax&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🧙‍♀️戏剧",采昌影劇台
+https://kudog.chatgb.dpdns.org/?id=6YeH5piM5b2x5YqH5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🧙‍♀️戏剧",靖洋戲劇台
+https://kudog.chatgb.dpdns.org/?id=6Z2W5rSL5oiy5YqH5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-name="电视剧频道" group-title="🧙‍♀️戏剧",电视剧频道
 http://tvcdn.stream3.hndt.com/tv/65bd329b017e1000648cd2ed00000000_transios/playlist.m3u8?wsSecret=c727cdabe9a50c3ba4bae74bc7281795&wsTime=1762243214
 #EXTINF:-1 tvg-name="梨园频道" group-title="🧙‍♀️戏剧",梨园频道
 https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=9a86aab2b521fc1e55ccae75e4dc8597&wsTime=1762243214
 #EXTINF:-1 tvg-name="移动戏曲频道" group-title="🧙‍♀️戏剧",移动戏曲频道
 https://tvcdn.stream3.hndt.com/tv/160ea8971f8b41f0905f88c7afe3effe_transios/playlist.m3u8?wsSecret=7f1198e2e6ea35f010d817c8abbadb32&wsTime=1762243214
-#EXTINF:-1 tvg-name="LiveABC互動英語頻道" tvg-logo="https://logo.catvod.com/LiveABC互動英語頻道.png" group-title="🎵音乐",LiveABC互動英語頻道
-https://kudog.chatgb.dpdns.org/?id=188
-#EXTINF:-1 tvg-name="TRACE Urban" tvg-logo="https://logo.catvod.com/TRACE Urban.png" group-title="🎵音乐",TRACE Urban
-https://kudog.chatgb.dpdns.org/?id=78
-#EXTINF:-1 tvg-name="MTV Live HD 音樂頻道" tvg-logo="https://logo.catvod.com/MTV Live HD 音樂頻道.png" group-title="🎵音乐",MTV Live HD 音樂頻道
-https://kudog.chatgb.dpdns.org/?id=213
-#EXTINF:-1 tvg-name="Mezzo Live HD" tvg-logo="https://logo.catvod.com/Mezzo Live HD.png" group-title="🎵音乐",Mezzo Live HD
-https://kudog.chatgb.dpdns.org/?id=79
-#EXTINF:-1 tvg-name="CLASSICA 古典樂" tvg-logo="https://logo.catvod.com/CLASSICA 古典樂.png" group-title="🎵音乐",CLASSICA 古典樂
-https://kudog.chatgb.dpdns.org/?id=80
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🎵音乐",CLASSICA 古典樂
+https://kudog.chatgb.dpdns.org/?id=Q0xBU1NJQ0Eg5Yak5YW45qiC&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🎵音乐",LiveABC互動英語頻道
+https://kudog.chatgb.dpdns.org/?id=TGl2ZUFCQaS6kuWLleiLseiqnumguamBkwxx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🎵音乐",MTV Live HD 音樂頻道
+https://kudog.chatgb.dpdns.org/?id=TVRWIExpdmUgSEQg6Zaz5qiC6aC76YGT&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🎵音乐",Mezzo Live HD
+https://kudog.chatgb.dpdns.org/?id=TWV6em8gTGl2ZSBIRAxx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🎵音乐",TRACE Urban
+https://kudog.chatgb.dpdns.org/?id=VFJBQ0UgVXJiYW4x&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 group-title="🎵音乐",LiveNow 
 https://jmp2.uk/rok-f9c0d48b540a55dcb98b04d2cc8abf25.m3u8
 #EXTINF:-1 group-title="🎵音乐",Trace Urban
@@ -984,14 +951,14 @@ https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8
 https://fl30.moveonjoy.com/MTV_2/index.m3u8
 #EXTINF:-1 tvg-name="斗鱼音乐MV频道" group-title="🎵音乐",斗鱼音乐MV频道
 http://zzy789.xyz/douyu1.php?id=3870925
-#EXTINF:-1 tvg-name="ELTV生活英語台" tvg-logo="https://logo.catvod.com/ELTV生活英語台.png" group-title="📗教育",ELTV生活英語台
-https://kudog.chatgb.dpdns.org/?id=106
-#EXTINF:-1 tvg-name="MOMO親子台" tvg-logo="https://logo.catvod.com/MOMO親子台.png" group-title="📗教育",MOMO親子台
-https://kudog.chatgb.dpdns.org/?id=231
-#EXTINF:-1 tvg-name="幸福空間居家台" tvg-logo="https://logo.catvod.com/幸福空間居家台.png" group-title="📗教育",幸福空間居家台
-https://kudog.chatgb.dpdns.org/?id=168
-#EXTINF:-1 tvg-name="車迷TV" tvg-logo="https://logo.catvod.com/車迷TV.png" group-title="📗教育",車迷TV
-https://kudog.chatgb.dpdns.org/?id=160
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="📗教育",ELTV生活英語台
+https://kudog.chatgb.dpdns.org/?id=RUxUVueUnaa0uaiLseiqnuWPsAxx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="📗教育",MOMO親子台
+https://kudog.chatgb.dpdns.org/?id=TU9NTaimquWtkOWPsAxx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="📗教育",幸福空間居家台
+https://kudog.chatgb.dpdns.org/?id=5bm456aP56m66ZaT5bGF5a625Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="📗教育",車迷TV
+https://kudog.chatgb.dpdns.org/?id=6LuK6La3VFYx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-id="CETV1" tvg-name="CETV1" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/150/202407181432_1721283631491_H32_1080.webp" group-title="📗教育",CETV1
 http://gslbmgsplive.miguvideo.com/migu/kailu/cetv1/51/20240709/index.m3u8?msisdn=202511041200536cadde1f600243b0af9055b14b6ae8ad&mdspid=&spid=699004&netType=0&sid=5910022150&pid=2028597139&timestamp=20251104120053&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287154&ParentNodeID=-99&assertID=5910022150&client_ip=106.13.250.83&SecurityKey=20251104120053&promotionId=&mvid=5900006636&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=b6fea241dc6bcb507d2dc5340562daee&ddCalcu=ebe6eaf0de32a06254014d3c56cbdc2bd570
 #EXTINF:-1 tvg-id="CETV2" tvg-name="CETV2" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/152/202407181432_1721283782530_H32_1080.webp" group-title="📗教育",CETV2
@@ -1008,16 +975,14 @@ http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8
 #EXTINF:-1 tvg-id="24.7.Dummy.us" tvg-logo="https://img.platform.wurl.dev/channel/1781/lg/e1d25f/LG-Logo-PNG-100x100_v2.png" group-title="📗教育",FIFA+
 https://339a32f2.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfRklGQVBsdXNFbmdsaXNoX0hMUw/playlist.m3u8
-#EXTINF:-1 tvg-name="TV5MONDE STYLE HD 生活時尚" tvg-logo="https://logo.catvod.com/TV5MONDE STYLE HD 生活時尚.png" group-title="📦️购物",TV5MONDE STYLE HD 生活時尚
-https://kudog.chatgb.dpdns.org/?id=178
 #EXTINF:-1 tvg-name="南方购物" group-title="📦️购物",南方购物
 http://ipv4-go.825939.xyz:4033/udp/239.77.0.19:5146
 #EXTINF:-1 tvg-name="欢腾购物" group-title="📦️购物",欢腾购物
 http://tvcdn.stream3.hndt.com/tv/65ba653b017e1000d4ee41c700000000_transios/playlist.m3u8?wsSecret=5673ec7d342c10c2aefe6ec68e022717&wsTime=1762243214
-#EXTINF:-1 tvg-name="SBN全球財經台" tvg-logo="https://logo.catvod.com/SBN全球財經台.png" group-title="⚡️财经",SBN全球財經台
-https://kudog.chatgb.dpdns.org/?id=224
-#EXTINF:-1 tvg-name="Bloomberg TV" tvg-logo="https://logo.catvod.com/Bloomberg TV.png" group-title="⚡️财经",Bloomberg TV
-https://kudog.chatgb.dpdns.org/?id=283
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="⚡️财经",Bloomberg TV
+https://kudog.chatgb.dpdns.org/?id=Qmxvb21iZXJnIFRW&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="⚡️财经",SBN全球財經台
+https://kudog.chatgb.dpdns.org/?id=U0JO5YWo55CD6LKh57aT5Yaw&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-id="财富天下" tvg-name="财富天下" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/193/202508061552_1754385779498_H32_1080.webp" group-title="⚡️财经",财富天下
 http://gslbmgsplive.miguvideo.com/migu/kailu/cftx/51/20250804/index.m3u8?msisdn=20251104120051abaad7acc5114e95bba378eac1df5932&mdspid=&spid=600697&netType=0&sid=5910022193&pid=2028597139&timestamp=20251104120051&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=956923159&ParentNodeID=-99&assertID=5910022193&client_ip=106.13.250.83&SecurityKey=20251104120051&promotionId=&mvid=5900006715&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=a28e4fa8416f77444bea04d1f5a8a447&ddCalcu=7a42e480ae6840af5af814d1460fa7e7b444
 #EXTINF:-1 group-title="⚡️财经",Cheddar News
@@ -1028,10 +993,8 @@ https://ab352235.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYX
 https://86fdc85a.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfQmxvb21iZXJnT3JpZ2luYWxzX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-name="耀才财经" group-title="⚡️财经",耀才财经
 https://v3.mediacast.hk/webcast/bshdlive-pc/playlist.m3u8
-#EXTINF:-1 tvg-name="鳳梨直擊台" tvg-logo="https://logo.catvod.com/鳳梨直擊台.png" group-title="🗑️综合",鳳梨直擊台
-https://kudog.chatgb.dpdns.org/?id=93
-#EXTINF:-1 tvg-name="香蕉直擊台" tvg-logo="https://logo.catvod.com/香蕉直擊台.png" group-title="🗑️综合",香蕉直擊台
-https://kudog.chatgb.dpdns.org/?id=94
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🗑️综合",Pet Club TV
+https://kudog.chatgb.dpdns.org/?id=UGV0IENsdWIgVFYx&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-id="和美乡途轮播台" tvg-name="和美乡途轮播台" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/019/525/202504151721_1744708812840_H32_1080.webp" group-title="🗑️综合",和美乡途轮播台
 http://gslbmgsplive.miguvideo.com/migu/virtuallive2/5900002411/51/20210706/index.m3u8?msisdn=20251104120052e4107c2e01534c57a4dda073af285755&mdspid=&spid=800033&netType=0&sid=5910019525&pid=2028597139&timestamp=20251104120052&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=713591450&ParentNodeID=-99&assertID=5910019525&client_ip=106.13.250.83&SecurityKey=20251104120052&promotionId=&mvid=5900002421&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=77b09891695bebc024d82d4b9c8be60d&ddCalcu=d707e6b0e03b9088c991b649d52b8edb4c20
 #EXTINF:-1 tvg-name="国内高清" group-title="🗑️综合",国内高清
