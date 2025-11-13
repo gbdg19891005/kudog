@@ -1,9 +1,9 @@
 #EXTM3U x-tvg-url="https://epg.catvod.com/epg.xml"
-#EXTINF:-1 tvg-name="kudogxy提供🎖️自建接口、" tvg-logo="https://gss0.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/fd039245d688d43f219dbba5771ed21b0ef43bb4.jpg" group-title="kudogxy提供🎖️自建接口",kudogxy提供🎖️自建接口、
+#EXTINF:-1 tvg-name="" tvg-logo="https://kudog.a0001.net/var/albums/bd3eb13533fa828b927fdc6ef51f4134960a5ada.jpg" group-title="kudogxy提供🎖️自建接口",
 https://vd3.bdstatic.com/mda-mev3hw0htz28h5wn/1080p/cae_h264/1622343504467773766/mda-mev3hw0htz28h5wn.mp4
-#EXTINF:-1 tvg-name="接口专人维护✔️保障观看、" tvg-logo="https://gss0.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/fd039245d688d43f219dbba5771ed21b0ef43bb4.jpg" group-title="接口专人维护✔️保障观看、",接口专人维护✔️保障观看、
+#EXTINF:-1 tvg-name="接口专人维护✔️保障观看、" tvg-logo="https://kudog.a0001.net/var/albums/bd3eb13533fa828b927fdc6ef51f4134960a5ada.jpg" group-title="接口专人维护✔️保障观看、",接口专人维护✔️保障观看、
 https://alimov2.a.kwimgs.com/upic/2023/07/10/14/BMjAyMzA3MTAxNDE5MTdfMzM5Njk4MTMyNl8xMDc2MDM1MDcwMjhfMF8z_b_B2c9fa52d46ef9499c4682907e8328111.mp4
-#EXTINF:-1 tvg-name="唯一服务微信:kudogxy" tvg-logo="https://gss0.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/fd039245d688d43f219dbba5771ed21b0ef43bb4.jpg" group-title="唯一服务微信:kudogxy",唯一服务微信:kudogxy
+#EXTINF:-1 tvg-name="唯一服务微信:kudogxy" tvg-logo="https://kudog.a0001.net/var/albums/bd3eb13533fa828b927fdc6ef51f4134960a5ada.jpg" group-title="唯一服务微信:kudogxy",唯一服务微信:kudogxy
 https://bcian.cn/ku.mp4
 #EXTINF:-1 tvg-id="CCTV1综合" tvg-name="CCTV1综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2201/057/821/202204010054_1626677671392_H32_1080.webp" group-title="🔥央视频道",CCTV1综合
 http://gslbmgsplive.miguvideo.com/wd_r2/cctv/cctv1hd/1200/index.m3u8?msisdn=2025111406002874a67c1cb0544ff88565971f28cc4469&mdspid=&spid=699004&netType=0&sid=2201057821&pid=2028597139&timestamp=20251114060028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=608807420&ParentNodeID=-99&assertID=2201057821&client_ip=106.13.250.90&SecurityKey=20251114060028&promotionId=&mvid=2201057821&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=3327dd6b86c97e71be62ab8b9aabff88&ddCalcu=8383ef21f78bd0ada69bb886bca9276ee7b1
@@ -49,6 +49,8 @@ http://gslbmgsplive.miguvideo.com/migu/kailu/zgtq/51/20251103/index.m3u8?msisdn=
 http://gslbmgsplive.miguvideo.com/migu/kailu/zhtc/51/20251103/index.m3u8?msisdn=202511140600367d005d9a11f8412880140e81428dfa68&mdspid=&spid=600697&netType=0&sid=5910022295&pid=2028597139&timestamp=20251114060036&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=959986618&ParentNodeID=-99&assertID=5910022295&client_ip=106.13.250.90&SecurityKey=20251114060036&promotionId=&mvid=5900006771&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=447ba23ae3f51af856bbc46cdde90011&ddCalcu=1414e0710b99a0e2d3dace634fc5b1ba6f58
 #EXTINF:-1 tvg-name="世界地理" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/世界地理.png" group-title="🔥央视频道" response-time="21ms",世界地理
 http://101.74.28.102:9901/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="睛彩中原" group-title="🔥央视频道",睛彩中原
+http://tvcdn.stream3.hndt.com/tv/65b27d4c017e100039bd55c200000000_transios/playlist.m3u8?wsSecret=4632e37aed7f844037e911e0104a5bef&wsTime=1763085609
 #EXTINF:-1 tvg-name="CCTV央视台球" group-title="🔥央视频道",CCTV央视台球
 http://sh.lnott.top:880/dx82.m3u8
 #EXTINF:-1 tvg-name="CCTV风云足球" group-title="🔥央视频道",CCTV风云足球
@@ -950,8 +952,6 @@ https://86fdc85a.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2
 https://kudog.chatgb.dpdns.org/?id=OTQ%253D&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🗑️综合",鳳梨直擊台
 https://kudog.chatgb.dpdns.org/?id=OTM%253D&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
-#EXTINF:-1 tvg-name="睛彩中原" group-title="🗑️综合",睛彩中原
-http://tvcdn.stream3.hndt.com/tv/65b27d4c017e100039bd55c200000000_transios/playlist.m3u8?wsSecret=4632e37aed7f844037e911e0104a5bef&wsTime=1763085609
 #EXTINF:-1 tvg-name="星爷房✔原" group-title="🗑️综合",星爷房✔原
 http://zzy789.xyz/douyu1.php?id=122402
 #EXTINF:-1 tvg-name="女神金" group-title="🗑️综合",女神金
