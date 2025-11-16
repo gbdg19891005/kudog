@@ -31,7 +31,7 @@ def main():
         try:
             with open(fname, "r", encoding="utf-8") as f:
                 lines = f.read().splitlines()
-                if not lines[0].startswith("#EXTM3U"):
+                if not lines or not lines[0].startswith("#EXTM3U"):
                     lines = convert_txt_to_m3u(lines)
                 process_lines(lines[1:], alias_map, rules, blocklist,
                               keep_multiple_urls, channels,
@@ -45,11 +45,24 @@ def main():
     is_primary = True
     for url in sources.get("remote_urls", []):
         try:
-            resp = requests.get(url, timeout=timeout)
+            headers = {"User-Agent": config["ua"]}
+            if config["referrer"]:
+                headers["Referer"] = config["referrer"]
+
+            resp = requests.get(url, headers=headers, timeout=timeout)
             resp.raise_for_status()
-            lines = resp.text.splitlines()
-            if not lines[0].startswith("#EXTM3U"):
+
+            # 优先按二进制解码，避免下载型源失败
+            try:
+                text = resp.content.decode("utf-8", errors="ignore").strip()
+            except Exception:
+                text = resp.text.strip()
+
+            lines = text.splitlines()
+            if not lines or not lines[0].startswith("#EXTM3U"):
+                logging.warning(f"[WARN] {url} 返回的不是标准 M3U，尝试转换")
                 lines = convert_txt_to_m3u(lines)
+
             process_lines(lines[1:], alias_map, rules, blocklist,
                           keep_multiple_urls, channels,
                           primary=is_primary, source_name=f"远程:{url}",
