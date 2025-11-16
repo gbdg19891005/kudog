@@ -1,0 +1,59 @@
+{
+  "remote_urls": [
+    {
+      "url": "https://raw.githubusercontent.com/kimwang1978/collect-txt/refs/heads/main/bbxx_lite.m3u",
+      "include_channels": ["CCTV", "卫视", "体育"]
+    },
+    "https://raw.githubusercontent.com/develop202/migu_video/main/interface.txt",
+    "https://raw.githubusercontent.com/best-fan/iptv-sources/refs/heads/main/cn_all.m3u8",
+    "https://raw.githubusercontent.com/Supprise0901/TVBox_live/refs/heads/main/live.txt",
+    "https://r2.laobaitv.net/public.m3u",
+    "https://raw.githubusercontent.com/mytv-android/BRTV-Live-M3U8/refs/heads/main/iptv.m3u",
+    "https://raw.githubusercontent.com/dbghelp/Free-to-air-TV/refs/heads/main/japan.m3u8",
+    "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u"
+  ],
+  "local_files": [
+    "xinzhibo.m3u"
+  ]
+}
+
+每个
+{
+  "remote_urls": [
+    {
+      "url": "https://raw.githubusercontent.com/kimwang1978/collect-txt/refs/heads/main/bbxx_lite.m3u",
+      "include_channels": ["CCTV", "卫视"]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/develop202/migu_video/main/interface.txt",
+      "include_channels": ["体育", "电影"]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/refs/heads/main/cn_all.m3u8",
+      "include_channels": ["新闻", "综艺"]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Supprise0901/TVBox_live/refs/heads/main/live.txt",
+      "include_channels": ["CCTV"]
+    },
+    {
+      "url": "https://r2.laobaitv.net/public.m3u",
+      "include_channels": ["卫视"]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/mytv-android/BRTV-Live-M3U8/refs/heads/main/iptv.m3u",
+      "include_channels": ["体育"]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/dbghelp/Free-to-air-TV/refs/heads/main/japan.m3u8",
+      "include_channels": ["NHK", "CCTV"]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u",
+      "include_channels": ["CCTV", "卫视", "体育"]
+    }
+  ],
+  "local_files": [
+    "xinzhibo.m3u"
+  ]
+}
