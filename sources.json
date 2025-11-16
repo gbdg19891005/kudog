@@ -2,7 +2,7 @@
   "remote_urls": [
     {
       "url": "https://raw.githubusercontent.com/kimwang1978/collect-txt/refs/heads/main/bbxx_lite.m3u",
-      "include_channels": ["CCTV", "卫视"]
+      "include_channels": ["体育", "频道", "4K", "财经"]
     },
     "https://raw.githubusercontent.com/develop202/migu_video/main/interface.txt",
     "https://raw.githubusercontent.com/best-fan/iptv-sources/refs/heads/main/cn_all.m3u8",
