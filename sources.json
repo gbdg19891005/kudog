@@ -12,17 +12,3 @@
     "xinzhibo.m3u"
   ]
 }
-
-
-#{
-  "remote_urls": [
-    {
-      "url": "https://raw.githubusercontent.com/develop202/migu_video/main/interface.txt",
-      "note": "如果需要过滤，只保留 CCTV、卫视、体育频道，就加 include_channels"
-      // 不要写 //，而是用 note 字段
-    }
-  ],
-  "local_files": [
-    "xinzhibo.m3u"
-  ]
-}
