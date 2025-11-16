@@ -176,7 +176,7 @@ http://php.jdshipin.com/TVOD/iptv.php?id=as
 #EXTINF:-1 tvg-id="澳视体育" tvg-name="澳视体育" tvg-logo="https://logo.laobaitv.net/asty" group-title="🔔卫视频道",澳门体育
 http://cdn6.163189.xyz/163189/amty
 #EXTINF:-1 tvg-id="北京卫视4K超高清" tvg-name="北京卫视4K超高清" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京卫视.png" group-title="🔔卫视频道",北京卫视4K超高清
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s110/index.m3u8?time=1763266215&sign=fc728027f9d28f9be3c5b8ae7e5fc590
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s110/index.m3u8?time=1763268615&sign=77d2b9edf57cf3f0455ce6ed340371cb
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",KLT-靖天國際台
 https://kudog.chatgb.dpdns.org/?id=ODQ%253D&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",Nice TV 靖天歡樂台
@@ -351,6 +351,36 @@ https://smart.dxjc.pp.ua/smart.php?id=ftvhd_taiwan&token=tmxk
 https://smart.dxjc.pp.ua/smart.php?id=ettvnews&token=tmxk
 #EXTINF:-1 tvg-id="AXN Taiwan" tvg-name="AXN Taiwan" tvg-logo="https://logo.laobaitv.net/axntaiwan" group-title="💥港|澳|台",AXN 台湾
 https://smart.dxjc.pp.ua/smart.php?id=axn_twn&token=tmxk
+#EXTINF:-1 tvg-id="台視" tvg-name="台視" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/TTV.png" group-title="💥港|澳|台",台視
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=4gtv-4gtv066
+#EXTINF:-1 tvg-id="台視新聞" tvg-name="台視新聞" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/TTV2.png" group-title="💥港|澳|台",台視新聞
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=4gtv-4gtv051
+#EXTINF:-1 tvg-id="國會頻道1台" tvg-name="國會頻道1台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/guohui1.png" group-title="💥港|澳|台",國會頻道1台
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=4gtv-4gtv084
+#EXTINF:-1 tvg-id="國會頻道2台" tvg-name="國會頻道2台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/guohui2.png" group-title="💥港|澳|台",國會頻道2台
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=4gtv-4gtv085
+#EXTINF:-1 tvg-id="東森購物1台" tvg-name="東森購物1台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/EBC11.png" group-title="💥港|澳|台",東森購物1台
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=4gtv-4gtv102
+#EXTINF:-1 tvg-id="東森購物2台" tvg-name="東森購物2台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/EBC11.png" group-title="💥港|澳|台",東森購物2台
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=4gtv-4gtv103
+#EXTINF:-1 tvg-id="寰宇財經台" tvg-name="寰宇財經台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Global4.png" group-title="💥港|澳|台",寰宇財經台
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=4gtv-4gtv158
+#EXTINF:-1 tvg-id="TVBS食尚玩家" tvg-name="TVBS食尚玩家" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_2984_ofiii31_tv_20230720.png" group-title="💥港|澳|台",TVBS食尚玩家
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii31
+#EXTINF:-1 tvg-id="東森娛樂台" tvg-name="東森娛樂台" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_2985_ofiii32_tv_20230720.png" group-title="💥港|澳|台",東森娛樂台
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii32
+#EXTINF:-1 tvg-id="中天亞洲精采台" tvg-name="中天亞洲精采台" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3069_ofiii36_tv_20230920.png" group-title="💥港|澳|台",中天亞洲精采台
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii36
+#EXTINF:-1 tvg-id="在異世界獲得超強能力的我，在現實世界照樣無敵～等級提升改變人生命運～" tvg-name="在異世界獲得超強能力的我，在現實世界照樣無敵～等級提升改變人生命運～" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3303_ofiii162_tv_20250221.png" group-title="💥港|澳|台",在異世界獲得超強能力的我，在現實世界照樣無敵～等級提升改變人生命運～
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii162
+#EXTINF:-1 tvg-id="生命的贏家" tvg-name="生命的贏家" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_ofiii192_tv_20230329.png" group-title="💥港|澳|台",生命的贏家
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii192
+#EXTINF:-1 tvg-id="寰宇全視界" tvg-name="寰宇全視界" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_2942_ofiii204_tv_20250221.png" group-title="💥港|澳|台",寰宇全視界
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii204
+#EXTINF:-1 tvg-id="民視異言堂" tvg-name="民視異言堂" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3884_ofiii211_tv_20250924.png" group-title="💥港|澳|台",民視異言堂
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii211
+#EXTINF:-1 tvg-id="非凡大探索" tvg-name="非凡大探索" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3553_ofiii234_tv_20250221.png" group-title="💥港|澳|台",非凡大探索
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii234
 #EXTINF:-1 group-title="💥港|澳|台",Taiwan Plus
 https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8
 #EXTINF:-1 tvg-id="陕西体育休闲频道" tvg-name="陕西体育休闲频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/189/202508051745_1754370657621_H32_1080.webp" group-title="💎地方台",陕西体育休闲频道
@@ -444,19 +474,19 @@ https://live.chinacert.cftest5.cn/mg/?id=956909303
 #EXTINF:-1 tvg-id="" tvg-name="陕西新闻资讯" tvg-logo="https://logo.laobaitv.net/shannxxwzx" group-title="💎地方台",陕西新闻资讯频道
 https://live.chinacert.cftest5.cn/mg/?id=956909289
 #EXTINF:-1 tvg-id="北京新闻" tvg-name="北京新闻" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京新闻.png" group-title="💎地方台",北京新闻
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s9/index.m3u8?time=1763266213&sign=5dae6877c03f25bdc94a61b733afea2f
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s9/index.m3u8?time=1763268613&sign=689c37f31556d503c4a04ebfa750116d
 #EXTINF:-1 tvg-id="北京影视" tvg-name="北京影视" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京影视.png" group-title="💎地方台",北京影视
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s4/index.m3u8?time=1763266210&sign=f5274b048508487505fcf3c2a2b1bb94
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s4/index.m3u8?time=1763268610&sign=8e817dbacf76277189bddfe70aa8ea5f
 #EXTINF:-1 tvg-id="北京生活" tvg-name="北京生活" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京生活.png" group-title="💎地方台",北京生活
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s7/index.m3u8?time=1763266212&sign=1a0a9b0e2c5bf941118fb03aba7fadc5
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s7/index.m3u8?time=1763268612&sign=14b05cdfb99540621301bdb12aafe475
 #EXTINF:-1 tvg-id="北京文艺" tvg-name="北京文艺" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京文艺.png" group-title="💎地方台",北京文艺
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s2/index.m3u8?time=1763266208&sign=646cb05f3acd0dd3582b70481cea85d2
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s2/index.m3u8?time=1763268607&sign=34b236fa500ce4d0497003f3b8a2562e
 #EXTINF:-1 tvg-id="北京财经" tvg-name="北京财经" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京财经.png" group-title="💎地方台",北京财经
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s5/index.m3u8?time=1763266211&sign=a62ff2ccd5ce195db71763063d7a8382
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s5/index.m3u8?time=1763268611&sign=0850f288912703079d84ac7247e7fc78
 #EXTINF:-1 tvg-id="北京纪实科教" tvg-name="北京纪实科教" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京纪实科教.png" group-title="💎地方台",北京纪实科教
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s3/index.m3u8?time=1763266209&sign=2c1a6df3ff9b5cf6b2f75368a786f1d9
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s3/index.m3u8?time=1763268608&sign=38552e569e78976b9c63a88a871399ec
 #EXTINF:-1 tvg-id="北京卡酷少儿" tvg-name="北京卡酷少儿" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京卡酷少儿.png" group-title="💎地方台",北京卡酷少儿
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s10/index.m3u8?time=1763266214&sign=15569213636d43527d74f020c7ace360
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s10/index.m3u8?time=1763268614&sign=26695b10dcbb68d46694844b6ae3c052
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🌈综艺",Lifetime 娛樂頻道
 https://kudog.chatgb.dpdns.org/?id=MjE3&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🌈综艺",fun探索娛樂台
@@ -484,6 +514,10 @@ http://zzy789.xyz/douyu1.php?id=9403690
 http://zzy789.xyz/douyu1.php?id=9817716
 #EXTINF:-1 tvg-id="欢乐综艺" tvg-name="欢乐综艺" group-title="🌈综艺",欢乐综艺
 http://huanqiuzhibo.cn/manifest/douyu.php?id=131977
+#EXTINF:-1 tvg-id="綜藝大集合" tvg-name="綜藝大集合" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3809_ofiii125_tv_20250729.png" group-title="🌈综艺",綜藝大集合
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii125
+#EXTINF:-1 tvg-id="中國旅遊大探索" tvg-name="中國旅遊大探索" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3813_ofiii247_tv_20250729.png" group-title="🌈综艺",中國旅遊大探索
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii247
 #EXTINF:-1 group-title="🌈综艺",KFN
 http://mediaworks.dema.mil.kr:1935/live_edge/cudo.sdp/playlist.m3u8
 #EXTINF:-1 group-title="🌈综艺",Korea TV
@@ -694,6 +728,12 @@ https://bee.laobaitv.net/HBO-2/index.m3u8
 https://bee.laobaitv.net/Cinemax-West/index.m3u8
 #EXTINF:-1 tvg-id="Great Movies" tvg-name="Great Movies" tvg-logo="https://logo.laobaitv.net/greatmovies" group-title="🎥电影",Great Movies
 https://bee.laobaitv.net/UK-Great-Movies/index.m3u8
+#EXTINF:-1 tvg-id="龍華電影台" tvg-name="龍華電影台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/LTV1.png" group-title="🎥电影",龍華電影台
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=litv-longturn03
+#EXTINF:-1 tvg-id="歐飛電影台" tvg-name="歐飛電影台" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_2748_ofiii74_tv_20240315.png" group-title="🎥电影",歐飛電影台
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii74
+#EXTINF:-1 tvg-id="歐飛動作電影台" tvg-name="歐飛動作電影台" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3203_ofiii75_tv_20240315.png" group-title="🎥电影",歐飛動作電影台
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii75
 #EXTINF:-1 group-title="🎥电影",WION
 https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
 #EXTINF:-1 group-title="🎥电影",MovieSphere
@@ -760,6 +800,10 @@ http://gslbmgsplive.miguvideo.com/wd_r1/2018/nfmedia/jjkt/1000/index.m3u8?msisdn
 http://221.13.235.118:9901/tsfile/live/1010_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="" tvg-name="优漫卡通" tvg-logo="https://logo.laobaitv.net/ymkt" group-title="🌝动画",优漫卡通频道
 https://live.chinacert.cftest5.cn/mg/?id=626064703
+#EXTINF:-1 tvg-id="龍華卡通台" tvg-name="龍華卡通台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/LTV9.png" group-title="🌝动画",龍華卡通台
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=litv-longturn01
+#EXTINF:-1 tvg-id="人氣動漫預告" tvg-name="人氣動漫預告" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_2990_ofiii97_tv_20230814.png" group-title="🌝动画",人氣動漫預告
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii97
 #EXTINF:-1 group-title="🌝动画",PBS Kids
 https://pbs2-pull-secure.akamaized.net/pbs2/stream.m3u8
 #EXTINF:-1 group-title="🌝动画",Kartoon Channel
@@ -786,6 +830,14 @@ http://huanqiuzhibo.cn/manifest/douyu.php?id=4332
 https://bee.laobaitv.net/Discovery-Channel/index.m3u8
 #EXTINF:-1 tvg-id="Discovery Life" tvg-name="Discovery Life" tvg-logo="https://logo.laobaitv.net/discoverylife" group-title="🐷纪录片",Discovery Life
 https://bee.laobaitv.net/Discovery-Life/index.m3u8
+#EXTINF:-1 tvg-id="Focus探索新知台" tvg-name="Focus探索新知台" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_ofiii82_tv_20221213.png" group-title="🐷纪录片",Focus探索新知台
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii82
+#EXTINF:-1 tvg-id="ASMR行車紀錄" tvg-name="ASMR行車紀錄" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3691_ofiii94_tv_20250328.png" group-title="🐷纪录片",ASMR行車紀錄
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii94
+#EXTINF:-1 tvg-id="中國美食大探索" tvg-name="中國美食大探索" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3784_ofiii246_tv_20250626.png" group-title="🐷纪录片",中國美食大探索
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii246
+#EXTINF:-1 tvg-id="大自然流水聲" tvg-name="大自然流水聲" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3785_ofiii255_tv_20250703.png" group-title="🐷纪录片",大自然流水聲
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii255
 #EXTINF:-1 group-title="🐷纪录片",RT Documentary
 https://rt-rtd.rttv.com/live/rtdoc/playlist_4500Kb.m3u8
 #EXTINF:-1 group-title="🐷纪录片",Wild Earth
@@ -856,6 +908,8 @@ https://live.chinacert.cftest5.cn/mg/?id=609154345
 https://live.chinacert.cftest5.cn/mg/?id=609006450
 #EXTINF:-1 tvg-id="NHK World Japan" tvg-name="NHK World Japan" tvg-logo="https://logo.laobaitv.net/nhkworldjapan" group-title="🌍️国际台",NHK World Japan
 https://livehub-voidnet.onrender.com/cluster/streamcore/jp/NHK_StreamOrchestrator.m3u8
+#EXTINF:-1 tvg-id="國際大小事" tvg-name="國際大小事" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3560_ofiii55_tv_20241202.png" group-title="🌍️国际台",國際大小事
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii55
 #EXTINF:-1 group-title="🌍️国际台",BBC News
 https://jmp2.uk/stvp-US4000033L
 #EXTINF:-1 group-title="🌍️国际台",GB News
@@ -910,6 +964,12 @@ http://tvcdn.stream3.hndt.com/tv/65bd329b017e1000648cd2ed00000000_transios/playl
 https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=8264c68906b98349fcd29848fa5bb19f&wsTime=1763280013
 #EXTINF:-1 tvg-id="移动戏曲频道" tvg-name="移动戏曲频道" group-title="🧙‍♀️戏剧",移动戏曲频道
 https://tvcdn.stream3.hndt.com/tv/160ea8971f8b41f0905f88c7afe3effe_transios/playlist.m3u8?wsSecret=57d374bbf772601b0695337e3f00784e&wsTime=1763280013
+#EXTINF:-1 tvg-id="龍華戲劇台" tvg-name="龍華戲劇台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/LTV4.png" group-title="🧙‍♀️戏剧",龍華戲劇台
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=litv-longturn18
+#EXTINF:-1 tvg-id="台灣戲劇台" tvg-name="台灣戲劇台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Taiwanxiju.png" group-title="🧙‍♀️戏剧",台灣戲劇台
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=litv-longturn22
+#EXTINF:-1 tvg-id="Focus風采戲劇台" tvg-name="Focus風采戲劇台" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_litv-playout951_tv_20180522.png" group-title="🧙‍♀️戏剧",Focus風采戲劇台
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii1048
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🎵音乐",CLASSICA 古典樂
 https://kudog.chatgb.dpdns.org/?id=ODA%253D&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🎵音乐",LiveABC互動英語頻道
@@ -964,6 +1024,10 @@ https://kudog.chatgb.dpdns.org/?id=Mjgz&auth=fb5f1c47187db62b1c3026c3b8e164051f4
 https://kudog.chatgb.dpdns.org/?id=MjI0&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-id="财富天下" tvg-name="财富天下" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/193/202508061552_1754385779498_H32_1080.webp" group-title="⚡️财经",财富天下
 http://gslbmgsplive.miguvideo.com/migu/kailu/cftx/51/20250804/index.m3u8?msisdn=2025111612004030963e635bd74d06afff83688944094f&mdspid=&spid=600697&netType=0&sid=5910022193&pid=2028597139&timestamp=20251116120040&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=956923159&ParentNodeID=-99&assertID=5910022193&client_ip=106.13.250.90&SecurityKey=20251116120040&promotionId=&mvid=5900006715&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=7524d6a6a17b18ffcfdc70624e6c217c&ddCalcu=c775e121246cd066ea462a61077bc1d8ffcf
+#EXTINF:-1 tvg-id="第1財經" tvg-name="第1財經" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_ofiii64_tv_20221110.png" group-title="⚡️财经",第1財經
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii64
+#EXTINF:-1 tvg-id="文茜的世界財經周報" tvg-name="文茜的世界財經周報" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3480_ofiii205_tv_20250221.png" group-title="⚡️财经",文茜的世界財經周報
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii205
 #EXTINF:-1 group-title="⚡️财经",Cheddar News
 https://cheddar-us.samsung.wurl.tv/playlist_4300k.m3u8
 #EXTINF:-1 tvg-id="24.7.Dummy.us" tvg-logo="https://img.platform.wurl.dev/channel/389/lg/6f2a84/LG-Logo-PNG-100x100_v3.png" group-title="⚡️财经",Bloomberg TV+
@@ -1052,3 +1116,297 @@ https://live.laobaitv.net/huya/11336726
 https://live.laobaitv.net/douyu/12400977
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://logo.laobaitv.net/douyu" group-title="🗑️综合",斗鱼 RunningMan
 https://live.laobaitv.net/douyu/131977
+#EXTINF:-1 tvg-id="第1商業台" tvg-name="第1商業台" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv104_tv.png" group-title="🗑️综合",第1商業台
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=4gtv-4gtv104
+#EXTINF:-1 tvg-id="龍華洋片台" tvg-name="龍華洋片台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/LTV2.png" group-title="🗑️综合",龍華洋片台
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=litv-longturn02
+#EXTINF:-1 tvg-id="龍華日韓台" tvg-name="龍華日韓台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/LTV5.png" group-title="🗑️综合",龍華日韓台
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=litv-longturn11
+#EXTINF:-1 tvg-id="龍華偶像台" tvg-name="龍華偶像台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/LTV6.png" group-title="🗑️综合",龍華偶像台
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=litv-longturn12
+#EXTINF:-1 tvg-id="Smart知識台" tvg-name="Smart知識台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/smarttv.png" group-title="🗑️综合",Smart知識台
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=litv-longturn19
+#EXTINF:-1 tvg-id="龍華經典台" tvg-name="龍華經典台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/LTV7.png" group-title="🗑️综合",龍華經典台
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=litv-longturn21
+#EXTINF:-1 tvg-id="倪珍播新聞" tvg-name="倪珍播新聞" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_nnews_tv.png" group-title="🗑️综合",倪珍播新聞
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=nnews-zh
+#EXTINF:-1 tvg-id="DayStar" tvg-name="DayStar" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/Daystar_128x72.png" group-title="🗑️综合",DayStar
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=daystar
+#EXTINF:-1 tvg-id="公視金獎台" tvg-name="公視金獎台" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3068_ofiii13_tv_20230920.png" group-title="🗑️综合",公視金獎台
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii13
+#EXTINF:-1 tvg-id="空中英語教室HD頻道" tvg-name="空中英語教室HD頻道" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3720_ofiii16_tv_20250506.png" group-title="🗑️综合",空中英語教室HD頻道
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii16
+#EXTINF:-1 tvg-id="哆啦Ａ夢台" tvg-name="哆啦Ａ夢台" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_litv-vchannel22_tv_20190902.png" group-title="🗑️综合",哆啦Ａ夢台
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii22
+#EXTINF:-1 tvg-id="新哆啦A夢(中文版)" tvg-name="新哆啦A夢(中文版)" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3386_ofiii23_tv_20240709.png" group-title="🗑️综合",新哆啦A夢(中文版)
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii23
+#EXTINF:-1 tvg-id="新哆啦A夢(中文版)2台" tvg-name="新哆啦A夢(中文版)2台" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3841_ofiii24_tv_20250827.png" group-title="🗑️综合",新哆啦A夢(中文版)2台
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii24
+#EXTINF:-1 tvg-id="經典劇場" tvg-name="經典劇場" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3559_ofiii38_tv_20241202.png" group-title="🗑️综合",經典劇場
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii38
+#EXTINF:-1 tvg-id="短劇馬拉松" tvg-name="短劇馬拉松" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3689_ofiii39_tv_20250328.png" group-title="🗑️综合",短劇馬拉松
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii39
+#EXTINF:-1 tvg-id="掏掏新聞" tvg-name="掏掏新聞" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_litv-playout50_tv_20211124.png" group-title="🗑️综合",掏掏新聞
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii50
+#EXTINF:-1 tvg-id="Golden 強片台" tvg-name="Golden 強片台" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3562_ofiii70_tv_20241203.png" group-title="🗑️综合",Golden 強片台
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii70
+#EXTINF:-1 tvg-id="周星馳台" tvg-name="周星馳台" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3202_ofiii73_tv_20240105.png" group-title="🗑️综合",周星馳台
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii73
+#EXTINF:-1 tvg-id="Golden影迷台" tvg-name="Golden影迷台" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3880_ofiii76_tv_20250924.png" group-title="🗑️综合",Golden影迷台
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii76
+#EXTINF:-1 tvg-id="全民星攻略 知識開箱" tvg-name="全民星攻略 知識開箱" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3719_ofiii81_tv_20250506.png" group-title="🗑️综合",全民星攻略 知識開箱
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii81
+#EXTINF:-1 tvg-id="鄉民大學問" tvg-name="鄉民大學問" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3407_ofiii83_tv_20250221.png" group-title="🗑️综合",鄉民大學問
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii83
+#EXTINF:-1 tvg-id="社會NOW什麼" tvg-name="社會NOW什麼" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3409_ofiii85_tv_20250221.png" group-title="🗑️综合",社會NOW什麼
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii85
+#EXTINF:-1 tvg-id="啦啦隊獨家專訪" tvg-name="啦啦隊獨家專訪" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3690_ofiii88_tv_20250328.png" group-title="🗑️综合",啦啦隊獨家專訪
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii88
+#EXTINF:-1 tvg-id="泰可愛旋風" tvg-name="泰可愛旋風" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3526_ofiii89_tv_20241114.png" group-title="🗑️综合",泰可愛旋風
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii89
+#EXTINF:-1 tvg-id="演唱會直擊" tvg-name="演唱會直擊" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3525_ofiii91_tv_20241108.png" group-title="🗑️综合",演唱會直擊
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii91
+#EXTINF:-1 tvg-id="健康問良醫" tvg-name="健康問良醫" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3411_ofiii92_tv_20250221.png" group-title="🗑️综合",健康問良醫
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii92
+#EXTINF:-1 tvg-id="Freeman @台灣" tvg-name="Freeman @台灣" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3204_ofiii111_tv_20240105.png" group-title="🗑️综合",Freeman @台灣
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii95
+#EXTINF:-1 tvg-id="饕客揪愛吃" tvg-name="饕客揪愛吃" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_2989_ofiii96_tv_20230906.png" group-title="🗑️综合",饕客揪愛吃
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii96
+#EXTINF:-1 tvg-id="九九敬老頻道" tvg-name="九九敬老頻道" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_ofiii99_tv_20221110.png" group-title="🗑️综合",九九敬老頻道
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii99
+#EXTINF:-1 tvg-id="長安十二時辰" tvg-name="長安十二時辰" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3808_ofiii100_tv_20250729.png" group-title="🗑️综合",長安十二時辰
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii100
+#EXTINF:-1 tvg-id="韶華若錦" tvg-name="韶華若錦" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3778_ofiii101_tv_20250626.png" group-title="🗑️综合",韶華若錦
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii101
+#EXTINF:-1 tvg-id="白髮" tvg-name="白髮" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3881_ofiii102_tv_20250924.png" group-title="🗑️综合",白髮
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii102
+#EXTINF:-1 tvg-id="三國" tvg-name="三國" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3383_ofiii103_tv_20250221.png" group-title="🗑️综合",三國
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii103
+#EXTINF:-1 tvg-id="武媚娘傳奇" tvg-name="武媚娘傳奇" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3412_ofiii104_tv_20250221.png" group-title="🗑️综合",武媚娘傳奇
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii104
+#EXTINF:-1 tvg-id="長樂曲" tvg-name="長樂曲" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3476_ofiii105_tv_20250221.png" group-title="🗑️综合",長樂曲
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii105
+#EXTINF:-1 tvg-id="軍師聯盟" tvg-name="軍師聯盟" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3070_ofiii106_tv_20250221.png" group-title="🗑️综合",軍師聯盟
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii106
+#EXTINF:-1 tvg-id="軍師聯盟2 虎嘯龍吟" tvg-name="軍師聯盟2 虎嘯龍吟" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3071_ofiii107_tv_20250221.png" group-title="🗑️综合",軍師聯盟2 虎嘯龍吟
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii107
+#EXTINF:-1 tvg-id="國色芳華" tvg-name="國色芳華" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3692_ofiii108_tv_20250331.png" group-title="🗑️综合",國色芳華
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii108
+#EXTINF:-1 tvg-id="落花時節又逢君" tvg-name="落花時節又逢君" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3779_ofiii109_tv_20250626.png" group-title="🗑️综合",落花時節又逢君
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii109
+#EXTINF:-1 tvg-id="楚喬傳" tvg-name="楚喬傳" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3113_ofiii110_tv_20250221.png" group-title="🗑️综合",楚喬傳
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii110
+#EXTINF:-1 tvg-id="倚天屠龍記 2019" tvg-name="倚天屠龍記 2019" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3206_ofiii111_tv_20250221.png" group-title="🗑️综合",倚天屠龍記 2019
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii111
+#EXTINF:-1 tvg-id="鳳囚凰" tvg-name="鳳囚凰" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3721_ofiii112_tv_20250506.png" group-title="🗑️综合",鳳囚凰
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii112
+#EXTINF:-1 tvg-id="步步驚心" tvg-name="步步驚心" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3443_ofiii113_tv_20250221.png" group-title="🗑️综合",步步驚心
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii113
+#EXTINF:-1 tvg-id="九重紫" tvg-name="九重紫" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3630_ofiii114_tv_20250221.png" group-title="🗑️综合",九重紫
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii114
+#EXTINF:-1 tvg-id="私藏浪漫" tvg-name="私藏浪漫" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3444_ofiii115_tv_20250221.png" group-title="🗑️综合",私藏浪漫
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii115
+#EXTINF:-1 tvg-id="去有風的地方" tvg-name="去有風的地方" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_2591_ofiii116_tv_20250221.png" group-title="🗑️综合",去有風的地方
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii116
+#EXTINF:-1 tvg-id="佔有姜西" tvg-name="佔有姜西" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3780_ofiii117_tv_20250626.png" group-title="🗑️综合",佔有姜西
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii117
+#EXTINF:-1 tvg-id="向風而行《11/5即將下架》" tvg-name="向風而行《11/5即將下架》" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3022_ofiii118_tv_20250221.png" group-title="🗑️综合",向風而行《11/5即將下架》
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii118
+#EXTINF:-1 tvg-id="以家人之名" tvg-name="以家人之名" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3023_ofiii119_tv_20250221.png" group-title="🗑️综合",以家人之名
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii119
+#EXTINF:-1 tvg-id="有你的時光裡" tvg-name="有你的時光裡" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3722_ofiii120_tv_20250506.png" group-title="🗑️综合",有你的時光裡
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii120
+#EXTINF:-1 tvg-id="我的差評女友" tvg-name="我的差評女友" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3781_ofiii121_tv_20250626.png" group-title="🗑️综合",我的差評女友
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii121
+#EXTINF:-1 tvg-id="請叫我總監《11/5即將下架》" tvg-name="請叫我總監《11/5即將下架》" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3445_ofiii122_tv_20250221.png" group-title="🗑️综合",請叫我總監《11/5即將下架》
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii122
+#EXTINF:-1 tvg-id="三十而已" tvg-name="三十而已" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3748_ofiii123_tv_20250529.png" group-title="🗑️综合",三十而已
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii123
+#EXTINF:-1 tvg-id="月嫂先生" tvg-name="月嫂先生" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3693_ofiii124_tv_20250331.png" group-title="🗑️综合",月嫂先生
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii124
+#EXTINF:-1 tvg-id="豬哥壹級棒" tvg-name="豬哥壹級棒" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3356_ofiii126_tv_20250221.png" group-title="🗑️综合",豬哥壹級棒
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii126
+#EXTINF:-1 tvg-id="鬼話連篇" tvg-name="鬼話連篇" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3782_ofiii127_tv_20250626.png" group-title="🗑️综合",鬼話連篇
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii127
+#EXTINF:-1 tvg-id="醫師好辣" tvg-name="醫師好辣" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3633_ofiii128_tv_20250221.png" group-title="🗑️综合",醫師好辣
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii128
+#EXTINF:-1 tvg-id="WTO姐妹會" tvg-name="WTO姐妹會" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3301_ofiii129_tv_20250221.png" group-title="🗑️综合",WTO姐妹會
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii129
+#EXTINF:-1 tvg-id="全民星攻略" tvg-name="全民星攻略" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_2594_ofiii131_tv_20250221.png" group-title="🗑️综合",全民星攻略
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii131
+#EXTINF:-1 tvg-id="健康2.0" tvg-name="健康2.0" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3600_ofiii132_tv_20250221.png" group-title="🗑️综合",健康2.0
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii132
+#EXTINF:-1 tvg-id="台灣啟示錄" tvg-name="台灣啟示錄" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_2595_ofiii133_tv_20250221.png" group-title="🗑️综合",台灣啟示錄
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii133
+#EXTINF:-1 tvg-id="法眼黑與白" tvg-name="法眼黑與白" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_2935_ofiii134_tv_20250221.png" group-title="🗑️综合",法眼黑與白
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii134
+#EXTINF:-1 tvg-id="天才衝衝衝" tvg-name="天才衝衝衝" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_2936_ofiii135_tv_20250221.png" group-title="🗑️综合",天才衝衝衝
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii135
+#EXTINF:-1 tvg-id="一步一腳印 發現新台灣" tvg-name="一步一腳印 發現新台灣" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3601_ofiii136_tv_20250221.png" group-title="🗑️综合",一步一腳印 發現新台灣
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii136
+#EXTINF:-1 tvg-id="女人我最大" tvg-name="女人我最大" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3571_ofiii137_tv_20250221.png" group-title="🗑️综合",女人我最大
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii137
+#EXTINF:-1 tvg-id="威廉沈歡樂送" tvg-name="威廉沈歡樂送" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3603_ofiii139_tv_20250221.png" group-title="🗑️综合",威廉沈歡樂送
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii139
+#EXTINF:-1 tvg-id="木曜4超玩 一日系列" tvg-name="木曜4超玩 一日系列" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3694_ofiii140_tv_20250331.png" group-title="🗑️综合",木曜4超玩 一日系列
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii140
+#EXTINF:-1 tvg-id="月曜1起玩" tvg-name="月曜1起玩" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3749_ofiii141_tv_20250529.png" group-title="🗑️综合",月曜1起玩
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii141
+#EXTINF:-1 tvg-id="一字千金" tvg-name="一字千金" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3168_ofiii142_tv_20250221.png" group-title="🗑️综合",一字千金
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii142
+#EXTINF:-1 tvg-id="11點熱吵店" tvg-name="11點熱吵店" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3234_ofiii143_tv_20250221.png" group-title="🗑️综合",11點熱吵店
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii143
+#EXTINF:-1 tvg-id="麥卡貝網路電視" tvg-name="麥卡貝網路電視" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3750_ofiii144_tv_20250529.png" group-title="🗑️综合",麥卡貝網路電視
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii144
+#EXTINF:-1 tvg-id="回到20歲" tvg-name="回到20歲" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3661_ofiii145_tv_20250305.png" group-title="🗑️综合",回到20歲
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii145
+#EXTINF:-1 tvg-id="白雪公主非死不可" tvg-name="白雪公主非死不可" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3515_ofiii146_tv_20250225.png" group-title="🗑️综合",白雪公主非死不可
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii146
+#EXTINF:-1 tvg-id="好搭檔" tvg-name="好搭檔" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3516_ofiii147_tv_20250225.png" group-title="🗑️综合",好搭檔
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii147
+#EXTINF:-1 tvg-id="月升之江" tvg-name="月升之江" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3882_ofiii148_tv_20250924.png" group-title="🗑️综合",月升之江
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii148
+#EXTINF:-1 tvg-id="台灣靈異事件" tvg-name="台灣靈異事件" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3385_ofiii150_tv_20250221.png" group-title="🗑️综合",台灣靈異事件
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii150
+#EXTINF:-1 tvg-id="包青天 1993版" tvg-name="包青天 1993版" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3235_ofiii151_tv_20250221.png" group-title="🗑️综合",包青天 1993版
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii151
+#EXTINF:-1 tvg-id="我的婆婆怎麼那麼可愛" tvg-name="我的婆婆怎麼那麼可愛" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3027_ofiii152_tv_20250221.png" group-title="🗑️综合",我的婆婆怎麼那麼可愛
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii152
+#EXTINF:-1 tvg-id="村裡來了個暴走女外科" tvg-name="村裡來了個暴走女外科" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3028_ofiii153_tv_20250221.png" group-title="🗑️综合",村裡來了個暴走女外科
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii153
+#EXTINF:-1 tvg-id="一把青" tvg-name="一把青" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3077_ofiii154_tv_20250221.png" group-title="🗑️综合",一把青
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii154
+#EXTINF:-1 tvg-id="茶金" tvg-name="茶金" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3119_ofiii155_tv_20250221.png" group-title="🗑️综合",茶金
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii155
+#EXTINF:-1 tvg-id="苦力" tvg-name="苦力" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3478_ofiii156_tv_20250221.png" group-title="🗑️综合",苦力
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii156
+#EXTINF:-1 tvg-id="俗女養成記" tvg-name="俗女養成記" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3358_ofiii157_tv_20250221.png" group-title="🗑️综合",俗女養成記
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii157
+#EXTINF:-1 tvg-id="麻醉風暴" tvg-name="麻醉風暴" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3415_ofiii158_tv_20250221.png" group-title="🗑️综合",麻醉風暴
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii158
+#EXTINF:-1 tvg-id="雖然等級只有1級但固有技能是最強的" tvg-name="雖然等級只有1級但固有技能是最強的" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3359_ofiii159_tv_20250221.png" group-title="🗑️综合",雖然等級只有1級但固有技能是最強的
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii159
+#EXTINF:-1 tvg-id="擁有超常技能的異世界流浪美食家" tvg-name="擁有超常技能的異世界流浪美食家" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3331_ofiii160_tv_20250221.png" group-title="🗑️综合",擁有超常技能的異世界流浪美食家
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii160
+#EXTINF:-1 tvg-id="離開A級隊伍的我，和從前的弟子往迷宮深處邁進" tvg-name="離開A級隊伍的我，和從前的弟子往迷宮深處邁進" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3883_ofiii161_tv_20250924.png" group-title="🗑️综合",離開A級隊伍的我，和從前的弟子往迷宮深處邁進
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii161
+#EXTINF:-1 tvg-id="第一神拳" tvg-name="第一神拳" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3266_ofiii163_tv_20250221.png" group-title="🗑️综合",第一神拳
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii163
+#EXTINF:-1 tvg-id="刀劍神域(中文版)" tvg-name="刀劍神域(中文版)" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3267_ofiii164_tv_20250221.png" group-title="🗑️综合",刀劍神域(中文版)
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii164
+#EXTINF:-1 tvg-id="蠟筆小新(中文版)" tvg-name="蠟筆小新(中文版)" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3079_ofiii165_tv_20250221.png" group-title="🗑️综合",蠟筆小新(中文版)
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii165
+#EXTINF:-1 tvg-id="我們這一家" tvg-name="我們這一家" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3121_ofiii166_tv_20250221.png" group-title="🗑️综合",我們這一家
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii166
+#EXTINF:-1 tvg-id="獵人(中文版)" tvg-name="獵人(中文版)" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3122_ofiii167_tv_20250221.png" group-title="🗑️综合",獵人(中文版)
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii167
+#EXTINF:-1 tvg-id="中華一番(中文版)" tvg-name="中華一番(中文版)" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3124_ofiii168_tv_20250221.png" group-title="🗑️综合",中華一番(中文版)
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii168
+#EXTINF:-1 tvg-id="隊長小翼(中文版)" tvg-name="隊長小翼(中文版)" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3125_ofiii169_tv_20250221.png" group-title="🗑️综合",隊長小翼(中文版)
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii169
+#EXTINF:-1 tvg-id="SPY X FAMILY 間諜家家酒" tvg-name="SPY X FAMILY 間諜家家酒" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3304_ofiii170_tv_20250221.png" group-title="🗑️综合",SPY X FAMILY 間諜家家酒
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii170
+#EXTINF:-1 tvg-id="SPY X FAMILY 間諜家家酒(中文版)" tvg-name="SPY X FAMILY 間諜家家酒(中文版)" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3127_ofiii171_tv_20250221.png" group-title="🗑️综合",SPY X FAMILY 間諜家家酒(中文版)
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii171
+#EXTINF:-1 tvg-id="無職轉生，到了異世界就拿出真本事" tvg-name="無職轉生，到了異世界就拿出真本事" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3128_ofiii172_tv_20250221.png" group-title="🗑️综合",無職轉生，到了異世界就拿出真本事
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii172
+#EXTINF:-1 tvg-id="關於我轉生變成史萊姆這檔事(國)" tvg-name="關於我轉生變成史萊姆這檔事(國)" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3170_ofiii173_tv_20250221.png" group-title="🗑️综合",關於我轉生變成史萊姆這檔事(國)
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii173
+#EXTINF:-1 tvg-id="夏目友人帳" tvg-name="夏目友人帳" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3171_ofiii174_tv_20250221.png" group-title="🗑️综合",夏目友人帳
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii174
+#EXTINF:-1 tvg-id="怪醫黑傑克TV(中文版)" tvg-name="怪醫黑傑克TV(中文版)" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3811_ofiii175_tv_20250729.png" group-title="🗑️综合",怪醫黑傑克TV(中文版)
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii175
+#EXTINF:-1 tvg-id="鋼之鍊金術師" tvg-name="鋼之鍊金術師" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3237_ofiii177_tv_20250221.png" group-title="🗑️综合",鋼之鍊金術師
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii177
+#EXTINF:-1 tvg-id="JOJO 的奇妙冒險" tvg-name="JOJO 的奇妙冒險" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3238_ofiii178_tv_20250221.png" group-title="🗑️综合",JOJO 的奇妙冒險
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii178
+#EXTINF:-1 tvg-id="葬送的芙莉蓮" tvg-name="葬送的芙莉蓮" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3268_ofiii179_tv_20250221.png" group-title="🗑️综合",葬送的芙莉蓮
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii179
+#EXTINF:-1 tvg-id="史上最強弟子兼一(中文版)" tvg-name="史上最強弟子兼一(中文版)" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3479_ofiii180_tv_20250221.png" group-title="🗑️综合",史上最強弟子兼一(中文版)
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii180
+#EXTINF:-1 tvg-id="忍者亂太郎(中文版)" tvg-name="忍者亂太郎(中文版)" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3572_ofiii182_tv_20250221.png" group-title="🗑️综合",忍者亂太郎(中文版)
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii182
+#EXTINF:-1 tvg-id="膽大黨" tvg-name="膽大黨" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3604_ofiii183_tv_20250221.png" group-title="🗑️综合",膽大黨
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii183
+#EXTINF:-1 tvg-id="新忍者哈特利" tvg-name="新忍者哈特利" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3634_ofiii184_tv_20250221.png" group-title="🗑️综合",新忍者哈特利
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii184
+#EXTINF:-1 tvg-id="凡爾賽玫瑰《11/5即將下架》" tvg-name="凡爾賽玫瑰《11/5即將下架》" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3723_ofiii185_tv_20250508.png" group-title="🗑️综合",凡爾賽玫瑰《11/5即將下架》
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii185
+#EXTINF:-1 tvg-id="城市獵人" tvg-name="城市獵人" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3751_ofiii186_tv_20250529.png" group-title="🗑️综合",城市獵人
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii186
+#EXTINF:-1 tvg-id="超人力霸王台" tvg-name="超人力霸王台" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3843_ofiii187_tv_20250827.png" group-title="🗑️综合",超人力霸王台
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii187
+#EXTINF:-1 tvg-id="海派甜心" tvg-name="海派甜心" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3605_ofiii195_tv_20250225.png" group-title="🗑️综合",海派甜心
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii195
+#EXTINF:-1 tvg-id="不良笑花" tvg-name="不良笑花" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3631_ofiii196_tv_20250225.png" group-title="🗑️综合",不良笑花
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii196
+#EXTINF:-1 tvg-id="王子看見二公主《11/5即將下架》" tvg-name="王子看見二公主《11/5即將下架》" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3662_ofiii198_tv_20250305.png" group-title="🗑️综合",王子看見二公主《11/5即將下架》
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii198
+#EXTINF:-1 tvg-id="劣人傳之詭計" tvg-name="劣人傳之詭計" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3783_ofiii200_tv_20250626.png" group-title="🗑️综合",劣人傳之詭計
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii200
+#EXTINF:-1 tvg-id="大新聞大爆卦" tvg-name="大新聞大爆卦" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_2939_ofiii201_tv_20250221.png" group-title="🗑️综合",大新聞大爆卦
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii201
+#EXTINF:-1 tvg-id="新聞大白話" tvg-name="新聞大白話" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3239_ofiii202_tv_20250221.png" group-title="🗑️综合",新聞大白話
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii202
+#EXTINF:-1 tvg-id="文茜的世界周報" tvg-name="文茜的世界周報" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3269_ofiii203_tv_20250221.png" group-title="🗑️综合",文茜的世界周報
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii203
+#EXTINF:-1 tvg-id="環球大戰線《11/5即將下架》" tvg-name="環球大戰線《11/5即將下架》" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3519_ofiii206_tv_20250221.png" group-title="🗑️综合",環球大戰線《11/5即將下架》
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii206
+#EXTINF:-1 tvg-id="少康戰情室" tvg-name="少康戰情室" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3520_ofiii207_tv_20250221.png" group-title="🗑️综合",少康戰情室
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii207
+#EXTINF:-1 tvg-id="國民大會" tvg-name="國民大會" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3573_ofiii208_tv_20250221.png" group-title="🗑️综合",國民大會
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii208
+#EXTINF:-1 tvg-id="台灣最前線" tvg-name="台灣最前線" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3844_ofiii209_tv_20250827.png" group-title="🗑️综合",台灣最前線
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii209
+#EXTINF:-1 tvg-id="台灣向前行" tvg-name="台灣向前行" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3845_ofiii210_tv_20250827.png" group-title="🗑️综合",台灣向前行
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii210
+#EXTINF:-1 tvg-id="新聞觀測站" tvg-name="新聞觀測站" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3885_ofiii212_tv_20250924.png" group-title="🗑️综合",新聞觀測站
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii212
+#EXTINF:-1 tvg-id="電動車時代" tvg-name="電動車時代" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3475_ofiii215_tv_20240930.png" group-title="🗑️综合",電動車時代
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii215
+#EXTINF:-1 tvg-id="SiCAR愛車酷" tvg-name="SiCAR愛車酷" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3521_ofiii216_tv_20241104.png" group-title="🗑️综合",SiCAR愛車酷
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii216
+#EXTINF:-1 tvg-id="狂人日誌" tvg-name="狂人日誌" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3522_ofiii217_tv_20241104.png" group-title="🗑️综合",狂人日誌
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii217
+#EXTINF:-1 tvg-id="脖子解說 Mr. Neck" tvg-name="脖子解說 Mr. Neck" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3523_ofiii218_tv_20250220.png" group-title="🗑️综合",脖子解說 Mr. Neck
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii218
+#EXTINF:-1 tvg-id="食尚玩家-Hello腹餓代" tvg-name="食尚玩家-Hello腹餓代" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3574_ofiii225_tv_20250221.png" group-title="🗑️综合",食尚玩家-Hello腹餓代
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii225
+#EXTINF:-1 tvg-id="食尚玩家-天菜就醬吃" tvg-name="食尚玩家-天菜就醬吃" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3575_ofiii226_tv_20250221.png" group-title="🗑️综合",食尚玩家-天菜就醬吃
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii226
+#EXTINF:-1 tvg-id="食尚玩家-2天1夜go" tvg-name="食尚玩家-2天1夜go" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3554_ofiii227_tv_20250221.png" group-title="🗑️综合",食尚玩家-2天1夜go
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii227
+#EXTINF:-1 tvg-id="食尚玩家-熱血48小時" tvg-name="食尚玩家-熱血48小時" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3558_ofiii228_tv_20250221.png" group-title="🗑️综合",食尚玩家-熱血48小時
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii228
+#EXTINF:-1 tvg-id="台灣1001個故事" tvg-name="台灣1001個故事" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3555_ofiii235_tv_20250221.png" group-title="🗑️综合",台灣1001個故事
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii235
+#EXTINF:-1 tvg-id="詹姆士出走料理" tvg-name="詹姆士出走料理" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3566_ofiii236_tv_20250221.png" group-title="🗑️综合",詹姆士出走料理
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii236
+#EXTINF:-1 tvg-id="進擊的台灣" tvg-name="進擊的台灣" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3568_ofiii237_tv_20250221.png" group-title="🗑️综合",進擊的台灣
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii237
+#EXTINF:-1 tvg-id="世界第一等" tvg-name="世界第一等" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3567_ofiii238_tv_20250221.png" group-title="🗑️综合",世界第一等
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii238
+#EXTINF:-1 tvg-id="台灣第一等" tvg-name="台灣第一等" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3569_ofiii239_tv_20250221.png" group-title="🗑️综合",台灣第一等
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii239
+#EXTINF:-1 tvg-id="溢遊未盡" tvg-name="溢遊未盡" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3570_ofiii240_tv_20250221.png" group-title="🗑️综合",溢遊未盡
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii240
+#EXTINF:-1 tvg-id="台灣真善美" tvg-name="台灣真善美" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3635_ofiii241_tv_20250221.png" group-title="🗑️综合",台灣真善美
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii241
+#EXTINF:-1 tvg-id="請問今晚住誰家" tvg-name="請問今晚住誰家" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3636_ofiii242_tv_20250221.png" group-title="🗑️综合",請問今晚住誰家
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii242
+#EXTINF:-1 tvg-id="早餐中國" tvg-name="早餐中國" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3664_ofiii243_tv_20250305.png" group-title="🗑️综合",早餐中國
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii243
+#EXTINF:-1 tvg-id="溢起趣打卡" tvg-name="溢起趣打卡" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3665_ofiii244_tv_20250305.png" group-title="🗑️综合",溢起趣打卡
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii244
+#EXTINF:-1 tvg-id="台灣壹百種味道" tvg-name="台灣壹百種味道" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3666_ofiii245_tv_20250305.png" group-title="🗑️综合",台灣壹百種味道
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii245
+#EXTINF:-1 tvg-id="秘境不思溢" tvg-name="秘境不思溢" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3812_ofiii248_tv_20250729.png" group-title="🗑️综合",秘境不思溢
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii248
+#EXTINF:-1 tvg-id="紓壓雷雨聲" tvg-name="紓壓雷雨聲" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3437_ofiii250_tv_20250305.png" group-title="🗑️综合",紓壓雷雨聲
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii250
+#EXTINF:-1 tvg-id="療癒下雨聲" tvg-name="療癒下雨聲" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3438_ofiii251_tv_20250305.png" group-title="🗑️综合",療癒下雨聲
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii251
+#EXTINF:-1 tvg-id="放鬆的爵士午後" tvg-name="放鬆的爵士午後" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3439_ofiii252_tv_20250305.png" group-title="🗑️综合",放鬆的爵士午後
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii252
+#EXTINF:-1 tvg-id="夏日陽光海浪聲" tvg-name="夏日陽光海浪聲" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_3441_ofiii254_tv_20250305.png" group-title="🗑️综合",夏日陽光海浪聲
+https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=ofiii254
