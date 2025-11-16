@@ -52,13 +52,24 @@ def main():
             resp = requests.get(url, headers=headers, timeout=timeout)
             resp.raise_for_status()
 
-            # 优先按二进制解码，避免下载型源失败
+            # 优先用二进制解码，避免下载型源失败
             try:
                 text = resp.content.decode("utf-8", errors="ignore").strip()
             except Exception:
                 text = resp.text.strip()
 
+            if not text:
+                logging.warning(f"[WARN] {url} 返回空内容")
+                continue
+
             lines = text.splitlines()
+
+            # 调试模式下打印前几行内容
+            if config.get("log_level", "").upper() == "DEBUG":
+                logging.debug(f"[DEBUG] {url} 前几行内容:")
+                for preview in lines[:5]:
+                    logging.debug(f"    {preview}")
+
             if not lines or not lines[0].startswith("#EXTM3U"):
                 logging.warning(f"[WARN] {url} 返回的不是标准 M3U，尝试转换")
                 lines = convert_txt_to_m3u(lines)
