@@ -31,7 +31,8 @@ def main():
         try:
             with open(fname, "r", encoding="utf-8") as f:
                 lines = f.read().splitlines()
-                if not lines or not lines[0].startswith("#EXTM3U"):
+                first_line = lines[0].lstrip("\ufeff").strip().upper() if lines else ""
+                if not first_line.startswith("#EXTM3U") and not first_line.startswith("EXTM3U"):
                     lines = convert_txt_to_m3u(lines)
                 process_lines(lines[1:], alias_map, rules, blocklist,
                               keep_multiple_urls, channels,
@@ -66,12 +67,14 @@ def main():
 
             # 调试模式下打印前几行内容
             if config.get("log_level", "").upper() == "DEBUG":
-                logging.debug(f"[DEBUG] {url} 前几行内容:")
+                logging.debug(f"[DEBUG] {url} 响应头: {resp.headers}")
                 for preview in lines[:5]:
-                    logging.debug(f"    {preview}")
+                    logging.debug(f"[DEBUG] {url} 前几行: {preview}")
 
-            if not lines or not lines[0].startswith("#EXTM3U"):
-                logging.warning(f"[WARN] {url} 返回的不是标准 M3U，尝试转换")
+            # 处理 BOM 和非标准首行
+            first_line = lines[0].lstrip("\ufeff").strip().upper() if lines else ""
+            if not first_line.startswith("#EXTM3U") and not first_line.startswith("EXTM3U"):
+                logging.warning(f"[WARN] {url} 首行不是标准 M3U，尝试转换")
                 lines = convert_txt_to_m3u(lines)
 
             process_lines(lines[1:], alias_map, rules, blocklist,
