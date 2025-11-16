@@ -25,10 +25,30 @@ def assign_group(name: str, rules: dict, default_group="🗑️综合") -> str:
 
 
 def is_blocked(name: str, blocklist: list) -> bool:
-    """判断频道是否在 blocklist 中"""
+    """
+    判断频道是否在 blocklist 中
+    - 空频道直接过滤
+    - 支持关键字模糊匹配
+    - 忽略大小写
+    - 自动去除首尾空格
+    """
+    clean_name = name.strip()
+
+    # 空频道直接过滤
+    if not clean_name:
+        return True
+
     for kw in blocklist:
-        if re.search(kw, name, re.IGNORECASE):
-            return True
+        if not kw:
+            continue
+        try:
+            # 使用正则安全匹配，忽略大小写
+            if re.search(re.escape(kw.strip()), clean_name, re.IGNORECASE):
+                return True
+        except re.error:
+            # 如果关键字不是合法正则，就用简单包含判断
+            if kw.strip().lower() in clean_name.lower():
+                return True
     return False
 
 
