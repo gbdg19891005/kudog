@@ -175,6 +175,8 @@ http://php.jdshipin.com/TVOD/iptv.php?id=asam
 http://php.jdshipin.com/TVOD/iptv.php?id=as
 #EXTINF:-1 tvg-id="澳视体育" tvg-name="澳视体育" tvg-logo="https://logo.laobaitv.net/asty" group-title="🔔卫视频道",澳门体育
 http://cdn6.163189.xyz/163189/amty
+#EXTINF:-1 tvg-id="北京卫视4K超高清" tvg-name="北京卫视4K超高清" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京卫视.png" group-title="🔔卫视频道",北京卫视4K超高清
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s110/index.m3u8?time=1763259617&sign=bbdfdcae39444cf0e5c082fff449fdb5
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",KLT-靖天國際台
 https://kudog.chatgb.dpdns.org/?id=ODQ%253D&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",Nice TV 靖天歡樂台
@@ -441,8 +443,6 @@ https://live.chinacert.cftest5.cn/mg/?id=956909356
 https://live.chinacert.cftest5.cn/mg/?id=956909303
 #EXTINF:-1 tvg-id="" tvg-name="陕西新闻资讯" tvg-logo="https://logo.laobaitv.net/shannxxwzx" group-title="💎地方台",陕西新闻资讯频道
 https://live.chinacert.cftest5.cn/mg/?id=956909289
-#EXTINF:-1 tvg-id="北京卫视4K超高清" tvg-name="北京卫视4K超高清" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京卫视.png" group-title="💎地方台",北京卫视4K超高清
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s110/index.m3u8?time=1763259617&sign=bbdfdcae39444cf0e5c082fff449fdb5
 #EXTINF:-1 tvg-id="北京新闻" tvg-name="北京新闻" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京新闻.png" group-title="💎地方台",北京新闻
 https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s9/index.m3u8?time=1763259615&sign=c827da0e1be49759f8f946c14963cf83
 #EXTINF:-1 tvg-id="北京影视" tvg-name="北京影视" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京影视.png" group-title="💎地方台",北京影视
