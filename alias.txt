@@ -79,14 +79,6 @@ IPTV电影,IPTV电影频道
 西藏卫视,XZTV,Tibet Satellite
 新疆卫视,XJTV,Xinjiang Satellite
 内蒙古卫视,NMTV,Inner Mongolia Satellite
-北京卫视4K超高清
-北京新闻
-北京影视
-北京生活
-北京文艺
-北京财经
-北京纪实科教
-北京卡酷少儿
 
 # ===== 港澳台频道 =====
 凤凰中文,凤凰衛視中文,鳳凰中文,鳳凰衛視中文,Phoenix Chinese
