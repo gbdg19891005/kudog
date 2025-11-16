@@ -26,7 +26,7 @@ def main():
 
     channels = {}
 
-    # ===== 本地源（主源优先） =====
+    # ===== 本地源 =====
     for fname in sources.get("local_files", []):
         try:
             with open(fname, "r", encoding="utf-8") as f:
@@ -46,7 +46,7 @@ def main():
     is_primary = True
     for src in sources.get("remote_urls", []):
         try:
-            # 支持两种写法：直接字符串 或 dict
+            # 支持两种写法：字符串 或 dict
             if isinstance(src, str):
                 url = src
                 include_channels = []
@@ -71,7 +71,6 @@ def main():
                 continue
 
             lines = text.splitlines()
-
             first_line = lines[0].lstrip("\ufeff").strip().upper() if lines else ""
             if not first_line.startswith("#EXTM3U") and not first_line.startswith("EXTM3U"):
                 logging.warning(f"[WARN] {url} 首行不是标准 M3U，尝试转换")
