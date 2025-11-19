@@ -13,7 +13,7 @@
     "💥港|澳|台": [
       "凤凰", "鳳凰", "翡翠", "明珠", "无线", "無線", "TVB", "ViuTV", "RTHK", "香蕉", "鳳梨",
       "有线", "有線", "台视", "台視", "中视", "中視", "华视", "華視", "民视", "民視",
-      "VIU", "原住民", "滾動力", "东森", "東森", "三立", "TVBS", "年代", "八大",
+      "VIU", "原住民", "滾動力", "东森", "東森", "三立", "TVBS", "年代", "八大", "Macau",
       "astro", "环球", "生命", "番薯", "寰宇", "中天", "鏡電視", "镜电视", "客家",
       "大愛", "靖天", "國會", "好消息", "非凡", "东风", "東風", "纬来", "緯來", "莲花",
       "JET", "壹电视", "壹電視", "Taiwan Plus", "AXN", 
@@ -29,7 +29,7 @@
     ],
     "🌈综艺": [
       "综艺", "綜藝", "娱乐", "娛樂", "综艺台", "綜藝台",
-      "TVBS欢乐", "FastTV飛速看", "TVBS歡樂", "小品",
+      "TVBS欢乐", "FastTV飛速看", "TVBS歡樂", "小品", "フジテレビ",
       "Talk", "Oprah Winfrey Network", "BET", "BET HER", "KFN", "Korea", "Gugak",
       "BRAVO", "BuZZr", "Gusto TV", "HGTV", "Comedy TV",
       "Sony One Dragons' Den", "Great British Menu", "HollyWire",
@@ -38,7 +38,7 @@
       "爱尔达", "愛爾達"
     ],
     "⚽️体育": [
-      "体育", "體育", "Sport", "SPORT", "NBA", "足球", "篮球", "籃球",
+      "体育", "體育", "Sport", "SPORT", "NBA", "足球", "篮球", "籃球", "HOY",
       "Real Madrid", "Tennis Channel", "NFL Channel", "Billiard TV", "全运会", "城市联赛",
       "Stadium", "Overtime", "MLB Network", "SEC Network", "運動", "ESPN",
       "球赛", "球賽", "赛事", "賽事", "武术", "武術", "搏击", "搏擊",
@@ -68,7 +68,7 @@
       "动物星球", "動物星球", "CI"
     ],
     "🌍️国际台": [
-      "国际", "國際", "World", "WORLD", "NHK", "CNN", "BBC",
+      "国际", "國際", "World", "WORLD", "NHK", "CNN", "BBC", "DIG", "日テ", "FNN",
       "GB News", "RT News", "Euronews", "NBC", "CBC News", "法·时尚",
       "Newsmax", "TBS Seoul", "WION", "Newsy", "News 12", "Scripps News",
       "Sky News", "FOX NEWS", "Fox News", "France24", "FRANCE24",
