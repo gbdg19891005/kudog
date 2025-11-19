@@ -33,7 +33,8 @@ def main():
                 lines = f.read().splitlines()
                 first_line = lines[0].lstrip("\ufeff").strip().upper() if lines else ""
                 if not first_line.startswith("#EXTM3U") and not first_line.startswith("EXTM3U"):
-                    lines = convert_txt_to_m3u(lines)
+                    # TXT 转换时传入 default_group
+                    lines = convert_txt_to_m3u(lines, default_group)
                 process_lines(lines[1:], alias_map, rules, blocklist,
                               keep_multiple_urls, channels,
                               primary=True, source_name=f"本地:{fname}",
@@ -46,7 +47,6 @@ def main():
     is_primary = True
     for src in sources.get("remote_urls", []):
         try:
-            # 支持两种写法：字符串 或 dict
             if isinstance(src, str):
                 url = src
                 include_channels = []
@@ -74,7 +74,8 @@ def main():
             first_line = lines[0].lstrip("\ufeff").strip().upper() if lines else ""
             if not first_line.startswith("#EXTM3U") and not first_line.startswith("EXTM3U"):
                 logging.warning(f"[WARN] {url} 首行不是标准 M3U，尝试转换")
-                lines = convert_txt_to_m3u(lines)
+                # TXT 转换时传入 default_group
+                lines = convert_txt_to_m3u(lines, default_group)
 
             process_lines(lines[1:], alias_map, rules, blocklist,
                           keep_multiple_urls, channels,
