@@ -26,4 +26,4 @@ default_group: "🗑️综合"
 # 是否在 EXTINF 中强制补全 tvg-logo (如果 groups.json 有定义)
 force_logo: true
 # 是否在 EXTINF 中强制补全 tvg-id (如果 alias 或 groups.json 有定义)
-force_tvg_id: true
+force_tvg_id: false
