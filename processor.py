@@ -68,7 +68,7 @@ def convert_txt_to_m3u(lines: list, default_group: str = "综合") -> list:
 def process_lines(lines: list, alias_map: dict, rules: dict, blocklist: list,
                   keep_multiple_urls: bool, channels: dict,
                   primary=False, source_name="未知源", default_group="综合",
-                  whitelist: list = None):
+                  whitelist: list = None, stats: dict = None):
     """
     处理 M3U 行，归并频道、分组、去重
     """
@@ -81,6 +81,8 @@ def process_lines(lines: list, alias_map: dict, rules: dict, blocklist: list,
             # 缺 URL 跳过
             if not url_line or url_line.startswith("#EXTINF"):
                 logging.warning(f"[MISSING URL][{source_name}] {line.strip()}")
+                if stats is not None:
+                    stats["missing_url"] = stats.get("missing_url", 0) + 1
                 i += 1
                 continue
 
@@ -106,12 +108,16 @@ def process_lines(lines: list, alias_map: dict, rules: dict, blocklist: list,
             if whitelist:
                 if not any(re.search(kw, norm_name, re.IGNORECASE) for kw in whitelist):
                     logging.info(f"[FILTERED][{source_name}] {raw_name} → {norm_name} 不在白名单")
+                    if stats is not None:
+                        stats["filtered"] = stats.get("filtered", 0) + 1
                     i += 2
                     continue
 
             # 屏蔽检查
             if is_blocked(norm_name, blocklist):
                 logging.info(f"[BLOCKED][{source_name}] {raw_name} → {norm_name}")
+                if stats is not None:
+                    stats["blocked"] = stats.get("blocked", 0) + 1
                 i += 2
                 continue
 
@@ -135,15 +141,23 @@ def process_lines(lines: list, alias_map: dict, rules: dict, blocklist: list,
             if norm_name not in channels:
                 channels[norm_name] = {"line": line, "urls": [url_line], "group": group}
                 logging.debug(f"[ADD][{source_name}] {raw_name} → {norm_name} → {group}")
+                if stats is not None:
+                    stats["added"] = stats.get("added", 0) + 1
             else:
                 if primary and url_line and url_line not in channels[norm_name]["urls"]:
                     if keep_multiple_urls:
                         channels[norm_name]["urls"].append(url_line)
                         logging.debug(f"[APPEND][{source_name}] {raw_name} → {norm_name} 新增URL")
+                        if stats is not None:
+                            stats["appended"] = stats.get("appended", 0) + 1
                     else:
                         logging.debug(f"[IGNORE][{source_name}] {raw_name} → {norm_name} 保留首个URL")
+                        if stats is not None:
+                            stats["skipped"] = stats.get("skipped", 0) + 1
                 else:
                     logging.debug(f"[SKIP][{source_name}] {raw_name} → {norm_name}")
+                    if stats is not None:
+                        stats["skipped"] = stats.get("skipped", 0) + 1
 
             if group == default_group:
                 logging.warning(f"[UNCATEGORIZED][{source_name}] {raw_name} → {norm_name}")
