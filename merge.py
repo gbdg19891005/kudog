@@ -48,7 +48,8 @@ def main():
                 process_lines(lines[1:], alias_map, rules, blocklist,
                               keep_multiple_urls, channels,
                               primary=True, source_name=f"本地:{fname}",
-                              default_group=default_group)
+                              default_group=default_group,
+                              stats=stats)
             logging.info(f"[INFO] 成功读取本地文件: {fname}")
         except Exception as e:
             logging.warning(f"[WARN] 本地文件 {fname} 读取失败: {e}")
@@ -92,7 +93,8 @@ def main():
                           keep_multiple_urls, channels,
                           primary=primary_flag, source_name=f"远程:{url}",
                           default_group=default_group,
-                          whitelist=include_channels)
+                          whitelist=include_channels,
+                          stats=stats)
             logging.info(f"[INFO] 成功读取远程文件: {url}")
         except Exception as e:
             logging.warning(f"[WARN] 远程文件 {url} 读取失败: {e}")
@@ -112,10 +114,12 @@ def main():
     # ===== 输出统计 =====
     logging.info("[SUMMARY] 分组统计：")
     logging.info(f"[SUMMARY] 最终频道数: {len(channels)}")
+    logging.info(f"[SUMMARY] 新增频道数: {stats['added']}")
     logging.info(f"[SUMMARY] 追加URL数: {stats['appended']}")
     logging.info(f"[SUMMARY] 缺URL跳过数: {stats['missing_url']}")
     logging.info(f"[SUMMARY] 被过滤数: {stats['filtered']}")
     logging.info(f"[SUMMARY] 被屏蔽数: {stats['blocked']}")
+    logging.info(f"[SUMMARY] 跳过数: {stats['skipped']}")
 
 if __name__ == "__main__":
     main()
