@@ -60,7 +60,7 @@ http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221226118/index.m3u8
 #EXTINF:-1 tvg-id="睛彩广场舞" tvg-name="睛彩广场舞" group-title="🔥央视频道",睛彩广场舞
 http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221226139/index.m3u8
 #EXTINF:-1 tvg-id="睛彩中原" tvg-name="睛彩中原" group-title="🔥央视频道",睛彩中原
-http://tvcdn.stream3.hndt.com/tv/65b27d4c017e100039bd55c200000000_transios/playlist.m3u8?wsSecret=2b933bbbe74da7da71aa329a2eb43928&wsTime=1763568019
+http://tvcdn.stream3.hndt.com/tv/65b27d4c017e100039bd55c200000000_transios/playlist.m3u8?wsSecret=989d43a02082033af710bd61704ba375&wsTime=1763575220
 #EXTINF:-1 tvg-id="CCTV央视台球" tvg-name="CCTV央视台球" group-title="🔥央视频道",CCTV央视台球
 https://epg.pw/stream/ca9c1cd4b97fb824cedd7fedfd0c7a950afdd7f00751cfbb7c2d89831d7746a5.m3u8
 #EXTINF:-1 tvg-id="CCTV第一剧场" tvg-name="CCTV第一剧场" group-title="🔥央视频道",CCTV第一剧场
@@ -164,7 +164,7 @@ http://php.jdshipin.com/TVOD/iptv.php?id=as
 #EXTINF:-1 tvg-id="澳视体育" tvg-name="澳视体育" tvg-logo="https://logo.laobaitv.net/asty" group-title="🔔卫视频道",澳门体育
 http://cdn6.163189.xyz/163189/amty
 #EXTINF:-1 tvg-id="北京卫视4K超高清" tvg-name="北京卫视4K超高清" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京卫视.png" group-title="🔔卫视频道",北京卫视4K超高清
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s110/index.m3u8?time=1763559019&sign=1bad5ab243f9e81b1e716af8f957965c
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s110/index.m3u8?time=1763561420&sign=2af175286ef95a63add87702ea0c4e30
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",KLT-靖天國際台
 https://kudog.chatgb.dpdns.org/?id=ODQ%253D&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💥港|澳|台",Nice TV 靖天歡樂台
@@ -430,17 +430,17 @@ http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221225749/index.m3u8
 #EXTINF:-1 tvg-id="都市剧场" tvg-name="都市剧场" group-title="💎地方台",都市剧场
 http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221225762/index.m3u8
 #EXTINF:-1 tvg-id="新闻频道" tvg-name="新闻频道" group-title="💎地方台",新闻频道
-http://tvcdn.stream3.hndt.com/tv/65bb6966017e100059b75a8500000000_transios/playlist.m3u8?wsSecret=93fc92299e6eadb36e7a8cf4b8d650f3&wsTime=1763568019
+http://tvcdn.stream3.hndt.com/tv/65bb6966017e100059b75a8500000000_transios/playlist.m3u8?wsSecret=1ff5de7fefcf3cf75f77d0cbaccda9ba&wsTime=1763575220
 #EXTINF:-1 tvg-id="都市频道" tvg-name="都市频道" group-title="💎地方台",都市频道
-http://tvcdn.stream3.hndt.com/tv/65c3fbc5017e1000fde13faa00000000_transios/playlist.m3u8?wsSecret=aad16fd3538ec93c7015b2e59f6da7bb&wsTime=1763568019
+http://tvcdn.stream3.hndt.com/tv/65c3fbc5017e1000fde13faa00000000_transios/playlist.m3u8?wsSecret=489fdbbd561fe3c626a21c81456fc5f2&wsTime=1763575220
 #EXTINF:-1 tvg-id="民生频道" tvg-name="民生频道" group-title="💎地方台",民生频道
-http://tvcdn.stream3.hndt.com/tv/65bef28a017e10009c49d5f900000000_transios/playlist.m3u8?wsSecret=5d55f8edf32fa94e3153b2370e8f7732&wsTime=1763568019
+http://tvcdn.stream3.hndt.com/tv/65bef28a017e10009c49d5f900000000_transios/playlist.m3u8?wsSecret=d8209d98afb186a789589376521c0f55&wsTime=1763575220
 #EXTINF:-1 tvg-id="法治频道" tvg-name="法治频道" group-title="💎地方台",法治频道
-http://tvcdn.stream3.hndt.com/tv/65be54a9017e1000af59fb4800000000_transios/playlist.m3u8?wsSecret=c2cc12f4ae4d1533597e67df8313529f&wsTime=1763568019
+http://tvcdn.stream3.hndt.com/tv/65be54a9017e1000af59fb4800000000_transios/playlist.m3u8?wsSecret=88d6ed17e235e07b37c4b0337a0184c6&wsTime=1763575220
 #EXTINF:-1 tvg-id="公共频道" tvg-name="公共频道" group-title="💎地方台",公共频道
-http://tvcdn.stream3.hndt.com/tv/65b93894017e10000ae6b07d00000000_transios/playlist.m3u8?wsSecret=da5adf7c3f770075bb43acec130eae0c&wsTime=1763568019
+http://tvcdn.stream3.hndt.com/tv/65b93894017e10000ae6b07d00000000_transios/playlist.m3u8?wsSecret=d63dda764a6709cc589ee81d9a5dd9b2&wsTime=1763575220
 #EXTINF:-1 tvg-id="河南乡村频道" tvg-name="河南乡村频道" group-title="💎地方台",河南乡村频道
-http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=351a5903ae22fc52e1f5780038c88bf9&wsTime=1763568019
+http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=b45a6a8f7a6491d64997dea2c516e11d&wsTime=1763575220
 #EXTINF:-1 tvg-id="" tvg-name="南京新闻综合" tvg-logo="https://logo.laobaitv.net/njxwzh" group-title="💎地方台",南京新闻综合频道
 https://live.chinacert.cftest5.cn/mg/?id=838109047
 #EXTINF:-1 tvg-id="" tvg-name="南京教科" tvg-logo="https://logo.laobaitv.net/njjk" group-title="💎地方台",南京教科频道
@@ -466,19 +466,19 @@ https://live.chinacert.cftest5.cn/mg/?id=956909303
 #EXTINF:-1 tvg-id="" tvg-name="陕西新闻资讯" tvg-logo="https://logo.laobaitv.net/shannxxwzx" group-title="💎地方台",陕西新闻资讯频道
 https://live.chinacert.cftest5.cn/mg/?id=956909289
 #EXTINF:-1 tvg-id="北京新闻" tvg-name="北京新闻" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京新闻.png" group-title="💎地方台",北京新闻
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s9/index.m3u8?time=1763559016&sign=22926d2d0f4394d7334b361dafaef0e4
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s9/index.m3u8?time=1763561417&sign=28b90c2d73940b5e9d5b40b38ef0aa0a
 #EXTINF:-1 tvg-id="北京影视" tvg-name="北京影视" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京影视.png" group-title="💎地方台",北京影视
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s4/index.m3u8?time=1763559012&sign=f85f99bfd13ea6d9fb36fd286727060c
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s4/index.m3u8?time=1763561413&sign=b09e0b334033a3da317254ef2e9b32ce
 #EXTINF:-1 tvg-id="北京生活" tvg-name="北京生活" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京生活.png" group-title="💎地方台",北京生活
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s7/index.m3u8?time=1763559015&sign=a37cf11b5ab59b004601717a02ebf629
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s7/index.m3u8?time=1763561416&sign=01602c5251f94791edd83de5655ebde0
 #EXTINF:-1 tvg-id="北京文艺" tvg-name="北京文艺" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京文艺.png" group-title="💎地方台",北京文艺
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s2/index.m3u8?time=1763559010&sign=2e4bf9add0a62031160ad35aa2188be2
+{BEIJINGWY}
 #EXTINF:-1 tvg-id="北京财经" tvg-name="北京财经" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京财经.png" group-title="💎地方台",北京财经
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s5/index.m3u8?time=1763559014&sign=e0293c1da5b46e48cf0273ad5c1e94f6
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s5/index.m3u8?time=1763561415&sign=8165304eb04f6c0fbdedbcdd2ecbe5a5
 #EXTINF:-1 tvg-id="北京纪实科教" tvg-name="北京纪实科教" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京纪实科教.png" group-title="💎地方台",北京纪实科教
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s3/index.m3u8?time=1763559011&sign=6280b0b603045259e13d19dd70643e6c
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s3/index.m3u8?time=1763561410&sign=ed76981fd7158217363a482f5ccedb5f
 #EXTINF:-1 tvg-id="北京卡酷少儿" tvg-name="北京卡酷少儿" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京卡酷少儿.png" group-title="💎地方台",北京卡酷少儿
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s10/index.m3u8?time=1763559017&sign=119323c044b3d79af09a96862d40b686
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s10/index.m3u8?time=1763561418&sign=718be8a6ffcb255faa6fae95435dc67f
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🌈综艺",Lifetime 娛樂頻道
 https://kudog.chatgb.dpdns.org/?id=MjE3&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🌈综艺",fun探索娛樂台
@@ -511,9 +511,9 @@ http://huanqiuzhibo.cn/manifest/douyu.php?id=131977
 #EXTINF:-1  tvg-id="jcom_2_1072_32742" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7FE6-071-400x400.png" group-title="🌈综艺", TV Tokyo (テレ東)
 https://tv2.jptv.live/hls/main.m3u8
 #EXTINF:-1  tvg-id="tx" tvg-logo="https://statics.tver.jp/images/icon/tx.jpg" group-title="🌈综艺", テレ東
-https://ssai-variants.streaks.jp/v5/tver-simul-tx/035622a82bcb46bc8e41ca5351f95a00/3887c96991ce4ae1bec43ea19f24c4d5/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-177-8159/a0ad8f00-3b6f-4be1-9d0f-53d09ea15898/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLXR4LnN0cmVha3MuanAiLCJvZmZzZXQiOjksInBkdCI6Ii0xMzIyNSJ9.GeSaCEL_k1rsNX_IqbTPet_nf1hxPuc_KqNtyvirmRg
+https://ssai-variants.streaks.jp/v5/tver-simul-tx/035622a82bcb46bc8e41ca5351f95a00/3887c96991ce4ae1bec43ea19f24c4d5/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-177-8159/0ed81efd-8343-4904-bb55-d58e7f31de88/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLXR4LnN0cmVha3MuanAiLCJvZmZzZXQiOjksInBkdCI6Ii0xMzIxNiJ9.Fwxk6Q2sp-BBfRdPcgJADU15azgMBS7wghaqoMfivR8
 #EXTINF:-1  tvg-id="cx" tvg-logo="https://statics.tver.jp/images/icon/cx.jpg" group-title="🌈综艺", フジテレビ
-https://ssai-variants.streaks.jp/v5/tver-simul-cx/a78ebf1910144ba287907ec691bdc863/4817bf371f214463a3609e17a365f098/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-178-7884/bf515112-4a9d-4751-bfe8-c3668c992d6e/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLWN4LnN0cmVha3MuanAiLCJvZmZzZXQiOjksInBkdCI6Ii02NjI3In0.VA5RYohfCZlAwpFbyARPOXyTi-3S732ri-JMIxnzOGw
+https://ssai-variants.streaks.jp/v5/tver-simul-cx/a78ebf1910144ba287907ec691bdc863/4817bf371f214463a3609e17a365f098/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-178-7884/10fa94d8-c807-427d-8a50-1c34f8e9939e/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLWN4LnN0cmVha3MuanAiLCJvZmZzZXQiOjksInBkdCI6Ii02NjI3In0.VA5RYohfCZlAwpFbyARPOXyTi-3S732ri-JMIxnzOGw
 #EXTINF:-1  tvg-id="gmt+9" tvg-logo="https://statics.tver.jp/images/content/thumbnail/live/xlarge/le8rg7d3tb.jpg" group-title="🌈综艺", FNN フジテレビNEWS24！
 https://variants.streaks.jp/v5/tver-splive/82ccf9500ea444e9bdc8dc4e4bb2a95f/e841f45bb8ac43568c8031df5e97eb7d/manifest_2.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNwbGl2ZS5zdHJlYWtzLmpwIn0.jtEWoPdQa08-jn8Q9ia0BaJF9eI-rwl7n8ZYSf_HooM
 #EXTINF:-1 group-title="🌈综艺",KFN
@@ -571,7 +571,7 @@ http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221225732/index.m3u8
 #EXTINF:-1 tvg-id="咪咕体育" tvg-name="咪咕体育" group-title="⚽️体育",咪咕体育 𝟙
 http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221225637/index.m3u8
 #EXTINF:-1 tvg-id="武术频道" tvg-name="武术频道" group-title="⚽️体育",武术频道
-http://tvcdn.stream3.hndt.com/tv/65b4b750017e1000dbb9306200000000_transios/playlist.m3u8?wsSecret=ab7b43377a7c8d390aa23b346d88b9e5&wsTime=1763568019
+http://tvcdn.stream3.hndt.com/tv/65b4b750017e1000dbb9306200000000_transios/playlist.m3u8?wsSecret=cdca1521998b1c8be4635a31ee930972&wsTime=1763575220
 #EXTINF:-1 tvg-id="UK: SKY SPORTS Cricket" tvg-name="UK: SKY SPORTS Cricket" group-title="⚽️体育",UK: SKY SPORTS Cricket
 http://nocable.cc:8080//OURTV/OURTV@4806/45940
 #EXTINF:-1 tvg-id="Red Bull TV" tvg-name="Red Bull TV" group-title="⚽️体育",Red Bull TV
@@ -677,7 +677,7 @@ http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221225744/index.m3u8
 #EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" group-title="🎥电影",欢笑剧场
 http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221225771/index.m3u8
 #EXTINF:-1 tvg-id="象视界" tvg-name="象视界" group-title="🎥电影",象视界
-http://tvcdn.stream3.hndt.com/tv/d34d1a2b0178100022de972e00000000_transios/playlist.m3u8?wsSecret=e953e447ef00d85152930573b3f89b0a&wsTime=1763568019
+http://tvcdn.stream3.hndt.com/tv/d34d1a2b0178100022de972e00000000_transios/playlist.m3u8?wsSecret=3d4d7643602f5c54de4b6a1ef2f0274e&wsTime=1763575220
 #EXTINF:-1 tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" group-title="🎥电影",CHC家庭影院
 http://113.195.172.192:808/hls/113/index.m3u8
 #EXTINF:-1 tvg-id="🇨🇳电影在线" tvg-name="🇨🇳电影在线" group-title="🎥电影",🇨🇳电影在线
@@ -909,7 +909,7 @@ https://live.chinacert.cftest5.cn/mg/?id=609006450
 #EXTINF:-1 tvg-id="NHK World Japan" tvg-name="NHK World Japan" tvg-logo="https://logo.laobaitv.net/nhkworldjapan" group-title="🌍️国际台",NHK World Japan
 https://livehub-voidnet.onrender.com/cluster/streamcore/jp/NHK_StreamOrchestrator.m3u8
 #EXTINF:-1  tvg-id="ntv" tvg-logo="https://statics.tver.jp/images/icon/ntv.jpg" group-title="🌍️国际台", 日テレ
-https://ssai-variants.streaks.jp/v5/tver-simul-ntv/938232e586b34196b704a5839663984b/cb593b5eafbb4645907e979d757e1dd5/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-174-11920/808118e3-2f39-405a-b086-1a1c5c4b33ec/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLW50di5zdHJlYWtzLmpwIiwib2Zmc2V0Ijo5LCJwZHQiOiItMTAyNzcifQ.dEB3te9f_M2-riuCsdzcpa-CIoMj4q0RjN7O4JO5w6c
+https://ssai-variants.streaks.jp/v5/tver-simul-ntv/938232e586b34196b704a5839663984b/cb593b5eafbb4645907e979d757e1dd5/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-174-11920/e835905e-e9be-4a0f-a4c0-e19daf48552f/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLW50di5zdHJlYWtzLmpwIiwib2Zmc2V0Ijo5LCJwZHQiOiItMTA0NDQifQ.1GftJ9d9lnr-lYZjAUKfKntg-smU4_URca9esGs6IOI
 #EXTINF:-1  tvg-id="gmt+9" tvg-logo="https://statics.tver.jp/images/content/thumbnail/live/xlarge/letibz75z1.jpg" group-title="🌍️国际台", 日テレNEWS24
 https://variants.streaks.jp/v5/tver-splive/ecc1ad44856545d382a4ee08e254da80/5b19a12960f24e76af940cc5d0ab1261/manifest_2.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNwbGl2ZS5zdHJlYWtzLmpwIn0.jtEWoPdQa08-jn8Q9ia0BaJF9eI-rwl7n8ZYSf_HooM
 #EXTINF:-1  tvg-id="gmt+9" tvg-logo="https://statics.tver.jp/images/content/thumbnail/live/xlarge/lexcqiug5m.jpg" group-title="🌍️国际台", TBS NEWS DIG Powered by JNN
@@ -963,11 +963,11 @@ https://kudog.chatgb.dpdns.org/?id=MjU%253D&auth=fb5f1c47187db62b1c3026c3b8e1640
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🧙‍♀️戏剧",靖洋戲劇台
 https://kudog.chatgb.dpdns.org/?id=MTE4&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-id="电视剧频道" tvg-name="电视剧频道" group-title="🧙‍♀️戏剧",电视剧频道
-http://tvcdn.stream3.hndt.com/tv/65bd329b017e1000648cd2ed00000000_transios/playlist.m3u8?wsSecret=7ffd2a99a94c1c076ca5ebb8a1d63996&wsTime=1763568019
+http://tvcdn.stream3.hndt.com/tv/65bd329b017e1000648cd2ed00000000_transios/playlist.m3u8?wsSecret=74645e560790ae2fcbe72f2afbde5665&wsTime=1763575220
 #EXTINF:-1 tvg-id="梨园频道" tvg-name="梨园频道" group-title="🧙‍♀️戏剧",梨园频道
-https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=584143c18a68efee031bd70877a0934e&wsTime=1763568019
+https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=6ba60cde4e007729020060809231390e&wsTime=1763575220
 #EXTINF:-1 tvg-id="移动戏曲频道" tvg-name="移动戏曲频道" group-title="🧙‍♀️戏剧",移动戏曲频道
-https://tvcdn.stream3.hndt.com/tv/160ea8971f8b41f0905f88c7afe3effe_transios/playlist.m3u8?wsSecret=b7edbf5f8d78656c65ad4e766fab45db&wsTime=1763568019
+https://tvcdn.stream3.hndt.com/tv/160ea8971f8b41f0905f88c7afe3effe_transios/playlist.m3u8?wsSecret=f87446103eed36eb84d66a30dcb38588&wsTime=1763575220
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🎵音乐",CLASSICA 古典樂
 https://kudog.chatgb.dpdns.org/?id=ODA%253D&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🎵音乐",LiveABC互動英語頻道
@@ -1025,7 +1025,7 @@ https://kudog.chatgb.dpdns.org/?id=MTc4&auth=fb5f1c47187db62b1c3026c3b8e164051f4
 #EXTINF:-1 tvg-id="生活时尚" tvg-name="生活时尚" group-title="📦️购物",生活时尚
 http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221225768/index.m3u8
 #EXTINF:-1 tvg-id="欢腾购物" tvg-name="欢腾购物" group-title="📦️购物",欢腾购物
-http://tvcdn.stream3.hndt.com/tv/65ba653b017e1000d4ee41c700000000_transios/playlist.m3u8?wsSecret=4593fe6de6f013dc8235e8491f6d6ed8&wsTime=1763568019
+http://tvcdn.stream3.hndt.com/tv/65ba653b017e1000d4ee41c700000000_transios/playlist.m3u8?wsSecret=7edb74a50723f1ae859c8703b1a3f648&wsTime=1763575220
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="⚡️财经",Bloomberg TV
 https://kudog.chatgb.dpdns.org/?id=Mjgz&auth=fb5f1c47187db62b1c3026c3b8e164051f486f39d12b431fe5688b404a32f5042a194132065d6f6703d64f890cfa2ca7
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="⚡️财经",SBN全球財經台
@@ -1113,6 +1113,6 @@ https://live.laobaitv.net/douyu/12400977
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://logo.laobaitv.net/douyu" group-title="🗑️综合",斗鱼 RunningMan
 https://live.laobaitv.net/douyu/131977
 #EXTINF:-1  tvg-id="ex" tvg-logo="https://statics.tver.jp/images/icon/ex.jpg" group-title="🗑️综合", テレビ朝日
-https://ssai-variants.streaks.jp/v5/tver-simul-ex/498c4512f66846f1b0a5a3320ee035c3/ce98cb0b48994b50a76dba08ea894e24/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-175-8158/ca749c60-0d18-4cbe-ab24-ef5e409571ae/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLWV4LnN0cmVha3MuanAiLCJvZmZzZXQiOjksInBkdCI6Ii0xODMyNSJ9.pm58Aqppl-woNhwmzuJvhi4uYo5AWQXfj06D4ZS4Wxc
+https://ssai-variants.streaks.jp/v5/tver-simul-ex/498c4512f66846f1b0a5a3320ee035c3/ce98cb0b48994b50a76dba08ea894e24/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-175-8158/6d9f4084-70db-44b8-aa42-83d07740f34c/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLWV4LnN0cmVha3MuanAiLCJvZmZzZXQiOjksInBkdCI6Ii0xODMyMiJ9.kwGkpU1T-GYlrG3AFBe53rLJywEYojdN4uF0brbrAO4
 #EXTINF:-1  tvg-id="tbs" tvg-logo="https://statics.tver.jp/images/icon/tbs.jpg" group-title="🗑️综合", TBS
-https://ssai-variants.streaks.jp/v5/tver-simul-tbs/8e4c80725b9842cdb0f6f91260945222/b72f7e116957436b824f95d5138ea7a3/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-176-7925/050ae5d3-0d4f-4a88-a97a-6b08e64a65da/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLXRicy5zdHJlYWtzLmpwIiwib2Zmc2V0Ijo5LCJwZHQiOiItMTA2NTAifQ.3CfN7J2ojL3mkWT8W0HiewVeEp-cYj3tioF9DPh952E
+https://ssai-variants.streaks.jp/v5/tver-simul-tbs/8e4c80725b9842cdb0f6f91260945222/b72f7e116957436b824f95d5138ea7a3/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-176-7925/8417754a-f372-4207-afa4-96c056180e66/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLXRicy5zdHJlYWtzLmpwIiwib2Zmc2V0Ijo5LCJwZHQiOiItMTA2NTIifQ.ANCuC5S14uPt_IP1PcwkhfcAhXk4W6LbLvjxswilSig
