@@ -44,15 +44,16 @@ def main():
             logging.warning(f"[WARN] 本地文件 {fname} 读取失败: {e}")
 
     # ===== 远程源 =====
-    is_primary = True
     for src in sources.get("remote_urls", []):
         try:
             if isinstance(src, str):
                 url = src
                 include_channels = []
+                primary_flag = True  # 默认字符串源视为主源
             else:
                 url = src.get("url")
                 include_channels = src.get("include_channels", [])
+                primary_flag = src.get("primary", False)
 
             headers = {"User-Agent": config["ua"]}
             if config["referrer"]:
@@ -79,11 +80,10 @@ def main():
 
             process_lines(lines[1:], alias_map, rules, blocklist,
                           keep_multiple_urls, channels,
-                          primary=is_primary, source_name=f"远程:{url}",
+                          primary=primary_flag, source_name=f"远程:{url}",
                           default_group=default_group,
                           whitelist=include_channels)
             logging.info(f"[INFO] 成功读取远程文件: {url}")
-            is_primary = False
         except Exception as e:
             logging.warning(f"[WARN] 远程文件 {url} 读取失败: {e}")
 
