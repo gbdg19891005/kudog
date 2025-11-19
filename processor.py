@@ -25,24 +25,10 @@ def assign_group(name: str, rules: dict, default_group="综合") -> str:
 
 
 def is_blocked(name: str, blocklist: list) -> bool:
-    """
-    判断频道是否在 blocklist 中
-    - 空频道直接过滤
-    - 关键字模糊匹配（忽略大小写）
-    """
-    clean_name = name.strip()
-    if not clean_name:
-        return True
-
+    """判断频道是否在 blocklist 中"""
     for kw in blocklist:
-        if not kw:
-            continue
-        try:
-            if re.search(re.escape(kw.strip()), clean_name, re.IGNORECASE):
-                return True
-        except re.error:
-            if kw.strip().lower() in clean_name.lower():
-                return True
+        if re.search(kw, name, re.IGNORECASE):
+            return True
     return False
 
 
@@ -68,6 +54,15 @@ def process_lines(lines: list, alias_map: dict, rules: dict, blocklist: list,
                   primary=False, source_name="未知源", default_group="综合"):
     """
     处理 M3U 行，归并频道、分组、去重
+    :param lines: M3U 文件行
+    :param alias_map: 别名映射
+    :param rules: 分组规则
+    :param blocklist: 屏蔽关键词
+    :param keep_multiple_urls: 是否保留多个 URL
+    :param channels: 全局频道字典
+    :param primary: 是否为主源
+    :param source_name: 来源标记
+    :param default_group: 默认分组
     """
     i = 0
     while i < len(lines):
@@ -75,17 +70,11 @@ def process_lines(lines: list, alias_map: dict, rules: dict, blocklist: list,
         if line.startswith("#EXTINF"):
             url_line = lines[i+1] if i+1 < len(lines) else ""
 
-            # 🚨 如果缺少 URL 或下一行也是 #EXTINF，则跳过
-            if not url_line or url_line.startswith("#EXTINF"):
-                logging.warning(f"[MISSING URL][{source_name}] {line.strip()}")
-                i += 1
-                continue
-
             # 修复可能的错误字段
             line = line.replace("svg-name", "tvg-name").replace("svg-id", "tvg-id")
 
             # 提取频道名
-            m = re.search(r'tvg-name="([^"]*)"', line)
+            m = re.search(r'tvg-name="([^"]+)"', line)
             if m:
                 raw_name = m.group(1).strip()
             else:
@@ -93,8 +82,8 @@ def process_lines(lines: list, alias_map: dict, rules: dict, blocklist: list,
                 if len(parts) > 1 and parts[1].strip():
                     raw_name = parts[1].strip()
                 else:
-                    m2 = re.search(r'tvg-id="([^"]*)"', line)
-                    raw_name = (m2.group(1).strip() if m2 else "").strip() or "未知频道"
+                    m2 = re.search(r'tvg-id="([^"]+)"', line)
+                    raw_name = m2.group(1).strip() if m2 else "未知频道"
 
             # 别名归并
             norm_name = normalize_name(raw_name, alias_map)
@@ -107,19 +96,10 @@ def process_lines(lines: list, alias_map: dict, rules: dict, blocklist: list,
 
             # 分组
             group = assign_group(norm_name, rules, default_group)
-
-            # 补全 tvg-id
-            if 'tvg-id="' not in line and 'tvg-name="' in line:
-                line = re.sub(r'tvg-name="([^"]*)"', f'tvg-id="{norm_name}" tvg-name="\\1"', line)
-
-            # 🚨 删除所有远程源自带的 group-title，再插入规则分组
-            line = re.sub(r'\s*group-title="[^"]*"', '', line)
-            if "," in line:
-                head, tail = line.split(",", 1)
-                head = re.sub(r'\s{2,}', ' ', head).strip()
-                line = f'{head} group-title="{group}",{tail}'
+            if "group-title" in line:
+                line = re.sub(r'group-title=".*?"', f'group-title="{group}"', line)
             else:
-                line = f'{line.strip()} group-title="{group}"'
+                line = line + f' group-title="{group}"'
 
             # 归并逻辑
             if norm_name not in channels:
