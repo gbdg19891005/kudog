@@ -1,21 +1,21 @@
 import logging
 
 def export_m3u(channels, custom_channels, group_order, epg, keep_multiple_urls,
-               outfile="kudog.m3u", generate_debug_file=False,
-               default_group="综合", header_lines=None):
-    merged = []
+               outfile="kudog.m3u", generate_debug_file=False, default_group="综合"):
+    """
+    导出 M3U 文件
+    :param channels: 频道字典
+    :param custom_channels: 自定义频道列表
+    :param group_order: 分组顺序
+    :param epg: EPG 地址
+    :param keep_multiple_urls: 是否保留多个 URL
+    :param outfile: 主输出文件名
+    :param generate_debug_file: 是否生成调试文件
+    :param default_group: 默认分组
+    """
+    merged = [f'#EXTM3U x-tvg-url="{epg}"']
 
-    # 只输出一条头：优先使用捕获的 header_lines 中的第一条，否则用配置 epg
-    if header_lines and any(h.strip().startswith("#EXTM3U") for h in header_lines):
-        # 去掉重复，只保留第一条
-        for h in header_lines:
-            if h.strip().startswith("#EXTM3U"):
-                merged.append(h.strip())
-                break
-    else:
-        merged.append(f'#EXTM3U url-tvg="{epg}"')
-
-    # 添加自定义频道（如果 groups.json 有定义）
+    # 自定义频道置顶
     for ch in custom_channels:
         merged.append(
             f'#EXTINF:-1 tvg-name="{ch["name"]}" tvg-logo="{ch.get("logo","")}" '
@@ -23,7 +23,7 @@ def export_m3u(channels, custom_channels, group_order, epg, keep_multiple_urls,
         )
         merged.append(ch["url"])
 
-    # 按分组顺序输出频道
+    # 按 group_order 排序输出
     group_counts = {}
     for group in group_order + [default_group]:
         for name, ch in channels.items():
@@ -33,19 +33,19 @@ def export_m3u(channels, custom_channels, group_order, epg, keep_multiple_urls,
                 merged.extend(urls)
                 group_counts[group] = group_counts.get(group, 0) + 1
 
-    # 写入主输出文件
+    # 写主输出文件
     with open(outfile, "w", encoding="utf-8") as f:
         f.write("\n".join(merged))
     logging.info(f"[DONE] 已生成主输出文件: {outfile}")
 
-    # 写入调试文件（可选）
+    # 可选：生成调试文件
     if generate_debug_file:
         debug_file = "merged.m3u"
         with open(debug_file, "w", encoding="utf-8") as f:
             f.write("\n".join(merged))
         logging.info(f"[DEBUG] 已生成调试文件: {debug_file}")
 
-    # 输出分组统计
+    # 分组统计
     logging.info("[SUMMARY] 分组统计：")
     for group, count in group_counts.items():
         logging.info(f"  {group}: {count} 个频道")
