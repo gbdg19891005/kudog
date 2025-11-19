@@ -1,45 +1,15 @@
 {
   "remote_urls": [
-    {
-      "url": "https://gitee.com/lwr851/live/raw/master/iptv.m3u",
-      "primary": true
-    },
-    {
-      "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/refs/heads/main/cn_all.m3u8",
-      "primary": true
-    },
-    {
-      "url": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/GATV.m3u",
-      "primary": false
-    },
-    {
-      "url": "https://gitee.com/thomas1998/tv-live/raw/master/IPV6.m3u",
-      "primary": false
-    },
-    {
-      "url": "https://gitee.com/thomas1998/tv-live/raw/master/%E7%9B%B4%E6%92%AD.m3u",
-      "primary": false
-    },
-    {
-      "url": "https://raw.githubusercontent.com/Supprise0901/TVBox_live/refs/heads/main/live.txt",
-      "primary": false
-    },
-    {
-      "url": "https://r2.laobaitv.net/public.m3u",
-      "primary": false
-    },
-    {
-      "url": "https://raw.githubusercontent.com/mytv-android/BRTV-Live-M3U8/refs/heads/main/iptv.m3u",
-      "primary": false
-    },
-    {
-      "url": "https://raw.githubusercontent.com/dbghelp/Free-to-air-TV/refs/heads/main/japan.m3u8",
-      "primary": false
-    },
-    {
-      "url": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u",
-      "primary": false
-    }
+    "https://gitee.com/lwr851/live/raw/master/iptv.m3u",
+    "https://raw.githubusercontent.com/best-fan/iptv-sources/refs/heads/main/cn_all.m3u8",
+    "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/GATV.m3u",
+    "https://gitee.com/thomas1998/tv-live/raw/master/IPV6.m3u",
+    "https://gitee.com/thomas1998/tv-live/raw/master/%E7%9B%B4%E6%92%AD.m3u",
+    "https://raw.githubusercontent.com/Supprise0901/TVBox_live/refs/heads/main/live.txt",
+    "https://r2.laobaitv.net/public.m3u",
+    "https://raw.githubusercontent.com/mytv-android/BRTV-Live-M3U8/refs/heads/main/iptv.m3u",
+    "https://raw.githubusercontent.com/dbghelp/Free-to-air-TV/refs/heads/main/japan.m3u8",
+    "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u"
   ],
   "local_files": [
     "xinzhibo.m3u"
