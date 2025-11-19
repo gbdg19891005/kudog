@@ -32,11 +32,19 @@ def main():
         try:
             with open(fname, "r", encoding="utf-8") as f:
                 lines = f.read().splitlines()
-                first_line = lines[0].lstrip("\ufeff").strip() if lines else ""
-                if not first_line.startswith("#EXTM3U"):
-                    lines = convert_txt_to_m3u(lines, default_group)
-                else:
+                # 跳过空行和注释，找到第一个有效的 #EXTM3U
+                first_line = ""
+                for l in lines:
+                    t = l.lstrip("\ufeff").strip()
+                    if not t or t.startswith("//"):
+                        continue
+                    first_line = t
+                    break
+                if first_line.startswith("#EXTM3U"):
                     header_lines.append(first_line)
+                else:
+                    lines = convert_txt_to_m3u(lines, default_group)
+
                 process_lines(lines, alias_map, rules, blocklist,
                               keep_multiple_urls, channels,
                               primary=True, source_name=f"本地:{fname}",
@@ -69,12 +77,19 @@ def main():
                 continue
 
             lines = text.splitlines()
-            first_line = lines[0].lstrip("\ufeff").strip() if lines else ""
-            if not first_line.startswith("#EXTM3U"):
+            # 跳过空行和注释，找到第一个有效的 #EXTM3U
+            first_line = ""
+            for l in lines:
+                t = l.lstrip("\ufeff").strip()
+                if not t or t.startswith("//"):
+                    continue
+                first_line = t
+                break
+            if first_line.startswith("#EXTM3U"):
+                header_lines.append(first_line)
+            else:
                 logging.warning(f"[WARN] {url} 首行不是标准 M3U，尝试转换")
                 lines = convert_txt_to_m3u(lines, default_group)
-            else:
-                header_lines.append(first_line)
 
             process_lines(lines, alias_map, rules, blocklist,
                           keep_multiple_urls, channels,
