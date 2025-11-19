@@ -51,10 +51,12 @@ def process_lines(lines, alias_map, rules, blocklist,
                     break
 
             if name not in channels:
+                # 新频道：保留原始 line 和分组
                 channels[name] = {"line": line, "urls": [url_line], "group": group}
                 stats["added"] += 1
             else:
-                if primary and keep_multiple_urls and url_line not in channels[name]["urls"]:
+                # 已存在频道：只追加 URL，不改 line/group
+                if keep_multiple_urls and url_line not in channels[name]["urls"]:
                     channels[name]["urls"].append(url_line)
                     stats["appended"] += 1
                 else:
