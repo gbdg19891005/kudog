@@ -26,6 +26,16 @@ def main():
 
     channels = {}
 
+    # ===== 统计信息 =====
+    stats = {
+        "added": 0,
+        "appended": 0,
+        "skipped": 0,
+        "blocked": 0,
+        "filtered": 0,
+        "missing_url": 0
+    }
+
     # ===== 本地源 =====
     for fname in sources.get("local_files", []):
         try:
@@ -98,6 +108,14 @@ def main():
         generate_debug_file=config["generate_debug_file"],
         default_group=default_group
     )
+
+    # ===== 输出统计 =====
+    logging.info("[SUMMARY] 分组统计：")
+    logging.info(f"[SUMMARY] 最终频道数: {len(channels)}")
+    logging.info(f"[SUMMARY] 追加URL数: {stats['appended']}")
+    logging.info(f"[SUMMARY] 缺URL跳过数: {stats['missing_url']}")
+    logging.info(f"[SUMMARY] 被过滤数: {stats['filtered']}")
+    logging.info(f"[SUMMARY] 被屏蔽数: {stats['blocked']}")
 
 if __name__ == "__main__":
     main()
