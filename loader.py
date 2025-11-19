@@ -1,10 +1,11 @@
-import json, os, yaml, logging
+import json, os, yaml
 
 def load_config():
     """加载 config.yaml 配置"""
     with open("config.yaml", "r", encoding="utf-8") as f:
         config = yaml.safe_load(f)
 
+    # 设置默认值，避免缺字段时报错
     defaults = {
         "ua": "Mozilla/5.0",
         "referrer": "",
@@ -18,42 +19,27 @@ def load_config():
         "force_logo": False,
         "force_tvg_id": False,
     }
+
     for k, v in defaults.items():
         config.setdefault(k, v)
+
     return config
 
+
 def load_sources():
-    """加载 sources.json 并校验字段"""
+    """加载 sources.json"""
     with open("sources.json", "r", encoding="utf-8") as f:
-        sources = json.load(f)
+        return json.load(f)
 
-    remote_urls = sources.get("remote_urls", [])
-    validated_urls = []
-    for src in remote_urls:
-        if isinstance(src, str):
-            validated_urls.append({"url": src, "primary": True, "include_channels": []})
-        elif isinstance(src, dict):
-            url = src.get("url")
-            if not url:
-                logging.warning("[WARN] sources.json 中存在缺少 url 的远程源，已跳过")
-                continue
-            validated_urls.append({
-                "url": url,
-                "primary": bool(src.get("primary", False)),
-                "include_channels": src.get("include_channels", [])
-            })
-    sources["remote_urls"] = validated_urls
-
-    local_files = sources.get("local_files", [])
-    validated_files = [f for f in local_files if isinstance(f, str)]
-    sources["local_files"] = validated_files
-    return sources
 
 def load_groups():
+    """加载 groups.json"""
     with open("groups.json", "r", encoding="utf-8") as f:
         return json.load(f)
 
+
 def load_alias():
+    """加载 alias.txt，支持正则别名"""
     alias_map = {}
     if os.path.exists("alias.txt"):
         with open("alias.txt", "r", encoding="utf-8") as f:
