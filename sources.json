@@ -1,6 +1,6 @@
 {
   "remote_urls": [
-    "https://gitee.com/lwr851/live/raw/master/iptv.m3u",
+    "https://raw.githubusercontent.com/develop202/migu_video/main/interface.txt",
     "https://raw.githubusercontent.com/best-fan/iptv-sources/refs/heads/main/cn_all.m3u8",
     "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/GATV.m3u",
     "https://gitee.com/thomas1998/tv-live/raw/master/IPV6.m3u",
