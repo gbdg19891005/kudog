@@ -121,15 +121,13 @@ def process_lines(lines: list, alias_map: dict, rules: dict, blocklist: list,
                 line = re.sub(r'tvg-name="([^"]+)"',
                               f'tvg-id="{norm_name}" tvg-name="\\1"', line)
 
-            # 强制统一 group-title 在属性区
-            if "group-title" in line:
-                line = re.sub(r'group-title=".*?"', f'group-title="{group}"', line)
+            # 强制忽略远程源自带的 group-title，统一使用规则分组
+            line = re.sub(r'group-title=".*?"', '', line)  # 去掉所有原始分组
+            if "," in line:
+                parts = line.split(",", 1)
+                line = parts[0] + f' group-title="{group}",' + parts[1]
             else:
-                if "," in line:
-                    parts = line.split(",", 1)
-                    line = parts[0] + f' group-title="{group}",' + parts[1]
-                else:
-                    line = line + f' group-title="{group}"'
+                line = line + f' group-title="{group}"'
 
             # 归并逻辑
             if norm_name not in channels:
