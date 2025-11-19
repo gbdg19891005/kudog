@@ -33,8 +33,6 @@ def is_blocked(name: str, blocklist: list) -> bool:
     - 自动去除首尾空格
     """
     clean_name = name.strip()
-
-    # 空频道直接过滤
     if not clean_name:
         return True
 
@@ -42,11 +40,9 @@ def is_blocked(name: str, blocklist: list) -> bool:
         if not kw:
             continue
         try:
-            # 使用正则安全匹配，忽略大小写
             if re.search(re.escape(kw.strip()), clean_name, re.IGNORECASE):
                 return True
         except re.error:
-            # 如果关键字不是合法正则，就用简单包含判断
             if kw.strip().lower() in clean_name.lower():
                 return True
     return False
@@ -121,8 +117,8 @@ def process_lines(lines: list, alias_map: dict, rules: dict, blocklist: list,
                 line = re.sub(r'tvg-name="([^"]+)"',
                               f'tvg-id="{norm_name}" tvg-name="\\1"', line)
 
-            # 强制忽略远程源自带的 group-title，统一使用规则分组
-            line = re.sub(r'group-title=".*?"', '', line)  # 去掉所有原始分组
+            # 🚨 彻底删除所有远程源自带的 group-title，再插入规则分组
+            line = re.sub(r'group-title="[^"]*"', '', line)  # 删除所有 group-title
             if "," in line:
                 parts = line.split(",", 1)
                 line = parts[0] + f' group-title="{group}",' + parts[1]
