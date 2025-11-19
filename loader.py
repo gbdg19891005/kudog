@@ -1,4 +1,4 @@
-import json, os, yaml
+import json, os, yaml, logging
 
 def load_config():
     """加载 config.yaml 配置"""
@@ -27,9 +27,43 @@ def load_config():
 
 
 def load_sources():
-    """加载 sources.json"""
+    """加载 sources.json 并校验字段"""
     with open("sources.json", "r", encoding="utf-8") as f:
-        return json.load(f)
+        sources = json.load(f)
+
+    # 校验 remote_urls
+    remote_urls = sources.get("remote_urls", [])
+    validated_urls = []
+    for src in remote_urls:
+        if isinstance(src, str):
+            # 字符串形式，默认 primary=True
+            validated_urls.append({"url": src, "primary": True, "include_channels": []})
+        elif isinstance(src, dict):
+            url = src.get("url")
+            if not url:
+                logging.warning("[WARN] sources.json 中存在缺少 url 的远程源，已跳过")
+                continue
+            validated_urls.append({
+                "url": url,
+                "primary": bool(src.get("primary", False)),
+                "include_channels": src.get("include_channels", [])
+            })
+        else:
+            logging.warning(f"[WARN] sources.json 中存在无效的远程源: {src}")
+
+    sources["remote_urls"] = validated_urls
+
+    # 校验 local_files
+    local_files = sources.get("local_files", [])
+    validated_files = []
+    for fname in local_files:
+        if isinstance(fname, str):
+            validated_files.append(fname)
+        else:
+            logging.warning(f"[WARN] sources.json 中存在无效的本地文件: {fname}")
+    sources["local_files"] = validated_files
+
+    return sources
 
 
 def load_groups():
