@@ -14,8 +14,6 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 0   # 🚨 拉取完整历史，避免 rebase 出错
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -34,5 +32,4 @@ jobs:
           git config --global user.email "actions@github.com"
           git add *.m3u
           git commit -m "Auto update M3U playlists" || echo "No changes"
-          git pull --rebase origin main || true   # 🚨 先同步远程
-          git push origin main
+          git push
