@@ -118,7 +118,7 @@ def process_lines(lines: list, alias_map: dict, rules: dict, blocklist: list,
                               f'tvg-id="{norm_name}" tvg-name="\\1"', line)
 
             # 🚨 彻底删除所有远程源自带的 group-title，再插入规则分组
-            line = re.sub(r'group-title="[^"]*"', '', line)  # 删除所有 group-title
+            line = re.sub(r'\s*group-title="[^"]*"', '', line)  # 删除所有 group-title 属性（带前导空格）
             if "," in line:
                 parts = line.split(",", 1)
                 line = parts[0] + f' group-title="{group}",' + parts[1]
