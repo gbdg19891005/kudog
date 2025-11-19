@@ -1,166 +1,90 @@
-import re, logging
+import logging
 
-def normalize_name(name: str, alias_map: dict) -> str:
-    """根据 alias.txt 归一化频道名"""
-    for alias, main in alias_map.items():
-        if alias.startswith("re:"):
-            if re.search(alias[3:], name, re.IGNORECASE):
-                return main
-        elif alias.lower() == name.lower():
-            return main
-    return name
-
-
-def assign_group(name: str, rules: dict, default_group="综合") -> str:
-    """根据 groups.json 的规则分组"""
-    for group, keywords in rules.items():
-        for kw in keywords:
-            try:
-                if re.search(kw, name, re.IGNORECASE):
-                    return group
-            except re.error:
-                if kw.lower() in name.lower():
-                    return group
-    return default_group
-
-
-def is_blocked(name: str, blocklist: list) -> bool:
-    """判断频道是否在 blocklist 中"""
-    clean_name = name.strip()
-    if not clean_name:
-        return True
-    for kw in blocklist:
-        if not kw:
-            continue
-        try:
-            if re.search(re.escape(kw.strip()), clean_name, re.IGNORECASE):
-                return True
-        except re.error:
-            if kw.strip().lower() in clean_name.lower():
-                return True
-    return False
-
-
-def convert_txt_to_m3u(lines: list, default_group: str = "综合") -> list:
+def process_lines(lines, alias_map, rules, blocklist,
+                  keep_multiple_urls, channels,
+                  primary=True, source_name="未知源",
+                  default_group="综合", whitelist=None,
+                  stats=None):
     """
-    将 TXT 格式转换为 M3U 格式
-    - TXT 格式: 每行 "频道名,URL"
-    - 转换后: 标准 M3U 格式，首行 #EXTM3U
-    - 分组使用 config.yaml 里的 default_group
+    处理 M3U/TXT 文件的行
+    :param lines: 文件行列表
+    :param alias_map: 别名映射
+    :param rules: 分组规则
+    :param blocklist: 屏蔽列表
+    :param keep_multiple_urls: 是否保留多个 URL
+    :param channels: 频道字典
+    :param primary: 是否主源
+    :param source_name: 源名称
+    :param default_group: 默认分组
+    :param whitelist: 白名单频道
+    :param stats: 统计信息字典
     """
-    new_lines = ["#EXTM3U"]
-    for line in lines:
-        if not line.strip() or line.startswith("#"):
-            continue
-        try:
-            name, url = line.split(",", 1)
-        except ValueError:
-            continue
-        name = name.strip()
-        url = url.strip()
-        new_lines.append(
-            f'#EXTINF:-1 tvg-id="{name}" tvg-name="{name}" group-title="{default_group}",{name}'
-        )
-        new_lines.append(url)
-    return new_lines
+    if stats is None:
+        stats = {"added": 0, "appended": 0, "skipped": 0,
+                 "blocked": 0, "filtered": 0, "missing_url": 0}
 
-
-def process_lines(lines: list, alias_map: dict, rules: dict, blocklist: list,
-                  keep_multiple_urls: bool, channels: dict,
-                  primary=False, source_name="未知源", default_group="综合",
-                  whitelist: list = None, stats: dict = None):
-    """
-    处理 M3U 行，归并频道、分组、去重
-    """
     i = 0
     while i < len(lines):
-        line = lines[i]
+        line = lines[i].strip()
         if line.startswith("#EXTINF"):
-            url_line = lines[i+1] if i+1 < len(lines) else ""
-
-            # 缺 URL 跳过
-            if not url_line or url_line.startswith("#EXTINF"):
-                logging.warning(f"[MISSING URL][{source_name}] {line.strip()}")
-                if stats is not None:
-                    stats["missing_url"] = stats.get("missing_url", 0) + 1
-                i += 1
-                continue
-
-            # 修复可能的错误字段
-            line = line.replace("svg-name", "tvg-name").replace("svg-id", "tvg-id")
-
             # 提取频道名
-            m = re.search(r'tvg-name="([^"]+)"', line)
-            if m:
-                raw_name = m.group(1).strip()
-            else:
-                parts = line.split(",", 1)
-                if len(parts) > 1 and parts[1].strip():
-                    raw_name = parts[1].strip()
-                else:
-                    m2 = re.search(r'tvg-id="([^"]+)"', line)
-                    raw_name = m2.group(1).strip() if m2 else "未知频道"
-
-            # 别名归并
-            norm_name = normalize_name(raw_name, alias_map)
+            try:
+                name = line.split(",")[-1].strip()
+            except Exception:
+                name = "未知频道"
 
             # 白名单过滤
-            if whitelist:
-                if not any(re.search(kw, norm_name, re.IGNORECASE) for kw in whitelist):
-                    logging.info(f"[FILTERED][{source_name}] {raw_name} → {norm_name} 不在白名单")
-                    if stats is not None:
-                        stats["filtered"] = stats.get("filtered", 0) + 1
-                    i += 2
-                    continue
-
-            # 屏蔽检查
-            if is_blocked(norm_name, blocklist):
-                logging.info(f"[BLOCKED][{source_name}] {raw_name} → {norm_name}")
-                if stats is not None:
-                    stats["blocked"] = stats.get("blocked", 0) + 1
+            if whitelist and not any(w in name for w in whitelist):
+                stats["filtered"] += 1
                 i += 2
                 continue
 
-            # 分组
-            group = assign_group(norm_name, rules, default_group)
+            # 屏蔽列表过滤
+            if any(b in name for b in blocklist):
+                logging.warning(f"[BLOCKED][{source_name}] {line}")
+                stats["blocked"] += 1
+                i += 2
+                continue
 
-            # 强制补全 tvg-id
-            if 'tvg-id="' not in line:
-                line = re.sub(r'tvg-name="([^"]+)"',
-                              f'tvg-id="{norm_name}" tvg-name="\\1"', line)
+            # URL 行容错处理
+            url_line = ""
+            if i + 1 < len(lines):
+                url_line = lines[i+1].strip()
+                # 如果下一行是空行、注释或另一个 #EXTINF，则认为缺失 URL
+                if not url_line or url_line.startswith("#") or url_line.startswith("#EXTINF"):
+                    url_line = ""
 
-            # 删除所有远程源自带的 group-title，再插入规则分组
-            line = re.sub(r'\s*group-title="[^"]*"', '', line)
-            if "," in line:
-                parts = line.split(",", 1)
-                line = parts[0] + f' group-title="{group}",' + parts[1]
+            if not url_line:
+                logging.warning(f"[MISSING URL][{source_name}] {line}")
+                stats["missing_url"] += 1
+                i += 1
+                continue
+
+            # 别名映射
+            if name in alias_map:
+                name = alias_map[name]
+
+            # 分组匹配
+            group = default_group
+            for g, keywords in rules.items():
+                if any(k in name for k in keywords):
+                    group = g
+                    break
+
+            # 添加到频道字典
+            if name not in channels:
+                channels[name] = {
+                    "line": line,
+                    "urls": [url_line],
+                    "group": group
+                }
+                stats["added"] += 1
             else:
-                line = line + f' group-title="{group}"'
-
-            # 归并逻辑
-            if norm_name not in channels:
-                channels[norm_name] = {"line": line, "urls": [url_line], "group": group}
-                logging.debug(f"[ADD][{source_name}] {raw_name} → {norm_name} → {group}")
-                if stats is not None:
-                    stats["added"] = stats.get("added", 0) + 1
-            else:
-                if primary and url_line and url_line not in channels[norm_name]["urls"]:
-                    if keep_multiple_urls:
-                        channels[norm_name]["urls"].append(url_line)
-                        logging.debug(f"[APPEND][{source_name}] {raw_name} → {norm_name} 新增URL")
-                        if stats is not None:
-                            stats["appended"] = stats.get("appended", 0) + 1
-                    else:
-                        logging.debug(f"[IGNORE][{source_name}] {raw_name} → {norm_name} 保留首个URL")
-                        if stats is not None:
-                            stats["skipped"] = stats.get("skipped", 0) + 1
+                if primary and keep_multiple_urls and url_line not in channels[name]["urls"]:
+                    channels[name]["urls"].append(url_line)
+                    stats["appended"] += 1
                 else:
-                    logging.debug(f"[SKIP][{source_name}] {raw_name} → {norm_name}")
-                    if stats is not None:
-                        stats["skipped"] = stats.get("skipped", 0) + 1
-
-            if group == default_group:
-                logging.warning(f"[UNCATEGORIZED][{source_name}] {raw_name} → {norm_name}")
+                    stats["skipped"] += 1
 
             i += 2
         else:
