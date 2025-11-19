@@ -45,7 +45,8 @@ def main():
                 if not first_line.startswith("#EXTM3U") and not first_line.startswith("EXTM3U"):
                     # TXT 转换时传入 default_group
                     lines = convert_txt_to_m3u(lines, default_group)
-                process_lines(lines[1:], alias_map, rules, blocklist,
+                # 🚨 保留首行，不再跳过
+                process_lines(lines, alias_map, rules, blocklist,
                               keep_multiple_urls, channels,
                               primary=True, source_name=f"本地:{fname}",
                               default_group=default_group,
@@ -70,13 +71,17 @@ def main():
             if config["referrer"]:
                 headers["Referer"] = config["referrer"]
 
-            resp = requests.get(url, headers=headers, timeout=timeout)
+            resp = requests.get(url, headers=headers, timeout=timeout, allow_redirects=True)
             resp.raise_for_status()
 
+            # 🚨 尝试多种解码，避免 BOM/GBK 问题
             try:
-                text = resp.content.decode("utf-8", errors="ignore").strip()
+                text = resp.content.decode("utf-8-sig").strip()
             except Exception:
-                text = resp.text.strip()
+                try:
+                    text = resp.content.decode("gbk", errors="ignore").strip()
+                except Exception:
+                    text = resp.text.strip()
 
             if not text:
                 logging.warning(f"[WARN] {url} 返回空内容")
@@ -84,12 +89,13 @@ def main():
 
             lines = text.splitlines()
             first_line = lines[0].lstrip("\ufeff").strip().upper() if lines else ""
-            if not first_line.startswith("#EXTM3U") and not first_line.startswith("EXTM3U"):
+            if not first_line.startswith("#EXTM3U"):
                 logging.warning(f"[WARN] {url} 首行不是标准 M3U，尝试转换")
                 # TXT 转换时传入 default_group
                 lines = convert_txt_to_m3u(lines, default_group)
 
-            process_lines(lines[1:], alias_map, rules, blocklist,
+            # 🚨 保留首行，不再跳过
+            process_lines(lines, alias_map, rules, blocklist,
                           keep_multiple_urls, channels,
                           primary=primary_flag, source_name=f"远程:{url}",
                           default_group=default_group,
