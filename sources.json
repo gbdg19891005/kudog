@@ -6,8 +6,7 @@
     "https://r2.laobaitv.net/public.m3u",
     "https://raw.githubusercontent.com/mytv-android/BRTV-Live-M3U8/refs/heads/main/iptv.m3u",
     "https://raw.githubusercontent.com/dbghelp/Free-to-air-TV/refs/heads/main/japan.m3u8",
-    "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u",
-    "https://raw.githubusercontent.com/4jb/iptv-combo/refs/heads/main/freetv-merged.m3u"
+    "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u"
   ],
   "local_files": [
     "xinzhibo.m3u"
