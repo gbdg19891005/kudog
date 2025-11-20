@@ -1,13 +1,13 @@
 {
   "rules": {
-    "🔥央视频道": [
+    "🇨🇳央视频道": [
       "^CCTV", "央视", "中央", "央視",
       "风云足球", "CCTV风云足球", "风云剧场", "风云音乐",
       "兵器科技", "怀旧剧场", "世界地理", "央视音乐",
       "央视精品", "央视台球", "央视高尔夫", "央视文化", 
       "央视戏曲", "IPTV.*", "网络电视", "互动电视", "睛彩.*"
     ],
-    "🔔卫视频道": [
+    "🇨🇳卫视频道": [
       "卫视\\b", "澳视", "衛視\\b", "北京卫视4K超高清", "莲花", "蓮花"
     ],
     "💥港|澳|台": [
@@ -19,7 +19,7 @@
       "JET", "壹电视", "壹電視", "Taiwan Plus", "AXN", 
       "新闻台$", "新聞台$", "资讯台$", "資訊台$"
     ],
-    "💎地方台": [
+    "💎地方频道": [
       "BTV", "北京", "廣東", "广东", "深圳", "珠江", "山东", "山東", "民生", "新闻",
       "江苏", "江蘇", "浙江", "湖北", "湖南", "黑龙江", "黑龍江", "法治频道", "公共",
       "辽宁", "遼寧", "吉林", "河北", "河南", "山西", "陕西", "陝西", "南京", "HZTV",
@@ -27,7 +27,7 @@
       "海南", "宁夏", "寧夏", "青海", "西藏", "新疆", "内蒙古", "內蒙古", "新闻综合",
       "都市", "都市频道", "省台", "省臺", "综合", "新闻频道", "公共新闻"
     ],
-    "🌈综艺": [
+    "🌈综艺频道": [
       "综艺", "綜藝", "娱乐", "娛樂", "综艺台", "綜藝台", "テレ東", "孤独",
       "TVBS欢乐", "FastTV飛速看", "TVBS歡樂", "小品", "フジテレビ",
       "Talk", "Oprah Winfrey Network", "BET", "BET HER", "KFN", "Korea", "Gugak",
@@ -37,14 +37,14 @@
       "八大综艺", "八大綜藝", "旅遊", "旅游", "豬哥亮",
       "爱尔达", "愛爾達"
     ],
-    "⚽️体育": [
+    "⚽️体育频道": [
       "体育", "體育", "Sport", "SPORT", "NBA", "足球", "篮球", "籃球", "HOY",
       "Real Madrid", "Tennis Channel", "NFL Channel", "Billiard TV", "全运会", "城市联赛",
       "Stadium", "Overtime", "MLB Network", "SEC Network", "運動", "ESPN",
       "球赛", "球賽", "最经典", "賽事", "武术", "武術", "搏击", "搏擊",
       "Red Bull", "Fishing", "钓鱼", "釣魚", "体坛"
     ],
-    "🎥电影": [
+    "🎥电影频道": [
       "电影", "電影", "Movie", "MOVIE", "Cinema", "CINEMA", "天映", "新片", "武侠", "抗日",
       "Action Hollywood", "Thrillers", "Thriller TV", "Universal Monsters", "经典",
       "ION", "ION Plus", "Paramount Network", "Showtime", "Showtime 2", "象视界", "爱奇艺",
@@ -53,13 +53,13 @@
       "影院", "剧场", "影城", "剧集", "港剧", "Cinemax", "Star Movies",
       "CinemaWorld"
     ],
-    "🌝动画": [
+    "🌝动画频道": [
       "动画", "動畫", "少儿", "少兒", "兒童", "儿童", "Kartoon Channel",
       "Kids", "KIDS", "Cartoon", "CARTOON", "动漫", "動漫", "中学生", "哈哈",
       "DISNEY CHANNEL", "DISNEY JR", "卡通", "卡通台", "布袋戲",
       "Anime", "靖天映画", "靖天映畫", "ANIME"
     ],
-    "🐷纪录片": [
+    "🐷纪录片频道": [
       "纪录", "紀錄", "纪实", "紀實", "Documentary", "達文西", "DOCUMENTARY", "贝爷",
       "History", "HISTORY", "自然", "Nature", "NATURE", "Magellan", "老故事", "中华特产",
       "Wild Earth", "Travel XP", "4K Travel", "探索", "Discovery", "DISCOVERY", "中国天气", 
@@ -67,7 +67,7 @@
       "National Geographic", "國家地理", "NatGeo", "Animal Planet", "发现之旅", 
       "动物星球", "動物星球", "CI"
     ],
-    "🌍️国际台": [
+    "🌍️国际频道": [
       "国际", "國際", "World", "WORLD", "NHK", "CNN", "BBC", "DIG", "日テ", "FNN",
       "GB News", "RT News", "Euronews", "NBC", "CBC News", "法·时尚", "Pearl",
       "Newsmax", "TBS Seoul", "WION", "Newsy", "News 12", "Scripps News",
@@ -76,50 +76,50 @@
       "Al Jazeera", "半岛", "半島", "日本", "德國", "ROCK", "HITS",
       "INULTRA", "Global", "LUXE"
     ],
-    "🧙‍♀️戏剧": [
+    "🧙‍♀️戏剧频道": [
       "戏剧", "戲劇", "影劇", "影劇台", "电视剧", "電視劇",
       "梨园", "移动戏曲",
       "Drama", "DRAMA"
     ],
-    "🎵音乐": [
+    "🎵音乐频道": [
       "音乐", "音樂", "Music", "MUSIC", "MTV", "Live", "LIVE", "TRACE", "古典", "KTV"
     ],
-    "📗教育": [
+    "📗教育频道": [
       "教育", "CETV", "EDU", "Edu", "LEARN", "Learn", "学习", "學習", "法治", "金色",
       "MOMO", "幸福", "車迷", "育乐", "科教", "ELTV", "Cloudflare",
       "Redbull", "FIFA+", "PowerNation", "Outdoor Channel"
     ],
-    "📦️购物": [
+    "📦️购物频道": [
       "购物", "購物", "乐游", "Shopping", "SHOPPING", "TV5MONDE", "Shop", "生活", 
       "東森購物一台", "東森購物二台", "東森購物三台", "女性时尚",
       "東森購物三台", "東森購物四台", "SHOP"
     ],
-    "⚡️财经": [
+    "⚡️财经频道": [
       "财经", "財經", "Finance", "FINANCE", "Business", "BUSINESS",
       "财富", "財富", "Economy", "ECONOMY", "Bloomberg", "CNBC",
       "Cheddar News"
     ],
-    "🔔娱乐频道": [
+    "🕹️娱乐频道": [
        "游戏", "JJ", "掼蛋", "英雄联盟", "斗地主"
     ]
   },
   "custom_channels": [
     {
-      "name": "kudogxy提供🎖️自建接口",
+      "name": "💯kudogxy提供",
       "logo": "https://tm-image.tianyancha.com/tm/90d426f2aed65cae1abe37b446c67371.jpg",
-      "group": "kudogxy提供🎖️自建接口",
+      "group": "💯kudogxy提供",
       "url": "https://vd3.bdstatic.com/mda-mev3hw0htz28h5wn/1080p/cae_h264/1622343504467773766/mda-mev3hw0htz28h5wn.mp4"
     },
     {
-      "name": "接口专人维护✔️保障观看、",
+      "name": "😊kudogxy维护、保障观看",
       "logo": "https://tm-image.tianyancha.com/tm/90d426f2aed65cae1abe37b446c67371.jpg",
-      "group": "接口专人维护✔️保障观看、",
+      "group": "😊kudogxy维护、保障观看",
       "url": "https://alimov2.a.kwimgs.com/upic/2023/07/10/14/BMjAyMzA3MTAxNDE5MTdfMzM5Njk4MTMyNl8xMDc2MDM1MDcwMjhfMF8z_b_B2c9fa52d46ef9499c4682907e8328111.mp4"
     },
     {
-      "name": "唯一服务微信:kudogxy",
+      "name": "💬微信:kudogxy",
       "logo": "https://tm-image.tianyancha.com/tm/90d426f2aed65cae1abe37b446c67371.jpg",
-      "group": "唯一服务微信:kudogxy",
+      "group": "💬微信:kudogxy",
       "url": "https://bcian.cn/ku.mp4"
     }
   ],
