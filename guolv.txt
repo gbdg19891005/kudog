@@ -17,6 +17,9 @@
   ]
 }
 
+
+https://raw.githubusercontent.com/BuddyChewChew/buddylive/refs/heads/main/buddylive_v1.m3u
+
 每个
 {
   "remote_urls": [
