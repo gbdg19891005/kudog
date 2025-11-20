@@ -51,4 +51,10 @@ http://iptv.huuc.edu.cn/hls/cqhd.m3u8
 http://iptv.huuc.edu.cn/hls/hljhd.m3u8
 #EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/东南卫视.png" group-title="卫视频道" response-time="20ms",东南卫视
 http://iptv.huuc.edu.cn/hls/dnhd.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分组",孤独的美食家2
+https://www.goodiptv.club/douyu/260322
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分组",孤独的美食家3
+https://www.goodiptv.club/douyu/953193
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分组",孤独的美食家4
+http://live.iill.top/douyu.php?id=260322
 
