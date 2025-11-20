@@ -16,11 +16,11 @@ log_level: "INFO"
 # 主输出文件
 output_file: "kudog.m3u"
 # 是否同时生成一个调试用的 merged.m3u
-generate_debug_file: true
+generate_debug_file: false
 
 # ===== 默认分组配置 =====
 # 当频道未匹配到任何规则时，归入的分组
-default_group: "🗑️综合"
+default_group: ""
 
 # ===== 额外功能开关 =====
 # 是否在 EXTINF 中强制补全 tvg-logo (如果 groups.json 有定义)
