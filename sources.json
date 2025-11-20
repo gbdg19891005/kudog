@@ -1,6 +1,6 @@
 {
   "remote_urls": [
-        {
+    {
       "url": "https://raw.githubusercontent.com/kapaqi/iptv/refs/heads/main/auv.m3u8",
       "include_channels": ["CCTV", "卫视"]
     },
