@@ -1,60 +1,61 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV1.png" group-title="央视频道" response-time="41ms",CCTV1
-http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
+http://iptv.huuc.edu.cn/player.html?channel=cctv1hd
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV2.png" group-title="央视频道" response-time="37ms",CCTV2
-http://iptv.huuc.edu.cn/hls/cctv2hd.m3u8
+http://iptv.huuc.edu.cn/player.html?channel=cctv2hd
 #EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV3.png" group-title="央视频道" response-time="22ms",CCTV3
-http://iptv.huuc.edu.cn/hls/cctv3hd.m3u8
+http://iptv.huuc.edu.cn/player.html?channel=cctv3hd
 #EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV4.png" group-title="央视频道" response-time="23ms",CCTV4
-http://iptv.huuc.edu.cn/hls/cctv4hd.m3u8
+http://iptv.huuc.edu.cn/player.html?channel=cctv4hd
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5.png" group-title="体育频道" response-time="24ms",CCTV5
-http://iptv.huuc.edu.cn/hls/cctv5hd.m3u8
+http://iptv.huuc.edu.cn/player.html?channel=cctv5hd
 #EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5+.png" group-title="体育频道" response-time="21ms",CCTV5+
-http://iptv.huuc.edu.cn/hls/cctv5phd.m3u8
+http://iptv.huuc.edu.cn/player.html?channel=cctv5phd
 #EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV6.png" group-title="央视频道" response-time="21ms",CCTV6
-http://iptv.huuc.edu.cn/hls/cctv6hd.m3u8
+http://iptv.huuc.edu.cn/player.html?channel=cctv6hd
 #EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV7.png" group-title="央视频道" response-time="21ms",CCTV7
-http://iptv.huuc.edu.cn/hls/cctv7hd.m3u8
+http://iptv.huuc.edu.cn/player.html?channel=cctv7hd
 #EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV8.png" group-title="央视频道" response-time="21ms",CCTV8
-http://iptv.huuc.edu.cn/hls/cctv8hd.m3u8
+http://iptv.huuc.edu.cn/player.html?channel=cctv8hd
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV10.png" group-title="央视频道" response-time="20ms",CCTV10
-http://iptv.huuc.edu.cn/hls/cctv10hd.m3u8
+http://iptv.huuc.edu.cn/player.html?channel=cctv10hd
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV12.png" group-title="央视频道" response-time="21ms",CCTV12
-http://iptv.huuc.edu.cn/hls/cctv12hd.m3u8
+http://iptv.huuc.edu.cn/player.html?channel=cctv12hd
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV13.png" group-title="央视频道" response-time="24ms",CCTV13
-http://iptv.huuc.edu.cn/hls/cctv13hd.m3u8
+http://iptv.huuc.edu.cn/player.html?channel=cctv13hd
 #EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV14.png" group-title="卡通频道" response-time="21ms",CCTV14
-http://iptv.huuc.edu.cn/hls/cctv14hd.m3u8
+http://iptv.huuc.edu.cn/player.html?channel=cctv14hd
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/北京卫视.png" group-title="卫视频道" response-time="24ms",北京卫视
-http://iptv.huuc.edu.cn/hls/btv1hd.m3u8
+http://iptv.huuc.edu.cn/player.html?channel=btv1hd
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖南卫视.png" group-title="卫视频道" response-time="23ms",湖南卫视
-http://iptv.huuc.edu.cn/hls/hunanhd.m3u8
+http://iptv.huuc.edu.cn/player.html?channel=hunanhd
 #EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/东方卫视.png" group-title="卫视频道" response-time="21ms",东方卫视
-http://iptv.huuc.edu.cn/hls/dfhd.m3u8
+http://iptv.huuc.edu.cn/player.html?channel=dfhd
 #EXTINF:-1 tvg-name="四川卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/四川卫视.png" group-title="卫视频道" response-time="21ms",四川卫视
-http://iptv.huuc.edu.cn/hls/schd.m3u8
+http://iptv.huuc.edu.cn/player.html?channel=schd
 #EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/安徽卫视.png" group-title="卫视频道" response-time="20ms",安徽卫视
-http://iptv.huuc.edu.cn/hls/ahhd.m3u8
+http://iptv.huuc.edu.cn/player.html?channel=ahhd
 #EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山东卫视.png" group-title="卫视频道" response-time="22ms",山东卫视
-http://iptv.huuc.edu.cn/hls/sdhd.m3u8
+http://iptv.huuc.edu.cn/player.html?channel=sdhd
 #EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/江西卫视.png" group-title="卫视频道" response-time="23ms",江西卫视
-http://iptv.huuc.edu.cn/hls/jxhd.m3u8
+http://iptv.huuc.edu.cn/player.html?channel=jxhd
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/浙江卫视.png" group-title="卫视频道" response-time="24ms",浙江卫视
-http://iptv.huuc.edu.cn/hls/zjhd.m3u8
+http://iptv.huuc.edu.cn/player.html?channel=zjhd
 #EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖北卫视.png" group-title="卫视频道" response-time="23ms",湖北卫视
-http://iptv.huuc.edu.cn/hls/hbhd.m3u8
+http://iptv.huuc.edu.cn/player.html?channel=hbhd
 #EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/辽宁卫视.png" group-title="卫视频道" response-time="23ms",辽宁卫视
-http://iptv.huuc.edu.cn/hls/lnhd.m3u8
+http://iptv.huuc.edu.cn/player.html?channel=lnhd
 #EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/重庆卫视.png" group-title="卫视频道" response-time="29ms",重庆卫视
-http://iptv.huuc.edu.cn/hls/cqhd.m3u8
+http://iptv.huuc.edu.cn/player.html?channel=cqhd
 #EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/黑龙江卫视.png" group-title="卫视频道" response-time="26ms",黑龙江卫视
-http://iptv.huuc.edu.cn/hls/hljhd.m3u8
+http://iptv.huuc.edu.cn/player.html?channel=hljhd
 #EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/东南卫视.png" group-title="卫视频道" response-time="20ms",东南卫视
-http://iptv.huuc.edu.cn/hls/dnhd.m3u8
+http://iptv.huuc.edu.cn/player.html?channel=dnhd
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分组",孤独的美食家2
 https://www.goodiptv.club/douyu/260322
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分组",孤独的美食家3
 https://www.goodiptv.club/douyu/953193
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分组",孤独的美食家4
 http://live.iill.top/douyu.php?id=260322
+
 
