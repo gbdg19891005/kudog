@@ -1,11 +1,7 @@
 {
   "remote_urls": [
-    {
-      "url": "https://raw.githubusercontent.com/kapaqi/iptv/refs/heads/main/auv.m3u8",
-      "include_channels": ["CCTV", "卫视", "孤独"]
-    },
-    "https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
     "https://raw.githubusercontent.com/best-fan/iptv-sources/refs/heads/main/cn_all.m3u8",
+    "https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
     "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/GATV.m3u",
     "https://gitee.com/thomas1998/tv-live/raw/master/IPV6.m3u",
     "https://gitee.com/thomas1998/tv-live/raw/master/%E7%9B%B4%E6%92%AD.m3u",
@@ -17,6 +13,7 @@
     "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u"
   ],
   "local_files": [
+    "原TV.txt",
     "xinzhibo.m3u"
   ]
 }
