@@ -237,3 +237,17 @@ https://www.goodiptv.club/douyu/260322
 https://www.goodiptv.club/douyu/953193
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分组",孤独的美食家4
 http://live.iill.top/douyu.php?id=260322
+#EXTINF:-1 tvg-name="海南卫视" tvg-logo="" group-title="海南",海南卫视
+http://35.209.240.97:5080/海南.php?id=hnws
+#EXTINF:-1 tvg-name="三沙卫视" tvg-logo="" group-title="海南",三沙卫视
+http://35.209.240.97:5080/海南.php?id=ssws
+#EXTINF:-1 tvg-name="海南新闻" tvg-logo="" group-title="海南",海南新闻
+http://35.209.240.97:5080/海南.php?id=xwpd
+#EXTINF:-1 tvg-name="海南文旅" tvg-logo="" group-title="海南",海南文旅
+http://35.209.240.97:5080/海南.php?id=wlpd
+#EXTINF:-1 tvg-name="海南自贸" tvg-logo="" group-title="海南",海南自贸
+http://35.209.240.97:5080/海南.php?id=jjpd
+#EXTINF:-1 tvg-name="海南公共" tvg-logo="" group-title="海南",海南公共
+http://35.209.240.97:5080/海南.php?id=ggpd
+#EXTINF:-1 tvg-name="海南少儿" tvg-logo="" group-title="海南",海南少儿
+http://35.209.240.97:5080/海南.php?id=sepd
