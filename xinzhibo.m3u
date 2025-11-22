@@ -24,7 +24,7 @@ http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
 http://61.221.215.25:8800/hls/9/index.m3u8
 #EXTINF:-1 tvg-name="大立" group-title="未分组",大立
 http://www.dalitv.com.tw:4568/live/dali/index.m3u8
-#EXTINF:-1 tvg-name="纬来日本" group-title="未分组",纬来日本
+#EXTINF:-1 tvg-name="公视" group-title="未分组",公视
 rtmp://f13h.mine.nu/sat/tv771
 #EXTINF:-1 tvg-name="纬来育乐" group-title="未分组",纬来育乐
 rtmp://f13h.mine.nu/sat/tv701
@@ -82,33 +82,3 @@ https://0472.org/hls/cgtnf.m3u8
 https://0472.org/hls/cgtnx.m3u8
 #EXTINF:-1 tvg-name="CGTN阿语" tvg-logo="" group-title="未分组",CGTN阿语
 https://0472.org/hls/cgtna.m3u8
-#EXTINF:-1 tvg-name="武义新闻综合" group-title="未分组",武义新闻综合
-http://l.cztvcloud.com/player.html?channel=SXwuyi1
-#EXTINF:-1 tvg-name="平湖新闻综合" group-title="未分组",平湖新闻综合
-http://l.cztvcloud.com/player.html?channel=SXpinghu1
-#EXTINF:-1 tvg-name="平湖民生休闲" group-title="未分组",平湖民生休闲
-http://l.cztvcloud.com/player.html?channel=SXpinghu2
-#EXTINF:-1 tvg-name="萧山新闻综合" group-title="未分组",萧山新闻综合
-http://l.cztvcloud.com/player.html?channel=SXxiaoshan1
-#EXTINF:-1 tvg-name="萧山生活频道" group-title="未分组",萧山生活频道
-http://l.cztvcloud.com/player.html?channel=SXxiaoshan2
-#EXTINF:-1 tvg-name="余杭综合频道" group-title="未分组",余杭综合频道
-http://l.cztvcloud.com/player.html?channel=SXyuhang1
-#EXTINF:-1 tvg-name="余杭未来E频道" group-title="未分组",余杭未来E频道
-http://l.cztvcloud.com/player.html?channel=SXyuhang3
-#EXTINF:-1 tvg-name="余姚新闻综合" group-title="未分组",余姚新闻综合
-http://l.cztvcloud.com/player.html?channel=SXyuyao1
-#EXTINF:-1 tvg-name="余姚姚江文化" group-title="未分组",余姚姚江文化
-http://l.cztvcloud.com/player.html?channel=SXyuyao3
-#EXTINF:-1 tvg-name="嵊州新闻综合" group-title="未分组",嵊州新闻综合
-http://l.cztvcloud.com/player.html?channel=SXshengzhou1
-#EXTINF:-1 tvg-name="诸暨新闻综合" group-title="未分组",诸暨新闻综合
-http://l.cztvcloud.com/player.html?channel=SXzhuji3
-#EXTINF:-1 tvg-name="上虞新闻综合" group-title="未分组",上虞新闻综合
-http://l.cztvcloud.com/player.html?channel=SXshangyu1
-#EXTINF:-1 tvg-name="上虞文化影院" group-title="未分组",上虞文化影院
-http://l.cztvcloud.com/player.html?channel=SXshangyu2
-#EXTINF:-1 tvg-name="上虞新商都" group-title="未分组",上虞新商都
-http://l.cztvcloud.com/player.html?channel=SXshangyu3
-#EXTINF:-1 tvg-name="兰溪新闻综合" group-title="未分组",兰溪新闻综合
-http://l.cztvcloud.com/player.html?channel=SXlanxi1
