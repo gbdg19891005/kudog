@@ -2,14 +2,14 @@
   "remote_urls": [
     "https://gitee.com/thomas1998/tv-live/raw/master/IPV6.m3u",
     "https://raw.githubusercontent.com/mytv-android/BRTV-Live-M3U8/refs/heads/main/iptv.m3u",
-    "http://35.209.240.97:5080/shanghai.php",
-    "https://raw.githubusercontent.com/best-fan/iptv-sources/refs/heads/main/cn_all.m3u8",
-    "https://gitee.com/cyh92/live/raw/main/source/migu.txt",
     "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/GATV.m3u",
+    "http://35.209.240.97:5080/shanghai.php",
+    "https://gitee.com/cyh92/live/raw/main/source/migu.txt",
+    "https://raw.githubusercontent.com/best-fan/iptv-sources/refs/heads/main/cn_all.m3u8",
     "https://raw.githubusercontent.com/Supprise0901/TVBox_live/refs/heads/main/live.txt",
     "https://r2.laobaitv.net/public.m3u",
-    "https://raw.githubusercontent.com/dbghelp/Free-to-air-TV/refs/heads/main/japan.m3u8",
-    "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u"
+    "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u",
+    "https://raw.githubusercontent.com/dbghelp/Free-to-air-TV/refs/heads/main/japan.m3u8"
   ],
   "local_files": [
     "xinzhibo.m3u"
