@@ -14,7 +14,7 @@
       "凤凰", "鳳凰", "翡翠", "明珠", "无线", "無線", "TVB", "ViuTV", "RTHK", "香蕉", "鳳梨",
       "有线", "有線", "台视", "台視", "中视", "中視", "华视", "華視", "民视", "民視",
       "VIU", "原住民", "滾動力", "东森", "三立", "TVBS", "年代", "八大", "Macau",
-      "astro", "生命", "番薯", "寰宇", "中天", "鏡電視", "镜电视", "客家",
+      "astro", "生命", "番薯", "寰宇", "中天", "鏡電視", "镜电视", "客家", "大立",
       "大愛", "靖天", "國會", "好消息", "非凡", "东风", "東風", "纬来", "緯來",
       "JET", "壹电视", "壹電視", "Taiwan Plus", "AXN", 
       "新闻台$", "新聞台$", "资讯台$", "資訊台$"
@@ -46,11 +46,11 @@
     ],
     "🎥电影频道": [
       "电影", "電影", "Movie", "MOVIE", "Cinema", "CINEMA", "天映", "新片", "武侠", "抗日",
-      "Action Hollywood", "Thrillers", "Thriller TV", "Universal Monsters", "经典",
+      "Action Hollywood", "Thrillers", "Thriller TV", "Universal Monsters", "经典", "1905",
       "ION", "ION Plus", "Paramount Network", "Showtime", "Showtime 2", "象视界", "爱奇艺",
       "Showtime Extreme", "TNT", "Sony One FAVES", "Icon Film Channel", "冰冰", "女神金",
       "Popflix", "LG 1 Film", "影视", "影視", "影片", "大片", "HBO", "网神", "千禧经典",
-      "影院", "剧场", "影城", "剧集", "港剧", "Cinemax", "Star Movies",
+      "影院", "剧场", "影城", "剧集", "港剧", "Cinemax", "Star Movies", "新视觉",
       "CinemaWorld"
     ],
     "🌝动画频道": [
