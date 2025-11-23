@@ -5,16 +5,9 @@ https://vd3.bdstatic.com/mda-mev3hw0htz28h5wn/1080p/cae_h264/1622343504467773766
 https://alimov2.a.kwimgs.com/upic/2023/07/10/14/BMjAyMzA3MTAxNDE5MTdfMzM5Njk4MTMyNl8xMDc2MDM1MDcwMjhfMF8z_b_B2c9fa52d46ef9499c4682907e8328111.mp4
 #EXTINF:-1 tvg-name="💬微信:kudogxy" tvg-logo="https://tm-image.tianyancha.com/tm/90d426f2aed65cae1abe37b446c67371.jpg" group-title="💬微信:kudogxy",💬微信:kudogxy
 https://bcian.cn/ku.mp4
-#EXTINF:-1 tvg-id="CCTV-1" tvg-name="CCTV1" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV1.png" group-title="🇨🇳央视频道",CCTV1
-http://cdn6.veryfast.filegear-sg.me/live/cctv1/stream.m3u8
+#EXTINF:-1 tvg-id="CCTV-1" tvg-name="CCTV-1 综合" tvg-logo="" group-title="🇨🇳央视频道",CCTV-1 综合
 http://36.135.118.195:85/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221226163/index.m3u8
-#EXTINF:-1 tvg-id="CCTV-13" tvg-name="CCTV13" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV13.png" group-title="🇨🇳央视频道",CCTV13
-http://cdn3.veryfast.filegear-sg.me/live/cctv13/stream.m3u8
-http://36.135.118.195:85/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
-http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221226128/index.m3u8
-#EXTINF:-1 tvg-id="中央電視台綜合頻道-港澳版" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV1.png" group-title="🇨🇳央视频道",中央電視台綜合頻道 (港澳版)
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="CCTV-2" tvg-name="CCTV-2 财经" tvg-logo="" group-title="🇨🇳央视频道",CCTV-2 财经
 http://36.135.118.195:85/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
 http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221226122/index.m3u8
@@ -49,6 +42,9 @@ http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221226101/index.m3u8
 #EXTINF:-1 tvg-id="CCTV-12" tvg-name="CCTV-12 社会与法" tvg-logo="" group-title="🇨🇳央视频道",CCTV-12 社会与法
 http://36.135.118.195:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
 http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221226103/index.m3u8
+#EXTINF:-1 tvg-id="CCTV-13" tvg-name="CCTV-13 新闻" tvg-logo="" group-title="🇨🇳央视频道",CCTV-13 新闻
+http://36.135.118.195:85/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
+http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221226128/index.m3u8
 #EXTINF:-1 tvg-id="CCTV-14" tvg-name="CCTV-14 少儿" tvg-logo="" group-title="🇨🇳央视频道",CCTV-14 少儿
 http://36.135.118.195:85/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
 http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221225738/index.m3u8
@@ -78,28 +74,6 @@ http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221226118/index.m3u8
 http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221226139/index.m3u8
 #EXTINF:-1 tvg-id="睛彩中原" tvg-name="睛彩中原" group-title="🇨🇳央视频道",睛彩中原
 http://tvcdn.stream3.hndt.com/tv/65b27d4c017e100039bd55c200000000_transios/playlist.m3u8?wsSecret=5643d138f06a5cca2771eca6a9d4d33a&wsTime=1763906420
-#EXTINF:-1 tvg-id="澳门卫视" tvg-name="澳视澳门" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/澳视澳门.png" group-title="🇨🇳卫视频道",澳视澳门
-http://cdn6.veryfast.filegear-sg.me/live/asam/stream.m3u8
-#EXTINF:-1 tvg-id="澳视卫星" tvg-name="澳视卫星" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/澳视澳门.png" group-title="🇨🇳卫视频道",澳视卫星
-http://cdn6.veryfast.filegear-sg.me/live/as/stream.m3u8
-#EXTINF:-1 tvg-id="澳视体育" tvg-name="澳视体育" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/澳视体育.png" group-title="🇨🇳卫视频道",澳视体育
-http://cdn6.veryfast.filegear-sg.me/live/amty/stream.m3u8
-#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/深圳卫视.png" group-title="🇨🇳卫视频道",深圳卫视4K
-http://cdn3.veryfast.filegear-sg.me/live/szws4k/stream.m3u8
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221225728/index.m3u8
-#EXTINF:-1 tvg-id="人间卫视" tvg-name="人间卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/人间卫视.png" group-title="🇨🇳卫视频道",人間衛視
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E4%BA%BA%E9%96%93%E8%A1%9B%E8%A6%96
-#EXTINF:-1 tvg-id="MytvSuper" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/云南澜湄国际卫视.png" group-title="🇨🇳卫视频道",雲南瀾湄國際衛視
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="MytvSuper" tvg-name="海峡卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/海峡卫视.png" group-title="🇨🇳卫视频道",福建海峽衛視國際頻道
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="MytvSuper" tvg-name="大湾区卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/大湾区卫视.png" group-title="🇨🇳卫视频道",廣東廣播電視台大灣區衛視頻道
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="中國環球電視網-記錄頻道" tvg-name="CGTN(中国环球电视网)记录频道" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CGTN.png" group-title="🇨🇳卫视频道",CGTN (中國環球電視網)記錄頻道
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="中國環球電視網-英語頻道" tvg-name="CGTN(中国环球电视网)英语频道" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CGTN.png" group-title="🇨🇳卫视频道",CGTN (中國環球電視網)英語頻道
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="环球奇观" tvg-name="环球奇观" tvg-logo="" group-title="🇨🇳卫视频道",环球奇观
 http://36.135.118.195:85/tsfile/live/1028_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="" group-title="🇨🇳卫视频道",海南卫视
@@ -171,10 +145,16 @@ http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221226088/index.m3u8
 http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221226111/index.m3u8
 #EXTINF:-1 tvg-id="厦门卫视" tvg-name="厦门卫视" group-title="🇨🇳卫视频道",厦门卫视
 http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221226008/index.m3u8
+#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" group-title="🇨🇳卫视频道",深圳卫视
+http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221225728/index.m3u8
 #EXTINF:-1 tvg-id="北京卫视4K超高清" tvg-name="北京卫视4K超高清" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京卫视.png" group-title="🇨🇳卫视频道",北京卫视4K超高清
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s110/index.m3u8?time=1763893818&sign=bebafd84b7457922b07d987207a6fff5
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s110/index.m3u8?time=1763894415&sign=39195d133430308f56107f0a4fcfd347
 #EXTINF:-1 group-title="🇨🇳卫视频道",澳门莲花
 http://live-hls.macaulotustv.com/lotustv/macaulotustv.m3u8
+#EXTINF:-1 group-title="🇨🇳卫视频道",澳视澳门
+http://php.jdshipin.com/TVOD/iptv.php?id=asam
+#EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" group-title="🇨🇳卫视频道",大湾区卫视
+http://gslbmgsplive.miguvideo.com/wd_r3/2018/nfmedia/nfws/1000/index.m3u8?msisdn=20251123180015c99da868808a4c5384f95029e6c89cd2&mdspid=&spid=699054&netType=0&sid=2200322852&pid=2028597139&timestamp=20251123180015&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=608917627&ParentNodeID=-99&assertID=2200322852&client_ip=43.139.160.244&SecurityKey=20251123180015&promotionId=&mvid=2200322852&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=3a094283400ab5329a63758c31897ebe&ddCalcu=e3baee02798940821833c480507a3b65a392
 #EXTINF:-1 tvg-id="中国农林卫视" tvg-name="中国农林卫视" group-title="🇨🇳卫视频道",中国农林卫视
 http://gslbmgsplive.miguvideo.com/migu/kailu/zgnlws/51/20250804/index.m3u8?msisdn=20251123180016d19d8028820a4f26a0c5fb16b41332b3&mdspid=&spid=600572&netType=0&sid=5910022186&pid=2028597139&timestamp=20251123180016&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=956904896&ParentNodeID=-99&assertID=5910022186&client_ip=43.139.160.244&SecurityKey=20251123180016&promotionId=&mvid=5900006709&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=ff1afb0e9e2383733f26869741f22d3a&ddCalcu=af3fed122a62f0fb104e799e62836823f733
 #EXTINF:-1 tvg-id="安多卫视" tvg-name="安多卫视" group-title="🇨🇳卫视频道",安多卫视
@@ -191,193 +171,44 @@ http://utv1.hqtvzb.com:9999/hls/world.m3u8
 http://122.152.202.33/s/81a8a44f/index.m3u8?id=15
 #EXTINF:-1 tvg-id="亚洲卫视" tvg-name="亚洲卫视" group-title="🇨🇳卫视频道",亚洲卫视
 https://fenghuang.tv12.xyz/173.m3u8
+#EXTINF:-1 tvg-id="人间卫视" tvg-name="人间卫视" group-title="🇨🇳卫视频道",人间卫视
+http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="旅游卫视" tvg-logo="https://logo.laobaitv.net/lyws" group-title="🇨🇳卫视频道",海南卫视
 https://live.chinacert.cftest5.cn/mg/?id=947472502
+#EXTINF:-1 tvg-id="" tvg-name="海峡卫视" tvg-logo="https://logo.laobaitv.net/hxws" group-title="🇨🇳卫视频道",海峡卫视
+https://live.chinacert.cftest5.cn/mg/?id=849119120
 #EXTINF:-1 tvg-id="" tvg-name="环球旅游" tvg-logo="https://logo.laobaitv.net/hqly" group-title="🇨🇳卫视频道",环球旅游
 https://live.chinacert.cftest5.cn/mg/?id=958475356
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/翡翠.png" group-title="💥港|澳|台",翡翠台
-http://mytv.veryfast.filegear-sg.me/hls/fct/playlist.m3u8
-http://cdn6.veryfast.filegear-sg.me/live/fct/stream.m3u8
-http://cdn6.veryfast.filegear-sg.me/live/fct4k/stream.m3u8
-http://v2h.veryfast.filegear-sg.me/live/hlfct/stream.m3u8
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="无线新闻台" tvg-name="无线新闻台" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/无线新闻.png" group-title="💥港|澳|台",无线新闻台
-http://cdn6.veryfast.filegear-sg.me/live/wxxw/stream.m3u8
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/明珠.png" group-title="💥港|澳|台",明珠台
-http://cdn6.veryfast.filegear-sg.me/live/mzt/stream.m3u8
-http://o12.veryfast.filegear-sg.me/hls/mzt/playlist.m3u8
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="TVB PLUS" tvg-name="TVB PLUS" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/TVBPLUS.png" group-title="💥港|澳|台",TVB PLUS
-http://cdn6.veryfast.filegear-sg.me/live/tvbp/stream.m3u8
-#EXTINF:-1 tvg-id="ViuTV" tvg-name="VIUTV" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/VIUTV.png" group-title="💥港|澳|台",ViuTV
-http://cdn.veryfast.filegear-sg.me/live/viu/stream.m3u8
-#EXTINF:-1 tvg-id="VIUTVSIX" tvg-name="VIUTVSIX" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/VIUTVSIX.png" group-title="💥港|澳|台",ViuTVSix
-http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=viusix_twn
-#EXTINF:-1 tvg-id="NOW新闻台" tvg-name="NOW新闻台" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/NOW新闻.png" group-title="💥港|澳|台",NOW新闻台
-http://cdn.veryfast.filegear-sg.me/live/now/stream.m3u8
-#EXTINF:-1 tvg-id="凤凰卫视中文台" tvg-name="凤凰卫视中文台" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/凤凰卫视中文.png" group-title="💥港|澳|台",凤凰中文
-http://cdn6.veryfast.filegear-sg.me/live/fhzw/stream.m3u8
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="凤凰卫视资讯台" tvg-name="凤凰卫视资讯台" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/凤凰卫视资讯.png" group-title="💥港|澳|台",凤凰资讯
-http://cdn6.veryfast.filegear-sg.me/live/fhzx/stream.m3u8
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="凤凰卫视香港台" tvg-name="凤凰卫视香港台" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/凤凰卫视香港.png" group-title="💥港|澳|台",凤凰香港
-http://cdn6.veryfast.filegear-sg.me/live/fhhk/stream.m3u8
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 group-title="💥港|澳|台",TVB1
-http://cdn6.veryfast.filegear-sg.me/live/tvb1/stream.m3u8
-#EXTINF:-1 tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/TVBJ1.png" group-title="💥港|澳|台",TVBJ1
-http://cdn6.veryfast.filegear-sg.me/live/j1/stream.m3u8
-#EXTINF:-1 group-title="💥港|澳|台",TVB亚洲武侠
-http://v2h.veryfast.filegear-sg.me/live/yzwx/stream.m3u8
-http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
-#EXTINF:-1 tvg-id="娱乐新闻台" tvg-name="娱乐新闻台" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/娱乐新闻.png" group-title="💥港|澳|台",TVB娱乐新闻台
-http://v2h.veryfast.filegear-sg.me/live/ylxw/stream.m3u8
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="TVB星河" tvg-name="TVB星河" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/TVB星河.png" group-title="💥港|澳|台",TVB星河
-http://v2h.veryfast.filegear-sg.me/live/tvbxh/stream.m3u8
-http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=Xinhe
-http://php.jdshipin.com/smt.php?id=Xinhe
-#EXTINF:-1 tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/翡翠.png" group-title="💥港|澳|台",翡翠剧集台
-http://cdn6.veryfast.filegear-sg.me/live/tvbd/stream.m3u8
-#EXTINF:-1 group-title="💥港|澳|台",Astro欢喜台
-http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=Huahee
-#EXTINF:-1 group-title="💥港|澳|台",Astro AOD
-http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=Aodhd
-#EXTINF:-1 group-title="💥港|澳|台",Astro AEC
-http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=AEC
-#EXTINF:-1 group-title="💥港|澳|台",Astro QJ
-http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=Quanjia
-#EXTINF:-1 tvg-id="中天新闻台" tvg-name="中天新闻台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/中天新闻.png" group-title="💥港|澳|台",中天新聞台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E4%B8%AD%E5%A4%A9%E6%96%B0%E8%81%9E%E5%8F%B0
-#EXTINF:-1 tvg-id="TVBS新闻" tvg-name="TVBS新闻" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/TVBS新闻.png" group-title="💥港|澳|台",TVBS新聞
-https://4gtv.946985.filegear-sg.me/playlist?channel=TVBS%E6%96%B0%E8%81%9E
-#EXTINF:-1 tvg-id="民视新闻台" tvg-name="民视新闻台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/民视新闻.png" group-title="💥港|澳|台",民視新聞台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%B0%91%E8%A6%96%E6%96%B0%E8%81%9E%E5%8F%B0
-#EXTINF:-1 tvg-id="东森新闻台" tvg-name="东森新闻台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/东森新闻.png" group-title="💥港|澳|台",東森新聞台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%9D%B1%E6%A3%AE%E6%96%B0%E8%81%9E%E5%8F%B0
-#EXTINF:-1 tvg-id="华视新闻" tvg-name="华视新闻" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/华视新闻.png" group-title="💥港|澳|台",華視新聞
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E8%8F%AF%E8%A6%96%E6%96%B0%E8%81%9E
-#EXTINF:-1 tvg-id="镜电视新闻台" tvg-name="镜电视新闻台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/镜电视新闻.png" group-title="💥港|澳|台",鏡電視新聞台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%8F%A1%E9%9B%BB%E8%A6%96%E6%96%B0%E8%81%9E%E5%8F%B0
-#EXTINF:-1 tvg-id="东森财经新闻台" tvg-name="东森财经新闻台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/东森财经新闻.png" group-title="💥港|澳|台",東森財經新聞台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%9D%B1%E6%A3%AE%E8%B2%A1%E7%B6%93%E6%96%B0%E8%81%9E%E5%8F%B0
-#EXTINF:-1 tvg-id="寰宇新闻台" tvg-name="寰宇新闻台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/寰宇新闻台湾.png" group-title="💥港|澳|台",寰宇新聞台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%AF%B0%E5%AE%87%E6%96%B0%E8%81%9E%E5%8F%B0
-#EXTINF:-1 tvg-id="寰宇新闻台湾台" tvg-name="寰宇新闻台湾台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/寰宇新闻台湾.png" group-title="💥港|澳|台",寰宇新聞台灣台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%AF%B0%E5%AE%87%E6%96%B0%E8%81%9E%E5%8F%B0%E7%81%A3%E5%8F%B0
-#EXTINF:-1 tvg-id="三立新闻INEWS" tvg-name="三立新闻INEWS" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/三立新闻.png" group-title="💥港|澳|台",三立新聞iNEWS
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E4%B8%89%E7%AB%8B%E6%96%B0%E8%81%9EiNEWS
-#EXTINF:-1 tvg-id="半岛国际新闻台" tvg-name="半岛国际新闻台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/半岛国际新闻.png" group-title="💥港|澳|台",半島國際新聞台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%8D%8A%E5%B3%B6%E5%9C%8B%E9%9A%9B%E6%96%B0%E8%81%9E%E5%8F%B0
-#EXTINF:-1 tvg-id="民视第一台" tvg-name="民视第一台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/民视第一.png" group-title="💥港|澳|台",民視第一台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%B0%91%E8%A6%96%E7%AC%AC%E4%B8%80%E5%8F%B0
-#EXTINF:-1 tvg-id="民视台湾台" tvg-name="民视台湾台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/民视台湾.png" group-title="💥港|澳|台",民視台灣台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%B0%91%E8%A6%96%E5%8F%B0%E7%81%A3%E5%8F%B0
-#EXTINF:-1 tvg-id="民视" tvg-name="民视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/民视.png" group-title="💥港|澳|台",民視
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%B0%91%E8%A6%96
-rtmp://f13h.mine.nu/sat/tv051
-#EXTINF:-1 tvg-id="三立综合台" tvg-name="三立综合台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/三立综合.png" group-title="💥港|澳|台",三立綜合台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E4%B8%89%E7%AB%8B%E7%B6%9C%E5%90%88%E5%8F%B0
-#EXTINF:-1 tvg-id="华视" tvg-name="华视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/华视.png" group-title="💥港|澳|台",華視
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E8%8F%AF%E8%A6%96
-rtmp://f13h.mine.nu/sat/tv111
-#EXTINF:-1 tvg-id="中视" tvg-name="中视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/中视.png" group-title="💥港|澳|台",中視
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E4%B8%AD%E8%A6%96
-rtmp://f13h.mine.nu/sat/tv091
-#EXTINF:-1 tvg-id="中视经典台" tvg-name="中视经典台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/中视经典.png" group-title="💥港|澳|台",中視經典台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E4%B8%AD%E8%A6%96%E7%B6%93%E5%85%B8%E5%8F%B0
-#EXTINF:-1 tvg-id="中视菁采台" tvg-name="中视菁采台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/中视菁采.png" group-title="💥港|澳|台",中視菁采台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E4%B8%AD%E8%A6%96%E8%8F%81%E9%87%87%E5%8F%B0
-#EXTINF:-1 tvg-id="八大综艺台" tvg-name="八大综艺台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/八大综艺.png" group-title="💥港|澳|台",八大綜藝台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%85%AB%E5%A4%A7%E7%B6%9C%E8%97%9D%E5%8F%B0
-#EXTINF:-1 tvg-id="TVBS精采台" tvg-name="TVBS精采台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/TVBS精采.png" group-title="💥港|澳|台",TVBS精采台
-https://4gtv.946985.filegear-sg.me/playlist?channel=TVBS%E7%B2%BE%E9%87%87%E5%8F%B0
-#EXTINF:-1 tvg-id="民视综艺台" tvg-name="民视综艺台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/民视综艺.png" group-title="💥港|澳|台",民視綜藝台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%B0%91%E8%A6%96%E7%B6%9C%E8%97%9D%E5%8F%B0
-#EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/TVBS.png" group-title="💥港|澳|台",TVBS
-https://4gtv.946985.filegear-sg.me/playlist?channel=TVBS
-#EXTINF:-1 tvg-id="TVBS欢乐台" tvg-name="TVBS欢乐台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/TVBS欢乐.png" group-title="💥港|澳|台",TVBS歡樂台
-https://4gtv.946985.filegear-sg.me/playlist?channel=TVBS%E6%AD%A1%E6%A8%82%E5%8F%B0
-#EXTINF:-1 tvg-id="TVBS综艺台" tvg-name="TVBS综艺台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/TVBS综艺.png" group-title="💥港|澳|台",TVBS綜藝台
-https://4gtv.946985.filegear-sg.me/playlist?channel=TVBS%E7%B6%9C%E8%97%9D%E5%8F%B0
-#EXTINF:-1 tvg-id="TVBS台剧台" tvg-name="TVBS台剧台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/TVBS台剧.png" group-title="💥港|澳|台",TVBS台劇台
-https://4gtv.946985.filegear-sg.me/playlist?channel=TVBS%E5%8F%B0%E5%8A%87%E5%8F%B0
-#EXTINF:-1 tvg-id="靖天综合台" tvg-name="靖天综合台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/靖天综合.png" group-title="💥港|澳|台",靖天綜合台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%9D%96%E5%A4%A9%E7%B6%9C%E5%90%88%E5%8F%B0
-#EXTINF:-1 tvg-id="靖天日本台" tvg-name="靖天日本台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/靖天日本.png" group-title="💥港|澳|台",靖天日本台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%9D%96%E5%A4%A9%E6%97%A5%E6%9C%AC%E5%8F%B0
-#EXTINF:-1 tvg-id="KLT-靖天国际台" tvg-name="KLT-靖天国际台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/靖天国际.png" group-title="💥港|澳|台",KLT-靖天國際台
-https://4gtv.946985.filegear-sg.me/playlist?channel=KLT-%E9%9D%96%E5%A4%A9%E5%9C%8B%E9%9A%9B%E5%8F%B0
-#EXTINF:-1 tvg-id="靖天资讯台" tvg-name="靖天资讯台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/靖天资讯.png" group-title="💥港|澳|台",靖天資訊台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%9D%96%E5%A4%A9%E8%B3%87%E8%A8%8A%E5%8F%B0
-#EXTINF:-1 tvg-id="NICE TV 靖天欢乐台" tvg-name="NICE TV 靖天欢乐台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/靖天欢乐.png" group-title="💥港|澳|台",Nice TV 靖天歡樂台
-https://4gtv.946985.filegear-sg.me/playlist?channel=Nice%20TV%20%E9%9D%96%E5%A4%A9%E6%AD%A1%E6%A8%82%E5%8F%B0
-#EXTINF:-1 tvg-id="原住民族电视台" tvg-name="原住民族电视台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/原住民族.png" group-title="💥港|澳|台",原住民族電視台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%8E%9F%E4%BD%8F%E6%B0%91%E6%97%8F%E9%9B%BB%E8%A6%96%E5%8F%B0
-#EXTINF:-1 tvg-id="客家电视台" tvg-name="客家电视台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/客家电视.png" group-title="💥港|澳|台",客家電視台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%AE%A2%E5%AE%B6%E9%9B%BB%E8%A6%96%E5%8F%B0
-#EXTINF:-1 tvg-id="好消息" tvg-name="好消息" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/好消息.png" group-title="💥港|澳|台",好消息
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%A5%BD%E6%B6%88%E6%81%AF
-#EXTINF:-1 tvg-id="好消息2台" tvg-name="好消息2台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/好消息2.png" group-title="💥港|澳|台",好消息2台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%A5%BD%E6%B6%88%E6%81%AF2%E5%8F%B0
-#EXTINF:-1 tvg-id="民视旅游台" tvg-name="民视旅游台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/民视旅游.png" group-title="💥港|澳|台",民視旅遊台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%B0%91%E8%A6%96%E6%97%85%E9%81%8A%E5%8F%B0
-#EXTINF:-1 tvg-id="八大精彩台" tvg-name="八大精彩台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/八大精彩.png" group-title="💥港|澳|台",八大精彩台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%85%AB%E5%A4%A7%E7%B2%BE%E5%BD%A9%E5%8F%B0
-#EXTINF:-1 tvg-id="靖天育乐台" tvg-name="靖天育乐台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/靖天育乐.png" group-title="💥港|澳|台",靖天育樂台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%9D%96%E5%A4%A9%E8%82%B2%E6%A8%82%E5%8F%B0
-#EXTINF:-1 tvg-id="民视影剧台" tvg-name="民视影剧台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/民视影剧.png" group-title="💥港|澳|台",民視影劇台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%B0%91%E8%A6%96%E5%BD%B1%E5%8A%87%E5%8F%B0
-#EXTINF:-1 tvg-id="公视戏剧" tvg-name="公视戏剧" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/公视戏剧.png" group-title="💥港|澳|台",公視戲劇
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%85%AC%E8%A6%96%E6%88%B2%E5%8A%87
-#EXTINF:-1 tvg-id="靖天戏剧台" tvg-name="靖天戏剧台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/靖天戏剧.png" group-title="💥港|澳|台",靖天戲劇台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%9D%96%E5%A4%A9%E6%88%B2%E5%8A%87%E5%8F%B0
-#EXTINF:-1 tvg-id="靖天映画" tvg-name="靖天映画" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/靖天映画.png" group-title="💥港|澳|台",靖天映畫
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%9D%96%E5%A4%A9%E6%98%A0%E7%95%AB
-#EXTINF:-1 tvg-id="靖天电影台" tvg-name="靖天电影台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/靖天电影.png" group-title="💥港|澳|台",靖天電影台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%9D%96%E5%A4%A9%E9%9B%BB%E5%BD%B1%E5%8F%B0
-#EXTINF:-1 tvg-id="靖天卡通台" tvg-name="靖天卡通台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/靖天卡通.png" group-title="💥港|澳|台",靖天卡通台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%9D%96%E5%A4%A9%E5%8D%A1%E9%80%9A%E5%8F%B0
-#EXTINF:-1 tvg-id="东森购物一台" tvg-name="东森购物一台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/东森购物.png" group-title="💥港|澳|台",東森購物一台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%9D%B1%E6%A3%AE%E8%B3%BC%E7%89%A9%E4%B8%80%E5%8F%B0
-#EXTINF:-1 tvg-id="东森购物二台" tvg-name="东森购物二台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/东森购物.png" group-title="💥港|澳|台",東森購物二台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%9D%B1%E6%A3%AE%E8%B3%BC%E7%89%A9%E4%BA%8C%E5%8F%B0
-#EXTINF:-1 tvg-id="东森购物三台" tvg-name="东森购物三台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/东森购物.png" group-title="💥港|澳|台",東森購物三台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%9D%B1%E6%A3%AE%E8%B3%BC%E7%89%A9%E4%B8%89%E5%8F%B0
-#EXTINF:-1 tvg-id="东森购物四台" tvg-name="东森购物四台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/东森购物.png" group-title="💥港|澳|台",東森購物四台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%9D%B1%E6%A3%AE%E8%B3%BC%E7%89%A9%E5%9B%9B%E5%8F%B0
-#EXTINF:-1 tvg-id="TVB-Plus" tvg-name="TVBPLUS" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/TVBPLUS.png" group-title="💥港|澳|台",TVB Plus
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="黃金翡翠台" tvg-name="黄金翡翠台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/黄金翡翠.png" group-title="💥港|澳|台",黃金翡翠台
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="AXN" tvg-name="AXN" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/AXN.png" group-title="💥港|澳|台",AXN
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="無線衛星亞洲台" tvg-name="无线卫星亚洲台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/无线卫星亚洲.png" group-title="💥港|澳|台",無線衛星亞洲台
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="神州新聞台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/神州新闻.png" group-title="💥港|澳|台",神州新聞台
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="無線衛星新聞台" tvg-name="无线卫星新闻台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/无线卫星新闻.png" group-title="💥港|澳|台",無線衛星新聞台
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="亞洲新聞台" tvg-name="亚洲新闻台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/亚洲新闻.png" group-title="💥港|澳|台",亞洲新聞台
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="澳视卫星" tvg-name="澳视卫星" tvg-logo="https://logo.laobaitv.net/aswx" group-title="🇨🇳卫视频道",澳视卫星
+http://php.jdshipin.com/TVOD/iptv.php?id=as
+#EXTINF:-1 tvg-id="澳视体育" tvg-name="澳视体育" tvg-logo="https://logo.laobaitv.net/asty" group-title="🇨🇳卫视频道",澳门体育
+http://cdn6.163189.xyz/163189/amty
 #EXTINF:-1 tvg-id="纬来精彩" tvg-name="纬来精彩" group-title="💥港|澳|台",纬来精彩
 http://61.221.215.25:8800/hls/48/index.m3u8
 #EXTINF:-1 tvg-id="中天娱乐" tvg-name="中天娱乐" group-title="💥港|澳|台",中天娱乐
 http://61.221.215.25:8800/hls/47/index.m3u8
+#EXTINF:-1 tvg-id="TVB星河" tvg-name="TVB星河" group-title="💥港|澳|台",TVB星河
+http://php.jdshipin.com/smt.php?id=Xinhe
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" group-title="💥港|澳|台",凤凰资讯
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzx
 #EXTINF:-1 tvg-id="无线华丽" tvg-name="无线华丽" group-title="💥港|澳|台",无线华丽
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=huali
+#EXTINF:-1 tvg-id="TVB亚洲武侠" tvg-name="TVB亚洲武侠" group-title="💥港|澳|台",TVB亚洲武侠
+http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
 #EXTINF:-1 tvg-id="TVBSNEWS" tvg-name="TVBSNEWS" group-title="💥港|澳|台",TVBSNEWS
 http://61.221.215.25:8800/hls/9/index.m3u8
 #EXTINF:-1 tvg-id="大立" tvg-name="大立" group-title="💥港|澳|台",大立
 http://www.dalitv.com.tw:4568/live/dali/index.m3u8
 #EXTINF:-1 tvg-id="公视" tvg-name="公视" group-title="💥港|澳|台",公视
 rtmp://f13h.mine.nu/sat/tv771
+#EXTINF:-1 tvg-id="民视" tvg-name="民视" group-title="💥港|澳|台",民视
+rtmp://f13h.mine.nu/sat/tv051
 #EXTINF:-1 tvg-id="台视新闻" tvg-name="台视新闻" group-title="💥港|澳|台",台视新闻
 http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
+#EXTINF:-1 tvg-id="中视" tvg-name="中视" group-title="💥港|澳|台",中视
+rtmp://f13h.mine.nu/sat/tv091
+#EXTINF:-1 tvg-id="华视" tvg-name="华视" group-title="💥港|澳|台",华视
+rtmp://f13h.mine.nu/sat/tv111
 #EXTINF:-1 tvg-id="东森超视" tvg-name="东森超视" group-title="💥港|澳|台",东森超视
 rtmp://f13h.mine.nu/sat/tv331
 #EXTINF:-1 tvg-id="纬来育乐" tvg-name="纬来育乐" group-title="💥港|澳|台",纬来育乐
@@ -392,12 +223,16 @@ rtmp://f13h.mine.nu/sat/tv071
 http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
 #EXTINF:-1 group-title="💥港|澳|台",凤凰香港
 http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
+#EXTINF:-1 tvg-id="4" group-title="💥港|澳|台",翡翠台
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3
 #EXTINF:-1 group-title="💥港|澳|台",TVB J1
 http://php.jdshipin.com/TVOD/iptv.php?id=j1
 #EXTINF:-1 group-title="💥港|澳|台",TVB J2
 http://php.jdshipin.com/TVOD/iptv.php?id=j2
 #EXTINF:-1 group-title="💥港|澳|台",无线新闻
 http://php.jdshipin.com/TVOD/iptv.php?id=wxxwt
+#EXTINF:-1 group-title="💥港|澳|台",ViuTV
+http://php.jdshipin.com/TVOD/iptv.php?id=viutv
 #EXTINF:-1 group-title="💥港|澳|台",ViuTV6
 http://php.jdshipin.com:8880/smt.php?id=viusix_twn
 #EXTINF:-1 group-title="💥港|澳|台",翡翠华丽
@@ -422,12 +257,20 @@ http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk32
 http://iptv.4666888.xyz/iptv2A.php?id=4
 #EXTINF:-1 tvg-id="TVB翡翠(馬來)" tvg-name="TVB翡翠(馬來)" group-title="💥港|澳|台",TVB翡翠(馬來)
 http://iptv.4666888.xyz/iptv2A.php?id=28
+#EXTINF:-1 tvg-id="TVB明珠" tvg-name="TVB明珠" group-title="💥港|澳|台",TVB明珠
+http://iptv.4666888.xyz/iptv2A.php?id=29
+#EXTINF:-1 tvg-id="TVBJ1" tvg-name="TVBJ1" group-title="💥港|澳|台",TVBJ1
+http://iptv.4666888.xyz/iptv2A.php?id=26
+#EXTINF:-1 tvg-id="TVB1" tvg-name="TVB1" group-title="💥港|澳|台",TVB1
+http://iptv.4666888.xyz/iptv2A.php?id=25
 #EXTINF:-1 tvg-id="TVB娱乐新闻" tvg-name="TVB娱乐新闻" group-title="💥港|澳|台",TVB娱乐新闻
 http://iptv.4666888.xyz/iptv2A.php?id=36
 #EXTINF:-1 tvg-id="MYTV黃金翡翠" tvg-name="MYTV黃金翡翠" group-title="💥港|澳|台",MYTV黃金翡翠
 http://iptv.4666888.xyz/iptv2A.php?id=32
 #EXTINF:-1 tvg-id="TVB翡翠劇集" tvg-name="TVB翡翠劇集" group-title="💥港|澳|台",TVB翡翠劇集
 http://iptv.4666888.xyz/iptv2A.php?id=33
+#EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞" group-title="💥港|澳|台",TVBS新聞
+http://iptv.4666888.xyz/iptv2A.php?id=43
 #EXTINF:-1 tvg-id="靖天电影" tvg-name="靖天电影" group-title="💥港|澳|台",靖天电影
 http://iptv.4666888.xyz/iptv2A.php?id=56
 #EXTINF:-1 tvg-id="民視綜藝" tvg-name="民視綜藝" group-title="💥港|澳|台",民視綜藝
@@ -466,30 +309,18 @@ https://epg.pw/stream/6b49e3faa38adda85abab446f032dc1e686baa0760a9cfa66e2df8fd6f
 http://php.jdshipin.com:8880/smt.php?id=viu1_twn
 #EXTINF:-1 tvg-id="八大戏剧" tvg-name="八大戏剧" group-title="💥港|澳|台",八大戏剧
 https://stream1.freetv.fun/6b1701a07ea621155cdaa9ee604b6c6ebc763093fafaf493ce7a3c2e206be799.m3u8
+#EXTINF:-1 tvg-id="TVB PLUS" tvg-name="TVB PLUS" tvg-logo="https://logo.laobaitv.net/tvbplus" group-title="💥港|澳|台",TVB PLUS
+http://php.jdshipin.com/TVOD/iptv.php?id=tvbp
 #EXTINF:-1 tvg-id="VIU TV" tvg-name="VIU TV" tvg-logo="https://logo.laobaitv.net/viutv" group-title="💥港|澳|台",VIU TV
 http://php.jdshipin.com/TVOD/iptv.php?id=viutv
 #EXTINF:-1 tvg-id="三立台湾台" tvg-name="三立台湾台" tvg-logo="https://logo.laobaitv.net/sltwt" group-title="💥港|澳|台",三立台湾台
 https://smart.dxjc.pp.ua/smart.php?id=sanlitaiwan&token=tmxk
+#EXTINF:-1 tvg-id="东森新闻台" tvg-name="东森新闻台" tvg-logo="https://logo.laobaitv.net/dsxwt" group-title="💥港|澳|台",东森新闻台
+https://smart.dxjc.pp.ua/smart.php?id=ettvnews&token=tmxk
 #EXTINF:-1 tvg-id="AXN Taiwan" tvg-name="AXN Taiwan" tvg-logo="https://logo.laobaitv.net/axntaiwan" group-title="💥港|澳|台",AXN 台湾
 https://smart.dxjc.pp.ua/smart.php?id=axn_twn&token=tmxk
 #EXTINF:-1 group-title="💥港|澳|台",Taiwan Plus
 https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8
-#EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/广东珠江.png" group-title="💎地方频道",广东珠江
-http://cdn2.veryfast.filegear-sg.me/live/gdzj/stream.m3u8
-#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/广东体育.png" group-title="💎地方频道",广东体育
-http://cdn2.veryfast.filegear-sg.me/live/gdty/stream.m3u8
-#EXTINF:-1 tvg-id="深圳财经生活" tvg-name="深圳财经生活" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/深圳财经生活.png" group-title="💎地方频道",深圳财经生活
-http://cdn3.veryfast.filegear-sg.me/live/szcjsh/stream.m3u8
-#EXTINF:-1 tvg-id="MytvSuper" tvg-logo="https://i.guim.co.uk/img/media/b73cc57cb1d46ae742efd06b6c58805e8600d482/16_0_2443_1466/master/2443.jpg?width=700&quality=85&auto=format&fit=max&s=fb1dca6cdd4589cd9ef2fc941935de71" group-title="💎地方频道",北京電視台國際頻道
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="MytvSuper" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/广西.png" group-title="💎地方频道",廣西電視台國際頻道
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="MytvSuper" tvg-logo="https://i.guim.co.uk/img/media/b73cc57cb1d46ae742efd06b6c58805e8600d482/16_0_2443_1466/master/2443.jpg?width=700&quality=85&auto=format&fit=max&s=fb1dca6cdd4589cd9ef2fc941935de71" group-title="💎地方频道",湖南電視台國際頻道
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="MytvSuper" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/江苏.png" group-title="💎地方频道",江蘇電視台國際頻道
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="MytvSuper" tvg-logo="https://i.guim.co.uk/img/media/b73cc57cb1d46ae742efd06b6c58805e8600d482/16_0_2443_1466/master/2443.jpg?width=700&quality=85&auto=format&fit=max&s=fb1dca6cdd4589cd9ef2fc941935de71" group-title="💎地方频道",浙江電視台國際頻道
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="CITY都市剧场" tvg-name="CITY都市剧场" tvg-logo="" group-title="💎地方频道",都市剧场
 http://36.135.118.195:85/tsfile/live/1026_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="吉林都市" tvg-name="吉林都市" tvg-logo="" group-title="💎地方频道",吉林都市
@@ -549,21 +380,25 @@ http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221225749/index.m3u8
 #EXTINF:-1 tvg-id="都市剧场" tvg-name="都市剧场" group-title="💎地方频道",都市剧场
 http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221225762/index.m3u8
 #EXTINF:-1 tvg-id="北京新闻" tvg-name="北京新闻" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京新闻.png" group-title="💎地方频道",北京新闻
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s9/index.m3u8?time=1763893816&sign=42768bbaa3ff79c739d2f4862bf4e3d1
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s9/index.m3u8?time=1763894413&sign=5dcde604af4e554404adce476c7589b7
 #EXTINF:-1 tvg-id="北京影视" tvg-name="北京影视" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京影视.png" group-title="💎地方频道",北京影视
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s4/index.m3u8?time=1763893811&sign=80944d8d1c0e2441f45ee3ed4ef66c7c
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s4/index.m3u8?time=1763894411&sign=99b37f87e4c48694d0a481ec1799c43f
 #EXTINF:-1 tvg-id="北京生活" tvg-name="北京生活" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京生活.png" group-title="💎地方频道",北京生活
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s7/index.m3u8?time=1763893814&sign=7a894eca7f17eb202bd5cee48b23cc77
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s7/index.m3u8?time=1763894412&sign=85110e0cee674696a333c40ef1ece07e
 #EXTINF:-1 tvg-id="北京文艺" tvg-name="北京文艺" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京文艺.png" group-title="💎地方频道",北京文艺
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s2/index.m3u8?time=1763893809&sign=ddeb614889dc401b87b12e4532f186fc
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s2/index.m3u8?time=1763894409&sign=3ccf1394befc080a6a3416452fb8812c
 #EXTINF:-1 tvg-id="北京财经" tvg-name="北京财经" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京财经.png" group-title="💎地方频道",北京财经
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s5/index.m3u8?time=1763893812&sign=e2b396795d7a28f7b5a965f0be4e71b0
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s5/index.m3u8?time=1763894411&sign=c3d06aea5829bb7af997b111f69c89ac
 #EXTINF:-1 tvg-id="北京纪实科教" tvg-name="北京纪实科教" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京纪实科教.png" group-title="💎地方频道",北京纪实科教
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s3/index.m3u8?time=1763893810&sign=ba571d222d708c24b0bca8991f4d19cf
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s3/index.m3u8?time=1763894409&sign=6896521ae57faa1717d9cb27de3f5946
 #EXTINF:-1 tvg-id="北京卡酷少儿" tvg-name="北京卡酷少儿" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京卡酷少儿.png" group-title="💎地方频道",北京卡酷少儿
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s10/index.m3u8?time=1763893817&sign=608a330c0bc82854ae542ddc724a1fc7
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s10/index.m3u8?time=1763894414&sign=443aea2c3e1247065fa605bcc1386ef6
 #EXTINF:-1 group-title="💎地方频道",娱乐新闻
 http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw
+#EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" group-title="💎地方频道",广东珠江
+http://iptv.4666888.xyz/iptv2A.php?id=19
+#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" group-title="💎地方频道",广东体育
+http://iptv.4666888.xyz/iptv2A.php?id=20
 #EXTINF:-1 tvg-id="爱尔达综合" tvg-name="爱尔达综合" group-title="💎地方频道",爱尔达综合
 http://iptv.4666888.xyz/iptv2A.php?id=49
 #EXTINF:-1 tvg-id="上海都市频道" tvg-name="上海都市频道" tvg-logo="https://epg.iill.top/logo/上海都市.png" group-title="💎地方频道",上海都市频道
@@ -680,18 +515,6 @@ https://live.chinacert.cftest5.cn/mg/?id=956909303
 https://live.chinacert.cftest5.cn/mg/?id=956909289
 #EXTINF:-1 tvg-id="" tvg-name="新动力量创一流" tvg-logo="https://logo.laobaitv.net/xdllcyl" group-title="💎地方频道",新动力量创一流
 https://live.chinacert.cftest5.cn/mg/?id=713589837
-#EXTINF:-1 tvg-id="亚洲旅游台" tvg-name="亚洲旅游台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/亚洲旅游.png" group-title="🌈综艺频道",亞洲旅遊台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E4%BA%9E%E6%B4%B2%E6%97%85%E9%81%8A%E5%8F%B0
-#EXTINF:-1 tvg-id="爱尔达生活旅游台" tvg-name="爱尔达生活旅游台" group-title="🌈综艺频道",愛爾達生活旅遊台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%84%9B%E7%88%BE%E9%81%94%E7%94%9F%E6%B4%BB%E6%97%85%E9%81%8A%E5%8F%B0
-#EXTINF:-1 tvg-id="FUN探索娱乐台" tvg-name="FUN探索娱乐台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/FUN探索娱乐.png" group-title="🌈综艺频道",fun探索娛樂台
-https://4gtv.946985.filegear-sg.me/playlist?channel=fun%E6%8E%A2%E7%B4%A2%E5%A8%9B%E6%A8%82%E5%8F%B0
-#EXTINF:-1 tvg-id="LIFETIME 娱乐频道" tvg-name="LIFETIME 娱乐频道" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/LIFETIME.png" group-title="🌈综艺频道",Lifetime 娛樂頻道
-https://4gtv.946985.filegear-sg.me/playlist?channel=Lifetime%20%E5%A8%9B%E6%A8%82%E9%A0%BB%E9%81%93
-#EXTINF:-1 tvg-id="爱尔达娱乐台" tvg-name="爱尔达娱乐台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/爱尔达娱乐.png" group-title="🌈综艺频道",愛爾達娛樂台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%84%9B%E7%88%BE%E9%81%94%E5%A8%9B%E6%A8%82%E5%8F%B0
-#EXTINF:-1 tvg-id="Rock-Entertainment-HK" tvg-name="ROCK综艺娱乐" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/ROCK综艺娱乐.png" group-title="🌈综艺频道",ROCK綜藝娛樂
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="综艺文化" tvg-name="综艺文化" tvg-logo="" group-title="🌈综艺频道",综艺文化
 http://36.135.118.195:85/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="🌈综艺频道",孤独的美食家2
@@ -737,28 +560,15 @@ https://af7a8b4e.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2
 #EXTINF:-1  tvg-id="jcom_2_1072_32742" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7FE6-071-400x400.png" group-title="🌈综艺频道", TV Tokyo (テレ東)
 https://tv2.jptv.live/hls/main.m3u8
 #EXTINF:-1  tvg-id="tx" tvg-logo="https://statics.tver.jp/images/icon/tx.jpg" group-title="🌈综艺频道", テレ東
-https://ssai-variants.streaks.jp/v5/tver-simul-tx/035622a82bcb46bc8e41ca5351f95a00/3887c96991ce4ae1bec43ea19f24c4d5/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-177-8159/08adf4f4-f839-4993-b7fa-5abb3d697be9/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLXR4LnN0cmVha3MuanAiLCJvZmZzZXQiOjksInBkdCI6Ii0xMzI0OCJ9.ipe-s8NeMEPLdlNqE4jV_GW9l256DPZCIRT6NrXnwhE
+https://ssai-variants.streaks.jp/v5/tver-simul-tx/035622a82bcb46bc8e41ca5351f95a00/3887c96991ce4ae1bec43ea19f24c4d5/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-177-8159/0ea03f64-fc1d-4c84-a060-e3a664f3bc2c/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLXR4LnN0cmVha3MuanAiLCJvZmZzZXQiOjksInBkdCI6Ii0xMzI0OCJ9.ipe-s8NeMEPLdlNqE4jV_GW9l256DPZCIRT6NrXnwhE
 #EXTINF:-1  tvg-id="cx" tvg-logo="https://statics.tver.jp/images/icon/cx.jpg" group-title="🌈综艺频道", フジテレビ
-https://ssai-variants.streaks.jp/v5/tver-simul-cx/a78ebf1910144ba287907ec691bdc863/4817bf371f214463a3609e17a365f098/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-178-7884/48ed3196-54be-47d4-b03e-d707e8a14fa5/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLWN4LnN0cmVha3MuanAiLCJvZmZzZXQiOjksInBkdCI6Ii02NjI3In0.VA5RYohfCZlAwpFbyARPOXyTi-3S732ri-JMIxnzOGw
+https://ssai-variants.streaks.jp/v5/tver-simul-cx/a78ebf1910144ba287907ec691bdc863/4817bf371f214463a3609e17a365f098/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-178-7884/3111c3f3-2cca-4bf3-a05b-5a5e86488fc6/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLWN4LnN0cmVha3MuanAiLCJvZmZzZXQiOjksInBkdCI6Ii02NjI3In0.VA5RYohfCZlAwpFbyARPOXyTi-3S732ri-JMIxnzOGw
 #EXTINF:-1  tvg-id="gmt+9" tvg-logo="https://statics.tver.jp/images/content/thumbnail/live/xlarge/le8rg7d3tb.jpg" group-title="🌈综艺频道", FNN フジテレビNEWS24！
 https://variants.streaks.jp/v5/tver-splive/82ccf9500ea444e9bdc8dc4e4bb2a95f/e841f45bb8ac43568c8031df5e97eb7d/manifest_2.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNwbGl2ZS5zdHJlYWtzLmpwIn0.jtEWoPdQa08-jn8Q9ia0BaJF9eI-rwl7n8ZYSf_HooM
-#EXTINF:-1 tvg-id="HOY TV" tvg-name="HOY TV" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/HOYTV.png" group-title="⚽️体育频道",HOY TV
-http://cdn6.veryfast.filegear-sg.me/live/hoy/stream.m3u8
-#EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/五星体育.png" group-title="⚽️体育频道",五星体育
-http://cdn3.veryfast.filegear-sg.me/live/wxty/stream.m3u8
+#EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" group-title="⚽️体育频道",五星体育
 http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221225732/index.m3u8
-#EXTINF:-1 tvg-id="TRACE SPORT STARS" tvg-name="TRACE SPORT STARS" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/RTDOC.png" group-title="⚽️体育频道",TRACE Sport Stars
-https://4gtv.946985.filegear-sg.me/playlist?channel=TRACE%20Sport%20Stars
-#EXTINF:-1 tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/RTDOC.png" group-title="⚽️体育频道",GINX Esports TV
-https://4gtv.946985.filegear-sg.me/playlist?channel=GINX%20Esports%20TV
-#EXTINF:-1 tvg-id="智林体育台" tvg-name="智林体育台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/智林体育.png" group-title="⚽️体育频道",智林體育台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%99%BA%E6%9E%97%E9%AB%94%E8%82%B2%E5%8F%B0
-#EXTINF:-1 tvg-id="MytvSuper" tvg-name="SUPERSPORTS" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/RTDOC.png" group-title="⚽️体育频道",SUPER Sports
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="myTV-SUPER-Football-3" tvg-name="MYTVSUPER直播足球3台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/MYTVSUPER.png" group-title="⚽️体育频道",myTV SUPER直播足球3台
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="风云试看体育频道" tvg-name="风云试看体育频道" group-title="⚽️体育频道",风云试看体育频道
-#genre#
+#EXTINF:-1 group-title="⚽️体育频道",HOY TV
+http://php.jdshipin.com/TVOD/iptv.php?id=hoytv
 #EXTINF:-1 tvg-id="TntSports3" tvg-name="TntSports3" group-title="⚽️体育频道",TntSports3
 http://iptv.4666888.xyz/iptv2A.php?id=3
 #EXTINF:-1 tvg-id="博斯運動1" tvg-name="博斯運動1" group-title="⚽️体育频道",博斯運動1
@@ -837,52 +647,14 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=15270&avod=1&coppa=0&td=6&
 https://wurl120sports.global.transmit.live/hls/6863f426233e6604b8b45832/v1/stadium_gracenote/lg_us/latest/main/hls/playlist.m3u8?wurl_channel=160&wurl_name=Stadium&coppa=0&uid=[DEVICE_ID]&rdid=[IFA]&ifatype=[IFA_TYPE]&dnt=[LMT]&donotsell=[DNS]&isgdpr=[GDPR]&gdpr=[GDPR_CONSENT]&country=[COUNTRY]&pr=[US_PRIVACY]&appstoreurl=[APP_STOREURL]&bundleid=[APP_BUNDLE]&appname=[APP_NAME]&appversion=[APP_VERSION]&dt=[DEVICE_TYPE]&make=[DEVICE_MAKE]&model=[DEVICE_MODEL]&targetad=[TARGETAD_ALLOWED]&fck=[FCK]&viewsize=[VIEWSIZE]&nonce=[NONCE]
 #EXTINF:-1 tvg-logo="https://img.platform.wurl.dev/channel/1192/lg/73477a/LG-Logo-PNG-100x100_v1.png" group-title="⚽️体育频道",Overtime
 https://wurlrainbowmedia.global.transmit.live/hls/68c49d5a192b2a4e99da1da4/v1/amc_overtime_1/lg_us/latest/main/hls/playlist.m3u8?wurl_channel=1192&wurl_name=Overtime&coppa=0&uid=[DEVICE_ID]&rdid=[IFA]&ifatype=[IFA_TYPE]&dnt=[LMT]&donotsell=[DNS]&isgdpr=[GDPR]&gdpr=[GDPR_CONSENT]&country=[COUNTRY]&pr=[US_PRIVACY]&appstoreurl=[APP_STOREURL]&bundleid=[APP_BUNDLE]&appname=[APP_NAME]&appversion=[APP_VERSION]&dt=[DEVICE_TYPE]&make=[DEVICE_MAKE]&model=[DEVICE_MODEL]&targetad=[TARGETAD_ALLOWED]&fck=[FCK]&viewsize=[VIEWSIZE]
-#EXTINF:-1 tvg-id="重温经典" tvg-name="重温经典" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/重温经典.png" group-title="🎥电影频道",重温经典
-http://cdn6.veryfast.filegear-sg.me/live/cwjd/stream.m3u8
-#EXTINF:-1 tvg-id="龙华电影" tvg-name="龙华电影" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/龙华电影.png" group-title="🎥电影频道",龙华电影
-http://cdn8.veryfast.filegear-sg.me/live/lhdy/stream.m3u8
-#EXTINF:-1 tvg-id="龙华经典" tvg-name="龙华经典" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/龙华经典.png" group-title="🎥电影频道",龙华经典
-http://cdn8.veryfast.filegear-sg.me/live/lhjd/stream.m3u8
-https://cdn6.101.qzz.io/163189/lhjd
-#EXTINF:-1 tvg-id="千禧经典台" tvg-name="千禧经典台" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/千禧经典.png" group-title="🎥电影频道",千禧经典台
-http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=Tvbclassic
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="美亚电影台" tvg-name="美亚电影台" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/美亚电影.png" group-title="🎥电影频道",美亚电影台
-http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=meiyamovie_twn
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="天映马来西亚" tvg-name="天映马来西亚" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/天映.png" group-title="🎥电影频道",天映马来西亚
-http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=Celestial
-#EXTINF:-1 tvg-id="天映经典频道" tvg-name="天映经典频道" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/天映经典.png" group-title="🎥电影频道",天映经典频道
-http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=Celestial2
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/爱奇艺.png" group-title="🎥电影频道",爱奇艺
-http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=Qiyi
-#EXTINF:-1 tvg-id="影迷数位电影台" tvg-name="影迷数位电影台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/影迷数位电影.png" group-title="🎥电影频道",影迷數位電影台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%BD%B1%E8%BF%B7%E6%95%B8%E4%BD%8D%E9%9B%BB%E5%BD%B1%E5%8F%B0
-#EXTINF:-1 tvg-id="AMC电影台" tvg-name="AMC电影台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/AMC电影.png" group-title="🎥电影频道",amc電影台
-https://4gtv.946985.filegear-sg.me/playlist?channel=amc%E9%9B%BB%E5%BD%B1%E5%8F%B0
-#EXTINF:-1 tvg-id="CINEMAWORLD" tvg-name="CINEMAWORLD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CINEMAWORLD.png" group-title="🎥电影频道",CinemaWorld
-https://4gtv.946985.filegear-sg.me/playlist?channel=CinemaWorld
-#EXTINF:-1 tvg-id="经典电影台" tvg-name="经典电影台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/经典电影.png" group-title="🎥电影频道",經典電影台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E7%B6%93%E5%85%B8%E9%9B%BB%E5%BD%B1%E5%8F%B0
-#EXTINF:-1 tvg-id="电影原声台CMUSIC" tvg-name="电影原声台CMUSIC" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/电影原声台CMUSIC.png" group-title="🎥电影频道",電影原聲台CMusic
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%9B%BB%E5%BD%B1%E5%8E%9F%E8%81%B2%E5%8F%B0CMusic
-#EXTINF:-1 tvg-id="经典卡通台" tvg-name="经典卡通台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/经典卡通.png" group-title="🎥电影频道",經典卡通台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E7%B6%93%E5%85%B8%E5%8D%A1%E9%80%9A%E5%8F%B0
-#EXTINF:-1 tvg-id="ROCK ACTION" tvg-name="ROCK ACTION" group-title="🎥电影频道",ROCK Action
-https://4gtv.946985.filegear-sg.me/playlist?channel=ROCK%20Action
-#EXTINF:-1 tvg-id="中國電影頻道" tvg-name="中国电影频道" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/中国电影.png" group-title="🎥电影频道",中國電影頻道
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="Rock-Action-HK" tvg-name="ROCKACTION" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/ROCKACTION.png" group-title="🎥电影频道",ROCK Action
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="FashionBox" tvg-name="FASHIONBOX" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/FASHIONBOX.png" group-title="🎥电影频道",FashionBox
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="" group-title="🎥电影频道",CHC动作电影
 http://36.135.118.195:85/tsfile/live/1019_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="CHC影迷电影" tvg-name="CHC影迷电影" tvg-logo="" group-title="🎥电影频道",CHC影迷电影
 http://36.135.118.195:85/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" tvg-logo="" group-title="🎥电影频道",CHC家庭影院
 http://36.135.118.195:85/tsfile/live/1021_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="龙华经典" tvg-name="龙华经典" tvg-logo="" group-title="🎥电影频道",龙华经典
+https://cdn6.101.qzz.io/163189/lhjd
 #EXTINF:-1 tvg-id="天映频道" tvg-name="天映频道" group-title="🎥电影频道",天映频道
 http://php.jdshipin.com/smt.php?id=Celestial
 #EXTINF:-1 tvg-id="天映经典" tvg-name="天映经典" group-title="🎥电影频道",天映经典
@@ -897,8 +669,12 @@ http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221225771/index.m3u8
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=meiya
 #EXTINF:-1 group-title="🎥电影频道",千禧经典
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=tvbc
+#EXTINF:-1 group-title="🎥电影频道",重温经典
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=cwjd
 #EXTINF:-1 group-title="🎥电影频道",亚洲武侠
 http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
+#EXTINF:-1 group-title="🎥电影频道",爱奇艺
+http://php.jdshipin.com/smt.php?id=Qiyi
 #EXTINF:-1 tvg-id="邵氏武侠" tvg-name="邵氏武侠" group-title="🎥电影频道",邵氏武侠
 http://iptv.4666888.xyz/iptv2A.php?id=40
 #EXTINF:-1 tvg-id="東森电影" tvg-name="東森电影" group-title="🎥电影频道",東森电影
@@ -1015,17 +791,8 @@ https://d4whmvwm0rdvi.cloudfront.net/10007/99993044/hls/master.m3u8?ads.xumo_cha
 https://wurlewscripps.global.transmit.live/hls/68962b3c9b574d4b1045a55a/v1/scripps_ion_1/lg_us/latest/main/hls/playlist.m3u8?wurl_channel=1116&wurl_name=ION&coppa=0&uid=[DEVICE_ID]&rdid=[IFA]&ifatype=[IFA_TYPE]&dnt=[LMT]&donotsell=[DNS]&isgdpr=[GDPR]&gdpr=[GDPR_CONSENT]&country=[COUNTRY]&pr=[US_PRIVACY]&appstoreurl=[APP_STOREURL]&bundleid=[APP_BUNDLE]&appname=[APP_NAME]&appversion=[APP_VERSION]&dt=[DEVICE_TYPE]&make=[DEVICE_MAKE]&model=[DEVICE_MODEL]&targetad=[TARGETAD_ALLOWED]&fck=[FCK]&viewsize=[VIEWSIZE]
 #EXTINF:-1 tvg-logo="https://img.platform.wurl.dev/channel/378/lg/165a68/LG-Logo-PNG-100x100_v1.png" group-title="🎥电影频道",ION Plus
 https://ad6cad3b.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEdfSW9uUGx1c19ITFM/playlist.m3u8
-#EXTINF:-1 tvg-id="龙华卡通" tvg-name="龙华卡通" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/龙华卡通.png" group-title="🌝动画频道",龙华卡通
-http://cdn8.veryfast.filegear-sg.me/live/lhkt/stream.m3u8
+#EXTINF:-1 tvg-id="龙华卡通" tvg-name="龙华卡通" tvg-logo="" group-title="🌝动画频道",龙华卡通
 https://cdn6.101.qzz.io/163189/lhkt
-#EXTINF:-1 tvg-id="尼克儿童频道" tvg-name="尼克儿童频道" group-title="🌝动画频道",尼克兒童頻道
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%B0%BC%E5%85%8B%E5%85%92%E7%AB%A5%E9%A0%BB%E9%81%93
-#EXTINF:-1 tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/靖洋卡通.png" group-title="🌝动画频道",靖洋卡通Nice Bingo
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%9D%96%E6%B4%8B%E5%8D%A1%E9%80%9ANice%20Bingo
-#EXTINF:-1 tvg-id="精选动漫台" tvg-name="精选动漫台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/精选动漫.png" group-title="🌝动画频道",精選動漫台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E7%B2%BE%E9%81%B8%E5%8B%95%E6%BC%AB%E5%8F%B0
-#EXTINF:-1 tvg-id="SUPER-Kids-Channel" tvg-name="SUPERKIDSCHANNEL" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/SUPERKIDSCHANNEL.png" group-title="🌝动画频道",SUPER Kids Channel
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="卡酷少儿" tvg-name="卡酷少儿" group-title="🌝动画频道",卡酷少儿
 http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221226019/index.m3u8
 #EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" group-title="🌝动画频道",哈哈炫动
@@ -1046,20 +813,6 @@ https://live.chinacert.cftest5.cn/mg/?id=626064703
 https://pbs2-pull-secure.akamaized.net/pbs2/stream.m3u8
 #EXTINF:-1 group-title="🌝动画频道",Kartoon Channel
 https://lightning-fnf-samsungaus.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="LOVE NATURE" tvg-name="LOVE NATURE" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/LOVENATURE4K.png" group-title="🐷纪录片频道",Love Nature
-https://4gtv.946985.filegear-sg.me/playlist?channel=Love%20Nature
-#EXTINF:-1 tvg-id="History" tvg-name="HISTORY" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/HISTORY.png" group-title="🐷纪录片频道",History 歷史頻道
-https://4gtv.946985.filegear-sg.me/playlist?channel=History%20%E6%AD%B7%E5%8F%B2%E9%A0%BB%E9%81%93
-#EXTINF:-1 tvg-id="MAGELLANTV频道 (麦哲伦频道)" tvg-name="MAGELLANTV频道 (麦哲伦频道) " group-title="🐷纪录片频道",MagellanTV頻道 (麥哲倫頻道)
-https://4gtv.946985.filegear-sg.me/playlist?channel=MagellanTV%E9%A0%BB%E9%81%93%20%28%E9%BA%A5%E5%93%B2%E5%80%AB%E9%A0%BB%E9%81%93%29
-#EXTINF:-1 tvg-id="CI 罪案侦查频道" tvg-name="CI 罪案侦查频道" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CI.png" group-title="🐷纪录片频道",CI 罪案偵查頻道
-https://4gtv.946985.filegear-sg.me/playlist?channel=CI%20%E7%BD%AA%E6%A1%88%E5%81%B5%E6%9F%A5%E9%A0%BB%E9%81%93
-#EXTINF:-1 tvg-id="视纳华仁纪实频道" tvg-name="视纳华仁纪实频道" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/视纳华仁纪实.png" group-title="🐷纪录片频道",視納華仁紀實頻道
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E8%A6%96%E7%B4%8D%E8%8F%AF%E4%BB%81%E7%B4%80%E5%AF%A6%E9%A0%BB%E9%81%93
-#EXTINF:-1 tvg-id="影迷数位纪实台" tvg-name="影迷数位纪实台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/影迷数位纪实.png" group-title="🐷纪录片频道",影迷數位紀實台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%BD%B1%E8%BF%B7%E6%95%B8%E4%BD%8D%E7%B4%80%E5%AF%A6%E5%8F%B0
-#EXTINF:-1 tvg-id="Love-Nature-4K-HK" tvg-name="LOVENATURE4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/LOVENATURE4K.png" group-title="🐷纪录片频道",Love Nature 4K
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="发现之旅" tvg-name="发现之旅" tvg-logo="" group-title="🐷纪录片频道",发现之旅
 http://36.135.118.195:85/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="之江纪录" tvg-name="之江纪录" tvg-logo="" group-title="🐷纪录片频道",之江纪录
@@ -1067,7 +820,7 @@ https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
 #EXTINF:-1 tvg-id="CGTN纪录" tvg-name="CGTN纪录" tvg-logo="" group-title="🐷纪录片频道",CGTN记录
 https://0472.org/hls/cgtnd.m3u8
 #EXTINF:-1 tvg-id="新纪实" tvg-name="新纪实" tvg-logo="https://epg.iill.top/logo/新纪实.png" group-title="🐷纪录片频道",新纪实
-https://bp-resource-dfl.bestv.cn/155/3/video.m3u8?auth_key=1763980337-56be48e1e53e4586ac54611645f16786-0-2bb897ab701eac1e18379b4dc49abb21
+https://bp-resource-dfl.bestv.cn/155/3/video.m3u8?auth_key=1763980863-b18a05dbde424e6aae9137a4174af1f0-0-3f8463ec0beb6c3a4255bdf7140e0ab0
 #EXTINF:-1 tvg-id="CGTN外语纪录" tvg-name="CGTN外语纪录" group-title="🐷纪录片频道",CGTN外语纪录
 http://gslbmgsplive.miguvideo.com/envivo_v/2018/SD/cctv/doc/1000/index.m3u8?msisdn=20251123180013e1c8da5752da4c608c5618daeca5d78a&mdspid=&spid=699004&netType=0&sid=2200179356&pid=2028597139&timestamp=20251123180013&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=609006487&ParentNodeID=-99&assertID=2200179356&client_ip=43.139.160.244&SecurityKey=20251123180013&promotionId=&mvid=2200179356&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=ef82acf2d785addd7cae5ec89facbf43&ddCalcu=3e4fef82b29ca0acff928dc7e855eaadcd7d
 #EXTINF:-1 tvg-id="老故事" tvg-name="老故事" group-title="🐷纪录片频道",老故事
@@ -1100,48 +853,6 @@ https://cc2b7c60df304389ba60c76790d1a82f.mediatailor.us-east-1.amazonaws.com/v1/
 https://2d1ef59f0ad34d14888d8abce1b99264.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/LG-au_AutenticTravel/playlist.m3u8
 #EXTINF:-1 tvg-id="24.7.Dummy.us" tvg-logo="https://img.platform.wurl.dev/channel/1907/lg/e72dd3/LG-Logo-PNG-100x100_v1.png" group-title="🐷纪录片频道",Inside Outside
 https://52405cd167dc41c68edcaa842b916ccd.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/LG-au_InsideOutside/playlist.m3u8
-#EXTINF:-1 tvg-id="FRANCE24 英文台" tvg-name="FRANCE24 英文台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/FRANCE24.png" group-title="🌍️国际频道",FRANCE24 英文台
-https://4gtv.946985.filegear-sg.me/playlist?channel=FRANCE24%20%E8%8B%B1%E6%96%87%E5%8F%B0
-#EXTINF:-1 tvg-id="NHK WORLD-JAPAN" tvg-name="NHK WORLD-JAPAN" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/NHK.png" group-title="🌍️国际频道",NHK WORLD-JAPAN
-https://4gtv.946985.filegear-sg.me/playlist?channel=NHK%20WORLD-JAPAN
-#EXTINF:-1 tvg-id="CNBC ASIA 财经台" tvg-name="CNBC ASIA 财经台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CNBC.png" group-title="🌍️国际频道",CNBC Asia 財經台
-https://4gtv.946985.filegear-sg.me/playlist?channel=CNBC%20Asia%20%E8%B2%A1%E7%B6%93%E5%8F%B0
-#EXTINF:-1 tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/ARIRANG.png" group-title="🌍️国际频道",ARIRANG阿里郎頻道
-https://4gtv.946985.filegear-sg.me/playlist?channel=ARIRANG%E9%98%BF%E9%87%8C%E9%83%8E%E9%A0%BB%E9%81%93
-#EXTINF:-1 tvg-id="GLOBAL TREKKER" tvg-name="GLOBAL TREKKER" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/世界.png" group-title="🌍️国际频道",Global Trekker
-https://4gtv.946985.filegear-sg.me/playlist?channel=Global%20Trekker
-#EXTINF:-1 group-title="🌍️国际频道",LUXE TV Channel
-https://4gtv.946985.filegear-sg.me/playlist?channel=LUXE%20TV%20Channel
-#EXTINF:-1 tvg-id="ROCK ENTERTAINMENT" tvg-name="ROCK ENTERTAINMENT" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/RTDOC.png" group-title="🌍️国际频道",ROCK Entertainment
-https://4gtv.946985.filegear-sg.me/playlist?channel=ROCK%20Entertainment
-#EXTINF:-1 tvg-id="LIVEABC互动英语频道" tvg-name="LIVEABC互动英语频道" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/LIVEABC互动英语.png" group-title="🌍️国际频道",LiveABC互動英語頻道
-https://4gtv.946985.filegear-sg.me/playlist?channel=LiveABC%E4%BA%92%E5%8B%95%E8%8B%B1%E8%AA%9E%E9%A0%BB%E9%81%93
-#EXTINF:-1 tvg-id="ELTV生活英语台" tvg-name="ELTV生活英语台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/ELTV生活英语.png" group-title="🌍️国际频道",ELTV生活英語台
-https://4gtv.946985.filegear-sg.me/playlist?channel=ELTV%E7%94%9F%E6%B4%BB%E8%8B%B1%E8%AA%9E%E5%8F%B0
-#EXTINF:-1 tvg-id="INULTRA" tvg-name="INULTRA" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/INULTRA.png" group-title="🌍️国际频道",INULTRA
-https://4gtv.946985.filegear-sg.me/playlist?channel=INULTRA
-#EXTINF:-1 tvg-id="HITS频道" tvg-name="HITS频道" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/HITS.png" group-title="🌍️国际频道",HITS頻道
-https://4gtv.946985.filegear-sg.me/playlist?channel=HITS%E9%A0%BB%E9%81%93
-#EXTINF:-1 tvg-id="ROCK Extreme" tvg-name="ROCKEXTREME" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/ROCKEXTREME.png" group-title="🌍️国际频道",ROCK Extreme
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="Global-Trekker-HK" tvg-name="GLOBALTREKKER" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/GLOBALTREKKER.png" group-title="🌍️国际频道",Global Trekker
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="MytvSuper" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/安徽.png" group-title="🌍️国际频道",安徽廣播電視台國際頻道
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="東方衛視國際頻道" tvg-name="东方卫视国际频道" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/东方卫视国际.png" group-title="🌍️国际频道",東方衛視國際頻道
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="半島電視台英語頻道" tvg-name="半岛电视台英语频道" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/半岛电视台英语.png" group-title="🌍️国际频道",半島電視台英語頻道
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="France-24-HK" tvg-name="FRANCE24" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/FRANCE24.png" group-title="🌍️国际频道",France 24
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="NHK-HK" tvg-name="NHKWORLDJAPAN" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/NHKWORLD.png" group-title="🌍️国际频道",NHK World-Japan
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="Arirang-HK" tvg-name="ARIRANGTV" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/ARIRANGTV.png" group-title="🌍️国际频道",Arirang TV
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 group-title="🌍️国际频道",tvg-id="NOW ROCK" tvg-name="NOW ROCK" tvg-logo="https://epg.112114.xyz/logo/NOWROCK.png",NOW ROCK
-https://php.946985.filegear-sg.me/mytv265.php?id=NOWR
-#EXTINF:-1 group-title="🌍️国际频道",tvg-id="NewsWorld" tvg-name="NewsWorld" tvg-logo="https://epg.112114.xyz/logo/NEWSWORLD.png",NewsWorld
-https://php.946985.filegear-sg.me/mytv265.php?id=NSWD
 #EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="" group-title="🌍️国际频道",CGTN英语
 https://0472.org/hls/cgtn.m3u8
 #EXTINF:-1 tvg-id="CGTN俄语" tvg-name="CGTN俄语" tvg-logo="" group-title="🌍️国际频道",CGTN俄语
@@ -1205,16 +916,13 @@ https://wurlnews12ny.global.transmit.live/hls/68c48577268ca4398b084116/v1/altice
 #EXTINF:-1 tvg-logo="https://img.platform.wurl.dev/channel/1149/lg/d696f2/LG-Logo-PNG-100x100_v1.png" group-title="🌍️国际频道",Scripps News
 https://339597f8.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEdfU2NyaXBwc05ld3NfSExT/playlist.m3u8
 #EXTINF:-1  tvg-id="ntv" tvg-logo="https://statics.tver.jp/images/icon/ntv.jpg" group-title="🌍️国际频道", 日テレ
-https://ssai-variants.streaks.jp/v5/tver-simul-ntv/938232e586b34196b704a5839663984b/cb593b5eafbb4645907e979d757e1dd5/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-174-11920/915e6541-b53a-493c-8aeb-4482bdcbc71a/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLW50di5zdHJlYWtzLmpwIiwib2Zmc2V0Ijo5LCJwZHQiOiItOTk0MyJ9.9Mppl7Lfr5k29MOZJSy3ZtcjIlYzZLcknhQzZw_4rek
+https://ssai-variants.streaks.jp/v5/tver-simul-ntv/938232e586b34196b704a5839663984b/cb593b5eafbb4645907e979d757e1dd5/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-174-11920/4926a192-c844-4fdc-9f59-fe65e2cdac41/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLW50di5zdHJlYWtzLmpwIiwib2Zmc2V0Ijo5LCJwZHQiOiItOTk0MyJ9.9Mppl7Lfr5k29MOZJSy3ZtcjIlYzZLcknhQzZw_4rek
 #EXTINF:-1  tvg-id="gmt+9" tvg-logo="https://statics.tver.jp/images/content/thumbnail/live/xlarge/letibz75z1.jpg" group-title="🌍️国际频道", 日テレNEWS24
 https://variants.streaks.jp/v5/tver-splive/ecc1ad44856545d382a4ee08e254da80/5b19a12960f24e76af940cc5d0ab1261/manifest_2.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNwbGl2ZS5zdHJlYWtzLmpwIn0.jtEWoPdQa08-jn8Q9ia0BaJF9eI-rwl7n8ZYSf_HooM
 #EXTINF:-1  tvg-id="gmt+9" tvg-logo="https://statics.tver.jp/images/content/thumbnail/live/xlarge/lexcqiug5m.jpg" group-title="🌍️国际频道", TBS NEWS DIG Powered by JNN
 https://variants.streaks.jp/v5/tver-splive/b4f588f1d2144308ac356b0fc0007de6/4b9f219963c04339b18dc50db9b5c4d2/manifest_2.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNwbGl2ZS5zdHJlYWtzLmpwIn0.jtEWoPdQa08-jn8Q9ia0BaJF9eI-rwl7n8ZYSf_HooM
-#EXTINF:-1 tvg-id="龙华戏剧" tvg-name="龙华戏剧" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/龙华戏剧.png" group-title="🧙‍♀️戏剧频道",龙华戏剧
-http://cdn8.veryfast.filegear-sg.me/live/lhxj/stream.m3u8
+#EXTINF:-1 tvg-id="龙华戏剧" tvg-name="龙华戏剧" tvg-logo="" group-title="🧙‍♀️戏剧频道",龙华戏剧
 https://cdn6.101.qzz.io/163189/lhxj
-#EXTINF:-1 tvg-id="靖洋戏剧台" tvg-name="靖洋戏剧台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/靖洋戏剧.png" group-title="🧙‍♀️戏剧频道",靖洋戲劇台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%9D%96%E6%B4%8B%E6%88%B2%E5%8A%87%E5%8F%B0
 #EXTINF:-1 tvg-id="靖洋戏剧" tvg-name="靖洋戏剧" group-title="🧙‍♀️戏剧频道",靖洋戏剧
 http://iptv.4666888.xyz/iptv2A.php?id=42
 #EXTINF:-1 tvg-id="电视剧频道" tvg-name="电视剧频道" group-title="🧙‍♀️戏剧频道",电视剧频道
@@ -1223,28 +931,12 @@ http://tvcdn.stream3.hndt.com/tv/65bd329b017e1000648cd2ed00000000_transios/playl
 https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=2d539c53d5ecbb69f413493b774a15e5&wsTime=1763906420
 #EXTINF:-1 tvg-id="移动戏曲频道" tvg-name="移动戏曲频道" group-title="🧙‍♀️戏剧频道",移动戏曲频道
 https://tvcdn.stream3.hndt.com/tv/160ea8971f8b41f0905f88c7afe3effe_transios/playlist.m3u8?wsSecret=17c33d10d5d04acf888b1218080a735f&wsTime=1763906420
-#EXTINF:-1 tvg-id="DW德国之声" tvg-name="DW德国之声" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/DW德国之声.png" group-title="🎵音乐频道",DW德國之聲
-https://4gtv.946985.filegear-sg.me/playlist?channel=DW%E5%BE%B7%E5%9C%8B%E4%B9%8B%E8%81%B2
-#EXTINF:-1 tvg-id="MTV" tvg-name="MTV" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/MTV.png" group-title="🎵音乐频道",韓國娛樂台 KMTV
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%9F%93%E5%9C%8B%E5%A8%9B%E6%A8%82%E5%8F%B0%20KMTV
-#EXTINF:-1 tvg-id="CLASSICA 古典乐" tvg-name="CLASSICA 古典乐" group-title="🎵音乐频道",CLASSICA 古典樂
-https://4gtv.946985.filegear-sg.me/playlist?channel=CLASSICA%20%E5%8F%A4%E5%85%B8%E6%A8%82
-#EXTINF:-1 tvg-id="TRACE URBAN" tvg-name="TRACE URBAN" group-title="🎵音乐频道",TRACE Urban
-https://4gtv.946985.filegear-sg.me/playlist?channel=TRACE%20Urban
-#EXTINF:-1 tvg-id="MytvSuper" tvg-name="SUPERMUSIC" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CMUSIC.png" group-title="🎵音乐频道",SUPER Music
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 group-title="🎵音乐频道",tvg-id="TRACEURBAN" tvg-name="TRACEURBAN" tvg-logo="https://epg.112114.xyz/logo/TRACEURBAN.png",TRACE Urban
-https://php.946985.filegear-sg.me/mytv265.php?id=TRUR
 #EXTINF:-1 tvg-id="斗鱼音乐MV频道" tvg-name="斗鱼音乐MV频道" group-title="🎵音乐频道",斗鱼音乐MV频道
 http://zzy789.xyz/douyu1.php?id=3870925
 #EXTINF:-1 group-title="🎵音乐频道",LiveNow 
 https://jmp2.uk/rok-f9c0d48b540a55dcb98b04d2cc8abf25.m3u8
 #EXTINF:-1 group-title="🎵音乐频道",Trace Urban
 https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="幸福空间居家台" tvg-name="幸福空间居家台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/幸福空间居家.png" group-title="📗教育频道",幸福空間居家台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%B9%B8%E7%A6%8F%E7%A9%BA%E9%96%93%E5%B1%85%E5%AE%B6%E5%8F%B0
-#EXTINF:-1 tvg-id="MOMO亲子台" tvg-name="MOMO亲子台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/MOMO亲子.png" group-title="📗教育频道",MOMO親子台
-https://4gtv.946985.filegear-sg.me/playlist?channel=MOMO%E8%A6%AA%E5%AD%90%E5%8F%B0
 #EXTINF:-1 tvg-id="SCTV-科教高清" tvg-name="SCTV-科教高清" group-title="📗教育频道",SCTV-科教高清
 http://home.yixi.pro:10043/udp/239.93.42.44:5140
 #EXTINF:-1 tvg-id="法治天地" tvg-name="法治天地" group-title="📗教育频道",法治天地
@@ -1286,13 +978,8 @@ http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221226157/index.m3u8
 http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221225768/index.m3u8
 #EXTINF:-1 tvg-id="欢腾购物" tvg-name="欢腾购物" group-title="📦️购物频道",欢腾购物
 http://tvcdn.stream3.hndt.com/tv/65ba653b017e1000d4ee41c700000000_transios/playlist.m3u8?wsSecret=c1511295e6c07608816a09632f9f87b0&wsTime=1763906420
-#EXTINF:-1 tvg-id="第一财经" tvg-name="第一财经" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/第一财经.png" group-title="⚡️财经频道",第一财经
-http://cdn3.veryfast.filegear-sg.me/live/dycj/stream.m3u8
+#EXTINF:-1 tvg-id="第一财经" tvg-name="第一财经" group-title="⚡️财经频道",第一财经
 http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221225737/index.m3u8
-#EXTINF:-1 tvg-id="Bloomberg" tvg-name="BLOOMBERG TV" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/BLOOMBERGTV.png" group-title="⚡️财经频道",Bloomberg TV
-https://4gtv.946985.filegear-sg.me/playlist?channel=Bloomberg%20TV
-#EXTINF:-1 tvg-id="SBN全球财经台" tvg-name="SBN全球财经台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/SBN全球财经.png" group-title="⚡️财经频道",SBN全球財經台
-https://4gtv.946985.filegear-sg.me/playlist?channel=SBN%E5%85%A8%E7%90%83%E8%B2%A1%E7%B6%93%E5%8F%B0
 #EXTINF:-1 tvg-id="东方财经" tvg-name="东方财经" group-title="⚡️财经频道",东方财经
 http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221226134/index.m3u8
 #EXTINF:-1 tvg-id="上海第一财经" tvg-name="上海第一财经" tvg-logo="https://epg.iill.top/logo/第一财经.png" group-title="⚡️财经频道",上海第一财经
@@ -1319,139 +1006,24 @@ https://live.chinacert.cftest5.cn/mg/?id=631354620
 https://live.laobaitv.net/huya/139167
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://logo.laobaitv.net/yxlm" group-title="🕹️娱乐频道",英雄联盟赛事
 https://live.laobaitv.net/huya/660000
-#EXTINF:-1 tvg-id="TV 31" tvg-name="TV 31" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/RTHK31.png" group-title="💤综合",RTHK31
-http://cdn.veryfast.filegear-sg.me/live/rthk31/stream.m3u8
-#EXTINF:-1 tvg-id="TV 32" tvg-name="TV 32" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/RTHK32.png" group-title="💤综合",RTHK32
-http://cdn.veryfast.filegear-sg.me/live/rthk32/stream.m3u8
-#EXTINF:-1 tvg-id="龙华偶像" tvg-name="龙华偶像" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/龙华偶像.png" group-title="💤综合",龙华偶像
-http://cdn8.veryfast.filegear-sg.me/live/lhox/stream.m3u8
-https://cdn6.101.qzz.io/163189/lhox
-#EXTINF:-1 tvg-id="龙华日韩" tvg-name="龙华日韩" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/龙华日韩.png" group-title="💤综合",龙华日韩
-http://cdn8.veryfast.filegear-sg.me/live/lhrh/stream.m3u8
+#EXTINF:-1 tvg-id="龙华日韩" tvg-name="龙华日韩" tvg-logo="" group-title="💤综合",龙华日韩
 https://cdn6.101.qzz.io/163189/lhrh
-#EXTINF:-1 tvg-id="龙华洋片" tvg-name="龙华洋片" tvg-logo="http://gcore.jsdelivr.net/gh/taksssss/tv/icon/龙华洋片.png" group-title="💤综合",龙华洋片
-http://cdn8.veryfast.filegear-sg.me/live/lhyp/stream.m3u8
+#EXTINF:-1 tvg-id="龙华偶像" tvg-name="龙华偶像" tvg-logo="" group-title="💤综合",龙华偶像
+https://cdn6.101.qzz.io/163189/lhox
+#EXTINF:-1 tvg-id="龙华洋片" tvg-name="龙华洋片" tvg-logo="" group-title="💤综合",龙华洋片
 https://cdn6.101.qzz.io/163189/lhyp
-#EXTINF:-1 group-title="💤综合",八度空间
-http://cdn6.veryfast.filegear-sg.me/live/8tv/stream.m3u8
-#EXTINF:-1 group-title="💤综合",CH5
-http://cdn6.veryfast.filegear-sg.me/live/ch5/stream.m3u8
-#EXTINF:-1 group-title="💤综合",CH8
-http://cdn6.veryfast.filegear-sg.me/live/ch8/stream.m3u8
-#EXTINF:-1 group-title="💤综合",CHU
-http://cdn6.veryfast.filegear-sg.me/live/chu/stream.m3u8
-#EXTINF:-1 tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/新唐人亚太.png" group-title="💤综合",新唐人亞太台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%96%B0%E5%94%90%E4%BA%BA%E4%BA%9E%E5%A4%AA%E5%8F%B0
-#EXTINF:-1 tvg-id="国会频道1" tvg-name="国会频道1" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/国会频道1.png" group-title="💤综合",國會頻道1
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%9C%8B%E6%9C%83%E9%A0%BB%E9%81%931
-#EXTINF:-1 tvg-id="国会频道2" tvg-name="国会频道2" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/国会频道2.png" group-title="💤综合",國會頻道2
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%9C%8B%E6%9C%83%E9%A0%BB%E9%81%932
-#EXTINF:-1 tvg-id="大爱电视" tvg-name="大爱电视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/大爱电视.png" group-title="💤综合",大愛電視
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%A4%A7%E6%84%9B%E9%9B%BB%E8%A6%96
-#EXTINF:-1 tvg-id="大爱二台" tvg-name="大爱二台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/大爱二.png" group-title="💤综合",大愛二台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%A4%A7%E6%84%9B%E4%BA%8C%E5%8F%B0
-#EXTINF:-1 tvg-id="猪哥亮歌厅秀" tvg-name="猪哥亮歌厅秀" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/猪哥亮歌厅秀.png" group-title="💤综合",豬哥亮歌廳秀
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E8%B1%AC%E5%93%A5%E4%BA%AE%E6%AD%8C%E5%BB%B3%E7%A7%80
-#EXTINF:-1 tvg-id="采昌影剧台" tvg-name="采昌影剧台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/采昌影剧.png" group-title="💤综合",采昌影劇台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%87%87%E6%98%8C%E5%BD%B1%E5%8A%87%E5%8F%B0
-#EXTINF:-1 tvg-id="NICK JR." tvg-name="NICK JR." tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/NICK.png" group-title="💤综合",Nick Jr. 兒童頻道
-https://4gtv.946985.filegear-sg.me/playlist?channel=Nick%20Jr.%20%E5%85%92%E7%AB%A5%E9%A0%BB%E9%81%93
-#EXTINF:-1 tvg-id="DREAMWORKS" tvg-name="DREAMWORKS" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/DREAMWORKS.png" group-title="💤综合",DreamWorks 夢工廠動畫
-https://4gtv.946985.filegear-sg.me/playlist?channel=DreamWorks%20%E5%A4%A2%E5%B7%A5%E5%BB%A0%E5%8B%95%E7%95%AB
-#EXTINF:-1 tvg-id="金光布袋戏" tvg-name="金光布袋戏" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/金光布袋戏.png" group-title="💤综合",金光布袋戲
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%87%91%E5%85%89%E5%B8%83%E8%A2%8B%E6%88%B2
-#EXTINF:-1 tvg-id="霹雳布袋戏" tvg-name="霹雳布袋戏" group-title="💤综合",霹靂布袋戲
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%9C%B9%E9%9D%82%E5%B8%83%E8%A2%8B%E6%88%B2
-#EXTINF:-1 tvg-id="车迷TV" tvg-name="车迷TV" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/车迷TV.png" group-title="💤综合",車迷TV
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E8%BB%8A%E8%BF%B7TV
-#EXTINF:-1 tvg-id="PET CLUB TV" tvg-name="PET CLUB TV" group-title="💤综合",Pet Club TV
-https://4gtv.946985.filegear-sg.me/playlist?channel=Pet%20Club%20TV
-#EXTINF:-1 tvg-id="滚动力ROLLOR" tvg-name="滚动力ROLLOR" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/滚动力ROLLOR.png" group-title="💤综合",滾動力rollor
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%BB%BE%E5%8B%95%E5%8A%9Brollor
-#EXTINF:-1 tvg-id="达文西频道" tvg-name="达文西频道" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/达文西.png" group-title="💤综合",達文西頻道
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%81%94%E6%96%87%E8%A5%BF%E9%A0%BB%E9%81%93
-#EXTINF:-1 tvg-id="时尚运动X" tvg-name="时尚运动X" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/时尚运动X.png" group-title="💤综合",時尚運動X
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%99%82%E5%B0%9A%E9%81%8B%E5%8B%95X
-#EXTINF:-1 tvg-id="MytvSuper" tvg-name="SUPER奖门人" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/LOUPE.png" group-title="💤综合",SUPER獎門人
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="MytvSuper" tvg-name="SUPEREYT" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/LOUPE.png" group-title="💤综合",SUPER EYT
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="MytvSuper" tvg-name="SUPER识食" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/LOUPE.png" group-title="💤综合",SUPER識食
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="MytvSuper" tvg-name="SUPER识叹" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/LOUPE.png" group-title="💤综合",SUPER識嘆
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="MytvSuper" tvg-name="SUPER金曲" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/LOUPE.png" group-title="💤综合",SUPER金曲
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="MytvSuper" tvg-name="SUPER煲剧" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/LOUPE.png" group-title="💤综合",SUPER煲劇
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="MytvSuper" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/LOUPE.png" group-title="💤综合",SUPER劇場
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="MytvSuper" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/LOUPE.png" group-title="💤综合",SUPER話當年
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="MytvSuper" tvg-name="SUPERFREE" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/MYTVSUPER.png" group-title="💤综合",myTV SUPER FREE
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="myTV-SUPER-18" tvg-name="MYTVSUPER18台" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/icable11.png" group-title="💤综合",myTV SUPER 18台
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="myTV-28-AI" tvg-logo="https://www.mytvsuper.com/tc/scoopplus/thumbor/rzBSNjFIaLA8XDdRtwfpF_gXiHo=/200x0/filters:quality(80)/public/author/cover/202412/776c7bc4-e8ff-4585-a36d-3459bec286b8.png" group-title="💤综合",28 AI 智慧賽馬
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="華語劇台" tvg-name="华语剧台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/华语剧.png" group-title="💤综合",華語劇台
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="粵語片台" tvg-name="粤语片台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/粤语片.png" group-title="💤综合",粵語片台
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="亞洲劇台" tvg-name="亚洲剧台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/亚洲剧.png" group-title="💤综合",亞洲劇台
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="黃金華劇台" tvg-name="黄金华剧台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/黄金华剧.png" group-title="💤综合",黃金華劇台
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="戲曲台" tvg-name="戏曲台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/戏曲.png" group-title="💤综合",戲曲台
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ZooMoo" tvg-name="ZOOMOO" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/ZOOMOO.png" group-title="💤综合",ZooMoo
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="Nickelodeon" tvg-name="NICKELODEON" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/NICKELODEON.png" group-title="💤综合",Nickelodeon
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="Nick-Jr." tvg-name="NICKJR." tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/NICKJR..png" group-title="💤综合",Nick Jr.
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="Thrill" tvg-name="THRILL" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/THRILL.png" group-title="💤综合",Thrill
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="KIX" tvg-name="KIX" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/KIX.png" group-title="💤综合",KIX
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="Animax-HK" tvg-name="ANIMAX" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/ANIMAX.png" group-title="💤综合",Animax
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="tvN-HK" tvg-name="TVN" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/TVN.png" group-title="💤综合",tvN
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="創世電視" tvg-name="创世电视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/创世电视.png" group-title="💤综合",創世電視
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="PopC" tvg-name="POPC" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/POPC.png" group-title="💤综合",PopC
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="DW-HK" tvg-name="DW" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/DW.png" group-title="💤综合",DW
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="全運800" tvg-name="TVS" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/MYTVSUPER.png" group-title="💤综合",全運800台
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="MytvSuper" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/TVB14.png" group-title="💤综合",互動窗 1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="MytvSuper" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/TVB14.png" group-title="💤综合",互動窗 2
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 group-title="💤综合",tvg-id="NOW 70s" tvg-name="NOW 70s" tvg-logo="https://epg.112114.xyz/logo/NOW70S.png",NOW 70s
-https://php.946985.filegear-sg.me/mytv265.php?id=NOW7
-#EXTINF:-1 group-title="💤综合",tvg-id="NOW 80s" tvg-name="NOW 80s" tvg-logo="https://epg.112114.xyz/logo/NOW80S.png",NOW 80s
-https://php.946985.filegear-sg.me/mytv265.php?id=NOW8
-#EXTINF:-1 group-title="💤综合",tvg-id="NOW 90s00s" tvg-name="NOW 90s00s" tvg-logo="https://epg.112114.xyz/logo/NOW90S00S.png",NOW 90s00s
-https://php.946985.filegear-sg.me/mytv265.php?id=NOW9
-#EXTINF:-1 group-title="💤综合",tvg-id="Concerto" tvg-name="Concerto" tvg-logo="https://epg.112114.xyz/logo/CONCERTO.png",Concerto
-https://php.946985.filegear-sg.me/mytv265.php?id=CONC
 #EXTINF:-1 tvg-id="SPOTV" tvg-name="SPOTV" group-title="💤综合",SPOTV
 http://iptv.4666888.xyz/iptv2A.php?id=2
 #EXTINF:-1 tvg-id="SPOTV2" tvg-name="SPOTV2" group-title="💤综合",SPOTV2
 http://iptv.4666888.xyz/iptv2A.php?id=1
 #EXTINF:-1 tvg-id="wwwe" tvg-name="wwwe" group-title="💤综合",wwwe
 http://iptv.4666888.xyz/iptv2A.php?id=5
-#EXTINF:-1 tvg-id="风云试看港澳频道" tvg-name="风云试看港澳频道" group-title="💤综合",风云试看港澳频道
-#genre#
-#EXTINF:-1 tvg-id="风云试看台湾频道" tvg-name="风云试看台湾频道" group-title="💤综合",风云试看台湾频道
-#genre#
 #EXTINF:-1 tvg-id="華藝中文" tvg-name="華藝中文" group-title="💤综合",華藝中文
 http://iptv.4666888.xyz/iptv2A.php?id=37
 #EXTINF:-1 tvg-id="東森洋片" tvg-name="東森洋片" group-title="💤综合",東森洋片
 http://iptv.4666888.xyz/iptv2A.php?id=45
+#EXTINF:-1 tvg-id="八度空间" tvg-name="八度空间" group-title="💤综合",八度空间
+http://iptv.4666888.xyz/iptv2A.php?id=52
 #EXTINF:-1 tvg-id="2025/11/23 18:00:21" tvg-name="2025/11/23 18:00:21" group-title="💤综合",2025/11/23 18:00:21
 http://xxxxx.m3u8更新时间,#genre#
 #EXTINF:-1 tvg-id="星爷房✔原" tvg-name="星爷房✔原" group-title="💤综合",星爷房✔原
@@ -1481,6 +1053,6 @@ https://live.laobaitv.net/douyu/12400977
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://logo.laobaitv.net/douyu" group-title="💤综合",斗鱼 RunningMan
 https://live.laobaitv.net/douyu/131977
 #EXTINF:-1  tvg-id="ex" tvg-logo="https://statics.tver.jp/images/icon/ex.jpg" group-title="💤综合", テレビ朝日
-https://ssai-variants.streaks.jp/v5/tver-simul-ex/498c4512f66846f1b0a5a3320ee035c3/ce98cb0b48994b50a76dba08ea894e24/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-175-8158/4b881f07-6b54-4a9c-9c52-37af93be0d05/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLWV4LnN0cmVha3MuanAiLCJvZmZzZXQiOjksInBkdCI6Ii0xODMyMyJ9.cU_iutHRBntONY87WM0geiJ7SYlA7lHpNaTfO0JQ2H8
+https://ssai-variants.streaks.jp/v5/tver-simul-ex/498c4512f66846f1b0a5a3320ee035c3/ce98cb0b48994b50a76dba08ea894e24/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-175-8158/b880e359-f3ad-4b40-9d84-f731647b3a72/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLWV4LnN0cmVha3MuanAiLCJvZmZzZXQiOjksInBkdCI6Ii0xODMyMyJ9.cU_iutHRBntONY87WM0geiJ7SYlA7lHpNaTfO0JQ2H8
 #EXTINF:-1  tvg-id="tbs" tvg-logo="https://statics.tver.jp/images/icon/tbs.jpg" group-title="💤综合", TBS
-https://ssai-variants.streaks.jp/v5/tver-simul-tbs/8e4c80725b9842cdb0f6f91260945222/b72f7e116957436b824f95d5138ea7a3/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-176-7925/a07bd872-00d1-4a78-a5ba-84f1ebd27b72/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLXRicy5zdHJlYWtzLmpwIiwib2Zmc2V0Ijo5LCJwZHQiOiItOTc4NyJ9.gQkPPdWZuy0vZl-FMKKr1KRKmeRr9BS3rhKYrbCCH-s
+https://ssai-variants.streaks.jp/v5/tver-simul-tbs/8e4c80725b9842cdb0f6f91260945222/b72f7e116957436b824f95d5138ea7a3/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-176-7925/c1c171f7-dbcb-4ad6-a0e1-39d9491375af/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLXRicy5zdHJlYWtzLmpwIiwib2Zmc2V0Ijo5LCJwZHQiOiItOTc4NyJ9.gQkPPdWZuy0vZl-FMKKr1KRKmeRr9BS3rhKYrbCCH-s
