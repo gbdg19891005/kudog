@@ -60,3 +60,38 @@ https://raw.githubusercontent.com/BuddyChewChew/buddylive/refs/heads/main/buddyl
     "xinzhibo.m3u"
   ]
 }
+
+
+
+
+
+
+
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分组",孤独的美食家2
+https://www.goodiptv.club/douyu/260322
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分组",孤独的美食家3
+https://www.goodiptv.club/douyu/953193
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分组",孤独的美食家4
+http://live.iill.top/douyu.php?id=260322
+
+
+
+{
+  "remote_urls": [
+    "https://gitee.com/thomas1998/tv-live/raw/master/IPV6.m3u",
+    "https://raw.githubusercontent.com/mytv-android/BRTV-Live-M3U8/refs/heads/main/iptv.m3u",
+    "http://35.209.240.97:5080/shanghai.php",
+    "https://raw.githubusercontent.com/best-fan/iptv-sources/refs/heads/main/cn_all.m3u8",
+    "https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
+    "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/GATV.m3u",
+    "https://raw.githubusercontent.com/Supprise0901/TVBox_live/refs/heads/main/live.txt",
+    "https://r2.laobaitv.net/public.m3u",
+    "https://gitee.com/lwr851/live/raw/master/iptv.m3u",
+    "https://raw.githubusercontent.com/dbghelp/Free-to-air-TV/refs/heads/main/japan.m3u8",
+    "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u"
+  ],
+  "local_files": [
+    "xinzhibo.m3u"
+  ]
+}
