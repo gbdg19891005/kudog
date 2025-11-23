@@ -31,7 +31,7 @@
       "综艺", "綜藝", "娱乐", "娛樂", "综艺台", "綜藝台", "テレ東", "孤独",
       "TVBS欢乐", "FastTV飛速看", "TVBS歡樂", "小品", "フジテレビ", "華藝",
       "Talk", "Oprah Winfrey Network", "BET", "BET HER", "KFN", "Korea", "Gugak",
-      "BRAVO", "BuZZr", "Gusto TV", "HGTV", "Comedy TV", "八度",
+      "BRAVO", "BuZZr", "Gusto TV", "HGTV", "Comedy TV", "八度", "美食",
       "Sony One Dragons' Den", "Great British Menu", "HollyWire",
       "Fashion Channel", "Fashion TV", "Pulse", "Tastemade",
       "八大综艺", "八大綜藝", "旅遊", "旅游", "豬哥亮",
@@ -50,13 +50,13 @@
       "ION", "ION Plus", "Paramount Network", "Showtime", "Showtime 2", "象视界", "爱奇艺",
       "Showtime Extreme", "TNT", "Sony One FAVES", "Icon Film Channel", "冰冰", "女神金", "影剧",
       "Popflix", "LG 1 Film", "影视", "影視", "影片", "大片", "HBO", "网神", "千禧经典",
-      "影院", "剧场", "影城", "剧集", "港剧", "Cinemax", "Star Movies", "新视觉",
+      "影院", "影城", "Cinemax", "Star Movies", "新视觉",
       "CinemaWorld"
     ],
     "🌝动画频道": [
       "动画", "動畫", "少儿", "少兒", "兒童", "儿童", "Kartoon Channel",
       "Kids", "KIDS", "Cartoon", "CARTOON", "动漫", "動漫", "中学生", "哈哈",
-      "DISNEY CHANNEL", "DISNEY JR", "卡通", "卡通台", "布袋戲",
+      "DISNEY CHANNEL", "DISNEY JR", "卡通", "卡通台", "布袋戲", "育乐",
       "Anime", "靖天映画", "靖天映畫", "ANIME"
     ],
     "🐷纪录片频道": [
@@ -78,11 +78,13 @@
     ],
     "🧙‍♀️戏剧频道": [
       "戏剧", "戲劇", "影劇", "影劇台", "电视剧", "電視劇",
-      "梨园", "移动戏曲", "剧集", "剧场", "港剧",
+      "梨园", "移动戏曲", "剧集", "剧场", "港剧", "重温",
       "Drama", "DRAMA"
     ],
     "🎵音乐频道": [
-      "音乐", "音樂", "Music", "MEZZO", "MUSIC", "MTV", "Live", "广播", "之声", "LIVE", "TRACE", "古典", "KTV"
+      "音乐", "音樂", "Music", "MEZZO", "MUSIC", "MTV", "Live", 
+      "广播", "之声", 
+      "LIVE", "TRACE", "古典", "KTV"
     ],
     "📗教育频道": [
       "教育", "国学", "文物", "CETV", "EDU", "Edu", "LEARN", "Learn", 
@@ -97,7 +99,7 @@
     ],
     "⚡️财经频道": [
       "财经", "財經", "Finance", "FINANCE", "Business", "BUSINESS",
-      "财富", "財富", "Economy", "ECONOMY", "Bloomberg", "CNBC",
+      "财富", "財富", "Economy", "ECONOMY", "Bloomberg", "CNBC", "经济",
       "Cheddar News"
     ],
     "🕹️娱乐频道": [
@@ -129,6 +131,8 @@
   "🇨🇳",
   "风云试看",
   "免费",
+  "龙祥",
+  "Smart",
   "央卫",
   "部分源来自互联网",
   "广告",
