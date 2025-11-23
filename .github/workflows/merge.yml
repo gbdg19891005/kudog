@@ -36,12 +36,13 @@ jobs:
 
       - name: Push updated M3U files to B repo
         run: |
-          # 克隆目标仓库
-          git clone https://github.com/Gbin1989/v2ray_configs.git target-repo
+          # 克隆目标仓库（用 PAT 认证）
+          git clone https://x-access-token:${{ secrets.TARGET_REPO_TOKEN }}@github.com/Gbin1989/v2ray_configs.git target-repo
           cp *.m3u target-repo/
           cd target-repo
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
           git add *.m3u
           git commit -m "Update M3U from A repo" || echo "No changes"
-          git push https://x-access-token:${{ secrets.TARGET_REPO_TOKEN }}@github.com/Gbin1989/v2ray_configs.git HEAD:main
+          git pull --rebase origin main
+          git push origin main
