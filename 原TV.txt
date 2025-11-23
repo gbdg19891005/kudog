@@ -110,8 +110,6 @@ https://tzh911.qzz.io/play-smt.php?id=videolandjapan
 https://tzh911.qzz.io/play-smt.php?id=videolandmovie
 #EXTINF:-1 tvg-id="纬来综合" tvg-name="纬来综合" tvg-logo="" group-title="未分组",纬来综合
 https://tzh911.qzz.io/play-smt.php?id=videolandzonghe
-#EXTINF:-1 tvg-id="纬来育乐" tvg-name="纬来育乐" tvg-logo="" group-title="未分组",纬来育乐
-https://tzh911.qzz.io/play-smt.php?id=videolandyule
 #EXTINF:-1 tvg-id="爱尔达综合台" tvg-name="爱尔达综合台" tvg-logo="" group-title="未分组",爱尔达综合台
 https://tzh911.qzz.io/play-smt.php?id=eltazonghe_twn
 #EXTINF:-1 tvg-id="爱尔达影剧台" tvg-name="爱尔达影剧台" tvg-logo="" group-title="未分组",爱尔达影剧台
@@ -182,17 +180,17 @@ https://tzh911.qzz.io/play-smt.php?id=lungxiangtime_twn
 https://tzh911.qzz.io/play-smt.php?id=meiyamovie_twn
 #EXTINF:-1 tvg-id="華藝綜合" tvg-name="華藝綜合" tvg-logo="" group-title="未分组",華藝綜合
 https://tzh911.qzz.io/play-smt.php?id=weishichinese_twn
-#EXTINF:-1 tvg-id="博斯运动1" tvg-name="博斯运动1" tvg-logo="" group-title="未分组",博斯运动1
+#EXTINF:-1 tvg-id="博斯运动一台" tvg-name="博斯运动一台" tvg-logo="" group-title="未分组",博斯运动一台
 https://tzh911.qzz.io/play-smt.php?id=bosisport1_twn
-#EXTINF:-1 tvg-id="博斯运动2" tvg-name="博斯运动2" tvg-logo="" group-title="未分组",博斯运动2
+#EXTINF:-1 tvg-id="博斯运动二台" tvg-name="博斯运动二台" tvg-logo="" group-title="未分组",博斯运动二台
 https://tzh911.qzz.io/play-smt.php?id=bosisport2_twn
-#EXTINF:-1 tvg-id="博斯高球1" tvg-name="博斯高球1" tvg-logo="" group-title="未分组",博斯高球1
+#EXTINF:-1 tvg-id="博斯高球一台" tvg-name="博斯高球一台" tvg-logo="" group-title="未分组",博斯高球一台
 https://tzh911.qzz.io/play-smt.php?id=bosigolf1_twn
-#EXTINF:-1 tvg-id="博斯高球2" tvg-name="博斯高球二台" tvg-logo="" group-title="未分组",博斯高球2
+#EXTINF:-1 tvg-id="博斯高球二台" tvg-name="博斯高球二台" tvg-logo="" group-title="未分组",博斯高球二台
 https://tzh911.qzz.io/play-smt.php?id=bosigolf2_twn
-#EXTINF:-1 tvg-id="博斯网球" tvg-name="博斯网球" tvg-logo="" group-title="未分组",博斯网球
+#EXTINF:-1 tvg-id="博斯网球台" tvg-name="博斯网球台" tvg-logo="" group-title="未分组",博斯网球台
 https://tzh911.qzz.io/play-smt.php?id=bositennis_twn
-#EXTINF:-1 tvg-id="博斯无限" tvg-name="博斯无限" tvg-logo="" group-title="未分组",博斯无限
+#EXTINF:-1 tvg-id="博斯无限台" tvg-name="博斯无限台" tvg-logo="" group-title="未分组",博斯无限台
 https://tzh911.qzz.io/play-smt.php?id=bosiunlimited_twn
 #EXTINF:-1 tvg-id="好消息 2" tvg-name="好消息 2" tvg-logo="" group-title="未分组",好消息 2
 https://smt.passwdword.xyz/Smart.php?id=good2_twn
@@ -226,4 +224,5 @@ https://smt.passwdword.xyz/Smart.php?id=Celestial
 https://smt.passwdword.xyz/Smart.php?id=Celestialindo
 #EXTINF:-1 tvg-id="天映经典" tvg-name="天映经典" tvg-logo="" group-title="未分组",天映经典
 https://smt.passwdword.xyz/Smart.php?id=Celestial2
+
 
