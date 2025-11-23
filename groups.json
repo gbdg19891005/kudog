@@ -4,7 +4,7 @@
       "^CCTV", "央视", "中央", "央視",
       "风云足球", "CCTV风云足球", "风云剧场", "风云音乐",
       "兵器科技", "怀旧剧场", "世界地理", "央视音乐",
-      "央视精品", "央视台球", "央视高尔夫", "央视文化", "长影", 
+      "央视精品", "央视台球", "央视高尔夫", "央视文化",
       "央视戏曲", "IPTV.*", "网络电视", "互动电视", "睛彩.*"
     ],
     "🇨🇳卫视频道": [
@@ -46,7 +46,7 @@
     ],
     "🎥电影频道": [
       "日韩", "偶像", "电影", "電影", "Movie", "MOVIE", "Cinema", "CINEMA", "天映", "洋片", "新片", "武侠", "抗日",
-      "Action Hollywood", "Thrillers", "Thriller TV", "Universal Monsters", "1905",
+      "Action Hollywood", "Thrillers", "Thriller TV", "Universal Monsters", "1905", "长影",
       "ION", "ION Plus", "Paramount Network", "Showtime", "Showtime 2", "象视界", "爱奇艺", "博斯",
       "Showtime Extreme", "TNT", "Sony One FAVES", "Icon Film Channel", "冰冰", "女神金", "影剧",
       "Popflix", "LG 1 Film", "影视", "影視", "影片", "大片", "HBO", "网神", "千禧经典",
