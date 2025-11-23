@@ -15,6 +15,7 @@
     "https://raw.githubusercontent.com/dbghelp/Free-to-air-TV/refs/heads/main/japan.m3u8"
   ],
   "local_files": [
+    "原TV.txt",
     "xinzhibo.m3u"
   ]
 }
