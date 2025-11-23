@@ -14,9 +14,9 @@
       "凤凰", "鳳凰", "翡翠", "明珠", "无线", "無線", "TVB", "ViuTV", "RTHK", "香蕉", "鳳梨",
       "有线", "有線", "台视", "台視", "中视", "中視", "华视", "華視", "民视", "民視",
       "VIU", "原住民", "滾動力", "东森", "三立", "TVBS", "年代", "Macau", "台湾台", "台语台",
-      "生命", "番薯", "寰宇", "中天", "鏡電視", "镜电视", "客家", "大立",
+      "番薯", "寰宇", "中天", "鏡電視", "镜电视", "客家", "大立",
       "大愛", "國會", "好消息", "非凡", "东风", "東風", "综合台", "第一台",
-      "JET", "壹电视", "壹電視", "Taiwan Plus", "AXN", "公视", "国会", "美国之音",
+      "JET", "壹电视", "壹電視", "Taiwan Plus", "AXN", "公视", "国会",
       "新闻台$", "新聞台$", "资讯台$", "資訊台$"
     ],
     "💎地方频道": [
@@ -40,7 +40,7 @@
     "⚽️体育频道": [
       "体育", "體育", "Sport", "SPORT", "NBA", "足球", "篮球", "籃球", "HOY", "SPO", "wwwe",
       "Real Madrid", "Tennis Channel", "NFL Channel", "Billiard TV", "全运会", "城市联赛",
-      "Stadium", "Overtime", "MLB Network", "SEC Network", "運動", "ESPN", "博斯",
+      "Stadium", "Overtime", "MLB Network", "SEC Network", "運動", "ESPN", "博斯", "Football",
       "球赛", "球賽", "最经典", "賽事", "武术", "武術", "搏击", "搏擊",
       "Red Bull", "Fishing", "钓鱼", "釣魚", "体坛"
     ],
@@ -70,14 +70,14 @@
     "🌍️国际频道": [
       "国际", "國際", "World", "WORLD", "NHK", "CNN", "BBC", "DIG", "日テ", "FNN",
       "GB News", "RT News", "Euronews", "NBC", "CBC News", "法·时尚", "Pearl",
-      "Newsmax", "TBS Seoul", "WION", "Newsy", "News 12", "Scripps News",
+      "Newsmax", "TBS Seoul", "WION", "Newsy", "News 12", "Scripps News", "美国之音",
       "Sky News", "FOX NEWS", "Fox News", "France24", "FRANCE24", "阿里郎",
       "Arirang", "KBS", "MBC", "SBS", "英语", "CGTN", "CNA",
       "Al Jazeera", "半岛", "半島", "德國", "ROCK", "HITS",
       "INULTRA", "Global", "LUXE"
     ],
     "🧙‍♀️戏剧频道": [
-      "戏剧", "戲劇", "影劇", "影劇台", "电视剧", "電視劇",
+      "戏剧", "戲劇", "影劇", "影劇台", "电视剧", "電視劇", "全家",
       "梨园", "移动戏曲", "剧集", "剧场", "港剧", "重温", "Aod",
       "Drama", "DRAMA"
     ],
@@ -88,7 +88,7 @@
     ],
     "📗教育频道": [
       "教育", "国学", "文物", "CETV", "EDU", "Edu", "LEARN", "Learn", 
-      "学习", "學習", "法治", "金色",
+      "学习", "學習", "法治", "金色", "生命",
       "MOMO", "幸福", "車迷", "育乐", "科教", "ELTV", "Cloudflare",
       "Redbull", "FIFA+", "PowerNation", "Outdoor Channel"
     ],
