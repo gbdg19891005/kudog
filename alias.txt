@@ -112,6 +112,45 @@ TVBS欢乐,TVBS歡樂,TVBS Joy,TVBS综艺,TVBS綜藝
 年代新闻,年代新聞,ERA News
 八大综合,八大綜合,八大电视,八大電視,八大综合台,八大綜合台
 
+中天新闻,中天新聞,CTI News,CTi-TV News,中天新闻台
+中天综合,中天綜合,CTI Variety,CTi-TV Variety
+中天亚洲,中天亞洲,CTI Asia,CTi-TV Asia
+
+TVBS,TVBS综合,TVBS綜合,TVBS General
+TVBS HD,TVBS高清台,TVBS高畫質
+TVBS精采,TVBS精彩,TVBS精彩台,TVBS精采台,TVBS E!
+
+东森购物,東森購物,ETMall
+东森综合,東森綜合,ETTV Variety
+东森戏剧,東森戲劇,ETTV Drama
+东森洋片,東森洋片,ETTV Western
+东森电影,東森電影,ETTV Movie
+
+纬来日本,緯來日本,Videoland Japan
+纬来戏剧,緯來戲劇,Videoland Drama
+纬来体育,緯來體育,Videoland Sports
+纬来电影,緯來電影,Videoland Movie
+纬来综合,緯來綜合,Videoland Variety
+
+民视新闻,民視新聞,FTV News
+民视台湾,民視台灣,FTV Taiwan
+民视第一,民視第一,FTV One
+
+台视新闻,台視新聞,TTV News
+中视新闻,中視新聞,CTV News
+中视经典,中視經典,CTV Classic
+华视新闻,華視新聞,CTS News
+
+公视,公視,PTS
+公视三台,公視三台,PTS3
+公视台湾,公視台灣,PTS Taiwan
+
+壹新闻,壹新聞,NextTV News
+壹综合,壹綜合,NextTV Variety
+
+非凡新闻,非凡新聞,UFO TV,Unique News
+寰宇新闻,寰宇新聞,Global News,Global TV
+
 
 # ===== 国际频道 =====
 CNN,CNN International,CNN新闻
