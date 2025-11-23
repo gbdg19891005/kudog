@@ -74,6 +74,18 @@ http://36.135.118.195:85/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
 http://36.135.118.195:85/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="长春市民生活" tvg-logo="" group-title="未分组",长春市民生活
 http://36.135.118.195:85/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="龙华日韩" tvg-logo="" group-title="未分组",龙华日韩
+https://cdn6.101.qzz.io/163189/lhrh
+#EXTINF:-1 tvg-name="龙华经典" tvg-logo="" group-title="未分组",龙华经典
+https://cdn6.101.qzz.io/163189/lhjd
+#EXTINF:-1 tvg-name="龙华卡通" tvg-logo="" group-title="未分组",龙华卡通
+https://cdn6.101.qzz.io/163189/lhkt
+#EXTINF:-1 tvg-name="龙华偶像" tvg-logo="" group-title="未分组",龙华偶像
+https://cdn6.101.qzz.io/163189/lhox
+#EXTINF:-1 tvg-name="龙华戏剧" tvg-logo="" group-title="未分组",龙华戏剧
+https://cdn6.101.qzz.io/163189/lhxj
+#EXTINF:-1 tvg-name="龙华洋片" tvg-logo="" group-title="未分组",龙华洋片
+https://cdn6.101.qzz.io/163189/lhyp
 #EXTINF:-1 tvg-name="新视觉HD" group-title="未分组",新视觉HD
 http://120.76.248.139/live/bfgd/4200000249.m3u8
 #EXTINF:-1 tvg-name="纬来精彩" group-title="未分组",纬来精彩
