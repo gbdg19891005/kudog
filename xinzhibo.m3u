@@ -56,8 +56,6 @@ http://36.135.118.195:85/tsfile/live/1026_1.m3u8?key=txiptv&playlive=1&authid=0
 http://36.135.118.195:85/tsfile/live/1027_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="环球奇观" tvg-logo="https://logo.catvod.com/环球奇观.png" group-title="未分组",环球奇观
 http://36.135.118.195:85/tsfile/live/1028_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://logo.catvod.com/吉林卫视.png" group-title="未分组",吉林卫视
-http://36.135.118.195:85/tsfile/live/0018_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="吉林都市" tvg-logo="https://logo.catvod.com/吉林都市.png" group-title="未分组",吉林都市
 http://36.135.118.195:85/tsfile/live/0019_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="吉视生活" tvg-logo="https://logo.catvod.com/吉视生活.png" group-title="未分组",吉视生活
