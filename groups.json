@@ -13,9 +13,9 @@
     "💥港|澳|台": [
       "凤凰", "鳳凰", "翡翠", "明珠", "无线", "無線", "TVB", "ViuTV", "RTHK", "香蕉", "鳳梨",
       "有线", "有線", "台视", "台視", "中视", "中視", "华视", "華視", "民视", "民視",
-      "VIU", "原住民", "滾動力", "东森", "三立", "TVBS", "年代", "Macau",
+      "VIU", "原住民", "滾動力", "东森", "三立", "TVBS", "年代", "Macau", "台湾台", "台语台",
       "astro", "生命", "番薯", "寰宇", "中天", "鏡電視", "镜电视", "客家", "大立",
-      "大愛", "國會", "好消息", "非凡", "东风", "東風",
+      "大愛", "國會", "好消息", "非凡", "东风", "東風", "综合台", "第一台",
       "JET", "壹电视", "壹電視", "Taiwan Plus", "AXN", "公视", "国会", "美国之音",
       "新闻台$", "新聞台$", "资讯台$", "資訊台$"
     ],
@@ -28,11 +28,11 @@
       "都市", "都市频道", "省台", "省臺", "综合", "新闻频道", "公共新闻"
     ],
     "🌈综艺频道": [
-      "综艺", "綜藝", "娱乐", "娛樂", "综艺台", "綜藝台", "テレ東", "孤独",
+      "综艺", "綜藝", "娱乐", "娛樂", "综艺台", "綜藝台", "テレ東", "孤独", "精彩",
       "TVBS欢乐", "FastTV飛速看", "TVBS歡樂", "小品", "フジテレビ", "華藝",
       "Talk", "Oprah Winfrey Network", "BET", "BET HER", "KFN", "Korea", "Gugak",
       "BRAVO", "BuZZr", "Gusto TV", "HGTV", "Comedy TV", "八度", "美食",
-      "Sony One Dragons' Den", "Great British Menu", "HollyWire",
+      "Sony One Dragons' Den", "Great British Menu", "HollyWire", "日本",
       "Fashion Channel", "Fashion TV", "Pulse", "Tastemade",
       "八大综艺", "八大綜藝", "旅遊", "旅游", "豬哥亮",
       "猪哥亮"
@@ -73,7 +73,7 @@
       "Newsmax", "TBS Seoul", "WION", "Newsy", "News 12", "Scripps News",
       "Sky News", "FOX NEWS", "Fox News", "France24", "FRANCE24", "阿里郎",
       "Arirang", "KBS", "MBC", "SBS", "英语", "CGTN", "CNA",
-      "Al Jazeera", "半岛", "半島", "日本", "德國", "ROCK", "HITS",
+      "Al Jazeera", "半岛", "半島", "德國", "ROCK", "HITS",
       "INULTRA", "Global", "LUXE"
     ],
     "🧙‍♀️戏剧频道": [
