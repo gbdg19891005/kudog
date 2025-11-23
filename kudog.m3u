@@ -50,7 +50,7 @@ http://gslbmgsplive.miguvideo.com/migu/kailu/20200324/cctv9hd/51/index.m3u8?msis
 #EXTINF:-1 tvg-id="CCTV17农业农村" tvg-name="CCTV17农业农村" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5501/083/631/202204010052_1626678428060_H32_1080.webp" group-title="🇨🇳央视频道",CCTV17农业农村
 http://gslbmgsplive.miguvideo.com/migu/kailu/20200324/cctv17hd/51/index.m3u8?msisdn=20251123200028c147e374d5e9447b8c9c893379bc47ac&mdspid=&spid=699004&netType=0&sid=5501083631&pid=2028597139&timestamp=20251123200028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=673168256&ParentNodeID=-99&assertID=5501083631&client_ip=106.13.250.89&SecurityKey=20251123200028&promotionId=&mvid=5102910396&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=010e0e5b156f7309e1af7d0411655338&ddCalcu=8031e3025e35006e151b4105d67ff7a310e9
 #EXTINF:-1 tvg-id="睛彩中原" tvg-name="睛彩中原" group-title="🇨🇳央视频道",睛彩中原
-http://tvcdn.stream3.hndt.com/tv/65b27d4c017e100039bd55c200000000_transios/playlist.m3u8?wsSecret=219f16e45e8d57107eaafd078506ac23&wsTime=1763913621
+http://tvcdn.stream3.hndt.com/tv/65b27d4c017e100039bd55c200000000_transios/playlist.m3u8?wsSecret=72f7acac46715c5500855d0f54c6237a&wsTime=1763920822
 #EXTINF:-1 tvg-id="CCTV第一剧场" tvg-name="CCTV第一剧场" group-title="🇨🇳央视频道",CCTV第一剧场
 https://epg.pw/stream/6d7bf281e3d739806a73f5373acaa6e01988ec9739f5ac1355ce54b47a928472.m3u8
 #EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="" group-title="🇨🇳卫视频道",海南卫视
@@ -125,7 +125,7 @@ http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221226008/index.m3u8
 #EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" group-title="🇨🇳卫视频道",深圳卫视
 http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221225728/index.m3u8
 #EXTINF:-1 tvg-id="北京卫视4K超高清" tvg-name="北京卫视4K超高清" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京卫视.png" group-title="🇨🇳卫视频道",北京卫视4K超高清
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s110/index.m3u8?time=1763904620&sign=0aa149cf8aa1e27231d2a653caf6f6b7
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s110/index.m3u8?time=1763907015&sign=b581d28a1436e624c856f94106067aa1
 #EXTINF:-1 group-title="🇨🇳卫视频道",澳门莲花
 http://live-hls.macaulotustv.com/lotustv/macaulotustv.m3u8
 #EXTINF:-1 group-title="🇨🇳卫视频道",澳视澳门
@@ -254,29 +254,6 @@ https://tzh911.qzz.io/play-smt.php?id=ctinews
 https://tzh911.qzz.io/play-smt.php?id=huanyuxinwen_twn
 #EXTINF:-1 tvg-id="寰宇财经台" tvg-name="寰宇财经台" tvg-logo="" group-title="💥港|澳|台",寰宇财经台
 https://tzh911.qzz.io/play-smt.php?id=huanyutaiwan_twn
-#EXTINF:-1 tvg-id="八大第一台" tvg-name="八大第一台" tvg-logo="" group-title="💥港|澳|台",八大第一台
-https://tzh911.qzz.io/play-smt.php?id=badafirst
-#EXTINF:-1 tvg-id="八大综合台" tvg-name="八大综合台" tvg-logo="" group-title="💥港|澳|台",八大综合台
-https://tzh911.qzz.io/play-smt.php?id=badazhonghe
-#EXTINF:-1 tvg-id="八大戏剧台" tvg-name="八大戏剧台" tvg-logo="" group-title="💥港|澳|台",八大戏剧台
-https://tzh911.qzz.io/play-smt.php?id=badadrama
-#EXTINF:-1 tvg-id="八大娱乐台" tvg-name="八大娱乐台" tvg-logo="" group-title="💥港|澳|台",八大娱乐台
-https://tzh911.qzz.io/play-smt.php?id=badaentertain
-#EXTINF:-1 tvg-id="纬来体育" tvg-name="纬来体育" tvg-logo="" group-title="💥港|澳|台",纬来体育
-https://tzh911.qzz.io/play-smt.php?id=videolandsport
-rtmp://f13h.mine.nu/sat/tv721
-#EXTINF:-1 tvg-id="纬来精彩" tvg-name="纬来精彩" tvg-logo="" group-title="💥港|澳|台",纬来精彩
-https://tzh911.qzz.io/play-smt.php?id=videolandspecial_twn
-http://61.221.215.25:8800/hls/48/index.m3u8
-#EXTINF:-1 tvg-id="纬来日本" tvg-name="纬来日本" tvg-logo="" group-title="💥港|澳|台",纬来日本
-https://tzh911.qzz.io/play-smt.php?id=videolandjapan
-#EXTINF:-1 tvg-id="纬来电影" tvg-name="纬来电影" tvg-logo="" group-title="💥港|澳|台",纬来电影
-https://tzh911.qzz.io/play-smt.php?id=videolandmovie
-#EXTINF:-1 tvg-id="纬来综合" tvg-name="纬来综合" tvg-logo="" group-title="💥港|澳|台",纬来综合
-https://tzh911.qzz.io/play-smt.php?id=videolandzonghe
-#EXTINF:-1 tvg-id="纬来育乐" tvg-name="纬来育乐" tvg-logo="" group-title="💥港|澳|台",纬来育乐
-https://tzh911.qzz.io/play-smt.php?id=videolandyule
-rtmp://f13h.mine.nu/sat/tv701
 #EXTINF:-1 tvg-id="小公视" tvg-name="小公视" tvg-logo="" group-title="💥港|澳|台",小公视
 https://tzh911.qzz.io/play-smt.php?id=pts3_twn
 #EXTINF:-1 tvg-id="非凡新闻" tvg-name="非凡新闻" tvg-logo="" group-title="💥港|澳|台",非凡新闻
@@ -284,10 +261,6 @@ https://tzh911.qzz.io/play-smt.php?id=feifannews_twn
 rtmp://f13h.mine.nu/sat/tv581
 #EXTINF:-1 tvg-id="年代新闻" tvg-name="年代新闻" tvg-logo="" group-title="💥港|澳|台",年代新闻
 https://tzh911.qzz.io/play-smt.php?id=niandainews_twn
-#EXTINF:-1 tvg-id="靖天国际" tvg-name="靖天国际" tvg-logo="" group-title="💥港|澳|台",靖天国际
-https://tzh911.qzz.io/play-smt.php?id=jingtianintl_twn
-#EXTINF:-1 tvg-id="靖天卡通" tvg-name="靖天卡通" tvg-logo="" group-title="💥港|澳|台",靖天卡通
-https://tzh911.qzz.io/play-smt.php?id=jingtiancartoon_twn
 #EXTINF:-1 tvg-id="大愛電視" tvg-name="大愛電視" tvg-logo="" group-title="💥港|澳|台",大愛電視
 https://tzh911.qzz.io/play-smt.php?id=daai_twn
 #EXTINF:-1 tvg-id="大愛二台" tvg-name="大愛二台" tvg-logo="" group-title="💥港|澳|台",大愛二台
@@ -347,38 +320,16 @@ http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk32
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv003
 #EXTINF:-1 tvg-name=民视综艺 group-title="💥港|澳|台", 民视综艺 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv004
-#EXTINF:-1 tvg-name=八大精彩台 group-title="💥港|澳|台", 八大精彩台 
-https://tzh911.qzz.io/litv.php?id=4gtv-4gtv034
-#EXTINF:-1 tvg-name=八大综艺台 group-title="💥港|澳|台", 八大综艺台 
-https://tzh911.qzz.io/litv.php?id=4gtv-4gtv039
 #EXTINF:-1 tvg-name=公视戏剧 group-title="💥港|澳|台", 公视戏剧 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv042
 #EXTINF:-1 tvg-name=客家电视台 group-title="💥港|澳|台", 客家电视台 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv043
-#EXTINF:-1 tvg-name=靖天卡通台 group-title="💥港|澳|台", 靖天卡通台 
-https://tzh911.qzz.io/litv.php?id=4gtv-4gtv044
-#EXTINF:-1 tvg-name=靖天综合台 group-title="💥港|澳|台", 靖天综合台 
-https://tzh911.qzz.io/litv.php?id=4gtv-4gtv046
-#EXTINF:-1 tvg-name=靖天日本台 group-title="💥港|澳|台", 靖天日本台 
-https://tzh911.qzz.io/litv.php?id=4gtv-4gtv047
 #EXTINF:-1 tvg-name=非凡商业 group-title="💥港|澳|台", 非凡商业 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv048
 #EXTINF:-1 tvg-name=华视新闻 group-title="💥港|澳|台", 华视新闻 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv052
-#EXTINF:-1 tvg-name=靖天欢乐台 group-title="💥港|澳|台", 靖天欢乐台 
-https://tzh911.qzz.io/litv.php?id=4gtv-4gtv054
-#EXTINF:-1 tvg-name=靖天映画 group-title="💥港|澳|台", 靖天映画 
-https://tzh911.qzz.io/litv.php?id=4gtv-4gtv055
 #EXTINF:-1 tvg-name=台视财经 group-title="💥港|澳|台", 台视财经 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv056
-#EXTINF:-1 tvg-name=靖天戏剧台 group-title="💥港|澳|台", 靖天戏剧台 
-https://tzh911.qzz.io/litv.php?id=4gtv-4gtv058
-#EXTINF:-1 tvg-name=靖天电影台 group-title="💥港|澳|台", 靖天电影台 
-https://tzh911.qzz.io/litv.php?id=4gtv-4gtv061
-#EXTINF:-1 tvg-name=靖天育乐台 group-title="💥港|澳|台", 靖天育乐台 
-https://tzh911.qzz.io/litv.php?id=4gtv-4gtv062
-#EXTINF:-1 tvg-name=靖天国际台 group-title="💥港|澳|台", 靖天国际台 
-https://tzh911.qzz.io/litv.php?id=4gtv-4gtv063
 #EXTINF:-1 tvg-name=中视菁采 group-title="💥港|澳|台", 中视菁采 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv064
 #EXTINF:-1 tvg-name=靖天资讯台 group-title="💥港|澳|台", 靖天资讯台 
@@ -427,8 +378,6 @@ http://iptv.4666888.xyz/iptv2A.php?id=32
 http://iptv.4666888.xyz/iptv2A.php?id=33
 #EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞" group-title="💥港|澳|台",TVBS新聞
 http://iptv.4666888.xyz/iptv2A.php?id=43
-#EXTINF:-1 tvg-id="靖天电影" tvg-name="靖天电影" group-title="💥港|澳|台",靖天电影
-http://iptv.4666888.xyz/iptv2A.php?id=56
 #EXTINF:-1 tvg-id="民視綜藝" tvg-name="民視綜藝" group-title="💥港|澳|台",民視綜藝
 http://iptv.4666888.xyz/iptv2A.php?id=46
 #EXTINF:-1 tvg-id="TVBS精采" tvg-name="TVBS精采" group-title="💥港|澳|台",TVBS精采
@@ -459,8 +408,6 @@ https://stream1.freetv.fun/min-shi--xin-wen-1.m3u8
 https://epg.pw/stream/6b49e3faa38adda85abab446f032dc1e686baa0760a9cfa66e2df8fd6fe3b445.m3u8
 #EXTINF:-1 tvg-id="VIU" tvg-name="VIU" group-title="💥港|澳|台",VIU
 http://php.jdshipin.com:8880/smt.php?id=viu1_twn
-#EXTINF:-1 tvg-id="八大戏剧" tvg-name="八大戏剧" group-title="💥港|澳|台",八大戏剧
-https://stream1.freetv.fun/6b1701a07ea621155cdaa9ee604b6c6ebc763093fafaf493ce7a3c2e206be799.m3u8
 #EXTINF:-1 tvg-id="TVB PLUS" tvg-name="TVB PLUS" tvg-logo="https://logo.laobaitv.net/tvbplus" group-title="💥港|澳|台",TVB PLUS
 http://php.jdshipin.com/TVOD/iptv.php?id=tvbp
 #EXTINF:-1 tvg-id="VIU TV" tvg-name="VIU TV" tvg-logo="https://logo.laobaitv.net/viutv" group-title="💥港|澳|台",VIU TV
@@ -473,6 +420,10 @@ https://smart.dxjc.pp.ua/smart.php?id=zhongshihd_twn&token=tmxk
 https://smart.dxjc.pp.ua/smart.php?id=ftvhd_taiwan&token=tmxk
 #EXTINF:-1 group-title="💥港|澳|台",Taiwan Plus
 https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8
+#EXTINF:-1 tvg-id="八大综合台" tvg-name="八大综合台" tvg-logo="" group-title="💎地方频道",八大综合台
+https://tzh911.qzz.io/play-smt.php?id=badazhonghe
+#EXTINF:-1 tvg-id="纬来综合" tvg-name="纬来综合" tvg-logo="" group-title="💎地方频道",纬来综合
+https://tzh911.qzz.io/play-smt.php?id=videolandzonghe
 #EXTINF:-1 tvg-id="爱尔达综合台" tvg-name="爱尔达综合台" tvg-logo="" group-title="💎地方频道",爱尔达综合台
 https://tzh911.qzz.io/play-smt.php?id=eltazonghe_twn
 #EXTINF:-1 tvg-id="CITY都市剧场" tvg-name="CITY都市剧场" tvg-logo="" group-title="💎地方频道",都市剧场
@@ -534,21 +485,23 @@ http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221225749/index.m3u8
 #EXTINF:-1 tvg-id="都市剧场" tvg-name="都市剧场" group-title="💎地方频道",都市剧场
 http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221225762/index.m3u8
 #EXTINF:-1 tvg-id="北京新闻" tvg-name="北京新闻" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京新闻.png" group-title="💎地方频道",北京新闻
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s9/index.m3u8?time=1763904617&sign=137d940cbe70b110f2b66a5c9a2750da
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s9/index.m3u8?time=1763907013&sign=b849d6e53cab4115a0911ef710df4a3d
 #EXTINF:-1 tvg-id="北京影视" tvg-name="北京影视" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京影视.png" group-title="💎地方频道",北京影视
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s4/index.m3u8?time=1763904613&sign=3857a96175a6d54cfea536252c43750c
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s4/index.m3u8?time=1763907011&sign=c9134619b8954be7cc757203647c6137
 #EXTINF:-1 tvg-id="北京生活" tvg-name="北京生活" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京生活.png" group-title="💎地方频道",北京生活
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s7/index.m3u8?time=1763904616&sign=0e8e25da182ed44e6083ff6aff4048a4
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s7/index.m3u8?time=1763907013&sign=23ba6b41a1e1098f1ae572eb3b7986c7
 #EXTINF:-1 tvg-id="北京文艺" tvg-name="北京文艺" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京文艺.png" group-title="💎地方频道",北京文艺
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s2/index.m3u8?time=1763904610&sign=180020ef8b0034b2ba4b2deabd9cfdec
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s2/index.m3u8?time=1763907008&sign=a4604e3ee3e74281fed1aa44b6b44b0f
 #EXTINF:-1 tvg-id="北京财经" tvg-name="北京财经" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京财经.png" group-title="💎地方频道",北京财经
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s5/index.m3u8?time=1763904615&sign=c4ceba26ea42a74b1458d1f805653476
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s5/index.m3u8?time=1763907012&sign=2d650771e48851cf7252bb022fea139a
 #EXTINF:-1 tvg-id="北京纪实科教" tvg-name="北京纪实科教" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京纪实科教.png" group-title="💎地方频道",北京纪实科教
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s3/index.m3u8?time=1763904611&sign=5ef9f9125678df040b78f035c9d8abf5
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s3/index.m3u8?time=1763907009&sign=30fde703c56ee3048b239ebec7637705
 #EXTINF:-1 tvg-id="北京卡酷少儿" tvg-name="北京卡酷少儿" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京卡酷少儿.png" group-title="💎地方频道",北京卡酷少儿
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s10/index.m3u8?time=1763904619&sign=f8c7a96b0c421d9487ec3637aeb83f0b
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s10/index.m3u8?time=1763907014&sign=4b567283bb0f502fb6f9f13fbb8efb10
 #EXTINF:-1 group-title="💎地方频道",娱乐新闻
 http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw
+#EXTINF:-1 tvg-name=靖天综合台 group-title="💎地方频道", 靖天综合台 
+https://tzh911.qzz.io/litv.php?id=4gtv-4gtv046
 #EXTINF:-1 tvg-name=镜新闻 group-title="💎地方频道", 镜新闻 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv075
 #EXTINF:-1 tvg-name=半岛新闻 group-title="💎地方频道", 半岛新闻 
@@ -616,17 +569,17 @@ http://gslbmgsplive.miguvideo.com/migu/kailu/sdjyws/51/20250915/index.m3u8?msisd
 #EXTINF:-1 tvg-id="新动力量创一流" tvg-name="新动力量创一流" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/019/523/202506060000_1749138941378_H32_1080.webp" group-title="💎地方频道",新动力量创一流
 http://gslbmgsplive.miguvideo.com/migu/virtuallive2/5900002409/51/20210706/index.m3u8?msisdn=202511232000353e9a14556c544c32b5d00db8155acf20&mdspid=&spid=800033&netType=0&sid=5910019523&pid=2028597139&timestamp=20251123200035&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=713589837&ParentNodeID=-99&assertID=5910019523&client_ip=106.13.250.89&SecurityKey=20251123200035&promotionId=&mvid=5900002419&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=6fb2f22769d79ff02c20ee6edf788b5d&ddCalcu=d65febb28238f072f2d7e669ede7092fcf20
 #EXTINF:-1 tvg-id="新闻频道" tvg-name="新闻频道" group-title="💎地方频道",新闻频道
-http://tvcdn.stream3.hndt.com/tv/65bb6966017e100059b75a8500000000_transios/playlist.m3u8?wsSecret=8b29eeba7f55f6fe0d42d4dc086d3992&wsTime=1763913621
+http://tvcdn.stream3.hndt.com/tv/65bb6966017e100059b75a8500000000_transios/playlist.m3u8?wsSecret=117deaa886186b85dccda3628f670acb&wsTime=1763920822
 #EXTINF:-1 tvg-id="都市频道" tvg-name="都市频道" group-title="💎地方频道",都市频道
-http://tvcdn.stream3.hndt.com/tv/65c3fbc5017e1000fde13faa00000000_transios/playlist.m3u8?wsSecret=3d05040cc7c811b07a6dd56e941d141f&wsTime=1763913621
+http://tvcdn.stream3.hndt.com/tv/65c3fbc5017e1000fde13faa00000000_transios/playlist.m3u8?wsSecret=4c691932024737de91f768162d509cea&wsTime=1763920822
 #EXTINF:-1 tvg-id="民生频道" tvg-name="民生频道" group-title="💎地方频道",民生频道
-http://tvcdn.stream3.hndt.com/tv/65bef28a017e10009c49d5f900000000_transios/playlist.m3u8?wsSecret=6e29554b7d9456babc5e7f8b53ea63dc&wsTime=1763913621
+http://tvcdn.stream3.hndt.com/tv/65bef28a017e10009c49d5f900000000_transios/playlist.m3u8?wsSecret=73de0dbe07494ac5e59e68c219a13df2&wsTime=1763920822
 #EXTINF:-1 tvg-id="法治频道" tvg-name="法治频道" group-title="💎地方频道",法治频道
-http://tvcdn.stream3.hndt.com/tv/65be54a9017e1000af59fb4800000000_transios/playlist.m3u8?wsSecret=658f74059146550bd4d8f69bd1521b8f&wsTime=1763913621
+http://tvcdn.stream3.hndt.com/tv/65be54a9017e1000af59fb4800000000_transios/playlist.m3u8?wsSecret=2f480fd7290fb31ede605a7577985f2f&wsTime=1763920822
 #EXTINF:-1 tvg-id="公共频道" tvg-name="公共频道" group-title="💎地方频道",公共频道
-http://tvcdn.stream3.hndt.com/tv/65b93894017e10000ae6b07d00000000_transios/playlist.m3u8?wsSecret=0e9b03370335120ee3fb57a68326d5be&wsTime=1763913621
+http://tvcdn.stream3.hndt.com/tv/65b93894017e10000ae6b07d00000000_transios/playlist.m3u8?wsSecret=3c911259658d8162f2018828de4dafc0&wsTime=1763920822
 #EXTINF:-1 tvg-id="河南乡村频道" tvg-name="河南乡村频道" group-title="💎地方频道",河南乡村频道
-http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=ee1d1d3554e71852f2d125f3e52118b9&wsTime=1763913621
+http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=8fe386443654d8b7694efce9ff1a88cc&wsTime=1763920822
 #EXTINF:-1 tvg-id="" tvg-name="南京新闻综合" tvg-logo="https://logo.laobaitv.net/njxwzh" group-title="💎地方频道",南京新闻综合频道
 https://live.chinacert.cftest5.cn/mg/?id=838109047
 #EXTINF:-1 tvg-id="" tvg-name="南京教科" tvg-logo="https://logo.laobaitv.net/njjk" group-title="💎地方频道",南京教科频道
@@ -671,6 +624,8 @@ https://live.chinacert.cftest5.cn/mg/?id=956909356
 https://live.chinacert.cftest5.cn/mg/?id=956909303
 #EXTINF:-1 tvg-id="" tvg-name="陕西新闻资讯" tvg-logo="https://logo.laobaitv.net/shannxxwzx" group-title="💎地方频道",陕西新闻资讯频道
 https://live.chinacert.cftest5.cn/mg/?id=956909289
+#EXTINF:-1 tvg-id="八大娱乐台" tvg-name="八大娱乐台" tvg-logo="" group-title="🌈综艺频道",八大娱乐台
+https://tzh911.qzz.io/play-smt.php?id=badaentertain
 #EXTINF:-1 tvg-id="EYE 旅游台" tvg-name="EYE 旅游台" tvg-logo="" group-title="🌈综艺频道",EYE 旅游台
 https://tzh911.qzz.io/play-smt.php?id=eyetvtravel_twn
 #EXTINF:-1 tvg-id="亚洲美食" tvg-name="亚洲美食" tvg-logo="" group-title="🌈综艺频道",亚洲美食
@@ -695,6 +650,8 @@ http://live.iill.top/douyu.php?id=260322
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv006
 #EXTINF:-1 tvg-name=GLOBETROTTER group-title="🌈综艺频道", GLOBETROTTER 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv016
+#EXTINF:-1 tvg-name=八大综艺台 group-title="🌈综艺频道", 八大综艺台 
+https://tzh911.qzz.io/litv.php?id=4gtv-4gtv039
 #EXTINF:-1 tvg-name=爱尔达娱乐 group-title="🌈综艺频道", 爱尔达娱乐 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv070
 #EXTINF:-1 tvg-id="華藝中文" tvg-name="華藝中文" group-title="🌈综艺频道",華藝中文
@@ -738,13 +695,16 @@ https://af7a8b4e.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2
 #EXTINF:-1  tvg-id="jcom_2_1072_32742" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7FE6-071-400x400.png" group-title="🌈综艺频道", TV Tokyo (テレ東)
 https://tv2.jptv.live/hls/main.m3u8
 #EXTINF:-1  tvg-id="tx" tvg-logo="https://statics.tver.jp/images/icon/tx.jpg" group-title="🌈综艺频道", テレ東
-https://ssai-variants.streaks.jp/v5/tver-simul-tx/035622a82bcb46bc8e41ca5351f95a00/3887c96991ce4ae1bec43ea19f24c4d5/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-177-8159/375902e6-c0bf-4104-a0f7-20b34fb8c356/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLXR4LnN0cmVha3MuanAiLCJvZmZzZXQiOjksInBkdCI6Ii0xMzI0OCJ9.ipe-s8NeMEPLdlNqE4jV_GW9l256DPZCIRT6NrXnwhE
+https://ssai-variants.streaks.jp/v5/tver-simul-tx/035622a82bcb46bc8e41ca5351f95a00/3887c96991ce4ae1bec43ea19f24c4d5/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-177-8159/1ee2d2b6-37ea-4396-acc7-538a10e19e27/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLXR4LnN0cmVha3MuanAiLCJvZmZzZXQiOjksInBkdCI6Ii0xMzI0OCJ9.ipe-s8NeMEPLdlNqE4jV_GW9l256DPZCIRT6NrXnwhE
 #EXTINF:-1  tvg-id="cx" tvg-logo="https://statics.tver.jp/images/icon/cx.jpg" group-title="🌈综艺频道", フジテレビ
-https://ssai-variants.streaks.jp/v5/tver-simul-cx/a78ebf1910144ba287907ec691bdc863/4817bf371f214463a3609e17a365f098/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-178-7884/349f2b90-4277-4dc9-b03c-d8dd1a1e7093/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLWN4LnN0cmVha3MuanAiLCJvZmZzZXQiOjksInBkdCI6Ii02NjI3In0.VA5RYohfCZlAwpFbyARPOXyTi-3S732ri-JMIxnzOGw
+https://ssai-variants.streaks.jp/v5/tver-simul-cx/a78ebf1910144ba287907ec691bdc863/4817bf371f214463a3609e17a365f098/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-178-7884/ca6360fd-120d-466d-a6e7-f7e487a79699/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLWN4LnN0cmVha3MuanAiLCJvZmZzZXQiOjksInBkdCI6Ii02NjI3In0.VA5RYohfCZlAwpFbyARPOXyTi-3S732ri-JMIxnzOGw
 #EXTINF:-1  tvg-id="gmt+9" tvg-logo="https://statics.tver.jp/images/content/thumbnail/live/xlarge/le8rg7d3tb.jpg" group-title="🌈综艺频道", FNN フジテレビNEWS24！
 https://variants.streaks.jp/v5/tver-splive/82ccf9500ea444e9bdc8dc4e4bb2a95f/e841f45bb8ac43568c8031df5e97eb7d/manifest_2.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNwbGl2ZS5zdHJlYWtzLmpwIn0.jtEWoPdQa08-jn8Q9ia0BaJF9eI-rwl7n8ZYSf_HooM
 #EXTINF:-1 tvg-id="HOY TV" tvg-name="HOY TV" tvg-logo="" group-title="⚽️体育频道",HOY TV
 https://tzh911.qzz.io/play-smt.php?id=hoycaijing_twn
+#EXTINF:-1 tvg-id="纬来体育" tvg-name="纬来体育" tvg-logo="" group-title="⚽️体育频道",纬来体育
+https://tzh911.qzz.io/play-smt.php?id=videolandsport
+rtmp://f13h.mine.nu/sat/tv721
 #EXTINF:-1 tvg-id="爱尔达体育1台" tvg-name="爱尔达体育1台" tvg-logo="" group-title="⚽️体育频道",爱尔达体育1台
 https://tzh911.qzz.io/play-smt.php?id=eltasport_twn
 #EXTINF:-1 tvg-id="爱尔达体育2台" tvg-name="爱尔达体育2台" tvg-logo="" group-title="⚽️体育频道",爱尔达体育2台
@@ -811,10 +771,10 @@ http://gslbmgsplive.miguvideo.com/migu/virtuallive2/5900002413/51/20210706/index
 http://gslbmgsplive.miguvideo.com/migu/lunbo/ouzhoubei/51/20240603/index.m3u8?msisdn=20251123200030782a740ac32a46b794e7b1fba2d488d8&mdspid=&spid=800033&netType=0&sid=5910022136&pid=2028597139&timestamp=20251123200030&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=915512915&ParentNodeID=-99&assertID=5910022136&client_ip=106.13.250.89&SecurityKey=20251123200030&promotionId=&mvid=5900006618&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=ee06c43944219f72e91660d14600708c&ddCalcu=ce8ee0027650c004634914d40261691f97e2
 #EXTINF:-1 tvg-id="武术世界" tvg-name="武术世界" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/201/202509251348_1758698474363_H32_1080.webp" group-title="⚽️体育频道",武术世界
 http://gslbmgsplive.miguvideo.com/migu/kailu/wssj/51/20250915/index.m3u8?msisdn=20251123200030457b1520c829414bbc4af9575b8d98fc&mdspid=&spid=600697&netType=0&sid=5910022201&pid=2028597139&timestamp=20251123200030&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=958475359&ParentNodeID=-99&assertID=5910022201&client_ip=106.13.250.89&SecurityKey=20251123200030&promotionId=&mvid=5900006724&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=a96e305e1be33ed46969e9ba776967ca&ddCalcu=aac9e7626e893060757ea1bb9ee3936e9d64
-#EXTINF:-1 tvg-id="武术频道" tvg-name="武术频道" group-title="⚽️体育频道",武术频道
-http://tvcdn.stream3.hndt.com/tv/65b4b750017e1000dbb9306200000000_transios/playlist.m3u8?wsSecret=fb8063a92b1aba6030b011749800bcbd&wsTime=1763913621
 #EXTINF:-1 tvg-id="体育休闲频道" tvg-name="体育休闲频道" group-title="⚽️体育频道",体育休闲频道
-http://gslbmgsplive.miguvideo.com/wd_r2/jstv/jstiyu/600/index.m3u8?msisdn=20251123180029000c76c786644b76b1fb65c805f49ff6&mdspid=&spid=699067&netType=0&sid=5500260554&pid=2028597139&timestamp=20251123180029&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=626064707&ParentNodeID=-99&assertID=5500260554&client_ip=106.13.250.88&SecurityKey=20251123180029&promotionId=&mvid=5100186459&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=c736ebe884930762958a7b755ce00fdc&ddCalcu=ccd7ef320660e0ebce585874b973a0875692
+http://gslbmgsplive.miguvideo.com/wd_r2/jstv/jstiyu/600/index.m3u8?msisdn=20251123220016c8bad6fef97c435b9b004f764e3b7aa1&mdspid=&spid=699067&netType=0&sid=5500260554&pid=2028597139&timestamp=20251123220016&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=626064707&ParentNodeID=-99&assertID=5500260554&client_ip=43.139.160.244&SecurityKey=20251123220016&promotionId=&mvid=5100186459&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=8ae46ca9dc918cc9a5f7a062487f182d&ddCalcu=d82ae8e2146f607c8a492d6c09a178fc5ca9
+#EXTINF:-1 tvg-id="武术频道" tvg-name="武术频道" group-title="⚽️体育频道",武术频道
+http://tvcdn.stream3.hndt.com/tv/65b4b750017e1000dbb9306200000000_transios/playlist.m3u8?wsSecret=b813d21d62e498cd4a5d72e9296d81cf&wsTime=1763920822
 #EXTINF:-1 tvg-id="UK: SKY SPORTS Cricket" tvg-name="UK: SKY SPORTS Cricket" group-title="⚽️体育频道",UK: SKY SPORTS Cricket
 http://nocable.cc:8080//OURTV/OURTV@4806/45940
 #EXTINF:-1 tvg-id="Red Bull TV" tvg-name="Red Bull TV" group-title="⚽️体育频道",Red Bull TV
@@ -873,6 +833,8 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=15270&avod=1&coppa=0&td=6&
 https://wurl120sports.global.transmit.live/hls/6863f426233e6604b8b45832/v1/stadium_gracenote/lg_us/latest/main/hls/playlist.m3u8?wurl_channel=160&wurl_name=Stadium&coppa=0&uid=[DEVICE_ID]&rdid=[IFA]&ifatype=[IFA_TYPE]&dnt=[LMT]&donotsell=[DNS]&isgdpr=[GDPR]&gdpr=[GDPR_CONSENT]&country=[COUNTRY]&pr=[US_PRIVACY]&appstoreurl=[APP_STOREURL]&bundleid=[APP_BUNDLE]&appname=[APP_NAME]&appversion=[APP_VERSION]&dt=[DEVICE_TYPE]&make=[DEVICE_MAKE]&model=[DEVICE_MODEL]&targetad=[TARGETAD_ALLOWED]&fck=[FCK]&viewsize=[VIEWSIZE]&nonce=[NONCE]
 #EXTINF:-1 tvg-logo="https://img.platform.wurl.dev/channel/1192/lg/73477a/LG-Logo-PNG-100x100_v1.png" group-title="⚽️体育频道",Overtime
 https://wurlrainbowmedia.global.transmit.live/hls/68c49d5a192b2a4e99da1da4/v1/amc_overtime_1/lg_us/latest/main/hls/playlist.m3u8?wurl_channel=1192&wurl_name=Overtime&coppa=0&uid=[DEVICE_ID]&rdid=[IFA]&ifatype=[IFA_TYPE]&dnt=[LMT]&donotsell=[DNS]&isgdpr=[GDPR]&gdpr=[GDPR_CONSENT]&country=[COUNTRY]&pr=[US_PRIVACY]&appstoreurl=[APP_STOREURL]&bundleid=[APP_BUNDLE]&appname=[APP_NAME]&appversion=[APP_VERSION]&dt=[DEVICE_TYPE]&make=[DEVICE_MAKE]&model=[DEVICE_MODEL]&targetad=[TARGETAD_ALLOWED]&fck=[FCK]&viewsize=[VIEWSIZE]
+#EXTINF:-1 tvg-id="纬来电影" tvg-name="纬来电影" tvg-logo="" group-title="🎥电影频道",纬来电影
+https://tzh911.qzz.io/play-smt.php?id=videolandmovie
 #EXTINF:-1 tvg-id="爱尔达影剧台" tvg-name="爱尔达影剧台" tvg-logo="" group-title="🎥电影频道",爱尔达影剧台
 https://tzh911.qzz.io/play-smt.php?id=eltayingju_twn
 #EXTINF:-1 tvg-id="龙华偶像" tvg-name="龙华偶像" tvg-logo="" group-title="🎥电影频道",龙华偶像
@@ -938,8 +900,14 @@ https://tzh911.qzz.io/litv.php?id=4gtv-4gtv011
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv017
 #EXTINF:-1 tvg-name=采昌影剧 group-title="🎥电影频道", 采昌影剧 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv049
+#EXTINF:-1 tvg-name=靖天映画 group-title="🎥电影频道", 靖天映画 
+https://tzh911.qzz.io/litv.php?id=4gtv-4gtv055
+#EXTINF:-1 tvg-name=靖天电影台 group-title="🎥电影频道", 靖天电影台 
+https://tzh911.qzz.io/litv.php?id=4gtv-4gtv061
 #EXTINF:-1 tvg-name=CATCHPLAY电影台 group-title="🎥电影频道", CATCHPLAY电影台 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv076
+#EXTINF:-1 tvg-id="靖天电影" tvg-name="靖天电影" group-title="🎥电影频道",靖天电影
+http://iptv.4666888.xyz/iptv2A.php?id=56
 #EXTINF:-1 tvg-id="邵氏武侠" tvg-name="邵氏武侠" group-title="🎥电影频道",邵氏武侠
 http://iptv.4666888.xyz/iptv2A.php?id=40
 #EXTINF:-1 tvg-id="東森电影" tvg-name="東森电影" group-title="🎥电影频道",東森电影
@@ -963,7 +931,7 @@ http://gslbmgsplive.miguvideo.com/wd-virtuallive5100030975-150/index.m3u8?msisdn
 #EXTINF:-1 tvg-id="南方影视" tvg-name="南方影视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2206/173/738/202304081513_2206173738_H32_1080.webp" group-title="🎥电影频道",南方影视
 http://gslbmgsplive.miguvideo.com/wd_r1/2018/nfmedia/nfys/1000/index.m3u8?msisdn=20251123200034f154f182fd1549748f43dbc52bf09cf1&mdspid=&spid=699054&netType=0&sid=2206173738&pid=2028597139&timestamp=20251123200034&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=614961829&ParentNodeID=-99&assertID=2206173738&client_ip=106.13.250.89&SecurityKey=20251123200034&promotionId=&mvid=2206173738&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=192d6a044bdf0f7e6214071a1debd0d6&ddCalcu=61d9e022dd4b60ead014a41b7d0f401f276e
 #EXTINF:-1 tvg-id="象视界" tvg-name="象视界" group-title="🎥电影频道",象视界
-http://tvcdn.stream3.hndt.com/tv/d34d1a2b0178100022de972e00000000_transios/playlist.m3u8?wsSecret=eac895a9b54794ce01a3f07618157ce8&wsTime=1763913621
+http://tvcdn.stream3.hndt.com/tv/d34d1a2b0178100022de972e00000000_transios/playlist.m3u8?wsSecret=610bd9ba2ed22f2919cfe0b08d9e42c7&wsTime=1763920822
 #EXTINF:-1 tvg-id="女神金" tvg-name="女神金" group-title="🎥电影频道",女神金
 http://zzy789.xyz/douyu1.php?id=747764
 #EXTINF:-1 tvg-id="网神影厅" tvg-name="网神影厅" group-title="🎥电影频道",网神影厅
@@ -1044,6 +1012,11 @@ https://d4whmvwm0rdvi.cloudfront.net/10007/99993044/hls/master.m3u8?ads.xumo_cha
 https://wurlewscripps.global.transmit.live/hls/68962b3c9b574d4b1045a55a/v1/scripps_ion_1/lg_us/latest/main/hls/playlist.m3u8?wurl_channel=1116&wurl_name=ION&coppa=0&uid=[DEVICE_ID]&rdid=[IFA]&ifatype=[IFA_TYPE]&dnt=[LMT]&donotsell=[DNS]&isgdpr=[GDPR]&gdpr=[GDPR_CONSENT]&country=[COUNTRY]&pr=[US_PRIVACY]&appstoreurl=[APP_STOREURL]&bundleid=[APP_BUNDLE]&appname=[APP_NAME]&appversion=[APP_VERSION]&dt=[DEVICE_TYPE]&make=[DEVICE_MAKE]&model=[DEVICE_MODEL]&targetad=[TARGETAD_ALLOWED]&fck=[FCK]&viewsize=[VIEWSIZE]
 #EXTINF:-1 tvg-logo="https://img.platform.wurl.dev/channel/378/lg/165a68/LG-Logo-PNG-100x100_v1.png" group-title="🎥电影频道",ION Plus
 https://ad6cad3b.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEdfSW9uUGx1c19ITFM/playlist.m3u8
+#EXTINF:-1 tvg-id="纬来育乐" tvg-name="纬来育乐" tvg-logo="" group-title="🌝动画频道",纬来育乐
+https://tzh911.qzz.io/play-smt.php?id=videolandyule
+rtmp://f13h.mine.nu/sat/tv701
+#EXTINF:-1 tvg-id="靖天卡通" tvg-name="靖天卡通" tvg-logo="" group-title="🌝动画频道",靖天卡通
+https://tzh911.qzz.io/play-smt.php?id=jingtiancartoon_twn
 #EXTINF:-1 tvg-id="龙华卡通" tvg-name="龙华卡通" tvg-logo="" group-title="🌝动画频道",龙华卡通
 https://cdn6.101.qzz.io/163189/lhkt
 #EXTINF:-1 tvg-id="卡酷少儿" tvg-name="卡酷少儿" group-title="🌝动画频道",卡酷少儿
@@ -1056,8 +1029,12 @@ http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221226094/index.m3u8
 http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221226021/index.m3u8
 #EXTINF:-1 tvg-id="动漫秀场" tvg-name="动漫秀场" group-title="🌝动画频道",动漫秀场
 http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221225764/index.m3u8
+#EXTINF:-1 tvg-name=靖天卡通台 group-title="🌝动画频道", 靖天卡通台 
+https://tzh911.qzz.io/litv.php?id=4gtv-4gtv044
 #EXTINF:-1 tvg-name=靖洋卡通台 group-title="🌝动画频道", 靖洋卡通台 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv057
+#EXTINF:-1 tvg-name=靖天育乐台 group-title="🌝动画频道", 靖天育乐台 
+https://tzh911.qzz.io/litv.php?id=4gtv-4gtv062
 #EXTINF:-1 tvg-name=爱放动漫 group-title="🌝动画频道", 爱放动漫 
 https://tzh911.qzz.io/litv.php?id=litv-ftv15
 #EXTINF:-1 tvg-id="中学生" tvg-name="中学生" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/019/355/202405081702_1715158115119_H32_1080.webp" group-title="🌝动画频道",中学生
@@ -1083,7 +1060,7 @@ https://tzh911.qzz.io/litv.php?id=4gtv-4gtv013
 #EXTINF:-1 tvg-name=达文西频道 group-title="🐷纪录片频道", 达文西频道 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv018
 #EXTINF:-1 tvg-id="新纪实" tvg-name="新纪实" tvg-logo="https://epg.iill.top/logo/新纪实.png" group-title="🐷纪录片频道",新纪实
-https://bp-resource-dfl.bestv.cn/155/3/video.m3u8?auth_key=1763992621-c68198b47aa841e3a227fe00df3651f1-0-4c12d63ad308a0cbd3b4363d73f7c6e7
+https://bp-resource-dfl.bestv.cn/155/3/video.m3u8?auth_key=1763993482-5609a055c2ca4b258908cf14470d19be-0-bf749fb3ab1fc0535c357ec24c2fe735
 #EXTINF:-1 tvg-id="CGTN外语纪录" tvg-name="CGTN外语纪录" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/356/202502251602_1740470541608_H32_1080.webp" group-title="🐷纪录片频道",CGTN外语纪录
 http://gslbmgsplive.miguvideo.com/envivo_v/2018/SD/cctv/doc/1000/index.m3u8?msisdn=20251123200029a38b37ac5db44bf5b249f354b604f89e&mdspid=&spid=699004&netType=0&sid=2200179356&pid=2028597139&timestamp=20251123200029&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=609006487&ParentNodeID=-99&assertID=2200179356&client_ip=106.13.250.89&SecurityKey=20251123200029&promotionId=&mvid=2200179356&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=35e74a315c74597587aa5234a1154cec&ddCalcu=c3e5ece24795401a13a1453c2754a5a97785
 #EXTINF:-1 tvg-id="老故事" tvg-name="老故事" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/002/202405081702_1715158648861_H32_1080.webp" group-title="🐷纪录片频道",老故事
@@ -1120,6 +1097,10 @@ https://cc2b7c60df304389ba60c76790d1a82f.mediatailor.us-east-1.amazonaws.com/v1/
 https://2d1ef59f0ad34d14888d8abce1b99264.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/LG-au_AutenticTravel/playlist.m3u8
 #EXTINF:-1 tvg-id="24.7.Dummy.us" tvg-logo="https://img.platform.wurl.dev/channel/1907/lg/e72dd3/LG-Logo-PNG-100x100_v1.png" group-title="🐷纪录片频道",Inside Outside
 https://52405cd167dc41c68edcaa842b916ccd.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/LG-au_InsideOutside/playlist.m3u8
+#EXTINF:-1 tvg-id="纬来日本" tvg-name="纬来日本" tvg-logo="" group-title="🌍️国际频道",纬来日本
+https://tzh911.qzz.io/play-smt.php?id=videolandjapan
+#EXTINF:-1 tvg-id="靖天国际" tvg-name="靖天国际" tvg-logo="" group-title="🌍️国际频道",靖天国际
+https://tzh911.qzz.io/play-smt.php?id=jingtianintl_twn
 #EXTINF:-1 tvg-id="Arirang" tvg-name="Arirang" tvg-logo="" group-title="🌍️国际频道",Arirang
 https://tzh911.qzz.io/play-smt.php?id=arirang_twn
 #EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="" group-title="🌍️国际频道",CGTN英语
@@ -1134,6 +1115,10 @@ https://0472.org/hls/cgtnx.m3u8
 https://0472.org/hls/cgtna.m3u8
 #EXTINF:-1 group-title="🌍️国际频道",Pearl
 http://php.jdshipin.com/TVOD/iptv.php?id=mzt2
+#EXTINF:-1 tvg-name=靖天日本台 group-title="🌍️国际频道", 靖天日本台 
+https://tzh911.qzz.io/litv.php?id=4gtv-4gtv047
+#EXTINF:-1 tvg-name=靖天国际台 group-title="🌍️国际频道", 靖天国际台 
+https://tzh911.qzz.io/litv.php?id=4gtv-4gtv063
 #EXTINF:-1 tvg-name=阿里郎 group-title="🌍️国际频道", 阿里郎 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv079
 #EXTINF:-1 tvg-name=国际财经 group-title="🌍️国际频道", 国际财经 
@@ -1189,11 +1174,13 @@ https://wurlnews12ny.global.transmit.live/hls/68c48577268ca4398b084116/v1/altice
 #EXTINF:-1 tvg-logo="https://img.platform.wurl.dev/channel/1149/lg/d696f2/LG-Logo-PNG-100x100_v1.png" group-title="🌍️国际频道",Scripps News
 https://339597f8.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEdfU2NyaXBwc05ld3NfSExT/playlist.m3u8
 #EXTINF:-1  tvg-id="ntv" tvg-logo="https://statics.tver.jp/images/icon/ntv.jpg" group-title="🌍️国际频道", 日テレ
-https://ssai-variants.streaks.jp/v5/tver-simul-ntv/938232e586b34196b704a5839663984b/cb593b5eafbb4645907e979d757e1dd5/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-174-11920/1d00fc66-cf42-469d-a051-eab7728f6614/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLW50di5zdHJlYWtzLmpwIiwib2Zmc2V0Ijo5LCJwZHQiOiItOTk1MSJ9.H8_VmULGLJ4SKgEqmLBsKRWU1l17Tm-5vQxPdDGgCT0
+https://ssai-variants.streaks.jp/v5/tver-simul-ntv/938232e586b34196b704a5839663984b/cb593b5eafbb4645907e979d757e1dd5/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-174-11920/67fdaf7f-810f-4ed0-9785-b5752b9a398a/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLW50di5zdHJlYWtzLmpwIiwib2Zmc2V0Ijo5LCJwZHQiOiItOTk1MSJ9.H8_VmULGLJ4SKgEqmLBsKRWU1l17Tm-5vQxPdDGgCT0
 #EXTINF:-1  tvg-id="gmt+9" tvg-logo="https://statics.tver.jp/images/content/thumbnail/live/xlarge/letibz75z1.jpg" group-title="🌍️国际频道", 日テレNEWS24
 https://variants.streaks.jp/v5/tver-splive/ecc1ad44856545d382a4ee08e254da80/5b19a12960f24e76af940cc5d0ab1261/manifest_2.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNwbGl2ZS5zdHJlYWtzLmpwIn0.jtEWoPdQa08-jn8Q9ia0BaJF9eI-rwl7n8ZYSf_HooM
 #EXTINF:-1  tvg-id="gmt+9" tvg-logo="https://statics.tver.jp/images/content/thumbnail/live/xlarge/lexcqiug5m.jpg" group-title="🌍️国际频道", TBS NEWS DIG Powered by JNN
 https://variants.streaks.jp/v5/tver-splive/b4f588f1d2144308ac356b0fc0007de6/4b9f219963c04339b18dc50db9b5c4d2/manifest_2.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNwbGl2ZS5zdHJlYWtzLmpwIn0.jtEWoPdQa08-jn8Q9ia0BaJF9eI-rwl7n8ZYSf_HooM
+#EXTINF:-1 tvg-id="八大戏剧台" tvg-name="八大戏剧台" tvg-logo="" group-title="🧙‍♀️戏剧频道",八大戏剧台
+https://tzh911.qzz.io/play-smt.php?id=badadrama
 #EXTINF:-1 tvg-id="龙华戏剧" tvg-name="龙华戏剧" tvg-logo="" group-title="🧙‍♀️戏剧频道",龙华戏剧
 https://tzh911.qzz.io/play-smt.php?id=lunghuaxiju_twn
 https://cdn6.101.qzz.io/163189/lhxj
@@ -1205,16 +1192,18 @@ http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221225771/index.m3u8
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=cwjd
 #EXTINF:-1 tvg-name=靖洋戏剧台 group-title="🧙‍♀️戏剧频道", 靖洋戏剧台 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv045
+#EXTINF:-1 tvg-name=靖天戏剧台 group-title="🧙‍♀️戏剧频道", 靖天戏剧台 
+https://tzh911.qzz.io/litv.php?id=4gtv-4gtv058
 #EXTINF:-1 tvg-name=台湾戏剧台 group-title="🧙‍♀️戏剧频道", 台湾戏剧台 
 https://tzh911.qzz.io/litv.php?id=litv-longturn22
 #EXTINF:-1 tvg-id="靖洋戏剧" tvg-name="靖洋戏剧" group-title="🧙‍♀️戏剧频道",靖洋戏剧
 http://iptv.4666888.xyz/iptv2A.php?id=42
 #EXTINF:-1 tvg-id="电视剧频道" tvg-name="电视剧频道" group-title="🧙‍♀️戏剧频道",电视剧频道
-http://tvcdn.stream3.hndt.com/tv/65bd329b017e1000648cd2ed00000000_transios/playlist.m3u8?wsSecret=186158c59ddfa8392a77c81da1dbe6f0&wsTime=1763913621
+http://tvcdn.stream3.hndt.com/tv/65bd329b017e1000648cd2ed00000000_transios/playlist.m3u8?wsSecret=fb4e839dce9961643a22d636e7652c90&wsTime=1763920822
 #EXTINF:-1 tvg-id="梨园频道" tvg-name="梨园频道" group-title="🧙‍♀️戏剧频道",梨园频道
-https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=5d1a8dc9cec62c9c4157c4b5299d6e7c&wsTime=1763913621
+https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=e2be7a960b52af3fb5b66a8eaeac31f8&wsTime=1763920822
 #EXTINF:-1 tvg-id="移动戏曲频道" tvg-name="移动戏曲频道" group-title="🧙‍♀️戏剧频道",移动戏曲频道
-https://tvcdn.stream3.hndt.com/tv/160ea8971f8b41f0905f88c7afe3effe_transios/playlist.m3u8?wsSecret=883089a23e7605d59df3ba9d9d7ee611&wsTime=1763913621
+https://tvcdn.stream3.hndt.com/tv/160ea8971f8b41f0905f88c7afe3effe_transios/playlist.m3u8?wsSecret=136631d4369c45340a47bb918365ef21&wsTime=1763920822
 #EXTINF:-1 tvg-id="热门港剧✔原" tvg-name="热门港剧✔原" group-title="🧙‍♀️戏剧频道",热门港剧✔原
 http://zzy789.xyz/douyu1.php?id=5522351
 #EXTINF:-1 tvg-id="经典剧集✔原" tvg-name="经典剧集✔原" group-title="🧙‍♀️戏剧频道",经典剧集✔原
@@ -1225,6 +1214,8 @@ http://zzy789.xyz/douyu1.php?id=4549169
 http://huanqiuzhibo.cn/manifest/douyu.php?id=4549169
 #EXTINF:-1 tvg-id="热门港剧" tvg-name="热门港剧" group-title="🧙‍♀️戏剧频道",热门港剧
 http://huanqiuzhibo.cn/manifest/douyu.php?id=5522351
+#EXTINF:-1 tvg-id="八大戏剧" tvg-name="八大戏剧" group-title="🧙‍♀️戏剧频道",八大戏剧
+https://stream1.freetv.fun/6b1701a07ea621155cdaa9ee604b6c6ebc763093fafaf493ce7a3c2e206be799.m3u8
 #EXTINF:-1 tvg-id="MTV Live" tvg-name="MTV Live" tvg-logo="" group-title="🎵音乐频道",MTV Live
 https://tzh911.qzz.io/play-smt.php?id=mtvhd_twn
 #EXTINF:-1 tvg-name=古典音乐台 group-title="🎵音乐频道", 古典音乐台 
@@ -1256,9 +1247,9 @@ http://gslbmgsplive.miguvideo.com/migu/kailu/cetv2/51/20240709/index.m3u8?msisdn
 #EXTINF:-1 tvg-id="CETV4" tvg-name="CETV4" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/154/202407181433_1721283870297_H32_1080.webp" group-title="📗教育频道",CETV4
 http://gslbmgsplive.miguvideo.com/migu/kailu/cetv4/51/20240709/index.m3u8?msisdn=2025112320003469ead74c40ec4a2ab1aebb8a03c76037&mdspid=&spid=699004&netType=0&sid=5910022154&pid=2028597139&timestamp=20251123200034&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287339&ParentNodeID=-99&assertID=5910022154&client_ip=106.13.250.89&SecurityKey=20251123200034&promotionId=&mvid=5900006640&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=df9889f64e86112b2dfaadc8a65d57e3&ddCalcu=3defe792583d80596fa684ced8a6a1f1d22b
 #EXTINF:-1 tvg-id="文物宝库" tvg-name="文物宝库" group-title="📗教育频道",文物宝库
-http://tvcdn.stream3.hndt.com/tv/65b5a69d017e1000aa645bea00000000_transios/playlist.m3u8?wsSecret=941be48f3f66911d08398a87b261829f&wsTime=1763913621
+http://tvcdn.stream3.hndt.com/tv/65b5a69d017e1000aa645bea00000000_transios/playlist.m3u8?wsSecret=958865beadb0e5a87ad415e39b5d19a3&wsTime=1763920822
 #EXTINF:-1 tvg-id="国学频道" tvg-name="国学频道" group-title="📗教育频道",国学频道
-rtmp://rtmp.tv.stream3.hndt.com/tv/647f9277018410008cf925e200000000?wsSecret=9a23316ee66e918684e097f&wsSecret=5984b60799449797eea7ff9440d767b0&wsTime=1763913621
+rtmp://rtmp.tv.stream3.hndt.com/tv/647f9277018410008cf925e200000000?wsSecret=9a23316ee66e918684e097f&wsSecret=eb80ceb69ab19bd41b1b01fda3149da4&wsTime=1763920822
 #EXTINF:-1 tvg-id="" tvg-name="中国教育2台" tvg-logo="https://logo.laobaitv.net/zgjy2t" group-title="📗教育频道",24小时城市联赛轮播台
 https://live.chinacert.cftest5.cn/mg/?id=915512915
 #EXTINF:-1 tvg-id="" tvg-name="中国教育1台" tvg-logo="https://logo.laobaitv.net/zgjy1t" group-title="📗教育频道",CETV1
@@ -1281,7 +1272,7 @@ http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221225768/index.m3u8
 #EXTINF:-1 tvg-name=时尚运动X group-title="📦️购物频道", 时尚运动X 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv014
 #EXTINF:-1 tvg-id="欢腾购物" tvg-name="欢腾购物" group-title="📦️购物频道",欢腾购物
-http://tvcdn.stream3.hndt.com/tv/65ba653b017e1000d4ee41c700000000_transios/playlist.m3u8?wsSecret=31af8af98bcd39d4778072745514d6a4&wsTime=1763913621
+http://tvcdn.stream3.hndt.com/tv/65ba653b017e1000d4ee41c700000000_transios/playlist.m3u8?wsSecret=102ca2dd51c5a1e777f3a756d871ddf2&wsTime=1763920822
 #EXTINF:-1 tvg-id="第一财经" tvg-name="第一财经" group-title="⚡️财经频道",第一财经
 http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221225737/index.m3u8
 #EXTINF:-1 tvg-id="东方财经" tvg-name="东方财经" group-title="⚡️财经频道",东方财经
@@ -1312,14 +1303,23 @@ https://live.chinacert.cftest5.cn/mg/?id=631354620
 https://live.laobaitv.net/huya/139167
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://logo.laobaitv.net/yxlm" group-title="🕹️娱乐频道",英雄联盟赛事
 https://live.laobaitv.net/huya/660000
+#EXTINF:-1 tvg-id="八大第一台" tvg-name="八大第一台" tvg-logo="" group-title="💤综合",八大第一台
+https://tzh911.qzz.io/play-smt.php?id=badafirst
+#EXTINF:-1 tvg-id="纬来精彩" tvg-name="纬来精彩" tvg-logo="" group-title="💤综合",纬来精彩
+https://tzh911.qzz.io/play-smt.php?id=videolandspecial_twn
+http://61.221.215.25:8800/hls/48/index.m3u8
 #EXTINF:-1 tvg-id="龙华经典" tvg-name="龙华经典" tvg-logo="" group-title="💤综合",龙华经典
 https://tzh911.qzz.io/play-smt.php?id=lunghuajingdian_twn
 https://cdn6.101.qzz.io/163189/lhjd
+#EXTINF:-1 tvg-name=八大精彩台 group-title="💤综合", 八大精彩台 
+https://tzh911.qzz.io/litv.php?id=4gtv-4gtv034
+#EXTINF:-1 tvg-name=靖天欢乐台 group-title="💤综合", 靖天欢乐台 
+https://tzh911.qzz.io/litv.php?id=4gtv-4gtv054
 #EXTINF:-1 tvg-name=第1商業台 group-title="💤综合", 第1商業台 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv109
 #EXTINF:-1 tvg-id="更新时间" tvg-name="更新时间" group-title="💤综合",更新时间
 #genre#
-#EXTINF:-1 tvg-id="2025/11/23 20:00:23" tvg-name="2025/11/23 20:00:23" group-title="💤综合",2025/11/23 20:00:23
+#EXTINF:-1 tvg-id="2025/11/23 22:00:20" tvg-name="2025/11/23 22:00:20" group-title="💤综合",2025/11/23 22:00:20
 http://xxxxx.m3u8
 #EXTINF:-1 tvg-id="星爷房✔原" tvg-name="星爷房✔原" group-title="💤综合",星爷房✔原
 http://zzy789.xyz/douyu1.php?id=122402
@@ -1350,6 +1350,6 @@ https://live.laobaitv.net/douyu/12400977
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://logo.laobaitv.net/douyu" group-title="💤综合",斗鱼 RunningMan
 https://live.laobaitv.net/douyu/131977
 #EXTINF:-1  tvg-id="ex" tvg-logo="https://statics.tver.jp/images/icon/ex.jpg" group-title="💤综合", テレビ朝日
-https://ssai-variants.streaks.jp/v5/tver-simul-ex/498c4512f66846f1b0a5a3320ee035c3/ce98cb0b48994b50a76dba08ea894e24/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-175-8158/4835edda-36f5-4703-a80a-e7355a47227d/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLWV4LnN0cmVha3MuanAiLCJvZmZzZXQiOjksInBkdCI6Ii0xODMyMyJ9.cU_iutHRBntONY87WM0geiJ7SYlA7lHpNaTfO0JQ2H8
+https://ssai-variants.streaks.jp/v5/tver-simul-ex/498c4512f66846f1b0a5a3320ee035c3/ce98cb0b48994b50a76dba08ea894e24/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-175-8158/bed3b082-dfcf-4dd0-92b4-398735cb391b/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLWV4LnN0cmVha3MuanAiLCJvZmZzZXQiOjksInBkdCI6Ii0xODMyMyJ9.cU_iutHRBntONY87WM0geiJ7SYlA7lHpNaTfO0JQ2H8
 #EXTINF:-1  tvg-id="tbs" tvg-logo="https://statics.tver.jp/images/icon/tbs.jpg" group-title="💤综合", TBS
-https://ssai-variants.streaks.jp/v5/tver-simul-tbs/8e4c80725b9842cdb0f6f91260945222/b72f7e116957436b824f95d5138ea7a3/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-176-7925/0cefab18-c7bc-4b6a-b4c7-c974117762cd/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLXRicy5zdHJlYWtzLmpwIiwib2Zmc2V0Ijo5LCJwZHQiOiItOTc4NyJ9.gQkPPdWZuy0vZl-FMKKr1KRKmeRr9BS3rhKYrbCCH-s
+https://ssai-variants.streaks.jp/v5/tver-simul-tbs/8e4c80725b9842cdb0f6f91260945222/b72f7e116957436b824f95d5138ea7a3/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-176-7925/8dc72eab-f114-42ad-a475-537a7b359106/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLXRicy5zdHJlYWtzLmpwIiwib2Zmc2V0Ijo5LCJwZHQiOiItOTc4NyJ9.gQkPPdWZuy0vZl-FMKKr1KRKmeRr9BS3rhKYrbCCH-s
