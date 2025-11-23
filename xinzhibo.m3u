@@ -1,5 +1,81 @@
-#EXTM3U
+#EXTM3U x-tvg-url="https://epg.catvod.com/epg.xml"
 
+#EXTINF:-1 tvg-name="CCTV-1 综合" tvg-logo="https://logo.catvod.com/CCTV1.png" group-title="未分组",CCTV-1 综合
+http://36.135.118.195:85/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV-2 财经" tvg-logo="https://logo.catvod.com/CCTV2.png" group-title="未分组",CCTV-2 财经
+http://36.135.118.195:85/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV-3 综艺" tvg-logo="https://logo.catvod.com/CCTV3.png" group-title="未分组",CCTV-3 综艺
+http://36.135.118.195:85/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV-4 中文国际" tvg-logo="https://logo.catvod.com/CCTV4.png" group-title="未分组",CCTV-4 中文国际
+http://36.135.118.195:85/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV-5 体育" tvg-logo="https://logo.catvod.com/CCTV5.png" group-title="未分组",CCTV-5 体育
+http://36.135.118.195:85/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV-5+ 体育赛事" tvg-logo="https://logo.catvod.com/CCTV5+.png" group-title="未分组",CCTV-5+ 体育赛事
+http://36.135.118.195:85/tsfile/live/0016_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV-6 电影" tvg-logo="https://logo.catvod.com/CCTV6.png" group-title="未分组",CCTV-6 电影
+http://36.135.118.195:85/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV-7 国防军事" tvg-logo="https://logo.catvod.com/CCTV7.png" group-title="未分组",CCTV-7 国防军事
+http://36.135.118.195:85/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV-8 电视剧" tvg-logo="https://logo.catvod.com/CCTV8.png" group-title="未分组",CCTV-8 电视剧
+http://36.135.118.195:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV-9 纪录" tvg-logo="https://logo.catvod.com/CCTV9.png" group-title="未分组",CCTV-9 纪录
+http://36.135.118.195:85/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV-10 科教" tvg-logo="https://logo.catvod.com/CCTV10.png" group-title="未分组",CCTV-10 科教
+http://36.135.118.195:85/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV-11 戏曲" tvg-logo="https://logo.catvod.com/CCTV11.png" group-title="未分组",CCTV-11 戏曲
+http://36.135.118.195:85/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV-12 社会与法" tvg-logo="https://logo.catvod.com/CCTV12.png" group-title="未分组",CCTV-12 社会与法
+http://36.135.118.195:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV-13 新闻" tvg-logo="https://logo.catvod.com/CCTV13.png" group-title="未分组",CCTV-13 新闻
+http://36.135.118.195:85/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV-14 少儿" tvg-logo="https://logo.catvod.com/CCTV14.png" group-title="未分组",CCTV-14 少儿
+http://36.135.118.195:85/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV-15 音乐" tvg-logo="https://logo.catvod.com/CCTV15.png" group-title="未分组",CCTV-15 音乐
+http://36.135.118.195:85/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV-16 奥林匹克" tvg-logo="https://logo.catvod.com/CCTV16.png" group-title="未分组",CCTV-16 奥林匹克
+http://36.135.118.195:85/tsfile/live/0016_2.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV-17 农业农村" tvg-logo="https://logo.catvod.com/CCTV17.png" group-title="未分组",CCTV-17 农业农村
+http://36.135.118.195:85/tsfile/live/0017_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CHC动作电影" tvg-logo="https://logo.catvod.com/CHC动作电影.png" group-title="未分组",CHC动作电影
+http://36.135.118.195:85/tsfile/live/1019_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CHC影迷电影" tvg-logo="https://logo.catvod.com/CHC高清电影.png" group-title="未分组",CHC影迷电影
+http://36.135.118.195:85/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CHC家庭影院" tvg-logo="https://logo.catvod.com/CHC家庭影院.png" group-title="未分组",CHC家庭影院
+http://36.135.118.195:85/tsfile/live/1021_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="长影频道" tvg-logo="https://logo.catvod.com/长影频道.png" group-title="未分组",长影频道
+http://36.135.118.195:85/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV第一剧场" tvg-logo="https://logo.catvod.com/CCTV第一剧场.png" group-title="未分组",CCTV第一剧场
+http://36.135.118.195:85/tsfile/live/1023_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="乐游" tvg-logo="https://logo.catvod.com/乐游.png" group-title="未分组",乐游
+http://36.135.118.195:85/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV风云剧场" tvg-logo="https://logo.catvod.com/风云剧场.png" group-title="未分组",CCTV风云剧场
+http://36.135.118.195:85/tsfile/live/1025_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CITY都市剧场" tvg-logo="https://logo.catvod.com/都市剧场.png" group-title="未分组",都市剧场
+http://36.135.118.195:85/tsfile/live/1026_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV兵器科技" tvg-logo="https://logo.catvod.com/兵器科技.png" group-title="未分组",CCTV兵器科技
+http://36.135.118.195:85/tsfile/live/1027_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="环球奇观" tvg-logo="https://logo.catvod.com/环球奇观.png" group-title="未分组",环球奇观
+http://36.135.118.195:85/tsfile/live/1028_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://logo.catvod.com/吉林卫视.png" group-title="未分组",吉林卫视
+http://36.135.118.195:85/tsfile/live/0018_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="吉林都市" tvg-logo="https://logo.catvod.com/吉林都市.png" group-title="未分组",吉林都市
+http://36.135.118.195:85/tsfile/live/0019_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="吉视生活" tvg-logo="https://logo.catvod.com/吉视生活.png" group-title="未分组",吉视生活
+http://36.135.118.195:85/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="吉林影视" tvg-logo="https://logo.catvod.com/吉林影视.png" group-title="未分组",吉林影视
+http://36.135.118.195:85/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="吉视乡村" tvg-logo="https://logo.catvod.com/吉视乡村.png" group-title="未分组",吉视乡村
+http://36.135.118.195:85/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="吉林教育" tvg-logo="https://logo.catvod.com/吉林教育.png" group-title="未分组",吉林教育
+http://36.135.118.195:85/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="发现之旅" tvg-logo="https://logo.catvod.com/发现之旅.png" group-title="未分组",发现之旅
+http://36.135.118.195:85/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="综艺文化" tvg-logo="" group-title="未分组",综艺文化
+http://36.135.118.195:85/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="长春综合频道" tvg-logo="" group-title="未分组",长春综合频道
+http://36.135.118.195:85/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="长春市民生活" tvg-logo="" group-title="未分组",长春市民生活
+http://36.135.118.195:85/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="新视觉HD" group-title="未分组",新视觉HD
 http://120.76.248.139/live/bfgd/4200000249.m3u8
 #EXTINF:-1 tvg-name="纬来精彩" group-title="未分组",纬来精彩
@@ -80,6 +156,20 @@ https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
 https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
 #EXTINF:-1 tvg-name="浙江钱江都市" tvg-logo="" group-title="未分组",浙江钱江
 https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
+#EXTINF:-1 tvg-name="南国都市" group-title="地方频道",南国都市
+https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=550af55c0ea34ce492748481415b6dfa&txTime=1903e7b17de
+#EXTINF:-1 tvg-name="苏州新闻综合" group-title="地方频道",苏州新闻综合
+https://live-auth.51kandianshi.com/szgd/csztv1.m3u8
+#EXTINF:-1 tvg-name="苏州社会经济" group-title="地方频道",苏州社会经济
+https://live-auth.51kandianshi.com/szgd/csztv2.m3u8
+#EXTINF:-1 tvg-name="苏州文化生活" group-title="地方频道",苏州文化生活
+https://live-auth.51kandianshi.com/szgd/csztv3.m3u8
+#EXTINF:-1 tvg-name="苏州电影娱乐" group-title="地方频道",苏州电影娱乐
+https://live-auth.51kandianshi.com/szgd/csztv4.m3u8
+#EXTINF:-1 tvg-name="苏州生活资讯" group-title="地方频道",苏州生活资讯
+https://live-auth.51kandianshi.com/szgd/csztv5.m3u8
+#EXTINF:-1 tvg-name="SCTV-科教高清" group-title="地方频道",SCTV-科教高清
+http://home.yixi.pro:10043/udp/239.93.42.44:5140
 #EXTINF:-1 tvg-name="CGTN" tvg-logo="" group-title="未分组",CGTN英语
 https://0472.org/hls/cgtn.m3u8
 #EXTINF:-1 tvg-name="CGTN纪录" tvg-logo="" group-title="未分组",CGTN记录
