@@ -3,7 +3,6 @@
     "https://gitee.com/thomas1998/tv-live/raw/master/IPV6.m3u",
     "https://raw.githubusercontent.com/mytv-android/BRTV-Live-M3U8/refs/heads/main/iptv.m3u",
     "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/GATV.m3u",
-    "https://php.946985.filegear-sg.me/jackTV.m3u",
     "http://iptv.4666888.xyz/FYTV.txt",
     "http://35.209.240.97:5080/shanghai.php",
     "https://gitee.com/cyh92/live/raw/main/source/migu.txt",
@@ -14,6 +13,7 @@
     "https://raw.githubusercontent.com/dbghelp/Free-to-air-TV/refs/heads/main/japan.m3u8"
   ],
   "local_files": [
+    "原TV.txt",
     "xinzhibo.m3u"
   ]
 }
