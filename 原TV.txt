@@ -4,10 +4,6 @@
 https://tzh911.qzz.io/play-smt.php?id=jade_twn
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="" group-title="未分组",翡翠台
 https://tzh911.qzz.io/play-smt.php?id=Jade_xue
-#EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="" group-title="未分组",明珠台
-https://tzh911.qzz.io/play-smt.php?id=pearl_twn
-#EXTINF:-1 tvg-id="无线新闻台" tvg-name="无线新闻台" tvg-logo="" group-title="未分组",无线新闻台
-https://tzh911.qzz.io/play-smt.php?id=inews_twn
 #EXTINF:-1 tvg-id="TVBPLUS" tvg-name="TVBPLUS" tvg-logo="" group-title="未分组",TVBPLUS
 https://tzh911.qzz.io/play-smt.php?id=j2_twn
 #EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="" group-title="未分组",ViuTV
@@ -20,12 +16,8 @@ https://tzh911.qzz.io/play-smt.php?id=rhk31_twn
 https://tzh911.qzz.io/play-smt.php?id=rhk32_twn
 #EXTINF:-1 tvg-id="HOY TV" tvg-name="HOY TV" tvg-logo="" group-title="未分组",HOY TV
 https://tzh911.qzz.io/play-smt.php?id=hoycaijing_twn
-#EXTINF:-1 tvg-id="凤凰中文台" tvg-name="凤凰中文台" tvg-logo="" group-title="未分组",凤凰中文台
-https://tzh911.qzz.io/play-smt.php?id=phoenixtv_hd
 #EXTINF:-1 tvg-id="凤凰资讯台" tvg-name="凤凰资讯台" tvg-logo="" group-title="未分组",凤凰资讯台
 https://tzh911.qzz.io/play-smt.php?id=phoenixinfo_hd
-#EXTINF:-1 tvg-id="凤凰香港台" tvg-name="凤凰香港台" tvg-logo="" group-title="未分组",凤凰香港台
-https://tzh911.qzz.io/play-smt.php?id=hkphoenix_twn
 #EXTINF:-1 tvg-id="台视 HD" tvg-name="台视 HD" tvg-logo="" group-title="未分组",台视 HD
 https://tzh911.qzz.io/play-smt.php?id=ttv_taiwan
 #EXTINF:-1 tvg-id="台视新闻" tvg-name="台视新闻台" tvg-logo="" group-title="未分组",台视新闻台
@@ -66,8 +58,6 @@ https://tzh911.qzz.io/play-smt.php?id=ettvmovie
 https://tzh911.qzz.io/play-smt.php?id=ettvwestern
 #EXTINF:-1 tvg-id="东森幼幼台" tvg-name="东森幼幼台" tvg-logo="" group-title="未分组",东森幼幼台
 https://tzh911.qzz.io/play-smt.php?id=yoyo_twn
-#EXTINF:-1 tvg-id="东森超视" tvg-name="东森超视" tvg-logo="" group-title="未分组",东森超视
-https://tzh911.qzz.io/play-smt.php?id=ettvsuper
 #EXTINF:-1 tvg-id="TVBS HD" tvg-name="TVBS HD" tvg-logo="" group-title="未分组",TVBS HD
 https://tzh911.qzz.io/play-smt.php?id=tvbs
 #EXTINF:-1 tvg-id="TVBS 新闻台" tvg-name="TVBS 新闻台" tvg-logo="" group-title="未分组",TVBS 新闻台
@@ -110,8 +100,6 @@ https://tzh911.qzz.io/play-smt.php?id=videolandjapan
 https://tzh911.qzz.io/play-smt.php?id=videolandmovie
 #EXTINF:-1 tvg-id="纬来综合" tvg-name="纬来综合" tvg-logo="" group-title="未分组",纬来综合
 https://tzh911.qzz.io/play-smt.php?id=videolandzonghe
-#EXTINF:-1 tvg-id="爱尔达综合台" tvg-name="爱尔达综合台" tvg-logo="" group-title="未分组",爱尔达综合台
-https://tzh911.qzz.io/play-smt.php?id=eltazonghe_twn
 #EXTINF:-1 tvg-id="爱尔达影剧台" tvg-name="爱尔达影剧台" tvg-logo="" group-title="未分组",爱尔达影剧台
 https://tzh911.qzz.io/play-smt.php?id=eltayingju_twn
 #EXTINF:-1 tvg-id="爱尔达体育1台" tvg-name="爱尔达体育1台" tvg-logo="" group-title="未分组",爱尔达体育1台
@@ -190,8 +178,6 @@ https://tzh911.qzz.io/play-smt.php?id=bosigolf2_twn
 https://tzh911.qzz.io/play-smt.php?id=bositennis_twn
 #EXTINF:-1 tvg-id="博斯无限台" tvg-name="博斯无限台" tvg-logo="" group-title="未分组",博斯无限台
 https://tzh911.qzz.io/play-smt.php?id=bosiunlimited_twn
-#EXTINF:-1 tvg-id="好消息 2" tvg-name="好消息 2" tvg-logo="" group-title="未分组",好消息 2
-https://smt.passwdword.xyz/Smart.php?id=good2_twn
 #EXTINF:-1 tvg-id="AXN Taiwan" tvg-name="AXN Taiwan" tvg-logo="" group-title="未分组",AXN Taiwan
 https://smt.passwdword.xyz/Smart.php?id=axn_twn
 #EXTINF:-1 tvg-id="HBO_HD" tvg-name="HBO_HD" tvg-logo="" group-title="未分组",HBO_HD
@@ -276,6 +262,7 @@ rtmp://f13h.mine.nu/sat/tv721
 rtmp://f13h.mine.nu/sat/tv581
 #EXTINF:-1 tvg-name="台视 HD" group-title="未分组",台视 HD
 rtmp://f13h.mine.nu/sat/tv071
+
 
 
 
