@@ -8,6 +8,20 @@ https://tzh911.qzz.io/play-smt.php?id=eltasport2_twn
 https://tzh911.qzz.io/play-smt.php?id=eltasport3_twn
 #EXTINF:-1 tvg-id="爱尔达体育4台" tvg-name="爱尔达体育4台" tvg-logo="" group-title="未分组",爱尔达体育4台
 https://tzh911.qzz.io/play-smt.php?id=eltasports4_twn
+#EXTINF:-1 tvg-id="东森新闻台" tvg-name="东森新闻台" tvg-logo="" group-title="未分组",东森新闻台
+https://tzh911.qzz.io/play-smt.php?id=ettvnews
+#EXTINF:-1 tvg-id="三立台湾台" tvg-name="三立台湾台" tvg-logo="" group-title="未分组",三立台湾台
+https://tzh911.qzz.io/play-smt.php?id=sanlitaiwan
+#EXTINF:-1 tvg-id="台视新闻" tvg-name="台视新闻" tvg-logo="" group-title="未分组",台视新闻
+https://tzh911.qzz.io/play-smt.php?id=ttvnews_twn
+#EXTINF:-1 tvg-id="中视新闻" tvg-name="中视新闻" tvg-logo="" group-title="未分组",中视新闻
+https://tzh911.qzz.io/play-smt.php?id=zhongshinews_twn
+#EXTINF:-1 tvg-id="东森财经新闻" tvg-name="东森财经新闻" tvg-logo="" group-title="未分组",东森财经新闻
+https://tzh911.qzz.io/play-smt.php?id=ettvcaijing_twn
+#EXTINF:-1 tvg-id="寰宇新闻台" tvg-name="寰宇新闻台" tvg-logo="" group-title="未分组",寰宇新闻台
+https://tzh911.qzz.io/play-smt.php?id=huanyuxinwen_twn
+#EXTINF:-1 tvg-id="TVB无线新闻" tvg-name="TVB无线新闻" tvg-logo="" group-title="未分组",TVB无线新闻
+https://tzh911.qzz.io/play-smt.php?id=inews_twn
 #EXTINF:-1 tvg-id="AXN Taiwan" tvg-name="AXN Taiwan" tvg-logo="" group-title="未分组",AXN Taiwan
 https://smt.passwdword.xyz/Smart.php?id=axn_twn
 #EXTINF:-1 tvg-id="HBO_HD" tvg-name="HBO_HD" tvg-logo="" group-title="未分组",HBO_HD
@@ -92,6 +106,7 @@ rtmp://f13h.mine.nu/sat/tv721
 rtmp://f13h.mine.nu/sat/tv581
 #EXTINF:-1 tvg-name="台视 HD" group-title="未分组",台视 HD
 rtmp://f13h.mine.nu/sat/tv071
+
 
 
 
