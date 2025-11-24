@@ -92,3 +92,25 @@ https://0472.org/hls/cgtnf.m3u8
 https://0472.org/hls/cgtnx.m3u8
 #EXTINF:-1 tvg-name="CGTN阿语" tvg-logo="" group-title="未分组",CGTN阿语
 https://0472.org/hls/cgtna.m3u8
+#EXTINF:-1 tvg-name="新加坡中文" tvg-logo="" group-title="未分组",新加坡中文
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8?zshijd
+http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
+#EXTINF:-1 tvg-id="BBSTV.kr" tvg-name="BBS Buddhist Broadcasting" tvg-logo="" group-title="未分组",BBS Buddhist Broadcasting (韩国)
+http://bbstv.clouducs.com:1935/bbstv-live/livestream/playlist.m3u8
+#EXTINF:-1 tvg-id="BTNTV.kr" tvg-name="BTN TV" tvg-logo="" group-title="未分组",BTN TV (韩国)
+https://btn.nowcdn.co.kr/btn/btnlive2m/playlist.m3u8
+#EXTINF:-1 tvg-id="GugakTV.kr" tvg-name="GugakTV 국악방송" tvg-logo="" group-title="未分组",GugakTV 국악방송 (韩国)
+https://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="TVChosun.kr" tvg-name="TV Chosun" tvg-logo="" group-title="未分组",TV Chosun (韩国)
+http://onair.cdn.tvchosun.com/origin1/_definst_/tvchosun_s1/playlist.m3u8
+#EXTINF:-1 tvg-id="TVChosun2.kr" tvg-name="TV Chosun 2" tvg-logo="" group-title="未分组",TV Chosun 2 (韩国)
+http://onair2.cdn.tvchosun.com/origin2/_definst_/tvchosun_s3/playlist.m3u8
+#EXTINF:-1 tvg-id="JTV.kr" tvg-name="JTV전주TV" tvg-logo="" group-title="未分组",JTV전주TV(韩国)
+https://61ff3340258d2.streamlock.net/jtv_live/myStream/playlist.m3u8
+#EXTINF:-1 tvg-id="GugbangTV.kr" tvg-name="Gugbang TV" tvg-logo="" group-title="未分组",Gugbang TV (韩国)
+http://mediaworks.dema.mil.kr:1935/live_edge/cudo.sdp/playlist.m3u8
+#EXTINF:-1 tvg-name="德云社乙巳年开箱庆典2025" tvg-logo="" group-title="未分组",德云社乙巳年开箱庆典2025
+https://cdn.ryplay10.com/20250217/36983_be819738/index.m3u8
+#EXTINF:-1 tvg-name="德云社甲辰年封箱庆典2024" tvg-logo="" group-title="未分组",德云社甲辰年封箱庆典2024
+https://cdn.ryplay10.com/20250125/35961_cf038721/index.m3u8
+
