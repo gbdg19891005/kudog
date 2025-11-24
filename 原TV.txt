@@ -12,16 +12,12 @@ https://tzh911.qzz.io/play-smt.php?id=eltasports4_twn
 https://tzh911.qzz.io/play-smt.php?id=ettvnews
 #EXTINF:-1 tvg-id="三立台湾台" tvg-name="三立台湾台" tvg-logo="" group-title="未分组",三立台湾台
 https://tzh911.qzz.io/play-smt.php?id=sanlitaiwan
-#EXTINF:-1 tvg-id="台视新闻" tvg-name="台视新闻" tvg-logo="" group-title="未分组",台视新闻
+#EXTINF:-1 tvg-id="台视新闻台" tvg-name="台视新闻台" tvg-logo="" group-title="未分组",台视新闻台
 https://tzh911.qzz.io/play-smt.php?id=ttvnews_twn
-#EXTINF:-1 tvg-id="中视新闻" tvg-name="中视新闻" tvg-logo="" group-title="未分组",中视新闻
+#EXTINF:-1 tvg-id="中视新闻台" tvg-name="中视新闻台" tvg-logo="" group-title="未分组",中视新闻台
 https://tzh911.qzz.io/play-smt.php?id=zhongshinews_twn
-#EXTINF:-1 tvg-id="东森财经新闻" tvg-name="东森财经新闻" tvg-logo="" group-title="未分组",东森财经新闻
-https://tzh911.qzz.io/play-smt.php?id=ettvcaijing_twn
 #EXTINF:-1 tvg-id="寰宇新闻台" tvg-name="寰宇新闻台" tvg-logo="" group-title="未分组",寰宇新闻台
 https://tzh911.qzz.io/play-smt.php?id=huanyuxinwen_twn
-#EXTINF:-1 tvg-id="TVB无线新闻" tvg-name="TVB无线新闻" tvg-logo="" group-title="未分组",TVB无线新闻
-https://tzh911.qzz.io/play-smt.php?id=inews_twn
 #EXTINF:-1 tvg-name="龙华日韩" tvg-logo="" group-title="未分组",龙华日韩
 https://cdn6.101.qzz.io/163189/lhrh
 #EXTINF:-1 tvg-name="龙华经典" tvg-logo="" group-title="未分组",龙华经典
@@ -44,18 +40,10 @@ http://61.221.215.25:8800/hls/47/index.m3u8
 http://php.jdshipin.com/smt.php?id=Xinhe
 #EXTINF:-1 tvg-name="凤凰卫视" group-title="未分组",凤凰卫视
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzx
-#EXTINF:-1 tvg-name="无线华丽台" group-title="未分组",无线华丽台
-http://php.jdshipin.com:8880/TVOD/iptv.php?id=huali
-#EXTINF:-1 tvg-name="天映频道" group-title="未分组",天映频道
-http://php.jdshipin.com/smt.php?id=Celestial
-#EXTINF:-1 tvg-name="天映经典" group-title="未分组",天映经典
-http://php.jdshipin.com/smt.php?id=Celestial2
 #EXTINF:-1 tvg-name="1905电影" group-title="未分组",1905电影
 http://php.jdshipin.com:8880/1905.php?id=1905dy
 #EXTINF:-1 tvg-name="TVB亚洲武侠" group-title="未分组",TVB亚洲武侠
 http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
-#EXTINF:-1 tvg-name="TVBSNEWS" group-title="未分组",TVBSNEWS
-http://61.221.215.25:8800/hls/9/index.m3u8
 #EXTINF:-1 tvg-name="大立 HD" group-title="未分组",大立 HD
 http://www.dalitv.com.tw:4568/live/dali/index.m3u8
 #EXTINF:-1 tvg-name="公视 HD" group-title="未分组",公视 HD
@@ -78,17 +66,17 @@ rtmp://f13h.mine.nu/sat/tv721
 rtmp://f13h.mine.nu/sat/tv581
 #EXTINF:-1 tvg-name="台视 HD" group-title="未分组",台视 HD
 rtmp://f13h.mine.nu/sat/tv071
-#EXTINF:-1 tvg-name="中天新闻" tvg-logo="" group-title="未分组",中天新闻
+#EXTINF:-1 tvg-name="中天新闻台" tvg-logo="" group-title="未分组",中天新闻台
 https://tzh911.qzz.io/play-smt.php?id=ctinews
-#EXTINF:-1 tvg-name="中天新闻" tvg-logo="" group-title="未分组",中天新闻
+#EXTINF:-1 tvg-name="中天新闻台" tvg-logo="" group-title="未分组",中天新闻台
 https://tzh911.qzz.io/play-smt.php?id=ctiasia_twn
-#EXTINF:-1 tvg-name="中天新闻" tvg-logo="" group-title="未分组",中天新闻
+#EXTINF:-1 tvg-name="中天新闻台" tvg-logo="" group-title="未分组",中天新闻台
 https://bxtv.3a.ink/mytv/mytvts1.333.php?id=ztxw
-#EXTINF:-1 tvg-name="中天娱乐" tvg-logo="" group-title="未分组",中天娱乐
+#EXTINF:-1 tvg-name="中天娱乐台" tvg-logo="" group-title="未分组",中天娱乐台
 http://61.221.215.25:8800/hls/47/index.m3u8
-#EXTINF:-1 tvg-name="中天娱乐" tvg-logo="" group-title="未分组",中天娱乐
+#EXTINF:-1 tvg-name="中天娱乐台" tvg-logo="" group-title="未分组",中天娱乐台
 https://tzh911.qzz.io/play-smt.php?id=ctient
-#EXTINF:-1 tvg-name="三立戏剧" tvg-logo="" group-title="未分组",三立戏剧
+#EXTINF:-1 tvg-name="三立戏剧台" tvg-logo="" group-title="未分组",三立戏剧
 https://tzh911.qzz.io/play-smt.php?id=sanlixiju_twn
 #EXTINF:-1 tvg-name="TVB Plus" tvg-logo="" group-title="未分组",TVB Plus
 rtmp://116.93.98.236/sat/hk011
@@ -100,9 +88,9 @@ rtmp://f13h.mine.nu/sat/tv111
 rtmp://f13h.mine.nu/sat/tv051
 #EXTINF:-1 tvg-name="台视 HD" tvg-logo="" group-title="未分组",台视 HD
 rtmp://f13h.mine.nu/sat/tv071
-#EXTINF:-1 tvg-name="东森超视台" tvg-logo="" group-title="未分组",东森超视台
+#EXTINF:-1 tvg-name="东森超视" tvg-logo="" group-title="未分组",东森超视
 rtmp://f13h.mine.nu/sat/tv331
-#EXTINF:-1 tvg-name="非凡新闻台" tvg-logo="" group-title="未分组",非凡新闻台
+#EXTINF:-1 tvg-name="非凡新闻" tvg-logo="" group-title="未分组",非凡新闻
 rtmp://f13h.mine.nu/sat/tv581
 #EXTINF:-1 tvg-name="纬来体育" tvg-logo="" group-title="未分组",纬来体育
 rtmp://f13h.mine.nu/sat/tv721
@@ -130,4 +118,5 @@ https://tzh911.qzz.io/play-smt.php?id=Wwe
 https://live.catvod.com/beesports.php?id=WWE
 #EXTINF:-1 tvg-name="wwe格斗风云" tvg-logo="" group-title="未分组",wwe格斗风云
 http://iptv.4666888.xyz/iptv2A.php?id=5
+
 
