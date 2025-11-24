@@ -1,5 +1,13 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-id="爱尔达体育1台" tvg-name="爱尔达体育1台" tvg-logo="" group-title="未分组",爱尔达体育1台
+https://tzh911.qzz.io/play-smt.php?id=eltasport_twn
+#EXTINF:-1 tvg-id="爱尔达体育2台" tvg-name="爱尔达体育2台" tvg-logo="" group-title="未分组",爱尔达体育2台
+https://tzh911.qzz.io/play-smt.php?id=eltasport2_twn
+#EXTINF:-1 tvg-id="爱尔达体育3台" tvg-name="爱尔达体育3台" tvg-logo="" group-title="未分组",爱尔达体育3台
+https://tzh911.qzz.io/play-smt.php?id=eltasport3_twn
+#EXTINF:-1 tvg-id="爱尔达体育4台" tvg-name="爱尔达体育4台" tvg-logo="" group-title="未分组",爱尔达体育4台
+https://tzh911.qzz.io/play-smt.php?id=eltasports4_twn
 #EXTINF:-1 tvg-id="AXN Taiwan" tvg-name="AXN Taiwan" tvg-logo="" group-title="未分组",AXN Taiwan
 https://smt.passwdword.xyz/Smart.php?id=axn_twn
 #EXTINF:-1 tvg-id="HBO_HD" tvg-name="HBO_HD" tvg-logo="" group-title="未分组",HBO_HD
@@ -84,6 +92,7 @@ rtmp://f13h.mine.nu/sat/tv721
 rtmp://f13h.mine.nu/sat/tv581
 #EXTINF:-1 tvg-name="台视" group-title="未分组",台视
 rtmp://f13h.mine.nu/sat/tv071
+
 
 
 
