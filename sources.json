@@ -2,7 +2,6 @@
   "remote_urls": [
     "https://gitee.com/thomas1998/tv-live/raw/master/IPV6.m3u",
     "http://iptv.4666888.xyz/FYTV.txt",
-    "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u",
     "https://raw.githubusercontent.com/judy-gotv/iptv/refs/heads/main/litv.m3u",
     "https://raw.githubusercontent.com/mytv-android/BRTV-Live-M3U8/refs/heads/main/iptv.m3u",
     "http://35.209.240.97:5080/shanghai.php",
@@ -10,6 +9,7 @@
     "https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
     "https://raw.githubusercontent.com/Supprise0901/TVBox_live/refs/heads/main/live.txt",
     "https://raw.githubusercontent.com/dbghelp/Free-to-air-TV/refs/heads/main/japan.m3u8"
+    "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u",
   ],
   "local_files": [
     "原TV.txt",
