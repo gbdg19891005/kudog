@@ -8,7 +8,7 @@
       "央视戏曲", "IPTV.*", "网络电视", "互动电视", "睛彩.*"
     ],
     "🇨🇳卫视频道": [
-      "卫视\\b", "澳视", "衛視\\b", "北京卫视4K超高清", "莲花", "环球", "蓮花"
+      "卫视\\b", "澳视", "衛視\\b", "北京卫视4K超高清", "莲花", "环球", "新加坡", "蓮花"
     ],
     "💥港|澳|台": [
       "凤凰", "鳳凰", "翡翠", "明珠", "无线", "無線", "TVB", "ViuTV", "RTHK", "香蕉", "鳳梨",
@@ -31,7 +31,7 @@
       "综艺", "綜藝", "娱乐", "娛樂", "综艺台", "綜藝台", "テレ東", "孤独", "精彩",
       "欢乐", "FastTV飛速看", "TVBS歡樂", "小品", "フジテレビ", "華藝", "欢喜", "Aec",
       "Talk", "Oprah Winfrey Network", "BET", "BET HER", "KFN", "Korea", "Gugak",
-      "BRAVO", "BuZZr", "Gusto TV", "HGTV", "Comedy TV", "八度", "美食",
+      "BRAVO", "BuZZr", "Gusto TV", "HGTV", "Comedy TV", "八度", "美食", "德云社",
       "Sony One Dragons' Den", "Great British Menu", "HollyWire", "日本",
       "Fashion Channel", "Fashion TV", "Pulse", "Tastemade",
       "八大综艺", "八大綜藝", "旅遊", "旅游", "豬哥亮",
