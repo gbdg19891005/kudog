@@ -92,16 +92,12 @@ https://tzh911.qzz.io/play-smt.php?id=badadrama
 https://tzh911.qzz.io/play-smt.php?id=badaentertain
 #EXTINF:-1 tvg-id="纬来体育" tvg-name="纬来体育" tvg-logo="" group-title="未分组",纬来体育
 https://tzh911.qzz.io/play-smt.php?id=videolandsport
-#EXTINF:-1 tvg-id="纬来精彩" tvg-name="纬来精彩" tvg-logo="" group-title="未分组",纬来精彩
-https://tzh911.qzz.io/play-smt.php?id=videolandspecial_twn
 #EXTINF:-1 tvg-id="纬来日本" tvg-name="纬来日本" tvg-logo="" group-title="未分组",纬来日本
 https://tzh911.qzz.io/play-smt.php?id=videolandjapan
 #EXTINF:-1 tvg-id="纬来电影" tvg-name="纬来电影" tvg-logo="" group-title="未分组",纬来电影
 https://tzh911.qzz.io/play-smt.php?id=videolandmovie
 #EXTINF:-1 tvg-id="纬来综合" tvg-name="纬来综合" tvg-logo="" group-title="未分组",纬来综合
 https://tzh911.qzz.io/play-smt.php?id=videolandzonghe
-#EXTINF:-1 tvg-id="爱尔达影剧台" tvg-name="爱尔达影剧台" tvg-logo="" group-title="未分组",爱尔达影剧台
-https://tzh911.qzz.io/play-smt.php?id=eltayingju_twn
 #EXTINF:-1 tvg-id="爱尔达体育1台" tvg-name="爱尔达体育1台" tvg-logo="" group-title="未分组",爱尔达体育1台
 https://tzh911.qzz.io/play-smt.php?id=eltasport_twn
 #EXTINF:-1 tvg-id="爱尔达体育2台" tvg-name="爱尔达体育2台" tvg-logo="" group-title="未分组",爱尔达体育2台
@@ -122,12 +118,8 @@ https://tzh911.qzz.io/play-smt.php?id=lunghuaxiju_twn
 https://tzh911.qzz.io/play-smt.php?id=lunghuaidol_twn
 #EXTINF:-1 tvg-id="龙华电影" tvg-name="龙华电影" tvg-logo="" group-title="未分组",龙华电影
 https://tzh911.qzz.io/play-smt.php?id=xingwei_movie
-#EXTINF:-1 tvg-id="龙华洋片" tvg-name="龙华洋片" tvg-logo="" group-title="未分组",龙华洋片
-https://tzh911.qzz.io/play-smt.php?id=lunghuawestern_twn
 #EXTINF:-1 tvg-id="龙华经典" tvg-name="龙华经典" tvg-logo="" group-title="未分组",龙华经典
 https://tzh911.qzz.io/play-smt.php?id=lunghuajingdian_twn
-#EXTINF:-1 tvg-id="靖天国际" tvg-name="靖天国际" tvg-logo="" group-title="未分组",靖天国际
-https://tzh911.qzz.io/play-smt.php?id=jingtianintl_twn
 #EXTINF:-1 tvg-id="靖天卡通" tvg-name="靖天卡通" tvg-logo="" group-title="未分组",靖天卡通
 https://tzh911.qzz.io/play-smt.php?id=jingtiancartoon_twn
 #EXTINF:-1 tvg-id="大愛電視" tvg-name="大愛電視" tvg-logo="" group-title="未分组",大愛電視
@@ -140,8 +132,6 @@ https://tzh911.qzz.io/play-smt.php?id=eyetvtravel_twn
 https://tzh911.qzz.io/play-smt.php?id=eyetvxiju_twn
 #EXTINF:-1 tvg-id="亚洲美食" tvg-name="亚洲美食" tvg-logo="" group-title="未分组",亚洲美食
 https://tzh911.qzz.io/play-smt.php?id=afc_twn
-#EXTINF:-1 tvg-id="美食星球" tvg-name="美食星球" tvg-logo="" group-title="未分组",美食星球
-https://tzh911.qzz.io/play-smt.php?id=foodplanet_twn
 #EXTINF:-1 tvg-id="TLC旅遊生活" tvg-name="TLC旅遊生活" tvg-logo="" group-title="未分组",TLC旅遊生活
 https://tzh911.qzz.io/play-smt.php?id=tlc_twn
 #EXTINF:-1 tvg-id="亚洲旅游台" tvg-name="亚洲旅游台" tvg-logo="" group-title="未分组",亚洲旅游台
@@ -160,8 +150,6 @@ https://tzh911.qzz.io/play-smt.php?id=hbohit_twn
 https://tzh911.qzz.io/play-smt.php?id=cinemax_twn
 #EXTINF:-1 tvg-id="好萊塢電影台" tvg-name="好萊塢電影台" tvg-logo="" group-title="未分组",好萊塢電影台
 https://tzh911.qzz.io/play-smt.php?id=hollywoodmovies_twn
-#EXTINF:-1 tvg-id="卫视电影台" tvg-name="卫视电影台" tvg-logo="" group-title="未分组",卫视电影台
-https://tzh911.qzz.io/play-smt.php?id=weishimovie_twn
 #EXTINF:-1 tvg-id="美亚电影" tvg-name="美亚电影" tvg-logo="" group-title="未分组",美亚电影
 https://tzh911.qzz.io/play-smt.php?id=meiyamovie_twn
 #EXTINF:-1 tvg-id="華藝綜合" tvg-name="華藝綜合" tvg-logo="" group-title="未分组",華藝綜合
@@ -262,6 +250,7 @@ rtmp://f13h.mine.nu/sat/tv721
 rtmp://f13h.mine.nu/sat/tv581
 #EXTINF:-1 tvg-name="台视 HD" group-title="未分组",台视 HD
 rtmp://f13h.mine.nu/sat/tv071
+
 
 
 
