@@ -137,7 +137,7 @@ http://live-hls.macaulotustv.com/lotustv/macaulotustv.m3u8
 #EXTINF:-1 group-title="🇨🇳卫视频道",澳视澳门
 http://php.jdshipin.com/TVOD/iptv.php?id=asam
 #EXTINF:-1 tvg-id="北京卫视4K超高清" tvg-name="北京卫视4K超高清" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京卫视.png" group-title="🇨🇳卫视频道",北京卫视4K超高清
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s110/index.m3u8?time=1763993420&sign=ed49ee690382fb57d459526848ffa160
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s110/index.m3u8?time=1763994017&sign=f8b72247f2e4c9b5cf0e751749de97e4
 #EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" group-title="🇨🇳卫视频道",大湾区卫视
 http://gslbmgsplive.miguvideo.com/wd_r3/2018/nfmedia/nfws/1000/index.m3u8?msisdn=202511242200154fe1def8860b44589cb282bcbab110cb&mdspid=&spid=699054&netType=0&sid=2200322852&pid=2028597139&timestamp=20251124220015&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=608917627&ParentNodeID=-99&assertID=2200322852&client_ip=43.139.160.244&SecurityKey=20251124220015&promotionId=&mvid=2200322852&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=79f63e5dcbac3f8f0c0ac69a6449872f&ddCalcu=f729e7f28689304e456dac9b6acca30fc80f
 #EXTINF:-1 tvg-id="海峡卫视" tvg-name="海峡卫视" group-title="🇨🇳卫视频道",海峡卫视
@@ -145,7 +145,7 @@ http://gslbmgsplive.miguvideo.com/migu/kailu/haixiaws/51/20230724/index.m3u8?msi
 #EXTINF:-1 tvg-id="中国农林卫视" tvg-name="中国农林卫视" group-title="🇨🇳卫视频道",中国农林卫视
 http://gslbmgsplive.miguvideo.com/migu/kailu/zgnlws/51/20250804/index.m3u8?msisdn=20251124220016d666e352255e47e5974b1d5b00cdf250&mdspid=&spid=600572&netType=0&sid=5910022186&pid=2028597139&timestamp=20251124220016&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=956904896&ParentNodeID=-99&assertID=5910022186&client_ip=43.139.160.244&SecurityKey=20251124220016&promotionId=&mvid=5900006709&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=43fd19ff3f3fb2968b9458c948012f04&ddCalcu=4403eff22d6110098f4f93cf835f4b92b986
 #EXTINF:-1 tvg-id="环球旅游" tvg-name="环球旅游" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/200/202509251348_1758698362959_H32_1080.webp" group-title="🇨🇳卫视频道",环球旅游
-http://gslbmgsplive.miguvideo.com/migu/kailu/hqly/51/20250915/index.m3u8?msisdn=20251124200112c03d0efd524b435e8b9c1f5a85e0396c&mdspid=&spid=600697&netType=0&sid=5910022200&pid=2028597139&timestamp=20251124200112&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=958475356&ParentNodeID=-99&assertID=5910022200&client_ip=106.13.250.88&SecurityKey=20251124200112&promotionId=&mvid=5900006723&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=40ec78ace75a4bc582b6fb78877b5292&ddCalcu=2490e2e25c8b70787a8c8e77b5fa64bb2c85
+http://gslbmgsplive.miguvideo.com/migu/kailu/hqly/51/20250915/index.m3u8?msisdn=2025112422003369db4247e41f4ca18b90898d970b83cb&mdspid=&spid=600697&netType=0&sid=5910022200&pid=2028597139&timestamp=20251124220033&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=958475356&ParentNodeID=-99&assertID=5910022200&client_ip=106.13.250.90&SecurityKey=20251124220033&promotionId=&mvid=5900006723&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=2bd99ff2adca32bf739639df5f445866&ddCalcu=626be8d25984904fff52fadd9c3a63923b7f
 #EXTINF:-1 tvg-id="安多卫视" tvg-name="安多卫视" group-title="🇨🇳卫视频道",安多卫视
 https://liveout.xntv.tv/a65jur/90p2i1.m3u8?zqinghd
 #EXTINF:-1 tvg-id="东森亚洲卫视" tvg-name="东森亚洲卫视" group-title="🇨🇳卫视频道",东森亚洲卫视
@@ -166,12 +166,6 @@ http://fxgm.fxjf.work:19901/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid
 http://utv1.hqtvzb.com:9999/hls/world.m3u8
 #EXTINF:-1 tvg-id="亚洲卫视" tvg-name="亚洲卫视" group-title="🇨🇳卫视频道",亚洲卫视
 https://fenghuang.tv12.xyz/173.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="旅游卫视" tvg-logo="https://logo.laobaitv.net/lyws" group-title="🇨🇳卫视频道",海南卫视
-https://live.chinacert.cftest5.cn/mg/?id=947472502
-#EXTINF:-1 tvg-id="澳视卫星" tvg-name="澳视卫星" tvg-logo="https://logo.laobaitv.net/aswx" group-title="🇨🇳卫视频道",澳视卫星
-http://php.jdshipin.com/TVOD/iptv.php?id=as
-#EXTINF:-1 tvg-id="澳视体育" tvg-name="澳视体育" tvg-logo="https://logo.laobaitv.net/asty" group-title="🇨🇳卫视频道",澳门体育
-http://cdn6.163189.xyz/163189/amty
 #EXTINF:-1 tvg-id="东森新闻台" tvg-name="东森新闻台" tvg-logo="" group-title="💥港|澳|台",东森新闻台
 https://tzh911.qzz.io/play-smt.php?id=ettvnews
 #EXTINF:-1 tvg-id="三立台湾台" tvg-name="三立台湾台" tvg-logo="" group-title="💥港|澳|台",三立台湾台
@@ -263,20 +257,46 @@ http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk31
 #EXTINF:-1 group-title="💥港|澳|台",RTHK32
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk32
+#EXTINF:-1 tvg-id="TVB翡翠(馬來)" tvg-name="TVB翡翠(馬來)" group-title="💥港|澳|台",TVB翡翠(馬來)
+http://iptv.4666888.xyz/iptv2A.php?id=28
+#EXTINF:-1 tvg-id="TVB明珠" tvg-name="TVB明珠" group-title="💥港|澳|台",TVB明珠
+http://iptv.4666888.xyz/iptv2A.php?id=29
+#EXTINF:-1 tvg-id="TVBJ1" tvg-name="TVBJ1" group-title="💥港|澳|台",TVBJ1
+http://iptv.4666888.xyz/iptv2A.php?id=26
+#EXTINF:-1 tvg-id="TVB1" tvg-name="TVB1" group-title="💥港|澳|台",TVB1
+http://iptv.4666888.xyz/iptv2A.php?id=25
+#EXTINF:-1 tvg-id="TVB娱乐新闻" tvg-name="TVB娱乐新闻" group-title="💥港|澳|台",TVB娱乐新闻
+http://iptv.4666888.xyz/iptv2A.php?id=36
+#EXTINF:-1 tvg-id="MYTV黃金翡翠" tvg-name="MYTV黃金翡翠" group-title="💥港|澳|台",MYTV黃金翡翠
+http://iptv.4666888.xyz/iptv2A.php?id=32
+#EXTINF:-1 tvg-id="TVB翡翠劇集" tvg-name="TVB翡翠劇集" group-title="💥港|澳|台",TVB翡翠劇集
+http://iptv.4666888.xyz/iptv2A.php?id=33
+#EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞" group-title="💥港|澳|台",TVBS新聞
+http://iptv.4666888.xyz/iptv2A.php?id=43
+#EXTINF:-1 tvg-id="非凡新闻" tvg-name="非凡新闻" group-title="💥港|澳|台",非凡新闻
+http://iptv.4666888.xyz/iptv2A.php?id=44
+#EXTINF:-1 tvg-id="民视" tvg-name="民视" group-title="💥港|澳|台",民视
+http://iptv.4666888.xyz/iptv2A.php?id=55
+#EXTINF:-1 tvg-id="民視綜藝" tvg-name="民視綜藝" group-title="💥港|澳|台",民視綜藝
+http://iptv.4666888.xyz/iptv2A.php?id=46
+#EXTINF:-1 tvg-id="TVBS精采" tvg-name="TVBS精采" group-title="💥港|澳|台",TVBS精采
+http://iptv.4666888.xyz/iptv2A.php?id=47
+#EXTINF:-1 tvg-id="台视综合" tvg-name="台视综合" group-title="💥港|澳|台",台视综合
+http://iptv.4666888.xyz/iptv2A.php?id=51
+#EXTINF:-1 tvg-id="民视影剧" tvg-name="民视影剧" group-title="💥港|澳|台",民视影剧
+http://iptv.4666888.xyz/iptv2A.php?id=53
+#EXTINF:-1 tvg-id="中视经典" tvg-name="中视经典" group-title="💥港|澳|台",中视经典
+http://iptv.4666888.xyz/iptv2A.php?id=54
 #EXTINF:-1 group-title="💥港|澳|台",Global News
 https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/live-audio_1=96000-video=2499968.m3u8
 #EXTINF:-1 group-title="💥港|澳|台",Taiwan Plus
 https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8
 #EXTINF:-1 tvg-id="民视台湾台" tvg-name="民视台湾台" group-title="💥港|澳|台", 民视台湾台 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv001
-#EXTINF:-1 tvg-name=民视 group-title="💥港|澳|台", 民视 
-https://tzh911.qzz.io/litv.php?id=4gtv-4gtv002
 #EXTINF:-1 tvg-name=民视第一台 group-title="💥港|澳|台", 民视第一台 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv003
 #EXTINF:-1 tvg-name=民视综艺 group-title="💥港|澳|台", 民视综艺 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv004
-#EXTINF:-1 tvg-name=非凡新闻 group-title="💥港|澳|台", 非凡新闻 
-https://tzh911.qzz.io/litv.php?id=4gtv-4gtv010
 #EXTINF:-1 tvg-name=中视 group-title="💥港|澳|台", 中视 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv040
 #EXTINF:-1 tvg-name=华视 group-title="💥港|澳|台", 华视 
@@ -297,18 +317,12 @@ https://tzh911.qzz.io/litv.php?id=4gtv-4gtv056
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv064
 #EXTINF:-1 tvg-name=靖天资讯台 group-title="💥港|澳|台", 靖天资讯台 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv065
-#EXTINF:-1 tvg-name=台视 group-title="💥港|澳|台", 台视 
-https://tzh911.qzz.io/litv.php?id=4gtv-4gtv066
-#EXTINF:-1 tvg-name=tvbs精采台 group-title="💥港|澳|台", tvbs精采台 
-https://tzh911.qzz.io/litv.php?id=4gtv-4gtv067
 #EXTINF:-1 tvg-name=tvbs欢乐台 group-title="💥港|澳|台", tvbs欢乐台 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv068
 #EXTINF:-1 tvg-name=tvbs新闻台 group-title="💥港|澳|台", tvbs新闻台 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv072
 #EXTINF:-1 tvg-name=tvbs group-title="💥港|澳|台", tvbs 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv073
-#EXTINF:-1 tvg-name=中视经典 group-title="💥港|澳|台", 中视经典 
-https://tzh911.qzz.io/litv.php?id=4gtv-4gtv080
 #EXTINF:-1 tvg-name=国会频道1 group-title="💥港|澳|台", 国会频道1 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv084
 #EXTINF:-1 tvg-name=国会频道2 group-title="💥港|澳|台", 国会频道2 
@@ -317,8 +331,6 @@ https://tzh911.qzz.io/litv.php?id=4gtv-4gtv085
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv152
 #EXTINF:-1 tvg-name=民视旅游 group-title="💥港|澳|台", 民视旅游 
 https://tzh911.qzz.io/litv.php?id=litv-ftv07
-#EXTINF:-1 tvg-name=民视影剧 group-title="💥港|澳|台", 民视影剧 
-https://tzh911.qzz.io/litv.php?id=litv-ftv09
 #EXTINF:-1 tvg-name=民视新闻台 group-title="💥港|澳|台", 民视新闻台 
 https://tzh911.qzz.io/litv.php?id=litv-ftv13
 #EXTINF:-1 tvg-name=好消息 group-title="💥港|澳|台", 好消息 
@@ -327,24 +339,6 @@ https://tzh911.qzz.io/litv.php?id=litv-ftv16
 https://tzh911.qzz.io/litv.php?id=litv-ftv17
 #EXTINF:-1 tvg-name=寰宇新闻台湾台 group-title="💥港|澳|台", 寰宇新闻台湾台 
 https://tzh911.qzz.io/litv.php?id=litv-longturn15
-#EXTINF:-1 tvg-id="TVB翡翠(馬來)" tvg-name="TVB翡翠(馬來)" group-title="💥港|澳|台",TVB翡翠(馬來)
-http://iptv.4666888.xyz/iptv2A.php?id=28
-#EXTINF:-1 tvg-id="TVB明珠" tvg-name="TVB明珠" group-title="💥港|澳|台",TVB明珠
-http://iptv.4666888.xyz/iptv2A.php?id=29
-#EXTINF:-1 tvg-id="TVBJ1" tvg-name="TVBJ1" group-title="💥港|澳|台",TVBJ1
-http://iptv.4666888.xyz/iptv2A.php?id=26
-#EXTINF:-1 tvg-id="TVB1" tvg-name="TVB1" group-title="💥港|澳|台",TVB1
-http://iptv.4666888.xyz/iptv2A.php?id=25
-#EXTINF:-1 tvg-id="TVB娱乐新闻" tvg-name="TVB娱乐新闻" group-title="💥港|澳|台",TVB娱乐新闻
-http://iptv.4666888.xyz/iptv2A.php?id=36
-#EXTINF:-1 tvg-id="MYTV黃金翡翠" tvg-name="MYTV黃金翡翠" group-title="💥港|澳|台",MYTV黃金翡翠
-http://iptv.4666888.xyz/iptv2A.php?id=32
-#EXTINF:-1 tvg-id="TVB翡翠劇集" tvg-name="TVB翡翠劇集" group-title="💥港|澳|台",TVB翡翠劇集
-http://iptv.4666888.xyz/iptv2A.php?id=33
-#EXTINF:-1 tvg-id="TVBS新聞" tvg-name="TVBS新聞" group-title="💥港|澳|台",TVBS新聞
-http://iptv.4666888.xyz/iptv2A.php?id=43
-#EXTINF:-1 tvg-id="民視綜藝" tvg-name="民視綜藝" group-title="💥港|澳|台",民視綜藝
-http://iptv.4666888.xyz/iptv2A.php?id=46
 #EXTINF:-1 tvg-id="凤凰电影" tvg-name="凤凰电影" group-title="💥港|澳|台",凤凰电影
 http://iot-mqqt.111yao.cn:8080/live/diyp_fhdy.m3u8
 #EXTINF:-1 tvg-id="翡翠台4K" tvg-name="翡翠台4K" group-title="💥港|澳|台",翡翠台4K
@@ -367,16 +361,6 @@ https://epg.pw/stream/6b49e3faa38adda85abab446f032dc1e686baa0760a9cfa66e2df8fd6f
 https://smt.1678520.xyz/smt3.2.1.php?id=Tvbjade
 #EXTINF:-1 tvg-id="VIU" tvg-name="VIU" group-title="💥港|澳|台",VIU
 http://php.jdshipin.com:8880/smt.php?id=viu1_twn
-#EXTINF:-1 tvg-id="TVB PLUS" tvg-name="TVB PLUS" tvg-logo="https://logo.laobaitv.net/tvbplus" group-title="💥港|澳|台",TVB PLUS
-http://php.jdshipin.com/TVOD/iptv.php?id=tvbp
-#EXTINF:-1 tvg-id="VIU TV" tvg-name="VIU TV" tvg-logo="https://logo.laobaitv.net/viutv" group-title="💥港|澳|台",VIU TV
-http://php.jdshipin.com/TVOD/iptv.php?id=viutv
-#EXTINF:-1 tvg-id="台视HD" tvg-name="台视HD" tvg-logo="https://logo.laobaitv.net/tshd" group-title="💥港|澳|台",台视 HD
-https://smart.dxjc.pp.ua/smart.php?id=ttv_taiwan&token=tmxk
-#EXTINF:-1 tvg-id="中视HD" tvg-name="中视HD" tvg-logo="https://logo.laobaitv.net/zshd" group-title="💥港|澳|台",中视 HD
-https://smart.dxjc.pp.ua/smart.php?id=zhongshihd_twn&token=tmxk
-#EXTINF:-1 tvg-id="民视HD" tvg-name="民视HD" tvg-logo="https://logo.laobaitv.net/mshd" group-title="💥港|澳|台",民视 HD
-https://smart.dxjc.pp.ua/smart.php?id=ftvhd_taiwan&token=tmxk
 #EXTINF:-1 tvg-id="CITY都市剧场" tvg-name="CITY都市剧场" tvg-logo="" group-title="💎地方频道",都市剧场
 http://36.135.118.195:85/tsfile/live/1026_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="吉林都市" tvg-name="吉林都市" tvg-logo="" group-title="💎地方频道",吉林都市
@@ -437,24 +421,30 @@ http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221225749/index.m3u8
 http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221225762/index.m3u8
 #EXTINF:-1 group-title="💎地方频道",娱乐新闻
 http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw
+#EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" group-title="💎地方频道",广东珠江
+http://iptv.4666888.xyz/iptv2A.php?id=19
+#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" group-title="💎地方频道",广东体育
+http://iptv.4666888.xyz/iptv2A.php?id=20
+#EXTINF:-1 tvg-id="爱尔达综合" tvg-name="爱尔达综合" group-title="💎地方频道",爱尔达综合
+http://iptv.4666888.xyz/iptv2A.php?id=49
 #EXTINF:-1 tvg-name=镜新闻 group-title="💎地方频道", 镜新闻 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv075
 #EXTINF:-1 tvg-name=半岛新闻 group-title="💎地方频道", 半岛新闻 
 https://tzh911.qzz.io/litv.php?id=litv-ftv10
 #EXTINF:-1 tvg-id="北京新闻" tvg-name="北京新闻" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京新闻.png" group-title="💎地方频道",北京新闻
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s9/index.m3u8?time=1763993418&sign=e3d18d679f42102f8db145a117dc731a
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s9/index.m3u8?time=1763994016&sign=44fd9ec815f1daa50f1be3f42e9351e2
 #EXTINF:-1 tvg-id="北京影视" tvg-name="北京影视" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京影视.png" group-title="💎地方频道",北京影视
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s4/index.m3u8?time=1763993414&sign=d730216513e383763d673ec5dc1b4a8e
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s4/index.m3u8?time=1763994012&sign=c493fe62c313d8853e6c8ab7abb4ac6c
 #EXTINF:-1 tvg-id="北京生活" tvg-name="北京生活" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京生活.png" group-title="💎地方频道",北京生活
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s7/index.m3u8?time=1763993417&sign=c4ed2f7df7522316c36f360633428df1
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s7/index.m3u8?time=1763994015&sign=7e128e0fa7e4279b66b208b17cabfcc1
 #EXTINF:-1 tvg-id="北京文艺" tvg-name="北京文艺" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京文艺.png" group-title="💎地方频道",北京文艺
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s2/index.m3u8?time=1763993412&sign=b7a3c9d5131a10adb1f3fdb77c0e83b0
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s2/index.m3u8?time=1763994010&sign=7d2f47c41ecd1fbb034a8a1d653c5fbb
 #EXTINF:-1 tvg-id="北京财经" tvg-name="北京财经" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京财经.png" group-title="💎地方频道",北京财经
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s5/index.m3u8?time=1763993415&sign=2482773d4b4daa905cd38c3a42e0e854
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s5/index.m3u8?time=1763994014&sign=527dc6c92e0f2f433b6aa92ed8b884d5
 #EXTINF:-1 tvg-id="北京纪实科教" tvg-name="北京纪实科教" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京纪实科教.png" group-title="💎地方频道",北京纪实科教
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s3/index.m3u8?time=1763993413&sign=5f468203cf30a7a79637eaac634f7bd6
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s3/index.m3u8?time=1763994011&sign=c2632138991ac2f8c0194ace6b0c0ab8
 #EXTINF:-1 tvg-id="北京卡酷少儿" tvg-name="北京卡酷少儿" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京卡酷少儿.png" group-title="💎地方频道",北京卡酷少儿
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s10/index.m3u8?time=1763993419&sign=a552af3478a03cdfc0dcf7773b3a988f
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s10/index.m3u8?time=1763994016&sign=91b3f380ddab3ee683c5d7411a32087b
 #EXTINF:-1 tvg-id="南京新闻综合频道" tvg-name="南京新闻综合频道" group-title="💎地方频道",南京新闻综合频道
 http://gslbmgsplive.miguvideo.com/migu/kailu/nanjingxwzh/50/20230719/index.m3u8?msisdn=20251124220017db79b12d32194e4d8dae083968334500&mdspid=&spid=699067&netType=0&sid=5910021863&pid=2028597139&timestamp=20251124220017&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=838109047&ParentNodeID=-99&assertID=5910021863&client_ip=43.139.160.244&SecurityKey=20251124220017&promotionId=&mvid=5900006203&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=cb1052e8ec4d739066693d94ddefd8e8&ddCalcu=8cebe812d08f50e2ded84e9cd43d97636960
 #EXTINF:-1 tvg-id="南京教科频道" tvg-name="南京教科频道" group-title="💎地方频道",南京教科频道
@@ -505,14 +495,8 @@ http://gslbmgsplive.miguvideo.com/migu/kailu/sxqqpd/51/20250804/index.m3u8?msisd
 http://gslbmgsplive.miguvideo.com/migu/kailu/sxxwzx/51/20250804/index.m3u8?msisdn=20251124220020e7dc871a1d7f49218c288375c8e226e0&mdspid=&spid=600572&netType=0&sid=5910022187&pid=2028597139&timestamp=20251124220020&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=956909289&ParentNodeID=-99&assertID=5910022187&client_ip=43.139.160.244&SecurityKey=20251124220020&promotionId=&mvid=5900006710&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=e8a9817b42c061cfdcb6504ba5be2c3a&ddCalcu=ae38eca2296e80b157abb4420c5066b1ccdf
 #EXTINF:-1 tvg-id="山东教育" tvg-name="山东教育" group-title="💎地方频道",山东教育
 http://gslbmgsplive.miguvideo.com/migu/kailu/sdjyws/51/20250915/index.m3u8?msisdn=20251124220021458149d362134c5e85b5eae50b2c689a&mdspid=&spid=600697&netType=0&sid=5910022199&pid=2028597139&timestamp=20251124220021&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=609154353&ParentNodeID=-99&assertID=5910022199&client_ip=43.139.160.244&SecurityKey=20251124220021&promotionId=&mvid=2200208305&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=f596854e9bcf540e655ab56e291d275f&ddCalcu=ff55e792269d8015942ee96b5cbfa554506e
-#EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" group-title="💎地方频道",广东珠江
-http://iptv.4666888.xyz/iptv2A.php?id=19
-#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" group-title="💎地方频道",广东体育
-http://iptv.4666888.xyz/iptv2A.php?id=20
-#EXTINF:-1 tvg-id="爱尔达综合" tvg-name="爱尔达综合" group-title="💎地方频道",爱尔达综合
-http://iptv.4666888.xyz/iptv2A.php?id=49
 #EXTINF:-1 tvg-id="新动力量创一流" tvg-name="新动力量创一流" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/019/523/202506060000_1749138941378_H32_1080.webp" group-title="💎地方频道",新动力量创一流
-http://gslbmgsplive.miguvideo.com/migu/virtuallive2/5900002409/51/20210706/index.m3u8?msisdn=2025112420011215cb5f3d9eca495f91e6e14a3734f14d&mdspid=&spid=800033&netType=0&sid=5910019523&pid=2028597139&timestamp=20251124200112&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=713589837&ParentNodeID=-99&assertID=5910019523&client_ip=106.13.250.88&SecurityKey=20251124200112&promotionId=&mvid=5900002419&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=b4d805143cecab9c7bf7b14f29348887&ddCalcu=7b84e8d2883400359124f34c1ebc7afbb97c
+http://gslbmgsplive.miguvideo.com/migu/virtuallive2/5900002409/51/20210706/index.m3u8?msisdn=20251124220033d455b7fc15ef4386aacd7cf7bd74462b&mdspid=&spid=800033&netType=0&sid=5910019523&pid=2028597139&timestamp=20251124220033&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=713589837&ParentNodeID=-99&assertID=5910019523&client_ip=106.13.250.90&SecurityKey=20251124220033&promotionId=&mvid=5900002419&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=8bf9a57a7366e170e5e066ec568b2e7b&ddCalcu=b87beef2293ba085675ac7e366660ee157e0
 #EXTINF:-1 tvg-id="新闻频道" tvg-name="新闻频道" group-title="💎地方频道",新闻频道
 http://tvcdn.stream3.hndt.com/tv/65bb6966017e100059b75a8500000000_transios/playlist.m3u8?wsSecret=8cf54f4671d0a9c1e8dbdeb2e1fb2e74&wsTime=1764007298
 #EXTINF:-1 tvg-id="都市频道" tvg-name="都市频道" group-title="💎地方频道",都市频道
@@ -591,38 +575,6 @@ https://migu.188766.xyz/?migutoken=61c213d4e2cc660041edbb074e029678&id=%E5%8D%97
 https://migu.188766.xyz/?migutoken=ebba86dae0a074930690552e1a0e7683&id=%E5%8D%97%E4%BA%AC%E6%95%99%E7%A7%91%E9%A2%91%E9%81%93&type=yy
 #EXTINF:-1 tvg-id="南京十八" tvg-name="南京十八" group-title="💎地方频道",南京十八
 https://migu.188766.xyz/?migutoken=32245cf7a642a3a5e7a470815f6cc08e&id=%E5%8D%97%E4%BA%AC%E5%8D%81%E5%85%AB%E9%A2%91%E9%81%93&type=yy
-#EXTINF:-1 tvg-id="" tvg-name="江苏城市" tvg-logo="https://logo.laobaitv.net/jscs" group-title="💎地方频道",江苏城市频道
-https://live.chinacert.cftest5.cn/mg/?id=626064714
-#EXTINF:-1 tvg-id="" tvg-name="盐城新闻" tvg-logo="https://logo.laobaitv.net/ycxw" group-title="💎地方频道",盐城新闻综合
-https://live.chinacert.cftest5.cn/mg/?id=639731825
-#EXTINF:-1 tvg-id="" tvg-name="淮安新闻" tvg-logo="https://logo.laobaitv.net/haxw" group-title="💎地方频道",淮安新闻综合
-https://live.chinacert.cftest5.cn/mg/?id=639731826
-#EXTINF:-1 tvg-id="" tvg-name="泰州新闻" tvg-logo="https://logo.laobaitv.net/tzxw" group-title="💎地方频道",泰州新闻综合
-https://live.chinacert.cftest5.cn/mg/?id=639731818
-#EXTINF:-1 tvg-id="" tvg-name="连云港新闻" tvg-logo="https://logo.laobaitv.net/lygxw" group-title="💎地方频道",连云港新闻综合
-https://live.chinacert.cftest5.cn/mg/?id=639731715
-#EXTINF:-1 tvg-id="" tvg-name="宿迁新闻" tvg-logo="https://logo.laobaitv.net/sqxw" group-title="💎地方频道",宿迁新闻综合
-https://live.chinacert.cftest5.cn/mg/?id=639731832
-#EXTINF:-1 tvg-id="" tvg-name="徐州新闻" tvg-logo="https://logo.laobaitv.net/xzxw" group-title="💎地方频道",徐州新闻综合
-https://live.chinacert.cftest5.cn/mg/?id=639731747
-#EXTINF:-1 tvg-id="" tvg-name="江阴新闻" tvg-logo="https://logo.laobaitv.net/jyxw" group-title="💎地方频道",江阴新闻综合
-https://live.chinacert.cftest5.cn/mg/?id=955227979
-#EXTINF:-1 tvg-id="" tvg-name="南通新闻" tvg-logo="https://logo.laobaitv.net/ntxw" group-title="💎地方频道",南通新闻综合
-https://live.chinacert.cftest5.cn/mg/?id=955227985
-#EXTINF:-1 tvg-id="" tvg-name="宜兴新闻" tvg-logo="https://logo.laobaitv.net/yxxw" group-title="💎地方频道",宜兴新闻综合
-https://live.chinacert.cftest5.cn/mg/?id=955227996
-#EXTINF:-1 tvg-id="" tvg-name="溧水新闻" tvg-logo="https://logo.laobaitv.net/lsxw" group-title="💎地方频道",溧水新闻综合
-https://live.chinacert.cftest5.cn/mg/?id=639737327
-#EXTINF:-1 tvg-id="" tvg-name="陕西银龄" tvg-logo="https://logo.laobaitv.net/shannxyl" group-title="💎地方频道",陕西银龄频道
-https://live.chinacert.cftest5.cn/mg/?id=956909362
-#EXTINF:-1 tvg-id="" tvg-name="陕西都市青春" tvg-logo="https://logo.laobaitv.net/shannxdsqc" group-title="💎地方频道",陕西都市青春频道
-https://live.chinacert.cftest5.cn/mg/?id=956909358
-#EXTINF:-1 tvg-id="" tvg-name="陕西体育休闲" tvg-logo="https://logo.laobaitv.net/shannxtyxx" group-title="💎地方频道",陕西体育休闲频道
-https://live.chinacert.cftest5.cn/mg/?id=956909356
-#EXTINF:-1 tvg-id="" tvg-name="陕西秦腔" tvg-logo="https://logo.laobaitv.net/shannxqq" group-title="💎地方频道",陕西秦腔频道
-https://live.chinacert.cftest5.cn/mg/?id=956909303
-#EXTINF:-1 tvg-id="" tvg-name="陕西新闻资讯" tvg-logo="https://logo.laobaitv.net/shannxxwzx" group-title="💎地方频道",陕西新闻资讯频道
-https://live.chinacert.cftest5.cn/mg/?id=956909289
 #EXTINF:-1 tvg-id="纬来精彩" tvg-name="纬来精彩" group-title="🌈综艺频道",纬来精彩
 http://61.221.215.25:8800/hls/48/index.m3u8
 #EXTINF:-1 tvg-id="纬来日本" tvg-name="纬来日本" tvg-logo="" group-title="🌈综艺频道",纬来日本
@@ -645,6 +597,10 @@ https://cdn.ryplay10.com/20250125/35961_cf038721/index.m3u8
 http://php.jdshipin.com/smt.php?id=AEC
 #EXTINF:-1 group-title="🌈综艺频道",astro欢喜台
 http://php.jdshipin.com/smt.php?id=Huahee
+#EXTINF:-1 tvg-id="華藝中文" tvg-name="華藝中文" group-title="🌈综艺频道",華藝中文
+http://iptv.4666888.xyz/iptv2A.php?id=37
+#EXTINF:-1 tvg-id="八度空间" tvg-name="八度空间" group-title="🌈综艺频道",八度空间
+http://iptv.4666888.xyz/iptv2A.php?id=52
 #EXTINF:-1 group-title="🌈综艺频道",HollyWire
 https://bozztv.com/hwotta/playlist/HD3400/HD3400.m3u8
 #EXTINF:-1 group-title="🌈综艺频道",Fashion Channel
@@ -683,12 +639,8 @@ https://tzh911.qzz.io/litv.php?id=4gtv-4gtv054
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv070
 #EXTINF:-1 tvg-name=亚洲旅游台 group-title="🌈综艺频道", 亚洲旅游台 
 https://tzh911.qzz.io/litv.php?id=litv-longturn17
-#EXTINF:-1 tvg-id="華藝中文" tvg-name="華藝中文" group-title="🌈综艺频道",華藝中文
-http://iptv.4666888.xyz/iptv2A.php?id=37
-#EXTINF:-1 tvg-id="八度空间" tvg-name="八度空间" group-title="🌈综艺频道",八度空间
-http://iptv.4666888.xyz/iptv2A.php?id=52
 #EXTINF:-1 tvg-id="最强综艺趴" tvg-name="最强综艺趴" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/315/654/202204010047_5101034202_H32_1080.webp" group-title="🌈综艺频道",最强综艺趴
-http://gslbmgsplive.miguvideo.com/migu/kailu/zuiqiangzongyi/51/20250514/index.m3u8?msisdn=20251124200112e08c0810d730436b9d2d808faa13a721&mdspid=&spid=699004&netType=0&sid=5500315654&pid=2028597139&timestamp=20251124200112&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=629942228&ParentNodeID=-99&assertID=5500315654&client_ip=106.13.250.88&SecurityKey=20251124200112&promotionId=&mvid=5101034202&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=22b14ee23c278d7ff4de655eca6cdd73&ddCalcu=3272edb2d19c406eaec2e35c5267e8dd47ff
+http://gslbmgsplive.miguvideo.com/migu/kailu/zuiqiangzongyi/51/20250514/index.m3u8?msisdn=20251124220033c495c2caa9a64854b6b8fc96537a9f50&mdspid=&spid=699004&netType=0&sid=5500315654&pid=2028597139&timestamp=20251124220033&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=629942228&ParentNodeID=-99&assertID=5500315654&client_ip=106.13.250.90&SecurityKey=20251124220033&promotionId=&mvid=5101034202&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=258fb9b825fcba174c553e8625d5cfef&ddCalcu=f2e5ef82cf95b0d95b286285ef3c5b5ac147
 #EXTINF:-1 tvg-id="经典小品" tvg-name="经典小品" group-title="🌈综艺频道",经典小品
 http://zzy789.xyz/douyu1.php?id=9067836
 #EXTINF:-1 tvg-id="宋小宝经典小品" tvg-name="宋小宝经典小品" group-title="🌈综艺频道",宋小宝经典小品
@@ -706,9 +658,9 @@ http://php.jdshipin.com/smt.php?id=Huahee
 #EXTINF:-1  tvg-id="jcom_2_1072_32742" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7FE6-071-400x400.png" group-title="🌈综艺频道", TV Tokyo (テレ東)
 https://tv2.jptv.live/hls/main.m3u8
 #EXTINF:-1  tvg-id="tx" tvg-logo="https://statics.tver.jp/images/icon/tx.jpg" group-title="🌈综艺频道", テレ東
-https://ssai-variants.streaks.jp/v5/tver-simul-tx/035622a82bcb46bc8e41ca5351f95a00/3887c96991ce4ae1bec43ea19f24c4d5/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-177-8159/3a725315-e8ab-43ea-a509-8d8b841c7856/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLXR4LnN0cmVha3MuanAiLCJvZmZzZXQiOjksInBkdCI6Ii0xMzI1MSJ9.tHCJHhGNgNRuEOXyca6xqgB9IovzCE8iFbzGx1JB_VQ
+https://ssai-variants.streaks.jp/v5/tver-simul-tx/035622a82bcb46bc8e41ca5351f95a00/3887c96991ce4ae1bec43ea19f24c4d5/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-177-8159/e5ada34e-7154-4b0d-90d8-c9f3fbdad5a2/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLXR4LnN0cmVha3MuanAiLCJvZmZzZXQiOjksInBkdCI6Ii0xMzI1MSJ9.tHCJHhGNgNRuEOXyca6xqgB9IovzCE8iFbzGx1JB_VQ
 #EXTINF:-1  tvg-id="cx" tvg-logo="https://statics.tver.jp/images/icon/cx.jpg" group-title="🌈综艺频道", フジテレビ
-https://ssai-variants.streaks.jp/v5/tver-simul-cx/a78ebf1910144ba287907ec691bdc863/4817bf371f214463a3609e17a365f098/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-178-7884/64520ef6-0539-4c4c-9ab9-3c5b8ba6c222/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLWN4LnN0cmVha3MuanAiLCJvZmZzZXQiOjksInBkdCI6Ii02NjI3In0.VA5RYohfCZlAwpFbyARPOXyTi-3S732ri-JMIxnzOGw
+https://ssai-variants.streaks.jp/v5/tver-simul-cx/a78ebf1910144ba287907ec691bdc863/4817bf371f214463a3609e17a365f098/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-178-7884/75549844-a31e-4dd6-9c27-d4ea4cd8ff77/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLWN4LnN0cmVha3MuanAiLCJvZmZzZXQiOjksInBkdCI6Ii02NjI3In0.VA5RYohfCZlAwpFbyARPOXyTi-3S732ri-JMIxnzOGw
 #EXTINF:-1  tvg-id="gmt+9" tvg-logo="https://statics.tver.jp/images/content/thumbnail/live/xlarge/le8rg7d3tb.jpg" group-title="🌈综艺频道", FNN フジテレビNEWS24！
 https://variants.streaks.jp/v5/tver-splive/82ccf9500ea444e9bdc8dc4e4bb2a95f/e841f45bb8ac43568c8031df5e97eb7d/manifest_2.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNwbGl2ZS5zdHJlYWtzLmpwIn0.jtEWoPdQa08-jn8Q9ia0BaJF9eI-rwl7n8ZYSf_HooM
 #EXTINF:-1 tvg-id="爱尔达体育1台" tvg-name="爱尔达体育1台" tvg-logo="" group-title="⚽️体育频道",爱尔达体育1台
@@ -737,6 +689,22 @@ https://live.catvod.com/beesports.php?id=WWE
 http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221225732/index.m3u8
 #EXTINF:-1 group-title="⚽️体育频道",HOY TV
 http://php.jdshipin.com/TVOD/iptv.php?id=hoytv
+#EXTINF:-1 tvg-id="SPOTV" tvg-name="SPOTV" group-title="⚽️体育频道",SPOTV
+http://iptv.4666888.xyz/iptv2A.php?id=2
+#EXTINF:-1 tvg-id="SPOTV2" tvg-name="SPOTV2" group-title="⚽️体育频道",SPOTV2
+http://iptv.4666888.xyz/iptv2A.php?id=1
+#EXTINF:-1 tvg-id="astroFootball" tvg-name="astroFootball" group-title="⚽️体育频道",astroFootball
+http://iptv.4666888.xyz/iptv2A.php?id=4
+#EXTINF:-1 tvg-id="TntSports3" tvg-name="TntSports3" group-title="⚽️体育频道",TntSports3
+http://iptv.4666888.xyz/iptv2A.php?id=3
+#EXTINF:-1 tvg-id="wwwe" tvg-name="wwwe" group-title="⚽️体育频道",wwwe
+http://iptv.4666888.xyz/iptv2A.php?id=5
+#EXTINF:-1 tvg-id="博斯運動1" tvg-name="博斯運動1" group-title="⚽️体育频道",博斯運動1
+http://iptv.4666888.xyz/iptv2A.php?id=6
+#EXTINF:-1 tvg-id="HOY77" tvg-name="HOY77" group-title="⚽️体育频道",HOY77
+http://iptv.4666888.xyz/iptv2A.php?id=35
+#EXTINF:-1 tvg-id="HOY78" tvg-name="HOY78" group-title="⚽️体育频道",HOY78
+http://iptv.4666888.xyz/iptv2A.php?id=31
 #EXTINF:-1 group-title="⚽️体育频道",Trace Sport Stars
 https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="⚽️体育频道",SportsGrid
@@ -777,74 +745,24 @@ https://tzh911.qzz.io/litv.php?id=litv-longturn10
 https://tzh911.qzz.io/litv.php?id=litv-longturn13
 #EXTINF:-1 tvg-id="体育休闲频道" tvg-name="体育休闲频道" group-title="⚽️体育频道",体育休闲频道
 http://gslbmgsplive.miguvideo.com/wd_r2/jstv/jstiyu/600/index.m3u8?msisdn=202511242200171bc7035125b34a26ad55d8e1bc0e33db&mdspid=&spid=699067&netType=0&sid=5500260554&pid=2028597139&timestamp=20251124220017&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=626064707&ParentNodeID=-99&assertID=5500260554&client_ip=43.139.160.244&SecurityKey=20251124220017&promotionId=&mvid=5100186459&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=e016b48ce8150555cb60108956c44ddb&ddCalcu=bed0ed124664b0c4685c9e8801150065b5c5
-#EXTINF:-1 tvg-id="SPOTV" tvg-name="SPOTV" group-title="⚽️体育频道",SPOTV
-http://iptv.4666888.xyz/iptv2A.php?id=2
-#EXTINF:-1 tvg-id="SPOTV2" tvg-name="SPOTV2" group-title="⚽️体育频道",SPOTV2
-http://iptv.4666888.xyz/iptv2A.php?id=1
-#EXTINF:-1 tvg-id="astroFootball" tvg-name="astroFootball" group-title="⚽️体育频道",astroFootball
-http://iptv.4666888.xyz/iptv2A.php?id=4
-#EXTINF:-1 tvg-id="TntSports3" tvg-name="TntSports3" group-title="⚽️体育频道",TntSports3
-http://iptv.4666888.xyz/iptv2A.php?id=3
-#EXTINF:-1 tvg-id="wwwe" tvg-name="wwwe" group-title="⚽️体育频道",wwwe
-http://iptv.4666888.xyz/iptv2A.php?id=5
-#EXTINF:-1 tvg-id="博斯運動1" tvg-name="博斯運動1" group-title="⚽️体育频道",博斯運動1
-http://iptv.4666888.xyz/iptv2A.php?id=6
-#EXTINF:-1 tvg-id="HOY77" tvg-name="HOY77" group-title="⚽️体育频道",HOY77
-http://iptv.4666888.xyz/iptv2A.php?id=35
-#EXTINF:-1 tvg-id="HOY78" tvg-name="HOY78" group-title="⚽️体育频道",HOY78
-http://iptv.4666888.xyz/iptv2A.php?id=31
 #EXTINF:-1 tvg-id="赛事最经典" tvg-name="赛事最经典" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/592/947/202204010047_5101034296_H32_1080.webp" group-title="⚽️体育频道",赛事最经典
-http://gslbmgsplive.miguvideo.com/migu/kailu/saishijingdian/51/20250514/index.m3u8?msisdn=20251124200105c71c677bc2004542be5345ea64ad7439&mdspid=&spid=699004&netType=0&sid=5500592947&pid=2028597139&timestamp=20251124200105&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=646596895&ParentNodeID=-99&assertID=5500592947&client_ip=106.13.250.88&SecurityKey=20251124200105&promotionId=&mvid=5101034296&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=529c959853432836ca92b07abde00a8c&ddCalcu=c582ea920c6090e5d9b8a57304b32298a3c6
+http://gslbmgsplive.miguvideo.com/migu/kailu/saishijingdian/51/20250514/index.m3u8?msisdn=20251124220024e9f2a071f0a543faaf75f13fa46cd6e1&mdspid=&spid=699004&netType=0&sid=5500592947&pid=2028597139&timestamp=20251124220024&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=646596895&ParentNodeID=-99&assertID=5500592947&client_ip=106.13.250.90&SecurityKey=20251124220024&promotionId=&mvid=5101034296&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=842d4c6454397bd0aab0d5a598feabdd&ddCalcu=d8d4eb22ad6e40fc869455a453d907bbada0
 #EXTINF:-1 tvg-id="体坛名栏汇" tvg-name="体坛名栏汇" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/315/687/202204010048_5101034219_H32_1080.webp" group-title="⚽️体育频道",体坛名栏汇
-http://gslbmgsplive.miguvideo.com/migu/kailu/titanminglan/51/20250514/index.m3u8?msisdn=202511242001050140f93bf6454f2a88e442036c6ab1a7&mdspid=&spid=699004&netType=0&sid=5500315687&pid=2028597139&timestamp=20251124200105&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=629943305&ParentNodeID=-99&assertID=5500315687&client_ip=106.13.250.88&SecurityKey=20251124200105&promotionId=&mvid=5101034219&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=6581353a391a6a5239db8d0de62af5c0&ddCalcu=06c5e582f19a302563ead309d18ab6da9532
+http://gslbmgsplive.miguvideo.com/migu/kailu/titanminglan/51/20250514/index.m3u8?msisdn=20251124220025aba467eb204b48a8bce992f8c4ea83e6&mdspid=&spid=699004&netType=0&sid=5500315687&pid=2028597139&timestamp=20251124220025&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=629943305&ParentNodeID=-99&assertID=5500315687&client_ip=106.13.250.90&SecurityKey=20251124220025&promotionId=&mvid=5101034219&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=26d45d0c537f3c32e988d19510c02428&ddCalcu=8226e4d2249050cd001c559317df838c93e2
 #EXTINF:-1 tvg-id="四海钓鱼" tvg-name="四海钓鱼" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/184/202508040856_5100132656_H32_1080.webp" group-title="⚽️体育频道",四海钓鱼
-http://gslbmgsplive.miguvideo.com/wd_r4/peoplecn/shdiaoyu/1200/index.m3u8?msisdn=20251124200105a39e57d33acf4cd09c4f4df3c9d1da12&mdspid=&spid=600697&netType=0&sid=5910022184&pid=2028597139&timestamp=20251124200105&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=637444975&ParentNodeID=-99&assertID=5910022184&client_ip=106.13.250.88&SecurityKey=20251124200105&promotionId=&mvid=5100132656&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=6bff37bf8173640b40e372ee27ccb320&ddCalcu=062be3f2bf7c30c77b2fe8e1277336e4004b
+http://gslbmgsplive.miguvideo.com/wd_r4/peoplecn/shdiaoyu/1200/index.m3u8?msisdn=20251124220025c8e5df591cde426498f238bb1804be54&mdspid=&spid=600697&netType=0&sid=5910022184&pid=2028597139&timestamp=20251124220025&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=637444975&ParentNodeID=-99&assertID=5910022184&client_ip=106.13.250.90&SecurityKey=20251124220025&promotionId=&mvid=5100132656&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=fb3d0a305c5959cfa5f928edc0078396&ddCalcu=6f9be3328d77000a03c0d5ec852995f95caf
 #EXTINF:-1 tvg-id="24小时全运会轮播台" tvg-name="24小时全运会轮播台" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/019/527/202510301745_1761815257845_H32_1080.webp" group-title="⚽️体育频道",24小时全运会轮播台
-http://gslbmgsplive.miguvideo.com/migu/virtuallive2/5900002413/51/20210706/index.m3u8?msisdn=2025112420010609b2edccb3d446858c54ea7c67e80146&mdspid=&spid=800033&netType=0&sid=5910019527&pid=2028597139&timestamp=20251124200106&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=713600957&ParentNodeID=-99&assertID=5910019527&client_ip=106.13.250.88&SecurityKey=20251124200106&promotionId=&mvid=5900002443&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=75693f8ea9a7f7f74963723b7a8fdf0c&ddCalcu=c705ef62d93f308fa87eba392a773f679f47
+http://gslbmgsplive.miguvideo.com/migu/virtuallive2/5900002413/51/20210706/index.m3u8?msisdn=202511242200254d91f62ccbae4c1daacdeb64cda10e65&mdspid=&spid=800033&netType=0&sid=5910019527&pid=2028597139&timestamp=20251124220025&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=713600957&ParentNodeID=-99&assertID=5910019527&client_ip=106.13.250.90&SecurityKey=20251124220025&promotionId=&mvid=5900002443&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=0760efebec88c1131e60e91e3f76821f&ddCalcu=f017e2628036e07ffe3bee1c98e80c61e113
 #EXTINF:-1 tvg-id="24小时城市联赛轮播台" tvg-name="24小时城市联赛轮播台" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/136/202509241340_1758692392561_H32_1080.webp" group-title="⚽️体育频道",24小时城市联赛轮播台
-http://gslbmgsplive.miguvideo.com/migu/lunbo/ouzhoubei/51/20240603/index.m3u8?msisdn=20251124200106bc76e0279c7c43dbbd6cabee38b508d4&mdspid=&spid=800033&netType=0&sid=5910022136&pid=2028597139&timestamp=20251124200106&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=915512915&ParentNodeID=-99&assertID=5910022136&client_ip=106.13.250.88&SecurityKey=20251124200106&promotionId=&mvid=5900006618&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=33c34b07b6fce3fb8872e4f9c053a1e5&ddCalcu=53e3e1c2a353405b00c79bf64fec2e738f8b
+http://gslbmgsplive.miguvideo.com/migu/lunbo/ouzhoubei/51/20240603/index.m3u8?msisdn=202511242200252a8aef63cc954b60b043561f96d813d4&mdspid=&spid=800033&netType=0&sid=5910022136&pid=2028597139&timestamp=20251124220025&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=915512915&ParentNodeID=-99&assertID=5910022136&client_ip=106.13.250.90&SecurityKey=20251124220025&promotionId=&mvid=5900006618&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=cbd759850856fced2e89cefb3479307e&ddCalcu=ec7be0d2375950794835b0f8e5c69f8cee2d
 #EXTINF:-1 tvg-id="武术世界" tvg-name="武术世界" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/201/202509251348_1758698474363_H32_1080.webp" group-title="⚽️体育频道",武术世界
-http://gslbmgsplive.miguvideo.com/migu/kailu/wssj/51/20250915/index.m3u8?msisdn=202511242001064218b91c27a9444aaed90296169072ca&mdspid=&spid=600697&netType=0&sid=5910022201&pid=2028597139&timestamp=20251124200106&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=958475359&ParentNodeID=-99&assertID=5910022201&client_ip=106.13.250.88&SecurityKey=20251124200106&promotionId=&mvid=5900006724&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=43b3eb439e5143b0588a0ab525f1756c&ddCalcu=c463e5b27381e0fb542359bea501a4838b50
+http://gslbmgsplive.miguvideo.com/migu/kailu/wssj/51/20250915/index.m3u8?msisdn=202511242200250703a06ee0cb469b8cdb284ec09859e2&mdspid=&spid=600697&netType=0&sid=5910022201&pid=2028597139&timestamp=20251124220025&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=958475359&ParentNodeID=-99&assertID=5910022201&client_ip=106.13.250.90&SecurityKey=20251124220025&promotionId=&mvid=5900006724&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=6a1c2a34a7ea7bb64fbeff7315d7d4d3&ddCalcu=36dae412dc8720da53143a77fefae7bbfb46
 #EXTINF:-1 tvg-id="武术频道" tvg-name="武术频道" group-title="⚽️体育频道",武术频道
 https://dxtx.hntv.tv/live/wssj.m3u8?txSecret=c38b4d31ba4c45c6babb5c47132123e3&txTime=7ABB976A&wsSecret=79538f2fcba577b65a43c49369562a4b&wsTime=1764007298
 #EXTINF:-1 tvg-id="UK: SKY SPORTS Cricket" tvg-name="UK: SKY SPORTS Cricket" group-title="⚽️体育频道",UK: SKY SPORTS Cricket
 http://nocable.cc:8080//OURTV/OURTV@4806/45940
 #EXTINF:-1 tvg-id="Red Bull TV" tvg-name="Red Bull TV" group-title="⚽️体育频道",Red Bull TV
 http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="咪咕24小时体育台" tvg-logo="https://logo.laobaitv.net/mg24xstyt" group-title="⚽️体育频道",咪咕24小时体育台
-https://live.chinacert.cftest5.cn/mg/?id=654102378
-#EXTINF:-1 tvg-id="ESPN" tvg-name="ESPN" tvg-logo="https://logo.laobaitv.net/espn" group-title="⚽️体育频道",ESPN
-https://bee.laobaitv.net/ESPN/index.m3u8
-#EXTINF:-1 tvg-id="ESPN2" tvg-name="ESPN2" tvg-logo="https://logo.laobaitv.net/espn2" group-title="⚽️体育频道",ESPN 2
-https://bee.laobaitv.net/ESPN-2/index.m3u8
-#EXTINF:-1 tvg-id="ESPN NEWS" tvg-name="ESPN NEWS" tvg-logo="https://logo.laobaitv.net/espnnews" group-title="⚽️体育频道",ESPN News
-https://bee.laobaitv.net/ESPN-News/index.m3u8
-#EXTINF:-1 tvg-id="ESPN DEPORTES" tvg-name="ESPN DEPORTES" tvg-logo="https://logo.laobaitv.net/espndeportes" group-title="⚽️体育频道",ESPN Deportes
-https://bee.laobaitv.net/ESPN-Deportes/index.m3u8
-#EXTINF:-1 tvg-id="SKY SPORTS MAIN EVENT" tvg-name="SKY SPORTS MAIN EVENT" tvg-logo="https://logo.laobaitv.net/skysportsmainevent" group-title="⚽️体育频道",SKY SPORTS MAIN EVENT
-https://bee.laobaitv.net/Sky-Sports-Main-Event/index.m3u8
-#EXTINF:-1 tvg-id="SKY SPORTS FOOTBALL" tvg-name="SKY SPORTS FOOTBALL" tvg-logo="https://logo.laobaitv.net/skysportsfootball" group-title="⚽️体育频道",SKY SPORTS FOOTBALL
-https://bee.laobaitv.net/Sky-Sports-Football/index.m3u8
-#EXTINF:-1 tvg-id="SKY SPORTS PREMIER LEAGUE" tvg-name="SKY SPORTS PREMIER LEAGUE" tvg-logo="https://logo.laobaitv.net/skysportspremierleague" group-title="⚽️体育频道",SKY SPORTS PREMIER LEAGUE
-https://bee.laobaitv.net/Sky-Sports-Premier-League/index.m3u8
-#EXTINF:-1 tvg-id="SKY SPORTS NEWs" tvg-name="SKY SPORTS NEWs" tvg-logo="https://logo.laobaitv.net/skysportsnews" group-title="⚽️体育频道",SKY SPORTS NEWS
-https://bee.laobaitv.net/Sky-Sports-News/index.m3u8
-#EXTINF:-1 tvg-id="SKY SPORTS MIX" tvg-name="SKY SPORTS MIX" tvg-logo="https://logo.laobaitv.net/skysportsmix" group-title="⚽️体育频道",SKY SPORTS MIX
-https://bee.laobaitv.net/Sky-Sports-Mix/index.m3u8
-#EXTINF:-1 tvg-id="SKY SPORTS ARENA" tvg-name="SKY SPORTS ARENA" tvg-logo="https://logo.laobaitv.net/skysportsarena" group-title="⚽️体育频道",SKY SPORTS ARENA
-https://bee.laobaitv.net/Sky-Sports-Arena/index.m3u8
-#EXTINF:-1 tvg-id="SKY SPORTS CRICKET" tvg-name="SKY SPORTS CRICKET" tvg-logo="https://logo.laobaitv.net/skysportscricket" group-title="⚽️体育频道",SKY SPORTS CRICKET
-https://bee.laobaitv.net/Sky-Sports-Cricket/index.m3u8
-#EXTINF:-1 tvg-id="SKY SPORTS Tennis" tvg-name="SKY SPORTS Tennis" tvg-logo="https://logo.laobaitv.net/skysportstennis" group-title="⚽️体育频道",SKY SPORTS Tennis
-https://bee.laobaitv.net/Sky-Sports-Tennis/index.m3u8
-#EXTINF:-1 tvg-id="SKY SPORTS F1" tvg-name="SKY SPORTS F1" tvg-logo="https://logo.laobaitv.net/skysportsf1" group-title="⚽️体育频道",SKY SPORTS F1
-https://bee.laobaitv.net/Sky-Sports-F1/index.m3u8
-#EXTINF:-1 tvg-id="SKY SPORTS GOLF" tvg-name="SKY SPORTS GOLF" tvg-logo="https://logo.laobaitv.net/skysportsgolf" group-title="⚽️体育频道",SKY SPORTS GOLF
-https://bee.laobaitv.net/Sky-Sports-Golf/index.m3u8
-#EXTINF:-1 tvg-id="SKY SPORTS RACING" tvg-name="SKY SPORTS RACING" tvg-logo="https://logo.laobaitv.net/skysportsracing" group-title="⚽️体育频道",SKY SPORTS RACING
-https://bee.laobaitv.net/Sky-Sports-Racing/index.m3u8
-#EXTINF:-1 tvg-id="BEIN SPORTS" tvg-name="BEIN SPORTS" tvg-logo="https://logo.laobaitv.net/beinsports" group-title="⚽️体育频道",BEIN SPORTS
-https://bee.laobaitv.net/Bein-Sports-USA/index.m3u8
 #EXTINF:-1 tvg-id="HBO_HD" tvg-name="HBO_HD" tvg-logo="" group-title="🎥电影频道",HBO_HD
 https://smt.passwdword.xyz/Smart.php?id=hbohd_twn
 #EXTINF:-1 tvg-id="HBO_HITS" tvg-name="HBO_HITS" tvg-logo="" group-title="🎥电影频道",HBO_HITS
@@ -893,6 +811,18 @@ http://php.jdshipin.com:8880/TVOD/iptv.php?id=tvbc
 http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
 #EXTINF:-1 group-title="🎥电影频道",爱奇艺
 http://php.jdshipin.com/smt.php?id=Qiyi
+#EXTINF:-1 tvg-id="靖天电影" tvg-name="靖天电影" group-title="🎥电影频道",靖天电影
+http://iptv.4666888.xyz/iptv2A.php?id=56
+#EXTINF:-1 tvg-id="邵氏武侠" tvg-name="邵氏武侠" group-title="🎥电影频道",邵氏武侠
+http://iptv.4666888.xyz/iptv2A.php?id=40
+#EXTINF:-1 tvg-id="東森电影" tvg-name="東森电影" group-title="🎥电影频道",東森电影
+http://iptv.4666888.xyz/iptv2A.php?id=48
+#EXTINF:-1 tvg-id="龍華电影" tvg-name="龍華电影" group-title="🎥电影频道",龍華电影
+http://iptv.4666888.xyz/iptv2A.php?id=45
+#EXTINF:-1 tvg-id="邵氏电影" tvg-name="邵氏电影" group-title="🎥电影频道",邵氏电影
+http://iptv.4666888.xyz/iptv2A.php?id=39
+#EXTINF:-1 tvg-id="ROCK_Action" tvg-name="ROCK_Action" group-title="🎥电影频道",ROCK_Action
+http://iptv.4666888.xyz/iptv2A.php?id=50
 #EXTINF:-1 group-title="🎥电影频道",WION
 https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
 #EXTINF:-1 group-title="🎥电影频道",MovieSphere
@@ -947,26 +877,14 @@ https://tzh911.qzz.io/litv.php?id=4gtv-4gtv061
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv076
 #EXTINF:-1 tvg-id="上视东方影视" tvg-name="上视东方影视" group-title="🎥电影频道",上视东方影视
 http://gslbmgsplive.miguvideo.com/wd_r4/dfl/dianshijuhd/1200/index.m3u8?msisdn=202511242200175d4d1353b3f54ee2b923736c7408b0db&mdspid=&spid=699212&netType=0&sid=5500002274&pid=2028597139&timestamp=20251124220017&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=617290047&ParentNodeID=-99&assertID=5500002274&client_ip=43.139.160.244&SecurityKey=20251124220017&promotionId=&mvid=5100001715&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=c7d9766435fe595b634eee5ba3cccfc8&ddCalcu=8cc7efd2c97c70c636a4b355efeee549356b
-#EXTINF:-1 tvg-id="靖天电影" tvg-name="靖天电影" group-title="🎥电影频道",靖天电影
-http://iptv.4666888.xyz/iptv2A.php?id=56
-#EXTINF:-1 tvg-id="邵氏武侠" tvg-name="邵氏武侠" group-title="🎥电影频道",邵氏武侠
-http://iptv.4666888.xyz/iptv2A.php?id=40
-#EXTINF:-1 tvg-id="東森电影" tvg-name="東森电影" group-title="🎥电影频道",東森电影
-http://iptv.4666888.xyz/iptv2A.php?id=48
-#EXTINF:-1 tvg-id="龍華电影" tvg-name="龍華电影" group-title="🎥电影频道",龍華电影
-http://iptv.4666888.xyz/iptv2A.php?id=45
-#EXTINF:-1 tvg-id="邵氏电影" tvg-name="邵氏电影" group-title="🎥电影频道",邵氏电影
-http://iptv.4666888.xyz/iptv2A.php?id=39
-#EXTINF:-1 tvg-id="ROCK_Action" tvg-name="ROCK_Action" group-title="🎥电影频道",ROCK_Action
-http://iptv.4666888.xyz/iptv2A.php?id=50
 #EXTINF:-1 tvg-id="经典香港电影" tvg-name="经典香港电影" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/242/089/202508211805_1755769511908_H32_1080.webp" group-title="🎥电影频道",经典香港电影
-http://gslbmgsplive.miguvideo.com/wd_r2/virtuallive/5100180869/150/index.m3u8?msisdn=202511242001100c408a5420864d7996ba8381122d2c1a&mdspid=&spid=800033&netType=0&sid=5500242089&pid=2028597139&timestamp=20251124200110&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=625703337&ParentNodeID=-99&assertID=5500242089&client_ip=106.13.250.88&SecurityKey=20251124200110&promotionId=&mvid=5100180869&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=84a2bcf8b8fde283d9f0429d2ada86aa&ddCalcu=a8a4e6a2825ab0dcaf28db982f4d0ef298d3
+http://gslbmgsplive.miguvideo.com/wd_r2/virtuallive/5100180869/150/index.m3u8?msisdn=20251124220030413532c411d346629384fc522d28e605&mdspid=&spid=800033&netType=0&sid=5500242089&pid=2028597139&timestamp=20251124220030&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=625703337&ParentNodeID=-99&assertID=5500242089&client_ip=106.13.250.90&SecurityKey=20251124220030&promotionId=&mvid=5100180869&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=dc77bab53501ca4601c2e72ac59c5c63&ddCalcu=3d6cec72575cb09a5bc5a32570e12cca1406
 #EXTINF:-1 tvg-id="抗战经典影片" tvg-name="抗战经典影片" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/002/717/202507241513_1753340553498_H32_1080.webp" group-title="🎥电影频道",抗战经典影片
-http://gslbmgsplive.miguvideo.com/wd-virtuallive5100002089-150/index.m3u8?msisdn=20251124200110e6aa7fa5206b49e5a241a2333c3199f8&mdspid=&spid=800033&netType=0&sid=5500002717&pid=2028597139&timestamp=20251124200110&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=617432318&ParentNodeID=-99&assertID=5500002717&client_ip=106.13.250.88&SecurityKey=20251124200110&promotionId=&mvid=5100002089&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=aeba6cec26a3739e14d046502f559ecb&ddCalcu=baceeeb29a75605cfe2c02566a4307d3491e
+http://gslbmgsplive.miguvideo.com/wd-virtuallive5100002089-150/index.m3u8?msisdn=2025112422003091ebb6a34ce94e00acfa57888cadb1ec&mdspid=&spid=800033&netType=0&sid=5500002717&pid=2028597139&timestamp=20251124220030&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=617432318&ParentNodeID=-99&assertID=5500002717&client_ip=106.13.250.90&SecurityKey=20251124220030&promotionId=&mvid=5100002089&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=d0f2a928b2fa12fb8278cf31fbdc7590&ddCalcu=0d90e5f2727ca0d9b2f81b32ffca81722f8b
 #EXTINF:-1 tvg-id="新片放映厅" tvg-name="新片放映厅" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/035/175/202405061742_1714988159903_H32_1080.webp" group-title="🎥电影频道",新片放映厅
-http://gslbmgsplive.miguvideo.com/wd-virtuallive5100030975-150/index.m3u8?msisdn=202511242001109ab9b5624c9346f9875fdae334e81df2&mdspid=&spid=800033&netType=0&sid=5500035175&pid=2028597139&timestamp=20251124200110&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=619495952&ParentNodeID=-99&assertID=5500035175&client_ip=106.13.250.88&SecurityKey=20251124200110&promotionId=&mvid=5100030975&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=70af2f5fcaa7033be444bb3f4be9ff1e&ddCalcu=e710efa2ff9920efb54ffc3abab7404343eb
+http://gslbmgsplive.miguvideo.com/wd-virtuallive5100030975-150/index.m3u8?msisdn=202511242200301f4ce355f7294e1fbd49557b49a80abc&mdspid=&spid=800033&netType=0&sid=5500035175&pid=2028597139&timestamp=20251124220030&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=619495952&ParentNodeID=-99&assertID=5500035175&client_ip=106.13.250.90&SecurityKey=20251124220030&promotionId=&mvid=5100030975&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=5d6c65f735c4a715b312bf87b7f513ed&ddCalcu=d5ede3621c9560f57fb77385fcb42a1731b5
 #EXTINF:-1 tvg-id="南方影视" tvg-name="南方影视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2206/173/738/202304081513_2206173738_H32_1080.webp" group-title="🎥电影频道",南方影视
-http://gslbmgsplive.miguvideo.com/wd_r1/2018/nfmedia/nfys/1000/index.m3u8?msisdn=202511242001101daefbcaeee84a72ba96f90dac52c726&mdspid=&spid=699054&netType=0&sid=2206173738&pid=2028597139&timestamp=20251124200110&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=614961829&ParentNodeID=-99&assertID=2206173738&client_ip=106.13.250.88&SecurityKey=20251124200110&promotionId=&mvid=2206173738&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=e8d7bdc4cee48c75548073fcfa9c463d&ddCalcu=de38e6d2474cb09dacf4ccfe3e74088c4755
+http://gslbmgsplive.miguvideo.com/wd_r1/2018/nfmedia/nfys/1000/index.m3u8?msisdn=20251124220031f8d83165d69a4e2bb875f63aa09ab20f&mdspid=&spid=699054&netType=0&sid=2206173738&pid=2028597139&timestamp=20251124220031&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=614961829&ParentNodeID=-99&assertID=2206173738&client_ip=106.13.250.90&SecurityKey=20251124220031&promotionId=&mvid=2206173738&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=45df5c241ab1ffdb6be2c43245d45b14&ddCalcu=4415ebd25f4450dc5244213a4bc12fefbd6b
 #EXTINF:-1 tvg-id="象视界" tvg-name="象视界" group-title="🎥电影频道",象视界
 http://tvcdn.stream3.hndt.com/tv/d34d1a2b0178100022de972e00000000_transios/playlist.m3u8?wsSecret=5230c9d4cec91ce6a5798adfa06296e2&wsTime=1764007298
 #EXTINF:-1 tvg-id="高清大片" tvg-name="高清大片" group-title="🎥电影频道",高清大片
@@ -995,20 +913,6 @@ http://huanqiuzhibo.cn/manifest/douyu.php?id=434971
 http://php.jdshipin.com/smt.php?id=Celestial
 #EXTINF:-1 tvg-id="astro爱奇艺" tvg-name="astro爱奇艺" group-title="🎥电影频道",astro爱奇艺
 http://php.jdshipin.com/smt.php?id=Qiyi
-#EXTINF:-1 tvg-id="" tvg-name="血色山河·抗日战争影像志" tvg-logo="https://logo.laobaitv.net/xssh·krzzyxz" group-title="🎥电影频道",血色山河·抗日战争影像志
-https://live.chinacert.cftest5.cn/mg/?id=713600957
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://logo.laobaitv.net/huya" group-title="🎥电影频道",虎牙 电影轮播
-https://live.laobaitv.net/huya/11342412
-#EXTINF:-1 tvg-id="HBO" tvg-name="HBO" tvg-logo="https://logo.laobaitv.net/hbo" group-title="🎥电影频道",HBO 台湾
-https://smart.dxjc.pp.ua/smart.php?id=hbohd_twn&token=tmxk
-#EXTINF:-1 tvg-id="好莱坞电影台" tvg-name="好莱坞电影台" tvg-logo="https://logo.laobaitv.net/hlwdyt" group-title="🎥电影频道",好莱坞电影台
-https://smart.dxjc.pp.ua/smart.php?id=hollywoodmovies_twn&token=tmxk
-#EXTINF:-1 tvg-id="HBO2" tvg-name="HBO 2" tvg-logo="https://logo.laobaitv.net/hbo2" group-title="🎥电影频道",HBO 2
-https://bee.laobaitv.net/HBO-2/index.m3u8
-#EXTINF:-1 tvg-id="Cinemax West" tvg-name="Cinemax West" tvg-logo="https://logo.laobaitv.net/cinemaxwest" group-title="🎥电影频道",Cinemax West
-https://bee.laobaitv.net/Cinemax-West/index.m3u8
-#EXTINF:-1 tvg-id="Great Movies" tvg-name="Great Movies" tvg-logo="https://logo.laobaitv.net/greatmovies" group-title="🎥电影频道",Great Movies
-https://bee.laobaitv.net/UK-Great-Movies/index.m3u8
 #EXTINF:-1 tvg-id="龙华卡通" tvg-name="龙华卡通" tvg-logo="" group-title="🌝动画频道",龙华卡通
 https://cdn6.101.qzz.io/163189/lhkt
 #EXTINF:-1 tvg-id="纬来育乐" tvg-name="纬来育乐" group-title="🌝动画频道",纬来育乐
@@ -1040,7 +944,7 @@ http://gslbmgsplive.miguvideo.com/migu/kailu/20210415/cctvzhongxuesheng/51/index
 #EXTINF:-1 tvg-id="优漫卡通频道" tvg-name="优漫卡通频道" group-title="🌝动画频道",优漫卡通频道
 http://gslbmgsplive.miguvideo.com/wd_r2/jstv/ymkt/600/index.m3u8?msisdn=202511242200196c1146825d324f9caab4b2a261582537&mdspid=&spid=699067&netType=0&sid=5500260553&pid=2028597139&timestamp=20251124220019&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=626064703&ParentNodeID=-99&assertID=5500260553&client_ip=43.139.160.244&SecurityKey=20251124220019&promotionId=&mvid=5100186455&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=288bae490896288cede3bef568d601a6&ddCalcu=62a8e1820b66a0de846950f8e9b632e8d8ec
 #EXTINF:-1 tvg-id="经典动画大集合" tvg-name="经典动画大集合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/315/652/202204010055_5101034205_H32_1080.webp" group-title="🌝动画频道",经典动画大集合
-http://gslbmgsplive.miguvideo.com/migu/kailu/jingdiandonghua/51/20250514/index.m3u8?msisdn=20251124200112f45224a78e97434bb53f2ac981e06138&mdspid=&spid=699004&netType=0&sid=5500315652&pid=2028597139&timestamp=20251124200112&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=629942219&ParentNodeID=-99&assertID=5500315652&client_ip=106.13.250.88&SecurityKey=20251124200112&promotionId=&mvid=5101034205&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=9d7a88ffe2aa456b2a03493b970bf382&ddCalcu=298de372fa9b80087f9fbe329a4a3405a62b
+http://gslbmgsplive.miguvideo.com/migu/kailu/jingdiandonghua/51/20250514/index.m3u8?msisdn=20251124220033f2e900c21c0744fbaab921b72687033e&mdspid=&spid=699004&netType=0&sid=5500315652&pid=2028597139&timestamp=20251124220033&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=629942219&ParentNodeID=-99&assertID=5500315652&client_ip=106.13.250.90&SecurityKey=20251124220033&promotionId=&mvid=5101034205&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=febffeb7411ee84bd5f70d928da416f9&ddCalcu=9ffee6b21f94f0aedb872491d10e7ef854db
 #EXTINF:-1 tvg-id="优漫卡通" tvg-name="优漫卡通" group-title="🌝动画频道",优漫卡通
 https://migu.188766.xyz/?migutoken=7873eb448cdea477d99aa40f8ecad4ac&id=%E4%BC%98%E6%BC%AB%E5%8D%A1%E9%80%9A%E9%A2%91%E9%81%93&type=yy
 #EXTINF:-1 tvg-id="发现之旅" tvg-name="发现之旅" tvg-logo="" group-title="🐷纪录片频道",发现之旅
@@ -1080,15 +984,11 @@ http://gslbmgsplive.miguvideo.com/envivo_v/2018/SD/cctv/doc/1000/index.m3u8?msis
 #EXTINF:-1 tvg-id="老故事" tvg-name="老故事" group-title="🐷纪录片频道",老故事
 http://gslbmgsplive.miguvideo.com/migu/kailu/cctvlaogushi/50/20231109/index.m3u8?msisdn=202511242200143d85fbe44b224e729420290a510c6f1e&mdspid=&spid=699004&netType=0&sid=5910022002&pid=2028597139&timestamp=20251124220014&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=884121956&ParentNodeID=-99&assertID=5910022002&client_ip=43.139.160.244&SecurityKey=20251124220014&promotionId=&mvid=5900006372&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=174b88e3cc3a226c35d6a0addb58da86&ddCalcu=6187ea42db488058bed3dcac03aa62d2563c
 #EXTINF:-1 tvg-id="中国天气" tvg-name="中国天气" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/296/202511061701_1762241901460_H32_1080.webp" group-title="🐷纪录片频道",中国天气
-http://gslbmgsplive.miguvideo.com/migu/kailu/zgtq/51/20251103/index.m3u8?msisdn=202511242001110cd971e8e248421cadfcfe08c4d3ce00&mdspid=&spid=600697&netType=0&sid=5910022296&pid=2028597139&timestamp=20251124200111&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=959986621&ParentNodeID=-99&assertID=5910022296&client_ip=106.13.250.88&SecurityKey=20251124200111&promotionId=&mvid=5900006772&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=04e574438ae99433896fc4fea21d8e80&ddCalcu=0084eee2859d701424a3e8fa4ec9f9649383
+http://gslbmgsplive.miguvideo.com/migu/kailu/zgtq/51/20251103/index.m3u8?msisdn=2025112422003132f99c2571c34488a241178d6630ade5&mdspid=&spid=600697&netType=0&sid=5910022296&pid=2028597139&timestamp=20251124220031&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=959986621&ParentNodeID=-99&assertID=5910022296&client_ip=106.13.250.90&SecurityKey=20251124220031&promotionId=&mvid=5900006772&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=2f5d04f088f244d0818a555a632ac558&ddCalcu=825fe552cd9a00243f60a8585f52a4841d80
 #EXTINF:-1 tvg-id="中华特产" tvg-name="中华特产" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/295/202511061701_1762241728018_H32_1080.webp" group-title="🐷纪录片频道",中华特产
-http://gslbmgsplive.miguvideo.com/migu/kailu/zhtc/51/20251103/index.m3u8?msisdn=202511242001121f2e5cbb95f84ad6ad27b3ea1be2c118&mdspid=&spid=600697&netType=0&sid=5910022295&pid=2028597139&timestamp=20251124200112&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=959986618&ParentNodeID=-99&assertID=5910022295&client_ip=106.13.250.88&SecurityKey=20251124200112&promotionId=&mvid=5900006771&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=b60b71bdf89c61735881bf932c6a82f9&ddCalcu=9bf6e2028b9a7061cb2d3f98f9bc16818753
+http://gslbmgsplive.miguvideo.com/migu/kailu/zhtc/51/20251103/index.m3u8?msisdn=202511242200334ac5a55d5d8b47128176cbf3cecaed92&mdspid=&spid=600697&netType=0&sid=5910022295&pid=2028597139&timestamp=20251124220033&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=959986618&ParentNodeID=-99&assertID=5910022295&client_ip=106.13.250.90&SecurityKey=20251124220033&promotionId=&mvid=5900006771&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=6f3394f458eb475a58f023049ed1b278&ddCalcu=867fe232b39190d4ef9445083e2b04f7855a
 #EXTINF:-1 tvg-id="贝爷贰厅" tvg-name="贝爷贰厅" group-title="🐷纪录片频道",贝爷贰厅
 http://huanqiuzhibo.cn/manifest/douyu.php?id=4332
-#EXTINF:-1 tvg-id="Discovery" tvg-name="Discovery Channel" tvg-logo="https://logo.laobaitv.net/discoverychannel" group-title="🐷纪录片频道",Discovery Channel
-https://bee.laobaitv.net/Discovery-Channel/index.m3u8
-#EXTINF:-1 tvg-id="Discovery Life" tvg-name="Discovery Life" tvg-logo="https://logo.laobaitv.net/discoverylife" group-title="🐷纪录片频道",Discovery Life
-https://bee.laobaitv.net/Discovery-Life/index.m3u8
 #EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="" group-title="🌍️国际频道",CGTN英语
 https://0472.org/hls/cgtn.m3u8
 #EXTINF:-1 tvg-id="CGTN俄语" tvg-name="CGTN俄语" tvg-logo="" group-title="🌍️国际频道",CGTN俄语
@@ -1170,12 +1070,8 @@ http://gslbmgsplive.miguvideo.com/envivo_v/SD/cctv/alabo/1000/index.m3u8?msisdn=
 http://gslbmgsplive.miguvideo.com/envivo_v/2018/SD/cctv/xibanya/1000/index.m3u8?msisdn=202511242200137d0a5fb6e3df4a018960a41e9b309418&mdspid=&spid=699004&netType=0&sid=2200179337&pid=2028597139&timestamp=20251124220013&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=609006450&ParentNodeID=-99&assertID=2200179337&client_ip=43.139.160.244&SecurityKey=20251124220013&promotionId=&mvid=2200179337&mcid=500020&playurlVersion=WX-A1-8.11.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=81b19cf0126329a506b2446775b6d3af&ddCalcu=f8a1e3b2d19690bc5f707162464322b96a05
 #EXTINF:-1 tvg-id="星空卫视" tvg-name="星空卫视" group-title="🌍️国际频道",星空卫视
 http://iot-mqqt.111yao.cn:8080/live/diyp_xingkong.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CGTN记录" tvg-logo="https://logo.laobaitv.net/CGTNjl" group-title="🌍️国际频道",CGTN外语纪录
-https://live.chinacert.cftest5.cn/mg/?id=609006487
-#EXTINF:-1 tvg-id="NHK World Japan" tvg-name="NHK World Japan" tvg-logo="https://logo.laobaitv.net/nhkworldjapan" group-title="🌍️国际频道",NHK World Japan
-https://livehub-voidnet.onrender.com/cluster/streamcore/jp/NHK_StreamOrchestrator.m3u8
 #EXTINF:-1  tvg-id="ntv" tvg-logo="https://statics.tver.jp/images/icon/ntv.jpg" group-title="🌍️国际频道", 日テレ
-https://ssai-variants.streaks.jp/v5/tver-simul-ntv/938232e586b34196b704a5839663984b/cb593b5eafbb4645907e979d757e1dd5/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-174-11920/60cb6ffa-7dc3-4dc7-99d3-d48ac61d214c/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLW50di5zdHJlYWtzLmpwIiwib2Zmc2V0Ijo5LCJwZHQiOiItOTcwMCJ9.8ALPlYOq0ZgdD3uzlZO4yeZ2EpnQBuhR60vqCrDfJ1w
+https://ssai-variants.streaks.jp/v5/tver-simul-ntv/938232e586b34196b704a5839663984b/cb593b5eafbb4645907e979d757e1dd5/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-174-11920/7c7dffed-e864-40da-afab-a2d15e56e62a/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLW50di5zdHJlYWtzLmpwIiwib2Zmc2V0Ijo5LCJwZHQiOiItOTcxMiJ9.QHPW0kPmQc0iU0M85Oj1IjS85zvWL9km7BpqdZKpEH0
 #EXTINF:-1  tvg-id="gmt+9" tvg-logo="https://statics.tver.jp/images/content/thumbnail/live/xlarge/letibz75z1.jpg" group-title="🌍️国际频道", 日テレNEWS24
 https://variants.streaks.jp/v5/tver-splive/ecc1ad44856545d382a4ee08e254da80/5b19a12960f24e76af940cc5d0ab1261/manifest_2.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNwbGl2ZS5zdHJlYWtzLmpwIn0.jtEWoPdQa08-jn8Q9ia0BaJF9eI-rwl7n8ZYSf_HooM
 #EXTINF:-1  tvg-id="gmt+9" tvg-logo="https://statics.tver.jp/images/content/thumbnail/live/xlarge/lexcqiug5m.jpg" group-title="🌍️国际频道", TBS NEWS DIG Powered by JNN
@@ -1190,14 +1086,14 @@ http://php.jdshipin.com:8880/TVOD/iptv.php?id=cwjd
 http://php.jdshipin.com/smt.php?id=Aodhd
 #EXTINF:-1 group-title="🧙‍♀️戏剧频道",astro全家
 http://php.jdshipin.com/smt.php?id=Quanjia
+#EXTINF:-1 tvg-id="靖洋戏剧" tvg-name="靖洋戏剧" group-title="🧙‍♀️戏剧频道",靖洋戏剧
+http://iptv.4666888.xyz/iptv2A.php?id=42
 #EXTINF:-1 tvg-name=靖洋戏剧台 group-title="🧙‍♀️戏剧频道", 靖洋戏剧台 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv045
 #EXTINF:-1 tvg-name=靖天戏剧台 group-title="🧙‍♀️戏剧频道", 靖天戏剧台 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv058
 #EXTINF:-1 tvg-name=台湾戏剧台 group-title="🧙‍♀️戏剧频道", 台湾戏剧台 
 https://tzh911.qzz.io/litv.php?id=litv-longturn22
-#EXTINF:-1 tvg-id="靖洋戏剧" tvg-name="靖洋戏剧" group-title="🧙‍♀️戏剧频道",靖洋戏剧
-http://iptv.4666888.xyz/iptv2A.php?id=42
 #EXTINF:-1 tvg-id="电视剧频道" tvg-name="电视剧频道" group-title="🧙‍♀️戏剧频道",电视剧频道
 http://tvcdn.stream3.hndt.com/tv/65bd329b017e1000648cd2ed00000000_transios/playlist.m3u8?wsSecret=2180a8a0265ad8f9600f301881217e53&wsTime=1764007298
 #EXTINF:-1 tvg-id="梨园频道" tvg-name="梨园频道" group-title="🧙‍♀️戏剧频道",梨园频道
@@ -1256,14 +1152,6 @@ rtmp://rtmp.tv.stream3.hndt.com/tv/647f9277018410008cf925e200000000?wsSecret=9a2
 https://mgev.188766.xyz/?migutoken=16a1c3fa3cbfe42c772529f093981970&id=gd_xdjy&type=sz
 #EXTINF:-1 tvg-id="生命电视" tvg-name="生命电视" group-title="📗教育频道",生命电视
 http://61.216.67.119:1935/lifetv/lifetv.stream/manifest.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="中国教育2台" tvg-logo="https://logo.laobaitv.net/zgjy2t" group-title="📗教育频道",24小时城市联赛轮播台
-https://live.chinacert.cftest5.cn/mg/?id=915512915
-#EXTINF:-1 tvg-id="" tvg-name="中国教育1台" tvg-logo="https://logo.laobaitv.net/zgjy1t" group-title="📗教育频道",CETV1
-https://live.chinacert.cftest5.cn/mg/?id=923287154
-#EXTINF:-1 tvg-id="" tvg-name="中国教育4台" tvg-logo="https://logo.laobaitv.net/zgjy4t" group-title="📗教育频道",CETV4
-https://live.chinacert.cftest5.cn/mg/?id=923287339
-#EXTINF:-1 tvg-id="CloudflareTV" tvg-name="CloudflareTV" tvg-logo="https://logo.laobaitv.net/cloudflaretv" group-title="📗教育频道",Cloudflare TV
-https://cloudflare.tv/hls/live.m3u8
 #EXTINF:-1 tvg-id="乐游" tvg-name="乐游" tvg-logo="" group-title="📦️购物频道",乐游
 http://36.135.118.195:85/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&authid=0
 http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221226157/index.m3u8
@@ -1289,32 +1177,6 @@ http://gslbmgsplive.miguvideo.com/migu/kailu/cftx/51/20250804/index.m3u8?msisdn=
 http://[2409:8087:1e02:20::1a]/TVOD/11/224/3221226117/index.m3u8
 #EXTINF:-1 tvg-name=GinxTV group-title="🕹️娱乐+直播频道", GinxTV 
 https://tzh911.qzz.io/litv.php?id=4gtv-4gtv053
-#EXTINF:-1 tvg-id="" tvg-name="掼蛋精英赛" tvg-logo="https://logo.laobaitv.net/gdjys" group-title="🕹️娱乐+直播频道",掼蛋精英赛
-https://live.chinacert.cftest5.cn/mg/?id=631354620
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://logo.laobaitv.net/ddz" group-title="🕹️娱乐+直播频道",虎牙 JJ斗地主
-https://live.laobaitv.net/huya/152698
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://logo.laobaitv.net/ddz" group-title="🕹️娱乐+直播频道",虎牙 JJ斗地主 精选回放
-https://live.laobaitv.net/huya/30814432
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://logo.laobaitv.net/ddz" group-title="🕹️娱乐+直播频道",虎牙 出奇智胜斗地主
-https://live.laobaitv.net/huya/139168
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://logo.laobaitv.net/gd" group-title="🕹️娱乐+直播频道",咪咕 掼蛋精英赛
-https://live.chinacert.cftest5.cn/mg/?id=631354620
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://logo.laobaitv.net/gd" group-title="🕹️娱乐+直播频道",虎牙 虎牙掼蛋赛事
-https://live.laobaitv.net/huya/139167
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://logo.laobaitv.net/yxlm" group-title="🕹️娱乐+直播频道",英雄联盟赛事
-https://live.laobaitv.net/huya/660000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://logo.laobaitv.net/huya" group-title="🕹️娱乐+直播频道",虎牙 柯南
-https://live.laobaitv.net/huya/30080148
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://logo.laobaitv.net/huya" group-title="🕹️娱乐+直播频道",虎牙 蜡笔小新
-https://live.laobaitv.net/huya/30362138
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://logo.laobaitv.net/huya" group-title="🕹️娱乐+直播频道",虎牙 鹿鼎记
-https://live.laobaitv.net/huya/23650774
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://logo.laobaitv.net/huya" group-title="🕹️娱乐+直播频道",虎牙 爱情公寓
-https://live.laobaitv.net/huya/11336726
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://logo.laobaitv.net/douyu" group-title="🕹️娱乐+直播频道",斗鱼 海绵宝宝
-https://live.laobaitv.net/douyu/12400977
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://logo.laobaitv.net/douyu" group-title="🕹️娱乐+直播频道",斗鱼 RunningMan
-https://live.laobaitv.net/douyu/131977
 #EXTINF:-1 tvg-id="龙华经典" tvg-name="龙华经典" tvg-logo="" group-title="💤综合",龙华经典
 https://cdn6.101.qzz.io/163189/lhjd
 #EXTINF:-1 tvg-id="2025/11/24 22:00:21" tvg-name="2025/11/24 22:00:21" group-title="💤综合",2025/11/24 22:00:21
@@ -1339,9 +1201,7 @@ http://zzy789.xyz/douyu1.php?id=85894
 http://zzy789.xyz/douyu1.php?id=20415
 #EXTINF:-1 tvg-id="黄龙" tvg-name="黄龙" group-title="💤综合",黄龙
 https://gcalic.v.myalicdn.com/gc/hlzycc_1/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://r2.laobaitv.net/laobaitv-logo-shade.png": 部分源来自互联网，请勿相信广告及付费 group-title="💤综合"
-https://live.laobaitv.net/fallback/config.m3u8
 #EXTINF:-1  tvg-id="ex" tvg-logo="https://statics.tver.jp/images/icon/ex.jpg" group-title="💤综合", テレビ朝日
-https://ssai-variants.streaks.jp/v5/tver-simul-ex/498c4512f66846f1b0a5a3320ee035c3/ce98cb0b48994b50a76dba08ea894e24/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-175-8158/c8690393-61bc-4f4c-a9fb-2c1441372097/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLWV4LnN0cmVha3MuanAiLCJvZmZzZXQiOjksInBkdCI6Ii0xODMyMCJ9.NzRzeRTjf0qo2r3ZXsw5U8WLhNfp-1OCOXWu05eMYoA
+https://ssai-variants.streaks.jp/v5/tver-simul-ex/498c4512f66846f1b0a5a3320ee035c3/ce98cb0b48994b50a76dba08ea894e24/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-175-8158/9e6ca497-3e8f-4e5f-97c8-a964bdb80080/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLWV4LnN0cmVha3MuanAiLCJvZmZzZXQiOjksInBkdCI6Ii0xODMyMCJ9.NzRzeRTjf0qo2r3ZXsw5U8WLhNfp-1OCOXWu05eMYoA
 #EXTINF:-1  tvg-id="tbs" tvg-logo="https://statics.tver.jp/images/icon/tbs.jpg" group-title="💤综合", TBS
-https://ssai-variants.streaks.jp/v5/tver-simul-tbs/8e4c80725b9842cdb0f6f91260945222/b72f7e116957436b824f95d5138ea7a3/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-176-7925/7a3dca67-7718-427f-aa93-0ed253434615/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLXRicy5zdHJlYWtzLmpwIiwib2Zmc2V0Ijo5LCJwZHQiOiItOTc4NCJ9.yPmJu3s556CwugUgTAi0uJTKfb9CuPrwauZJAI3F5f8
+https://ssai-variants.streaks.jp/v5/tver-simul-tbs/8e4c80725b9842cdb0f6f91260945222/b72f7e116957436b824f95d5138ea7a3/manifest/13df2e5de86b5ff0c5c3522d82e73a5fbf55aac1/pro-mt-176-7925/56e2b3a4-9408-444c-83c6-d5e2b3646508/0.m3u8?vt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlZGdlIjoibGl2ZS10dmVyLXNpbXVsLXRicy5zdHJlYWtzLmpwIiwib2Zmc2V0Ijo5LCJwZHQiOiItOTc4OSJ9.vRGge8lOE3Q4XRWjuUiDN5SEhHhXoPTH1SnqP1Sk3Kk
