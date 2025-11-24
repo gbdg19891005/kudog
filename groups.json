@@ -8,7 +8,7 @@
       "央视戏曲", "IPTV.*", "网络电视", "互动电视", "睛彩.*"
     ],
     "🇨🇳卫视频道": [
-      "卫视\\b", "澳视", "衛視\\b", "北京卫视4K超高清", "莲花", "环球", "新加坡", "蓮花"
+      "卫视\\b", "澳视", "衛視\\b", "北京卫视4K超高清", "莲花", "环球", "蓮花"
     ],
     "💥港|澳|台": [
       "凤凰", "鳳凰", "翡翠", "明珠", "无线", "無線", "TVB", "ViuTV", "RTHK", "香蕉", "鳳梨",
@@ -68,7 +68,7 @@
       "动物星球", "動物星球", "CI"
     ],
     "🌍️国际频道": [
-      "国际", "國際", "World", "WORLD", "NHK", "CNN", "BBC", "DIG", "日テ", "FNN",
+      "国际", "國際", "World", "WORLD", "NHK", "CNN", "BBC", "DIG", "日テ", "FNN", "新加坡",
       "GB News", "RT News", "Euronews", "NBC", "CBC News", "法·时尚", "Pearl", "Gugbang",
       "Newsmax", "TBS Seoul", "WION", "Newsy", "News 12", "Scripps News", "美国之音",
       "Sky News", "FOX NEWS", "Fox News", "France24", "FRANCE24", "阿里郎", "Buddhist",
