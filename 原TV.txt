@@ -22,34 +22,6 @@ https://tzh911.qzz.io/play-smt.php?id=ettvcaijing_twn
 https://tzh911.qzz.io/play-smt.php?id=huanyuxinwen_twn
 #EXTINF:-1 tvg-id="TVB无线新闻" tvg-name="TVB无线新闻" tvg-logo="" group-title="未分组",TVB无线新闻
 https://tzh911.qzz.io/play-smt.php?id=inews_twn
-#EXTINF:-1 tvg-id="AXN Taiwan" tvg-name="AXN Taiwan" tvg-logo="" group-title="未分组",AXN Taiwan
-https://smt.passwdword.xyz/Smart.php?id=axn_twn
-#EXTINF:-1 tvg-id="HBO_HD" tvg-name="HBO_HD" tvg-logo="" group-title="未分组",HBO_HD
-https://smt.passwdword.xyz/Smart.php?id=hbohd_twn
-#EXTINF:-1 tvg-id="HBO_HITS" tvg-name="HBO_HITS" tvg-logo="" group-title="未分组",HBO_HITS
-https://smt.passwdword.xyz/Smart.php?id=hbohit_twn
-#EXTINF:-1 tvg-id="CINEMAX" tvg-name="CINEMAX" tvg-logo="" group-title="未分组",CINEMAX
-https://smt.passwdword.xyz/Smart.php?id=cinemax_twn
-#EXTINF:-1 tvg-id="好萊塢電影台" tvg-name="好萊塢電影台" tvg-logo="" group-title="未分组",好萊塢電影台
-https://smt.passwdword.xyz/Smart.php?id=hollywoodmovies_twn
-#EXTINF:-1 tvg-id="东森电影" tvg-name="东森电影" tvg-logo="" group-title="未分组",东森电影
-https://smt.passwdword.xyz/Smart.php?id=ettvmovie
-#EXTINF:-1 tvg-id="东森洋片" tvg-name="东森洋片" tvg-logo="" group-title="未分组",东森洋片
-https://smt.passwdword.xyz/Smart.php?id=ettvwestern
-#EXTINF:-1 tvg-id="龙华电影" tvg-name="龙华电影" tvg-logo="" group-title="未分组",龙华电影
-https://smt.passwdword.xyz/Smart.php?id=xingwei_movie
-#EXTINF:-1 tvg-id="龙华洋片" tvg-name="龙华洋片" tvg-logo="" group-title="未分组",龙华洋片
-https://smt.passwdword.xyz/Smart.php?id=lunghuawestern_twn
-#EXTINF:-1 tvg-id="美亚电影" tvg-name="美亚电影" tvg-logo="" group-title="未分组",美亚电影
-https://smt.passwdword.xyz/Smart.php?id=meiyamovie_twn
-#EXTINF:-1 tvg-id="卫视电影台" tvg-name="卫视电影台" tvg-logo="" group-title="未分组",卫视电影台
-https://smt.passwdword.xyz/Smart.php?id=weishimovie_twn
-#EXTINF:-1 tvg-id="天映频道" tvg-name="天映频道" tvg-logo="" group-title="未分组",天映频道
-https://smt.passwdword.xyz/Smart.php?id=Celestial
-#EXTINF:-1 tvg-id="天映频道" tvg-name="天映频道" tvg-logo="" group-title="未分组",天映频道
-https://smt.passwdword.xyz/Smart.php?id=Celestialindo
-#EXTINF:-1 tvg-id="天映经典" tvg-name="天映经典" tvg-logo="" group-title="未分组",天映经典
-https://smt.passwdword.xyz/Smart.php?id=Celestial2
 #EXTINF:-1 tvg-name="龙华日韩" tvg-logo="" group-title="未分组",龙华日韩
 https://cdn6.101.qzz.io/163189/lhrh
 #EXTINF:-1 tvg-name="龙华经典" tvg-logo="" group-title="未分组",龙华经典
@@ -158,3 +130,4 @@ https://tzh911.qzz.io/play-smt.php?id=Wwe
 https://live.catvod.com/beesports.php?id=WWE
 #EXTINF:-1 tvg-name="wwe格斗风云" tvg-logo="" group-title="未分组",wwe格斗风云
 http://iptv.4666888.xyz/iptv2A.php?id=5
+
