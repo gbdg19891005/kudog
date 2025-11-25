@@ -193,3 +193,6 @@ Star World,星空卫视,StarWorld
 广东新闻,广东新闻频道
 深圳都市,SZTV都市
 深圳财经,SZTV财经
+# ===== NBA 系列 =====
+NBA,NBA常规赛
+NBA经典赛,NBA季后赛
