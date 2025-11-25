@@ -78,8 +78,6 @@ https://live-auth.51kandianshi.com/szgd/csztv3.m3u8
 https://live-auth.51kandianshi.com/szgd/csztv4.m3u8
 #EXTINF:-1 tvg-name="苏州生活资讯" group-title="",苏州生活资讯
 https://live-auth.51kandianshi.com/szgd/csztv5.m3u8
-#EXTINF:-1 tvg-name="SCTV-科教高清" group-title="",SCTV-科教高清
-http://home.yixi.pro:10043/udp/239.93.42.44:5140
 #EXTINF:-1 tvg-name="CGTN" tvg-logo="" group-title="未分组",CGTN英语
 https://0472.org/hls/cgtn.m3u8
 #EXTINF:-1 tvg-name="CGTN纪录" tvg-logo="" group-title="未分组",CGTN记录
@@ -92,9 +90,9 @@ https://0472.org/hls/cgtnf.m3u8
 https://0472.org/hls/cgtnx.m3u8
 #EXTINF:-1 tvg-name="CGTN阿语" tvg-logo="" group-title="未分组",CGTN阿语
 https://0472.org/hls/cgtna.m3u8
-#EXTINF:-1 tvg-name="新加坡中文" tvg-logo="" group-title="未分组",新加坡中文
+#EXTINF:-1 tvg-name="CNA亚洲新闻台" tvg-logo="" group-title="未分组",CNA亚洲新闻台
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8?zshijd
-#EXTINF:-1 tvg-name="新加坡中文" tvg-logo="" group-title="未分组",新加坡中文
+#EXTINF:-1 tvg-name="CNA亚洲新闻台" tvg-logo="" group-title="未分组",CNA亚洲新闻台
 http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 tvg-id="BBSTV.kr" tvg-name="BBS Buddhist Broadcasting" tvg-logo="" group-title="未分组",BBS Buddhist Broadcasting (韩国)
 http://bbstv.clouducs.com:1935/bbstv-live/livestream/playlist.m3u8
