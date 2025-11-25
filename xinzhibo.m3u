@@ -114,4 +114,13 @@ http://mediaworks.dema.mil.kr:1935/live_edge/cudo.sdp/playlist.m3u8
 https://cdn.ryplay10.com/20250217/36983_be819738/index.m3u8
 #EXTINF:-1 tvg-name="德云社甲辰年封箱庆典2024" tvg-logo="" group-title="未分组",德云社甲辰年封箱庆典2024
 https://cdn.ryplay10.com/20250125/35961_cf038721/index.m3u8
-
+#EXTINF:-1 tvg-name="英雄联盟赛事" tvg-logo="" group-title="未分组",英雄联盟赛事
+https://live.laobaitv.net/huya/660000
+#EXTINF:-1 tvg-name="澳视澳门" tvg-logo="" group-title="未分组",澳视澳门
+http://php.jdshipin.com/TVOD/iptv.php?id=asam
+#EXTINF:-1 tvg-name="澳视卫星" tvg-logo="" group-title="未分组",澳视卫星
+http://php.jdshipin.com/TVOD/iptv.php?id=as
+#EXTINF:-1 tvg-name="澳视体育" tvg-logo="" group-title="未分组",澳视体育
+http://cdn6.163189.xyz/163189/amty
+#EXTINF:-1 tvg-name="VIU TV" tvg-logo="" group-title="未分组",VIU TV
+http://php.jdshipin.com/TVOD/iptv.php?id=viutv
