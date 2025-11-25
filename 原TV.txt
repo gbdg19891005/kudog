@@ -38,8 +38,6 @@ http://61.221.215.25:8800/hls/47/index.m3u8
 https://tzh911.qzz.io/play-smt.php?id=ctient
 #EXTINF:-1 tvg-name="三立戏剧台" tvg-logo="" group-title="未分组",三立戏剧
 https://tzh911.qzz.io/play-smt.php?id=sanlixiju_twn
-#EXTINF:-1 tvg-name="MBC体育" tvg-logo="" group-title="未分组",MBC体育
-http://211.33.246.4:32954/cj_live/myStream.sdp/chunklist_w517347500.m3u8
 #EXTINF:-1 tvg-name="wwe格斗风云" tvg-logo="" group-title="未分组",wwe格斗风云
 http://iptv.4666888.xyz/iptv2A.php?id=5
 #EXTINF:-1 tvg-name="wwe格斗风云" tvg-logo="" group-title="未分组",wwe格斗风云
@@ -48,6 +46,7 @@ https://tzh911.qzz.io/play-smt.php?id=Wwe
 https://live.catvod.com/beesports.php?id=WWE
 #EXTINF:-1 tvg-name="wwe格斗风云" tvg-logo="" group-title="未分组",wwe格斗风云
 http://iptv.4666888.xyz/iptv2A.php?id=5
+
 
 
 
