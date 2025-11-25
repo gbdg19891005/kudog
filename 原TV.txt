@@ -48,26 +48,8 @@ http://php.jdshipin.com:8880/1905.php?id=1905dy
 http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
 #EXTINF:-1 tvg-name="大立 HD" group-title="未分组",大立 HD
 http://www.dalitv.com.tw:4568/live/dali/index.m3u8
-#EXTINF:-1 tvg-name="公视 HD" group-title="未分组",公视 HD
-rtmp://f13h.mine.nu/sat/tv771
-#EXTINF:-1 tvg-name="民视 HD" group-title="未分组",民视 HD
-rtmp://f13h.mine.nu/sat/tv051
 #EXTINF:-1 tvg-name="台视新闻台" group-title="未分组",台视新闻台
 http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
-#EXTINF:-1 tvg-name="中视 HD" group-title="未分组",中视 HD
-rtmp://f13h.mine.nu/sat/tv091
-#EXTINF:-1 tvg-name="华视 HD" group-title="未分组",华视 HD
-rtmp://f13h.mine.nu/sat/tv111
-#EXTINF:-1 tvg-name="东森超视" group-title="未分组",东森超视
-rtmp://f13h.mine.nu/sat/tv331
-#EXTINF:-1 tvg-name="纬来育乐" group-title="未分组",纬来育乐
-rtmp://f13h.mine.nu/sat/tv701
-#EXTINF:-1 tvg-name="纬来体育" group-title="未分组",纬来体育
-rtmp://f13h.mine.nu/sat/tv721
-#EXTINF:-1 tvg-name="非凡新闻台" group-title="未分组",非凡新闻台
-rtmp://f13h.mine.nu/sat/tv581
-#EXTINF:-1 tvg-name="台视 HD" group-title="未分组",台视 HD
-rtmp://f13h.mine.nu/sat/tv071
 #EXTINF:-1 tvg-name="中天新闻台" tvg-logo="" group-title="未分组",中天新闻台
 https://tzh911.qzz.io/play-smt.php?id=ctinews
 #EXTINF:-1 tvg-name="中天新闻台" tvg-logo="" group-title="未分组",中天新闻台
@@ -80,36 +62,6 @@ http://61.221.215.25:8800/hls/47/index.m3u8
 https://tzh911.qzz.io/play-smt.php?id=ctient
 #EXTINF:-1 tvg-name="三立戏剧台" tvg-logo="" group-title="未分组",三立戏剧
 https://tzh911.qzz.io/play-smt.php?id=sanlixiju_twn
-#EXTINF:-1 tvg-name="TVB Plus" tvg-logo="" group-title="未分组",TVB Plus
-rtmp://116.93.98.236/sat/hk011
-#EXTINF:-1 tvg-name="中视 HD" tvg-logo="" group-title="未分组",中视 HD
-rtmp://f13h.mine.nu/sat/tv091
-#EXTINF:-1 tvg-name="华视 HD" tvg-logo="" group-title="未分组",华视 HD
-rtmp://f13h.mine.nu/sat/tv111
-#EXTINF:-1 tvg-name="民视 HD" tvg-logo="" group-title="未分组",民视 HD
-rtmp://f13h.mine.nu/sat/tv051
-#EXTINF:-1 tvg-name="台视 HD" tvg-logo="" group-title="未分组",台视 HD
-rtmp://f13h.mine.nu/sat/tv071
-#EXTINF:-1 tvg-name="东森超视" tvg-logo="" group-title="未分组",东森超视
-rtmp://f13h.mine.nu/sat/tv331
-#EXTINF:-1 tvg-name="非凡新闻" tvg-logo="" group-title="未分组",非凡新闻
-rtmp://f13h.mine.nu/sat/tv581
-#EXTINF:-1 tvg-name="纬来体育" tvg-logo="" group-title="未分组",纬来体育
-rtmp://f13h.mine.nu/sat/tv721
-#EXTINF:-1 tvg-name="纬来育乐" tvg-logo="" group-title="未分组",纬来育乐
-rtmp://f13h.mine.nu/sat/tv701
-#EXTINF:-1 tvg-name="纬来体育" tvg-logo="" group-title="未分组",纬来体育
-rtmp://f13h.mine.nu/sat/tv721
-#EXTINF:-1 tvg-name="纬来日本" tvg-logo="" group-title="未分组",纬来日本
-rtmp://f13h.mine.nu/sat/tv771
-#EXTINF:-1 tvg-name="MOMO综合台" tvg-logo="" group-title="未分组",MOMO综合台
-rtmp://f13h.mine.nu/sat/tv761
-#EXTINF:-1 tvg-name="DAZN体育1台" tvg-logo="" group-title="未分组",DAZN体育1台
-rtmp://f13h.mine.nu/sat/tv731
-#EXTINF:-1 tvg-name="DAZN体育2台" tvg-logo="" group-title="未分组",DAZN体育2台
-rtmp://f13h.mine.nu/sat/tv741
-#EXTINF:-1 tvg-name="ELTA体育2台" tvg-logo="" group-title="未分组",ELTA体育2台
-rtmp://9hv9.mine.nu/sat/md011
 #EXTINF:-1 tvg-name="MBC体育" tvg-logo="" group-title="未分组",MBC体育
 http://211.33.246.4:32954/cj_live/myStream.sdp/chunklist_w517347500.m3u8
 #EXTINF:-1 tvg-name="wwe格斗风云" tvg-logo="" group-title="未分组",wwe格斗风云
@@ -120,6 +72,7 @@ https://tzh911.qzz.io/play-smt.php?id=Wwe
 https://live.catvod.com/beesports.php?id=WWE
 #EXTINF:-1 tvg-name="wwe格斗风云" tvg-logo="" group-title="未分组",wwe格斗风云
 http://iptv.4666888.xyz/iptv2A.php?id=5
+
 
 
 
