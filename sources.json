@@ -6,7 +6,7 @@
     "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/GATV.m3u",
     {
       "url": "https://bc.188766.xyz/?ip=&mima=mianfeibuhuaqian",
-      "include_channels": ["NBA", "4K", "Now新闻台", "TVB Plus", "明珠台", "TVB功夫", "八度空间"]
+      "include_channels": [ "4K", "Now新闻台", "TVB Plus", "NBA", "明珠台", "TVB功夫", "八度空间" ]
     },
     "https://gitee.com/cyh92/live/raw/main/source/migu.txt",
     "https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
