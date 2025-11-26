@@ -1,87 +1,91 @@
 import logging
 import requests
+import os
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 from typing import Dict, Any
-from loader import loadconfig, loadsources, loadgroups, loadalias  # 导入数据加载
-from processor import process_lines, convert_txt_to_m3u         # 导入核心处理
-from exporter import export_m3u                               # 导入输出模块
+from loader import loadconfig, loadsources, loadgroups, loadalias
+from processor import process_lines, convert_txt_to_m3u
+from exporter import export_m3u
 
 def main():
-    """主程序：加载→处理→输出完整流程"""
     print("🚀 Starting M3U Merger...")
     
-    # === 1. 加载所有配置和数据 ===
+    # 1. 加载配置
     config = loadconfig()
     sources = loadsources()
     groups = loadgroups()
     aliasmap = loadalias()
     
-    # 提取关键参数
-    rules = groups.get('rules', {})           # 分组规则
-    customchannels = groups.get('customchannels', [])  # 自定义频道
-    blocklist = groups.get('blocklist', [])    # 黑名单
-    grouporder = list(rules.keys())           # 分组排序
+    rules = groups.get('rules', {})
+    customchannels = groups.get('customchannels', [])
+    blocklist = groups.get('blocklist', [])
+    grouporder = list(rules.keys())
     
     keep_multiple_urls = config['keepmultipleurls']
     timeout = config['timeout']
     epg = config['epg']
     default_group = config['defaultgroup']
     
-    # === 2. 配置日志系统 ===
+    # 2. 配置日志
     loglevel = getattr(logging, config.get('loglevel', 'INFO').upper(), logging.INFO)
     logging.basicConfig(level=loglevel, format='%(levelname)s %(message)s')
     
-    channels: Dict[str, Any] = {}  # 最终去重结果 {规范名: {line, urls, group}}
+    channels: Dict[str, Any] = {}
     
-    # === 3. 处理本地文件（主源，优先级最高） ===
+    # 3. 处理本地文件
     for fname in sources.get('local_files', []):
+        if not os.path.exists(fname):
+            logging.warning(f"❌ LOCAL FILE NOT FOUND: {fname}")
+            continue
         try:
             with open(fname, 'r', encoding='utf-8') as f:
                 lines = f.read().splitlines()
-            first_line = lines[0].lstrip().strip().upper() if lines else ''
-            if not first_line.startswith('#EXTM3U'):  # TXT格式转换
+            if not lines:
+                logging.warning(f"❌ EMPTY FILE: {fname}")
+                continue
+            first_line = lines[0].lstrip().strip().upper()
+            if not first_line.startswith('#EXTM3U'):
                 lines = convert_txt_to_m3u(lines, default_group)
             
             process_lines(lines[1:], aliasmap, rules, blocklist, keep_multiple_urls, 
                          channels, primary=True, source_name=f"📁{fname}", 
                          default_group=default_group)
+            logging.info(f"✓ PROCESSED LOCAL: {fname}")
         except Exception as e:
             logging.warning(f"✗ LOCAL ERROR {fname}: {e}")
     
-    # === 4. 处理远程URL（自动重试3次） ===
-    session = requests.Session()  # 复用连接池
-    retry_strategy = Retry(total=config.get('max_retries', 3), backoff_factor=1)
+    # 4. 处理远程URL（修复版）
+    session = requests.Session()
+    retry_strategy = Retry(total=3, backoff_factor=1, status_forcelist=[429, 500, 502, 503, 504])
     adapter = HTTPAdapter(max_retries=retry_strategy)
     session.mount("http://", adapter)
     session.mount("https://", adapter)
     
-    is_primary = True  # 第一个远程源也作为主源
     for src in sources.get('remote_urls', []):
         try:
-            # 解析源配置，支持字符串URL和对象{url, include_channels}
+            # 解析源配置
             if isinstance(src, str):
-                url = src
+                url = src.strip()
                 include_channels = []
             else:
-                url = src.get('url')
+                url = src.get('url', '').strip()
                 include_channels = src.get('include_channels', [])
+                if not url:
+                    logging.warning("❌ EMPTY URL in sources.json")
+                    continue
             
             headers = {'User-Agent': config['ua']}
             if config.get('referrer'):
                 headers['Referer'] = config['referrer']
-                
+            
+            # ✅ 修复：使用session.get()
             resp = session.get(url, headers=headers, timeout=timeout)
-            resp.raise_forstatus()  # HTTP错误抛异常
+            resp.raise_forstatus()  # 检查HTTP状态码
             
-            # 智能解码
-            try:
-                text = resp.content.decode('utf-8', errors='ignore').strip()
-            except Exception:
-                text = resp.text.strip()
-            
+            text = resp.text.strip()
             if not text:
-                logging.warning(f"✗ EMPTY RESPONSE: {url}")
+                logging.warning(f"❌ EMPTY RESPONSE: {url}")
                 continue
                 
             lines = text.splitlines()
@@ -90,10 +94,9 @@ def main():
                 lines = convert_txt_to_m3u(lines, default_group)
             
             process_lines(lines[1:], aliasmap, rules, blocklist, keep_multiple_urls, 
-                         channels, primary=is_primary, source_name=f"🌐{url}", 
+                         channels, primary=False, source_name=f"🌐{url}", 
                          default_group=default_group, whitelist=include_channels)
-            logging.info(f"✓ REMOTE OK: {url}")
-            is_primary = False  # 后续远程源为次源
+            logging.info(f"✓ PROCESSED REMOTE: {url}")
             
         except requests.exceptions.Timeout:
             logging.warning(f"⏰ TIMEOUT: {url}")
@@ -104,13 +107,13 @@ def main():
         except Exception as e:
             logging.warning(f"💥 UNEXPECTED: {url} - {str(e)}")
     
-    # === 5. 导出最终结果 ===
+    # 5. 导出结果
     export_m3u(channels, customchannels, grouporder, epg, keep_multiple_urls,
                outfile=config['outputfile'], generatedebugfile=config['generatedebugfile'],
                defaultgroup=default_group)
     
-    total_channels = len(channels)
-    logging.info(f"🎉 COMPLETED! Total: {total_channels} unique channels")
+    total = len(channels)
+    logging.info(f"🎉 COMPLETED! {total} unique channels → {config['outputfile']}")
 
 if __name__ == '__main__':
     main()
