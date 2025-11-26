@@ -122,3 +122,30 @@ http://live.iill.top/douyu.php?id=260322
   ]
 }
 
+
+
+{
+  "remote_urls": [
+    "https://gitee.com/thomas1998/tv-live/raw/master/IPV6.m3u",
+    "https://raw.githubusercontent.com/mytv-android/BRTV-Live-M3U8/refs/heads/main/iptv.m3u",
+    "http://35.209.240.97:5080/shanghai.php",
+    "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/GATV.m3u",
+    {
+      "url": "https://bc.188766.xyz/?ip=&mima=mianfeibuhuaqian",
+      "include_channels": [ "翡翠台4K", "Now新闻台", "TVB Plus", "NBA", "明珠台", "新片放映厅", "高清大片", "赛事最经典", "最强综艺趴", 
+        "经典动画大集合", "新动力量创一流", "体坛名栏汇", "24小时全运会轮播台", "24小时城市联赛轮播台", "四海钓鱼", 
+        "抗战经典影片", "环球旅游", "德甲", "意甲", "法甲", "西甲", "经典香港电影" ]
+    },
+    "https://bxtv.3a.ink/live.txt",
+    "https://gitee.com/cyh92/live/raw/main/source/migu.txt",
+    "https://raw.githubusercontent.com/Supprise0901/TVBox_live/refs/heads/main/live.txt",
+    "https://raw.githubusercontent.com/dbghelp/Free-to-air-TV/refs/heads/main/japan.m3u8",
+    "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u"
+  ],
+  "local_files": [
+    "原TV.txt",
+    "xinzhibo.m3u"
+  ]
+}
+
+
