@@ -1,103 +1,116 @@
-import logging, requests
-from loader import load_config, load_sources, load_groups, load_alias
-from processor import process_lines, convert_txt_to_m3u
-from exporter import export_m3u
+import logging
+import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+from typing import Dict, Any
+from loader import loadconfig, loadsources, loadgroups, loadalias  # 导入数据加载
+from processor import process_lines, convert_txt_to_m3u         # 导入核心处理
+from exporter import export_m3u                               # 导入输出模块
 
 def main():
-    # ===== 加载配置 =====
-    config = load_config()
-    sources = load_sources()
-    groups = load_groups()
-    alias_map = load_alias()
-
-    rules = groups["rules"]
-    custom_channels = groups["custom_channels"]
-    blocklist = groups.get("blocklist", [])
-    group_order = list(rules.keys())
-
-    keep_multiple_urls = config["keep_multiple_urls"]
-    timeout = config["timeout"]
-    epg = config["epg"]
-    default_group = config["default_group"]
-
-    # ===== 日志配置 =====
-    log_level = getattr(logging, config.get("log_level", "INFO").upper(), logging.INFO)
-    logging.basicConfig(level=log_level, format="%(levelname)s: %(message)s")
-
-    channels = {}
-
-    # ===== 本地源 =====
-    for fname in sources.get("local_files", []):
+    """主程序：加载→处理→输出完整流程"""
+    print("🚀 Starting M3U Merger...")
+    
+    # === 1. 加载所有配置和数据 ===
+    config = loadconfig()
+    sources = loadsources()
+    groups = loadgroups()
+    aliasmap = loadalias()
+    
+    # 提取关键参数
+    rules = groups.get('rules', {})           # 分组规则
+    customchannels = groups.get('customchannels', [])  # 自定义频道
+    blocklist = groups.get('blocklist', [])    # 黑名单
+    grouporder = list(rules.keys())           # 分组排序
+    
+    keep_multiple_urls = config['keepmultipleurls']
+    timeout = config['timeout']
+    epg = config['epg']
+    default_group = config['defaultgroup']
+    
+    # === 2. 配置日志系统 ===
+    loglevel = getattr(logging, config.get('loglevel', 'INFO').upper(), logging.INFO)
+    logging.basicConfig(level=loglevel, format='%(levelname)s %(message)s')
+    
+    channels: Dict[str, Any] = {}  # 最终去重结果 {规范名: {line, urls, group}}
+    
+    # === 3. 处理本地文件（主源，优先级最高） ===
+    for fname in sources.get('local_files', []):
         try:
-            with open(fname, "r", encoding="utf-8") as f:
+            with open(fname, 'r', encoding='utf-8') as f:
                 lines = f.read().splitlines()
-                first_line = lines[0].lstrip("\ufeff").strip().upper() if lines else ""
-                if not first_line.startswith("#EXTM3U") and not first_line.startswith("EXTM3U"):
-                    # TXT 转换时传入 default_group
-                    lines = convert_txt_to_m3u(lines, default_group)
-                process_lines(lines[1:], alias_map, rules, blocklist,
-                              keep_multiple_urls, channels,
-                              primary=True, source_name=f"本地:{fname}",
-                              default_group=default_group)
-            logging.info(f"[INFO] 成功读取本地文件: {fname}")
+            first_line = lines[0].lstrip().strip().upper() if lines else ''
+            if not first_line.startswith('#EXTM3U'):  # TXT格式转换
+                lines = convert_txt_to_m3u(lines, default_group)
+            
+            process_lines(lines[1:], aliasmap, rules, blocklist, keep_multiple_urls, 
+                         channels, primary=True, source_name=f"📁{fname}", 
+                         default_group=default_group)
         except Exception as e:
-            logging.warning(f"[WARN] 本地文件 {fname} 读取失败: {e}")
-
-    # ===== 远程源 =====
-    is_primary = True
-    for src in sources.get("remote_urls", []):
+            logging.warning(f"✗ LOCAL ERROR {fname}: {e}")
+    
+    # === 4. 处理远程URL（自动重试3次） ===
+    session = requests.Session()  # 复用连接池
+    retry_strategy = Retry(total=config.get('max_retries', 3), backoff_factor=1)
+    adapter = HTTPAdapter(max_retries=retry_strategy)
+    session.mount("http://", adapter)
+    session.mount("https://", adapter)
+    
+    is_primary = True  # 第一个远程源也作为主源
+    for src in sources.get('remote_urls', []):
         try:
+            # 解析源配置，支持字符串URL和对象{url, include_channels}
             if isinstance(src, str):
                 url = src
                 include_channels = []
             else:
-                url = src.get("url")
-                include_channels = src.get("include_channels", [])
-
-            headers = {"User-Agent": config["ua"]}
-            if config["referrer"]:
-                headers["Referer"] = config["referrer"]
-
-            resp = requests.get(url, headers=headers, timeout=timeout)
-            resp.raise_for_status()
-
+                url = src.get('url')
+                include_channels = src.get('include_channels', [])
+            
+            headers = {'User-Agent': config['ua']}
+            if config.get('referrer'):
+                headers['Referer'] = config['referrer']
+                
+            resp = session.get(url, headers=headers, timeout=timeout)
+            resp.raise_forstatus()  # HTTP错误抛异常
+            
+            # 智能解码
             try:
-                text = resp.content.decode("utf-8", errors="ignore").strip()
+                text = resp.content.decode('utf-8', errors='ignore').strip()
             except Exception:
                 text = resp.text.strip()
-
+            
             if not text:
-                logging.warning(f"[WARN] {url} 返回空内容")
+                logging.warning(f"✗ EMPTY RESPONSE: {url}")
                 continue
-
+                
             lines = text.splitlines()
-            first_line = lines[0].lstrip("\ufeff").strip().upper() if lines else ""
-            if not first_line.startswith("#EXTM3U") and not first_line.startswith("EXTM3U"):
-                logging.warning(f"[WARN] {url} 首行不是标准 M3U，尝试转换")
-                # TXT 转换时传入 default_group
+            first_line = lines[0].lstrip().strip().upper() if lines else ''
+            if not first_line.startswith('#EXTM3U'):
                 lines = convert_txt_to_m3u(lines, default_group)
-
-            process_lines(lines[1:], alias_map, rules, blocklist,
-                          keep_multiple_urls, channels,
-                          primary=is_primary, source_name=f"远程:{url}",
-                          default_group=default_group,
-                          whitelist=include_channels)
-            logging.info(f"[INFO] 成功读取远程文件: {url}")
-            is_primary = False
+            
+            process_lines(lines[1:], aliasmap, rules, blocklist, keep_multiple_urls, 
+                         channels, primary=is_primary, source_name=f"🌐{url}", 
+                         default_group=default_group, whitelist=include_channels)
+            logging.info(f"✓ REMOTE OK: {url}")
+            is_primary = False  # 后续远程源为次源
+            
+        except requests.exceptions.Timeout:
+            logging.warning(f"⏰ TIMEOUT: {url}")
+        except requests.exceptions.HTTPError as e:
+            logging.warning(f"📡 HTTP {e.response.status_code}: {url}")
+        except requests.exceptions.RequestException as e:
+            logging.warning(f"📡 REQUEST ERROR: {url} - {str(e)}")
         except Exception as e:
-            logging.warning(f"[WARN] 远程文件 {url} 读取失败: {e}")
+            logging.warning(f"💥 UNEXPECTED: {url} - {str(e)}")
+    
+    # === 5. 导出最终结果 ===
+    export_m3u(channels, customchannels, grouporder, epg, keep_multiple_urls,
+               outfile=config['outputfile'], generatedebugfile=config['generatedebugfile'],
+               defaultgroup=default_group)
+    
+    total_channels = len(channels)
+    logging.info(f"🎉 COMPLETED! Total: {total_channels} unique channels")
 
-    # ===== 输出 M3U =====
-    export_m3u(
-        channels,
-        custom_channels,
-        group_order,
-        epg,
-        keep_multiple_urls,
-        outfile=config["output_file"],
-        generate_debug_file=config["generate_debug_file"],
-        default_group=default_group
-    )
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
