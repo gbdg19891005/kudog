@@ -63,8 +63,12 @@ def main():
                 "Cache-Control": "no-cache",
             }
 
-            # 加随机参数避免缓存
-            url_with_ts = f"{url}&ts={int(time.time())}"
+            # 智能判断是否加随机参数
+            if "raw.githubusercontent.com" in url or "gitee.com" in url:
+                url_with_ts = url
+            else:
+                sep = "&" if "?" in url else "?"
+                url_with_ts = f"{url}{sep}ts={int(time.time())}"
 
             resp = requests.get(url_with_ts, headers=headers, timeout=timeout)
             resp.raise_for_status()
