@@ -44,12 +44,6 @@
       "球赛", "球賽", "最经典", "賽事", "武术", "武術", "搏击", "搏擊", "ELTA", "DAZN",
       "Red Bull", "Fishing", "钓鱼", "釣魚", "体坛"
     ],
-    "🏀NBA赛事频道": [
-      "NBA"
-    ],
-    "⚽️足球赛事频道": [
-      "德甲", "意甲", "法甲", "西甲"
-    ],
     "🎥电影频道": [
       "日韩", "偶像", "电影", "電影", "Movie", "MOVIE", "Cinema", "CINEMA", "天映", "洋片", "新片", "武侠", "抗日",
       "Action Hollywood", "Thrillers", "Thriller TV", "Universal Monsters", "1905", "长影", "NOW", "POPC",
@@ -107,6 +101,12 @@
       "财经", "財經", "Finance", "FINANCE", "Business", "BUSINESS", "商業",
       "财富", "財富", "Economy", "ECONOMY", "Bloomberg", "CNBC", "经济",
       "Cheddar News"
+    ],
+    "🏀NBA赛事频道": [
+      "NBA"
+    ],
+    "⚽️足球赛事频道": [
+      "德甲", "意甲", "法甲", "西甲"
     ],
     "🕹️娱乐+直播频道": [
        "游戏", "JJ", "掼蛋", "英雄联盟", "Ginx", "虎牙", "斗鱼", "棋牌", "斗地主"
