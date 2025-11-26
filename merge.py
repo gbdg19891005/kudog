@@ -1,4 +1,4 @@
-import logging, requests
+import logging, requests, time
 from loader import load_config, load_sources, load_groups, load_alias
 from processor import process_lines, convert_txt_to_m3u
 from exporter import export_m3u
@@ -54,11 +54,19 @@ def main():
                 url = src.get("url")
                 include_channels = src.get("include_channels", [])
 
-            headers = {"User-Agent": config["ua"]}
-            if config["referrer"]:
-                headers["Referer"] = config["referrer"]
+            # 增强请求头
+            headers = {
+                "User-Agent": config["ua"],
+                "Referer": config.get("referrer", "https://bc.188766.xyz/"),
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+                "Cache-Control": "no-cache",
+            }
 
-            resp = requests.get(url, headers=headers, timeout=timeout)
+            # 加随机参数避免缓存
+            url_with_ts = f"{url}&ts={int(time.time())}"
+
+            resp = requests.get(url_with_ts, headers=headers, timeout=timeout)
             resp.raise_for_status()
 
             try:
