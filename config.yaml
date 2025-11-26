@@ -1,29 +1,26 @@
-# ===== 基础配置 =====
-ua: "Mozilla/5.0"
-referrer: "https://kudog.chatgb.dpdns.org/"
+# 用户代理，伪装浏览器避免被拒
+ua: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+# HTTP Referer头，部分源需要
+referrer: "https://kudog.chat"
+# EPG节目单URL
 epg: "https://epg.catvod.com/epg.xml"
-timeout: 10
-
-# ===== URL 保留策略 =====
-# true = 保留多个URL，false = 只保留第一个
-keep_multiple_urls: true
-
-# ===== 日志配置 =====
-# 可选值: DEBUG / INFO / WARNING / ERROR
-log_level: "INFO"
-
-# ===== 输出配置 =====
-# 主输出文件
-output_file: "kudog.m3u"
-# 是否同时生成一个调试用的 merged.m3u
-generate_debug_file: true
-
-# ===== 默认分组配置 =====
-# 当频道未匹配到任何规则时，归入的分组
-default_group: "💤综合"
-
-# ===== 额外功能开关 =====
-# 是否在 EXTINF 中强制补全 tvg-logo (如果 groups.json 有定义)
-force_logo: false
-# 是否在 EXTINF 中强制补全 tvg-id (如果 alias 或 groups.json 有定义)
-force_tvg_id: false
+# 网络超时时间(秒)
+timeout: 15
+# 是否保留同一频道的多个URL
+keepmultipleurls: true
+# 日志级别: DEBUG/INFO/WARNING/ERROR
+loglevel: "INFO"
+# 输出主M3U文件名
+outputfile: "kudog.m3u"
+# 是否生成调试文件
+generatedebugfile: true
+# 默认分组名称
+defaultgroup: "未分类"
+# 强制添加tvg-logo标签
+forcelogo: false
+# 强制添加tvg-id标签（推荐开启）
+forcetvgid: true
+# 网络请求重试次数
+max_retries: 3
+# 是否缓存源文件
+cache_sources: true
