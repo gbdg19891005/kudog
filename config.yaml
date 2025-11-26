@@ -16,7 +16,7 @@ log_level: "INFO"
 # 主输出文件
 output_file: "kudog.m3u"
 # 是否同时生成一个调试用的 merged.m3u
-generate_debug_file: false
+generate_debug_file: true
 
 # ===== 默认分组配置 =====
 # 当频道未匹配到任何规则时，归入的分组
