@@ -1,52 +1,51 @@
 import logging
+from typing import Dict, Any, List
 
-def export_m3u(channels, custom_channels, group_order, epg, keep_multiple_urls,
-               outfile="kudog.m3u", generate_debug_file=False, default_group="综合"):
-    """
-    导出 M3U 文件
-    :param channels: 频道字典
-    :param custom_channels: 自定义频道列表
-    :param group_order: 分组顺序
-    :param epg: EPG 地址
-    :param keep_multiple_urls: 是否保留多个 URL
-    :param outfile: 主输出文件名
-    :param generate_debug_file: 是否生成调试文件
-    :param default_group: 默认分组
-    """
-    merged = [f'#EXTM3U x-tvg-url="{epg}"']
-
-    # 自定义频道置顶
-    for ch in custom_channels:
-        merged.append(
-            f'#EXTINF:-1 tvg-name="{ch["name"]}" tvg-logo="{ch.get("logo","")}" '
-            f'group-title="{ch.get("group", default_group)}",{ch["name"]}'
-        )
+def export_m3u(channels: Dict[str, Any], customchannels: List[Dict], grouporder: List[str], 
+               epg: str, keep_multiple_urls: bool, outfile: str = "kudog.m3u",
+               generatedebugfile: bool = False, defaultgroup: str = "未分类"):
+    """生成标准M3U文件，按分组排序输出"""
+    merged = [f'#EXTM3U']  # M3U文件头
+    merged.append(f'#x-tvg-url:{epg}')  # EPG节目单
+    
+    # === 1. 添加自定义频道（groups.json中定义） ===
+    for ch in customchannels:
+        name = ch["name"]
+        logo = ch.get("logo", "")
+        group = ch.get("group", defaultgroup)
+        line = f'#EXTINF:-1 tvg-name="{name}" tvg-logo="{logo}",group-title="{group},{name}"'
+        merged.append(line)
         merged.append(ch["url"])
-
-    # 按 group_order 排序输出
+    
+    # === 2. 按分组排序输出处理后的频道 ===
     group_counts = {}
-    for group in group_order + [default_group]:
+    for group in grouporder + [defaultgroup]:  # 规则组 + 默认组
+        group_channels = 0
         for name, ch in channels.items():
-            if ch.get("group") == group:
-                merged.append(ch["line"])
-                urls = ch["urls"] if keep_multiple_urls else [ch["urls"][0]]
-                merged.extend(urls)
-                group_counts[group] = group_counts.get(group, 0) + 1
-
-    # 写主输出文件
-    with open(outfile, "w", encoding="utf-8") as f:
-        f.write("\n".join(merged))
-    logging.info(f"[DONE] 已生成主输出文件: {outfile}")
-
-    # 可选：生成调试文件
-    if generate_debug_file:
-        debug_file = "merged.m3u"
-        with open(debug_file, "w", encoding="utf-8") as f:
-            f.write("\n".join(merged))
-        logging.info(f"[DEBUG] 已生成调试文件: {debug_file}")
-
-    # 分组统计
-    logging.info("[SUMMARY] 分组统计：")
-    for group, count in group_counts.items():
-        logging.info(f"  {group}: {count} 个频道")
-    logging.info(f"[SUMMARY] 最终频道数: {len(channels)}")
+            if ch.get('group') == group:
+                ch_line = ch['line']  # 已处理好的EXTINF行
+                urls = ch['urls'] if keep_multiple_urls else [ch['urls'][0]]
+                merged.append(ch_line)  # EXTINF行
+                merged.extend(urls)     # 一个或多个URL行
+                group_channels += 1
+        group_counts[group] = group_channels
+    
+    # === 3. 写入主输出文件 ===
+    with open(outfile, 'w', encoding='utf-8') as f:
+        f.write('\n'.join(merged) + '\n')
+    logging.info(f"📁 MAIN OUTPUT: {outfile} ({len(merged)//2} lines)")
+    
+    # === 4. 生成调试文件（完整内容+统计） ===
+    if generatedebugfile:
+        debugfile = outfile.replace('.m3u', '_debug.m3u')
+        with open(debugfile, 'w', encoding='utf-8') as f:
+            f.write('\n'.join(merged) + '\n')
+        logging.info(f"🔍 DEBUG FILE: {debugfile}")
+    
+    # === 5. 统计报告 ===
+    logging.info("📊 CHANNEL SUMMARY:")
+    total = sum(group_counts.values())
+    for group, count in sorted(group_counts.items(), key=lambda x: x[1], reverse=True):
+        pct = (count/total*100) if total else 0
+        logging.info(f"  🎯 {group}: {count} ({pct:.1f}%)")
+    logging.info(f"  🌟 TOTAL UNIQUE: {total}")
