@@ -1,4 +1,2 @@
 requests>=2.31.0    # HTTP请求库，支持重试机制
 PyYAML>=6.0         # YAML配置文件解析
-pytest>=7.0         # 单元测试框架
-mypy>=1.5           # 类型检查工具
