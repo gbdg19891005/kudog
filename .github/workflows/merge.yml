@@ -2,7 +2,7 @@ name: Merge and Group M3U Files
 
 on:
   schedule:
-    - cron: "0 */4 * * *"   # 每两小时运行一次
+    - cron: "0 */2 * * *"   # 每两小时运行一次
   workflow_dispatch:
 
 permissions:
@@ -28,21 +28,21 @@ jobs:
 
       - name: Commit updated M3U files to A repo
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
-          git add *.m3u
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add *.m3u || true
           git commit -m "Auto update M3U playlists" || echo "No changes"
+          git pull --rebase origin main || true
           git push
 
       - name: Push updated M3U files to B repo
         run: |
-          # 克隆目标仓库（用 PAT 认证）
           git clone https://x-access-token:${{ secrets.TARGET_REPO_TOKEN }}@github.com/Gbin1989/v2ray_configs.git target-repo
           cp *.m3u target-repo/
           cd target-repo
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add *.m3u
+          git pull --rebase origin main || true
+          git add *.m3u || true
           git commit -m "Update M3U from A repo" || echo "No changes"
-          git pull --rebase origin main
           git push origin main
