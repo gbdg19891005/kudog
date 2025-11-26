@@ -1,7 +1,7 @@
 import re
 import logging
 from functools import lru_cache  # 缓存装饰器，提升重复名称处理速度
-from typing import Dict, List, Tuple, Optional, Iterator
+from typing import Dict, List, Tuple, Optional, Any  # ✅ 添加Any类型导入
 
 # === 预编译正则（性能优化，重复使用不重新编译） ===
 EXTINF_PATTERN = re.compile(r'#EXTINF[:\-]?\d+.*?(?:tvg-name"?="?([^",]+)|(?:,)([^,]+?)(?:$|,))', re.IGNORECASE)
