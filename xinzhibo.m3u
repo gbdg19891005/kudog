@@ -1,5 +1,19 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-name="棋牌 八卦大师" tvg-logo="" group-title="未分组",棋牌 八卦大师
+https://live.ottiptv.cc/douyu/851040
+#EXTINF:-1 tvg-name="棋牌 帽子象棋" tvg-logo="" group-title="未分组",棋牌 帽子象棋
+https://live.ottiptv.cc/douyu/4487219
+#EXTINF:-1 tvg-name="棋牌 笑笑象棋" tvg-logo="" group-title="未分组",棋牌 笑笑象棋
+https://live.ottiptv.cc/douyu/9969
+#EXTINF:-1 tvg-name="棋牌 大神象棋" tvg-logo="" group-title="未分组",棋牌 大神象棋
+https://live.ottiptv.cc/douyu/1227260
+#EXTINF:-1 tvg-name="棋牌 九拙讲棋" tvg-logo="" group-title="未分组",棋牌 九拙讲棋
+https://live.ottiptv.cc/douyu/4369877
+#EXTINF:-1 tvg-name="棋牌 熊山雷疯" tvg-logo="" group-title="未分组",棋牌 熊山雷疯
+https://live.ottiptv.cc/douyu/291514
+#EXTINF:-1 tvg-name="每日经济" tvg-logo="" group-title="未分组",每日经济
+http://swiftplay.hxkjmedia.com/tv/spbW.m3u8
 #EXTINF:-1 tvg-name="CHC动作电影" tvg-logo="" group-title="未分组",CHC动作电影
 http://36.135.118.195:85/tsfile/live/1019_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CHC影迷电影" tvg-logo="" group-title="未分组",CHC影迷电影
