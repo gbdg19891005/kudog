@@ -10,6 +10,10 @@ https://tzh911.qzz.io/play-smt.php?id=sanlitaiwan
 https://tzh911.qzz.io/play-smt.php?id=ttvnews_twn
 #EXTINF:-1 tvg-id="台视新闻台" tvg-name="台视新闻台" tvg-logo="" group-title="未分组",台视新闻台
 http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
+#EXTINF:-1 tvg-name="台视新闻台" tvg-logo="" group-title="未分组",台视新闻台
+https://live.wcetv.com/hls/master-ttvnews.m3u8
+#EXTINF:-1 tvg-name="台视新闻台" tvg-logo="" group-title="未分组",台视新闻台
+https://live.wcetv.com/hls/m3u8/ttvnews.m3u8
 #EXTINF:-1 tvg-id="中视新闻台" tvg-name="中视新闻台" tvg-logo="" group-title="未分组",中视新闻台
 https://tzh911.qzz.io/play-smt.php?id=zhongshinews_twn
 #EXTINF:-1 tvg-id="寰宇新闻台" tvg-name="寰宇新闻台" tvg-logo="" group-title="未分组",寰宇新闻台
@@ -34,10 +38,16 @@ http://61.221.215.25:8800/hls/47/index.m3u8
 https://tzh911.qzz.io/play-smt.php?id=ctient
 #EXTINF:-1 tvg-name="三立戏剧台" tvg-logo="" group-title="未分组",三立戏剧
 https://tzh911.qzz.io/play-smt.php?id=sanlixiju_twn
+#EXTINF:-1 tvg-name="好消息1电视台" tvg-logo="" group-title="未分组",好消息1电视台
+https://live-350k.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch1-1.m3u8
+#EXTINF:-1 tvg-name="好消息2电视台" tvg-logo="" group-title="未分组",好消息2电视台
+http://live-350k.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch2-1.m3u8
 #EXTINF:-1 tvg-name="1905电影" group-title="未分组",1905电影
 http://php.jdshipin.com:8880/1905.php?id=1905dy
 #EXTINF:-1 tvg-name="大立 HD" group-title="未分组",大立 HD
 http://www.dalitv.com.tw:4568/live/dali/index.m3u8
+#EXTINF:-1 tvg-name="RTHKTV32" tvg-logo="" group-title="未分组",RTHKTV32
+https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/master.m3u8
 #EXTINF:-1 tvg-name="華藝中文" group-title="未分组",華藝中文
 http://iptv.4666888.xyz/iptv2A.php?id=37
 #EXTINF:-1 tvg-name="八度空间" group-title="未分组",八度空间
