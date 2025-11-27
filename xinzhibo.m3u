@@ -83,6 +83,48 @@ https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/nc.php?n=%E6%96%B0%E9%97%BB
 https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/nc.php?n=%E6%96%87%E6%97%85
 #EXTINF:-1 tvg-name="南昌资讯频道" tvg-logo="" group-title="未分组",南昌资讯频道
 https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/nc.php?n=%E8%B5%84%E8%AE%AF
+#EXTINF:-1 tvg-name="景德镇新闻综合" tvg-logo="" group-title="未分组",景德镇新闻综合
+http://play-sh.quklive.com/live/1724916607073321.m3u8
+#EXTINF:-1 tvg-name="定南综合频道" tvg-logo="" group-title="未分组",定南综合频道
+http://play-sh13.quklive.com/live/1762136155495343.m3u8?auth_key=2077496271-c46d3a24f8c647e9bce8ab5282c718b0-0-860d2c359f24e71c3d33cbb07fbbf120
+#EXTINF:-1 tvg-name="广丰综合" tvg-logo="" group-title="未分组",广丰综合
+http://play-a2.quklive.com/live/1754033359790055.m3u8
+#EXTINF:-1 tvg-name="玉山新闻综合" tvg-logo="" group-title="未分组",玉山新闻综合
+http://play-a2.quklive.com/live/1744269699236128.m3u8
+#EXTINF:-1 tvg-name="崇仁综合频道" tvg-logo="" group-title="未分组",崇仁综合频道
+http://play-a2.quklive.com/live/1744277411242065.m3u8
+#EXTINF:-1 tvg-name="乐安综合频道" tvg-logo="" group-title="未分组",乐安综合频道
+http://play-a2.quklive.com/live/1752744744088073.m3u8
+#EXTINF:-1 tvg-name="铜鼓综合频道" tvg-logo="" group-title="未分组",铜鼓综合频道
+http://play-a2.quklive.com/live/1742531118997158.m3u8
+#EXTINF:-1 tvg-name="南康综合频道" tvg-logo="" group-title="未分组",南康综合频道
+http://play-a2.quklive.com/live/1758525653004384.m3u8
+#EXTINF:-1 tvg-name="井冈山综合" tvg-logo="" group-title="未分组",井冈山综合
+http://play-a2.quklive.com/live/1743498103845328.m3u8
+#EXTINF:-1 tvg-name="彭泽综合频道" tvg-logo="" group-title="未分组",彭泽综合频道
+http://play-a2.quklive.com/live/1740970999257207.m3u8
+#EXTINF:-1 tvg-name="龙南电视台" tvg-logo="" group-title="未分组",龙南电视台
+http://p2hs.vzan.com/1670294060/707321619705783642/live.m3u8
+#EXTINF:-1 tvg-name="德兴新闻综合" tvg-logo="" group-title="未分组",德兴新闻综合
+http://218.64.164.152:5021/live_hls/2/playlist.m3u8
+#EXTINF:-1 tvg-name="信丰综合频道" tvg-logo="" group-title="未分组",信丰综合频道
+http://play-a2.quklive.com/live/1761874123034214.m3u8
+#EXTINF:-1 tvg-name="上犹综合频道" tvg-logo="" group-title="未分组",上犹综合频道
+http://play-a2.quklive.com/live/1761893154602099.m3u8
+#EXTINF:-1 tvg-name="瑞金综合频道" tvg-logo="" group-title="未分组",瑞金综合频道
+http://play-a2.quklive.com/live/1760408109205119.m3u8
+#EXTINF:-1 tvg-name="丰城新闻综合" tvg-logo="" group-title="未分组",丰城新闻综合
+http://play-sh13.quklive.com/live/1753663315049013.m3u8?auth_key=2078289279-0a5d6fc5967248dfafee7fa442d5503a-0-3b9dc4c709fc2f111eb141a77bd1170c
+#EXTINF:-1 tvg-name="赣州新闻综合" tvg-logo="" group-title="未分组",赣州新闻综合
+http://pili-live-hls-sjxgz2024.sobeylive.com/jxgz2024/396_q_live172526329228525.m3u8
+#EXTINF:-1 tvg-name="赣州公共" tvg-logo="" group-title="未分组",赣州公共
+http://pili-live-hls-sjxgz2024.sobeylive.com/jxgz2024/396_q_live172526334096251.m3u8
+#EXTINF:-1 tvg-name="赣州教育" tvg-logo="" group-title="未分组",赣州教育
+http://pili-live-hls-sjxgz2024.sobeylive.com/jxgz2024/396_q_live172526335287668.m3u8
+#EXTINF:-1 tvg-name="宜春综合" tvg-logo="" group-title="未分组",宜春综合
+http://liveds-yc.newsyc.com/wetef/sd/live.m3u8
+#EXTINF:-1 tvg-name="宜春公共" tvg-logo="" group-title="未分组",宜春公共
+http://liveds-yc.newsyc.com/two/sd/live.m3u8
 #EXTINF:-1 tvg-name="吉林都市" tvg-logo="" group-title="未分组",吉林都市
 http://36.135.118.195:85/tsfile/live/0019_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="吉视生活" tvg-logo="" group-title="未分组",吉视生活
