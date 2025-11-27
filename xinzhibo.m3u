@@ -77,6 +77,12 @@ http://36.135.118.195:85/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
 http://36.135.118.195:85/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CITY都市剧场" tvg-logo="" group-title="未分组",都市剧场
 http://36.135.118.195:85/tsfile/live/1026_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="南昌新闻综合频道" tvg-logo="" group-title="未分组",南昌新闻综合频道
+https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/nc.php?n=%E6%96%B0%E9%97%BB
+#EXTINF:-1 tvg-name="南昌文旅频道" tvg-logo="" group-title="未分组",南昌文旅频道
+https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/nc.php?n=%E6%96%87%E6%97%85
+#EXTINF:-1 tvg-name="南昌资讯频道" tvg-logo="" group-title="未分组",南昌资讯频道
+https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/nc.php?n=%E8%B5%84%E8%AE%AF
 #EXTINF:-1 tvg-name="吉林都市" tvg-logo="" group-title="未分组",吉林都市
 http://36.135.118.195:85/tsfile/live/0019_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="吉视生活" tvg-logo="" group-title="未分组",吉视生活
@@ -101,21 +107,21 @@ https://www.goodiptv.club/douyu/260322
 https://www.goodiptv.club/douyu/953193
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分组",孤独的美食家4
 http://live.iill.top/douyu.php?id=260322
-#EXTINF:-1 tvg-name="深圳卫视-4k" tvg-logo="" group-title="深圳频道",深圳卫视-4k
+#EXTINF:-1 tvg-name="深圳卫视-4k" tvg-logo="" group-title="未分组",深圳卫视-4k
 https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/sztv.php?id=R77mK1v
-#EXTINF:-1 tvg-name="深圳财经频道" tvg-logo="" group-title="深圳频道",深圳财经频道
+#EXTINF:-1 tvg-name="深圳财经频道" tvg-logo="" group-title="未分组",深圳财经频道
 https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/sztv.php?id=3vlcoxP
-#EXTINF:-1 tvg-name="深圳少儿频道" tvg-logo="" group-title="深圳频道",深圳少儿频道
+#EXTINF:-1 tvg-name="深圳少儿频道" tvg-logo="" group-title="未分组",深圳少儿频道
 https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/sztv.php?id=1SIQj6s
-#EXTINF:-1 tvg-name="深圳电视剧频道" tvg-logo="" group-title="深圳频道",深圳电视剧频道
+#EXTINF:-1 tvg-name="深圳电视剧频道" tvg-logo="" group-title="未分组",深圳电视剧频道
 https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/sztv.php?id=4azbkoY
-#EXTINF:-1 tvg-name="宜和购物频道" tvg-logo="" group-title="深圳频道",宜和购物频道
+#EXTINF:-1 tvg-name="宜和购物频道" tvg-logo="" group-title="未分组",宜和购物频道
 https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/sztv.php?id=BJ5u5k2
-#EXTINF:-1 tvg-name="深圳都市频道" tvg-logo="" group-title="深圳频道",深圳都市频道
+#EXTINF:-1 tvg-name="深圳都市频道" tvg-logo="" group-title="未分组",深圳都市频道
 https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/sztv.php?id=ZwxzUXr
-#EXTINF:-1 tvg-name="深圳国际频道" tvg-logo="" group-title="深圳频道",深圳国际频道
+#EXTINF:-1 tvg-name="深圳国际频道" tvg-logo="" group-title="未分组",深圳国际频道
 https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/sztv.php?id=sztvgjpd
-#EXTINF:-1 tvg-name="深圳移动频道" tvg-logo="" group-title="深圳频道",深圳移动频道
+#EXTINF:-1 tvg-name="深圳移动频道" tvg-logo="" group-title="未分组",深圳移动频道
 https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/sztv.php?id=wDF6KJ3
 #EXTINF:-1 tvg-name="海南卫视" tvg-logo=""group-title="未分组",海南卫视
 https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/海南.php?id=hnws
