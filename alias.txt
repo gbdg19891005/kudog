@@ -195,7 +195,11 @@ Star World,星空卫视,StarWorld
 深圳财经,SZTV财经
 # ===== NBA 系列 =====
 NBA,NBA常规赛
+nba,nba常规赛
+NBA杯，nba杯
 NBA经典赛,NBA季后赛
 # ===== 足球 系列 =====
 西甲,意甲
 德甲,法甲
+西甲联赛,意甲联赛
+德甲联赛,法甲联赛
