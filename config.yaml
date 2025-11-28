@@ -2,7 +2,7 @@
 ua: "Mozilla/5.0"
 referrer: "https://kudog.chatgb.dpdns.org/"
 epg: "https://epg.catvod.com/epg.xml"
-timeout: 10
+timeout: 20
 
 # ===== URL 保留策略 =====
 # true = 保留多个URL，false = 只保留第一个
@@ -16,7 +16,7 @@ log_level: "INFO"
 # 主输出文件
 output_file: "kudog.m3u"
 # 是否同时生成一个调试用的 merged.m3u
-generate_debug_file: true
+generate_debug_file: false
 
 # ===== 默认分组配置 =====
 # 当频道未匹配到任何规则时，归入的分组
