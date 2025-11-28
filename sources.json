@@ -6,8 +6,8 @@
     "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/GATV.m3u",
     "https://jrdfjupypxyv.sealosbja.site",
    {
-      "url": "https://bc.188766.xyz/?url=https://live.188766.xyz&lunbo=false&mima=mianfeibuhuaqian&huikan=1",
-      "include_channels": [ "TNT Sports", "NBA杯", "德甲联赛", "翡翠台4K", "意甲联赛", "Now新闻台", "法甲", "西甲联赛", "TVB Plus", "欧冠", "NBA", "明珠台" ]
+      "url": "https://bc.188766.xyz/?ip=&mima=mianfeibuhuaqian",
+      "include_channels": ["NBA杯", "nba", "德甲联赛", "翡翠台4K", "意甲联赛", "Now新闻台", "法甲", "西甲联赛", "TVB Plus", "欧冠", "NBA", "明珠台"]
    },
     "https://raw.githubusercontent.com/Supprise0901/TVBox_live/refs/heads/main/live.txt",
     "https://raw.githubusercontent.com/dbghelp/Free-to-air-TV/refs/heads/main/japan.m3u8",
