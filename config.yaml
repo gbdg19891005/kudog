@@ -2,7 +2,7 @@
 ua: "Mozilla/5.0"
 referrer: "https://kudog.chatgb.dpdns.org/"
 epg: "https://epg.catvod.com/epg.xml"
-timeout: 20
+timeout: 10
 
 # ===== URL 保留策略 =====
 # true = 保留多个URL，false = 只保留第一个
