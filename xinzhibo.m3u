@@ -89,6 +89,16 @@ https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/nc.php?n=%E6%96%87%E6%97%85
 https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/nc.php?n=%E8%B5%84%E8%AE%AF
 #EXTINF:-1 tvg-name="景德镇新闻综合" tvg-logo="" group-title="未分组",景德镇新闻综合
 http://play-sh.quklive.com/live/1724916607073321.m3u8
+#EXTINF:-1 tvg-name="九江新闻综合" tvg-logo="" group-title="未分组",九江新闻综合
+http://play-sh13.quklive.com/live/1757386374062009.m3u8?auth_key=2074409953-1dae95326c7943b28c3dbf66f89354be-0-2837005cdaa6ccd097b866975abe466a
+#EXTINF:-1 tvg-name="九江公共" tvg-logo="" group-title="未分组",九江公共
+http://play-sh13.quklive.com/live/1757386400403349.m3u8?auth_key=2074410330-9138a1677cea4015b7334a66a9f7952e-0-80e8dd4c82311ea7461dd8df8ca922aa
+#EXTINF:-1 tvg-name="九江教育" tvg-logo="" group-title="未分组",九江教育
+http://play-sh13.quklive.com/live/1757386418265193.m3u8?auth_key=2074410488-9eee5f4ee84540729319cc9af9a7bdb6-0-b8af9f64ba30f377a2bb03a0f0e70037
+#EXTINF:-1 tvg-name="上饶新闻综合" tvg-logo="" group-title="未分组",上饶新闻综合
+http://hls.quklive.com/live/play-sh-21.quklive.com/1758679893354090.m3u8?auth_key=2079617060-d88f59f738b64d69b58ac542b98edc52-0-af8b48e2d891ba488c9878f25460e7e5
+#EXTINF:-1 tvg-name="上饶经济旅游" tvg-logo="" group-title="未分组",上饶经济旅游
+http://hls.quklive.com/live/play-sh-21.quklive.com/1758679936307088.m3u8?auth_key=2079617536-ebdadda3459e4ffbad4899a77d78551c-0-e123b1d1dd2ccc62a65941dda465eb1f
 #EXTINF:-1 tvg-name="定南综合频道" tvg-logo="" group-title="未分组",定南综合频道
 http://play-sh13.quklive.com/live/1762136155495343.m3u8?auth_key=2077496271-c46d3a24f8c647e9bce8ab5282c718b0-0-860d2c359f24e71c3d33cbb07fbbf120
 #EXTINF:-1 tvg-name="广丰综合" tvg-logo="" group-title="未分组",广丰综合
