@@ -209,6 +209,14 @@ https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
 https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
 #EXTINF:-1 tvg-name="浙江钱江都市" tvg-logo="" group-title="未分组",浙江钱江
 https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
+#EXTINF:-1 tvg-name="宁波新闻综合频道" tvg-logo="" group-title="未分组",宁波新闻综合频道
+https://oglhfjeuljzf.sealosbja.site/1.php?id=nbtv1
+#EXTINF:-1 tvg-name="宁波社会生活频道" tvg-logo="" group-title="未分组",宁波社会生活频道
+https://oglhfjeuljzf.sealosbja.site/1.php?id=nbtv2
+#EXTINF:-1 tvg-name="宁波都市文体频道" tvg-logo="" group-title="未分组",宁波都市文体频道
+https://oglhfjeuljzf.sealosbja.site/1.php?id=nbtv3
+#EXTINF:-1 tvg-name="宁波影视频道" tvg-logo="" group-title="未分组",宁波影视频道
+https://oglhfjeuljzf.sealosbja.site/1.php?id=nbtv4
 #EXTINF:-1 tvg-name="南国都市" group-title="",南国都市
 https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=550af55c0ea34ce492748481415b6dfa&txTime=1903e7b17de
 #EXTINF:-1 tvg-name="苏州新闻综合" group-title="",苏州新闻综合
