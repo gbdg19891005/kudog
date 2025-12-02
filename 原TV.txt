@@ -1,7 +1,7 @@
 #EXTM3U
 
 #EXTM3U
-#EXTINF:-1 tvg-name="TVBS News 新闻台" tvg-logo="" group-title="未分组",TVBS News 新闻台
+#EXTINF:-1 tvg-name="TVBS 新闻台" tvg-logo="" group-title="未分组",TVBS 新闻台
 https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=tvbs_n
 
 #EXTINF:-1 tvg-name="TVBS 欢乐台" tvg-logo="" group-title="未分组",TVBS 欢乐台
@@ -118,17 +118,11 @@ https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=feifannews_twn
 #EXTINF:-1 tvg-name="龙华戏剧 Lunghua Drama" tvg-logo="" group-title="未分组",龙华戏剧 Lunghua Drama
 https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=lunghuaxiju_twn
 
-#EXTINF:-1 tvg-name="龙华经典台" tvg-logo="" group-title="未分组",龙华经典台
-https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=lunghuajingdian_twn
-
 #EXTINF:-1 tvg-name="龙华偶像" tvg-logo="" group-title="未分组",龙华偶像
 https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=lunghuaidol_twn
 
 #EXTINF:-1 tvg-name="AXN Taiwan" tvg-logo="" group-title="未分组",AXN Taiwan
 https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=axn_twn
-
-#EXTINF:-1 tvg-name="靖天国际台" tvg-logo="" group-title="未分组",靖天国际台
-https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=jingtianintl_twn
 
 #EXTINF:-1 tvg-name="年代新闻" tvg-logo="" group-title="未分组",年代新闻
 https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=niandainews_twn
@@ -145,29 +139,14 @@ https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=videolandsport
 #EXTINF:-1 tvg-name="纬来综合台" tvg-logo="" group-title="未分组",纬来综合台
 https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=videolandzonghe
 
-#EXTINF:-1 tvg-name="纬来育乐" tvg-logo="" group-title="未分组",纬来育乐
-https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=videolandyule
-
-#EXTINF:-1 tvg-name="纬来精彩" tvg-logo="" group-title="未分组",纬来精彩
-https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=videolandspecial_twn
-
 #EXTINF:-1 tvg-name="好消息 2" tvg-logo="" group-title="未分组",好消息 2
 https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=good2_twn
 
 #EXTINF:-1 tvg-name="大爱2台" tvg-logo="" group-title="未分组",大爱2台
 https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=daai2_twn
 
-#EXTINF:-1 tvg-name="亚洲美食" tvg-logo="" group-title="未分组",亚洲美食
-https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=afc_twn
-
-#EXTINF:-1 tvg-name="美食星球" tvg-logo="" group-title="未分组",美食星球
-https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=foodplanet_twn
-
 #EXTINF:-1 tvg-name="亚洲旅游 TLC Asia" tvg-logo="" group-title="未分组",亚洲旅游 TLC Asia
 https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=tlc_twn
-
-#EXTINF:-1 tvg-name="东森电影 ETTV Movie" tvg-logo="" group-title="未分组",东森电影 ETTV Movie
-https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=ettvmovie
 
 #EXTINF:-1 tvg-name="阿里郎 Arirang" tvg-logo="" group-title="未分组",阿里郎 Arirang
 https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=arirang_twn
@@ -187,9 +166,6 @@ https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=bositennis_twn
 #EXTINF:-1 tvg-name="东森洋片 ETTV Western" tvg-logo="" group-title="未分组",东森洋片 ETTV Western
 https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=ettvwestern
 
-#EXTINF:-1 tvg-name="龙华洋片 Lunghua Western" tvg-logo="" group-title="未分组",龙华洋片 Lunghua Western
-https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=lunghuawestern_twn
-
 #EXTINF:-1 tvg-name="博斯无限" tvg-logo="" group-title="未分组",博斯无限
 https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=bosiunlimited_twn
 
@@ -208,26 +184,17 @@ https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=jingtiancartoon_t
 #EXTINF:-1 tvg-name="EYETV 戏剧" tvg-logo="" group-title="未分组",EYETV 戏剧
 https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=eyetvxiju_twn
 
-#EXTINF:-1 tvg-name="卫视中文台 Star Movies Chinese" tvg-logo="" group-title="未分组",卫视中文台 Star Movies Chinese
+#EXTINF:-1 tvg-name="華藝中文 Star Movies Chinese" tvg-logo="" group-title="未分组",華藝中文 Star Movies Chinese
 https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=weishichinese_twn
 
 #EXTINF:-1 tvg-name="东森幼幼 Yoyo TV" tvg-logo="" group-title="未分组",东森幼幼 Yoyo TV
 https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=yoyo_twn
 
-#EXTINF:-1 tvg-name="卫视电影台" tvg-logo="" group-title="未分组",卫视电影台
-https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=weishimovie_twn
-
 #EXTINF:-1 tvg-name="美亚电影" tvg-logo="" group-title="未分组",美亚电影
 https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=meiyamovie_twn
 
-#EXTINF:-1 tvg-name="爱尔达影剧台" tvg-logo="" group-title="未分组",爱尔达影剧台
-https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=eltayingju_twn
-
 #EXTINF:-1 tvg-name="爱尔达综合台" tvg-logo="" group-title="未分组",爱尔达综合台
-https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=eltazonghe_twn
-
-#EXTINF:-1 tvg-name="星卫电影" tvg-logo="" group-title="未分组",星卫电影
-https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=xingwei_movie
+https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=eltazonghe
 
 #EXTINF:-1 tvg-name="AFC 亚洲旅游台" tvg-logo="" group-title="未分组",AFC 亚洲旅游台
 https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=asiatravel_twn
@@ -237,4 +204,17 @@ https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=eltasport2_twn
 
 #EXTINF:-1 tvg-name="爱尔达体育3台" tvg-logo="" group-title="未分组",爱尔达体育3台
 https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=eltasport3_twn
+
+#EXTINF:-1 tvg-name="Momo TV" tvg-logo="" group-title="未分组",Momo TV
+https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=momo1_twn
+
+#EXTINF:-1 tvg-name="Baby TV Eng" tvg-logo="" group-title="未分组",Baby TV Eng
+https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=Babytv
+
+#EXTINF:-1 tvg-name="MiaoMi" tvg-logo="" group-title="未分组",MiaoMi
+https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=MiaoMi
+
+#EXTINF:-1 tvg-name="Cartoon Network" tvg-logo="" group-title="未分组",Cartoon Network
+https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/cs.php?id=Cn
+
 
