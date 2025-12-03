@@ -9,11 +9,10 @@
       "include_channels": ["NBA杯", "nba", "德甲联赛", "翡翠台4K", "意甲联赛", "Now新闻台", "法甲", "西甲联赛", "TVB Plus", "欧冠", "NBA", "明珠台"]
   },
     "https://raw.githubusercontent.com/mytv-android/BRTV-Live-M3U8/refs/heads/main/iptv.m3u",
-    "https://live.catvod.com/tv.m3u",
+    "https://qlnyvuzyirim.ap-northeast-1.clawcloudrun.com/bee.m3u",
     "http://iptv.4666888.xyz/FYTV.m3u",
     "https://raw.githubusercontent.com/Supprise0901/TVBox_live/refs/heads/main/live.txt",
     "https://raw.githubusercontent.com/dbghelp/Free-to-air-TV/refs/heads/main/japan.m3u8",
-    "https://qlnyvuzyirim.ap-northeast-1.clawcloudrun.com/bee.m3u",
     "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u"
   ],
   "local_files": [
