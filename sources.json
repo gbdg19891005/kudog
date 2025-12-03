@@ -10,10 +10,6 @@
   },
     "https://raw.githubusercontent.com/mytv-android/BRTV-Live-M3U8/refs/heads/main/iptv.m3u",
     "https://qlnyvuzyirim.ap-northeast-1.clawcloudrun.com/bee.m3u",
-  {
-      "url": "https://iptv.cqshushu.com/index.php?s=116.233.63.135%3A5555&t=multicast&channels=1&format=txt",
-      "include_channels": ["4K"]
-  },
     "http://iptv.4666888.xyz/FYTV.m3u",
     "https://raw.githubusercontent.com/Supprise0901/TVBox_live/refs/heads/main/live.txt",
     "https://raw.githubusercontent.com/dbghelp/Free-to-air-TV/refs/heads/main/japan.m3u8",
