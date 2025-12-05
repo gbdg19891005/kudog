@@ -8,7 +8,7 @@
       "央视戏曲", "IPTV.*", "网络电视", "互动电视", "睛彩.*"
     ],
     "🇨🇳卫视频道": [
-      "卫视\\b", "衛視\\b", "北京卫视4K超高清", "莲花", "环球", "东方卫视4K", "深圳卫视4K", "蓮花"
+      "卫视\\b", "衛視\\b", "北京卫视4K超高清", "莲花", "环球", "东方卫视4K", "深圳卫视4K", "湖南卫视4K", "浙江卫视4K", "蓮花"
     ],
     "💥港|澳|台": [
       "凤凰", "鳳凰", "翡翠", "明珠", "无线", "無線", "TVB", "ViuTV", "RTHK", "香蕉", "鳳梨",
@@ -41,7 +41,7 @@
       "体育", "體育", "Fight", "Sport", "SPORT", "籃球", "HOY", "SPO", "wwe", "FOX", "LALIGA", "NHL", "LFC", "Willow", "MUTV", "ACC", "Virgin",
       "Real Madrid", "Tennis Channel", "NFL Channel", "Billiard TV", "全运会", "城市联赛", "ITV", "Golf",
       "Stadium", "Overtime", "MLB Network", "SEC Network", "運動", "ESPN", "博斯", "Football",
-      "球赛", "球賽", "最经典", "賽事", "武术", "武術", "搏击", "搏擊", "ELTA", "DAZN",
+      "球赛", "球賽", "最经典", "賽事", "武术", "武術", "搏击", "搏擊", "ELTA", "DAZN", "FIFA+",
       "Red Bull", "Fishing", "钓鱼", "釣魚", "体坛"
     ],
     "🎥电影频道": [
@@ -90,7 +90,7 @@
       "教育", "国学", "文物", "CETV", "EDU", "Edu", "LEARN", "Learn", 
       "学习", "學習", "法治", "金色", "生命",
       "MOMO", "幸福", "車迷", "育乐", "科教", "ELTV", "Cloudflare",
-      "Redbull", "FIFA+", "PowerNation", "Outdoor Channel"
+      "Redbull", "PowerNation", "Outdoor Channel"
     ],
     "📦️购物频道": [
       "购物", "購物", "乐游", "Shopping", "SHOPPING", "TV5MONDE", "Shop", "生活", 
@@ -109,7 +109,7 @@
       "欧冠", "欧冠联赛", "德甲", "德甲联赛", "意甲", "意甲联赛", "法甲", "法甲联赛", "西甲联赛", "西甲"
     ],
     "🕹️娱乐+直播频道": [
-       "游戏", "JJ", "掼蛋", "英雄联盟", "Ginx", "虎牙", "斗鱼", "棋牌", "斗地主"
+       "游戏", "JJ", "掼蛋", "直播", "英雄联盟", "Ginx", "虎牙", "斗鱼", "棋牌", "斗地主"
     ]
   },
   "custom_channels": [
