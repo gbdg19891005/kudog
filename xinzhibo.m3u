@@ -82,11 +82,11 @@ http://36.135.118.195:85/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CITY都市剧场" https://tm-image.tianyancha.com/tm/90d426f2aed65cae1abe37b446c67371.jpg group-title="未分组",都市剧场
 http://36.135.118.195:85/tsfile/live/1026_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="南昌新闻综合" tvg-logo="https://i0.hdslb.com/bfs/article/38da7a7fccdd980d993d8e11b24c4ac5382367415.png@1186w_1074h.webp" group-title="未分组",南昌新闻综合频道
-https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/nc.php?n=%E6%96%B0%E9%97%BB
+http://35.209.240.97:5080/nc.php?n=%E6%96%B0%E9%97%BB
 #EXTINF:-1 tvg-name="南昌文旅" tvg-logo="https://p9.itc.cn/q_70/images03/20220123/e92d7f0835fb4f2ca9f972ba083fbbb1.png" group-title="未分组",南昌文旅频道
-https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/nc.php?n=%E6%96%87%E6%97%85
+http://35.209.240.97:5080/nc.php?n=%E6%96%87%E6%97%85
 #EXTINF:-1 tvg-name="南昌资讯" tvg-logo="https://p9.itc.cn/q_70/images03/20220123/e92d7f0835fb4f2ca9f972ba083fbbb1.png" group-title="未分组",南昌资讯频道
-https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/nc.php?n=%E8%B5%84%E8%AE%AF
+http://35.209.240.97:5080/nc.php?n=%E8%B5%84%E8%AE%AF
 #EXTINF:-1 tvg-name="景德镇新闻综合" tvg-logo="https://bkimg.cdn.bcebos.com/pic/a5c27d1ed21b0ef41bd5bb7f788846da81cb39db90f4" group-title="未分组",景德镇新闻综合
 http://play-sh.quklive.com/live/1724916607073321.m3u8
 #EXTINF:-1 tvg-name="九江新闻综合" https://tm-image.tianyancha.com/tm/90d426f2aed65cae1abe37b446c67371.jpg group-title="未分组",九江新闻综合
@@ -164,35 +164,35 @@ https://www.goodiptv.club/douyu/953193
 #EXTINF:-1 tvg-id="" tvg-name="" https://tm-image.tianyancha.com/tm/90d426f2aed65cae1abe37b446c67371.jpg group-title="未分组",孤独的美食家4
 http://live.iill.top/douyu.php?id=260322
 #EXTINF:-1 tvg-name="深圳卫视 4k" tvg-logo="https://gitee.com/letters101/TVLogo/raw/main/%E7%BA%AF%E4%BA%AB4K.png" group-title="未分组",深圳卫视 4k
-https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/sztv.php?channel=%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%864K
+http://35.209.240.97:5080/sztv.php?channel=%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%864K
 #EXTINF:-1 tvg-name="深圳财经" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Shenzhen4.png" group-title="未分组",深圳财经频道
-https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/sztv.php?channel=%E6%B7%B1%E5%9C%B3%E8%B4%A2%E7%BB%8F
+http://35.209.240.97:5080/sztv.php?channel=%E6%B7%B1%E5%9C%B3%E8%B4%A2%E7%BB%8F
 #EXTINF:-1 tvg-name="深圳少儿" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Shenzhen6.png" group-title="未分组",深圳少儿频道
-https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/sztv.php?channel=%E6%B7%B1%E5%9C%B3%E5%B0%91%E5%84%BF
+http://35.209.240.97:5080/sztv.php?channel=%E6%B7%B1%E5%9C%B3%E5%B0%91%E5%84%BF
 #EXTINF:-1 tvg-name="深圳电视剧" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Shenzhen2.png" group-title="未分组",深圳电视剧频道
-https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/sztv.php?channel=%E6%B7%B1%E5%9C%B3%E7%94%B5%E8%A7%86%E5%89%A7
+http://35.209.240.97:5080/sztv.php?channel=%E6%B7%B1%E5%9C%B3%E7%94%B5%E8%A7%86%E5%89%A7
 #EXTINF:-1 tvg-name="宜和购物" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Shenzhen.png" group-title="未分组",宜和购物频道
-https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/sztv.php?channel=%E5%AE%9C%E5%92%8C%E8%B4%AD%E7%89%A9
+http://35.209.240.97:5080/sztv.php?channel=%E5%AE%9C%E5%92%8C%E8%B4%AD%E7%89%A9
 #EXTINF:-1 tvg-name="深圳都市" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Shenzhen1.png" group-title="未分组",深圳都市频道
-https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/sztv.php?channel=%E6%B7%B1%E5%9C%B3%E9%83%BD%E5%B8%82
+http://35.209.240.97:5080/sztv.php?channel=%E6%B7%B1%E5%9C%B3%E9%83%BD%E5%B8%82
 #EXTINF:-1 tvg-name="深圳国际" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Shenzhen7.png" group-title="未分组",深圳国际频道
-https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/sztv.php?channel=%E6%B7%B1%E5%9C%B3%E5%9B%BD%E9%99%85
+http://35.209.240.97:5080/sztv.php?channel=%E6%B7%B1%E5%9C%B3%E5%9B%BD%E9%99%85
 #EXTINF:-1 tvg-name="深圳移动" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Shenzhen.png" group-title="未分组",深圳移动频道
-https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/sztv.php?channel=%E6%B7%B1%E5%9C%B3%E7%A7%BB%E5%8A%A8
+http://35.209.240.97:5080/sztv.php?channel=%E6%B7%B1%E5%9C%B3%E7%A7%BB%E5%8A%A8
 #EXTINF:-1 tvg-name="海南卫视" tvg-logo="https://gitee.com/letters101/TVLogo/raw/main/%E6%B5%B7%E5%8D%97%E5%8D%AB%E8%A7%86.png"group-title="未分组",海南卫视
-https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/海南.php?id=hnws
+http://35.209.240.97:5080/海南.php?id=hnws
 #EXTINF:-1 tvg-name="三沙卫视" tvg-logo="https://gitee.com/letters101/TVLogo/raw/main/%E4%B8%89%E6%B2%99%E5%8D%AB%E8%A7%86.png" group-title="未分组",三沙卫视
-https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/海南.php?id=ssws
+http://35.209.240.97:5080/海南.php?id=ssws
 #EXTINF:-1 tvg-name="海南新闻" tvg-logo="https://gitee.com/letters101/TVLogo/raw/main/%E6%B5%B7%E5%8D%97%E6%96%B0%E9%97%BB.png" group-title="未分组",海南新闻
-https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/海南.php?id=xwpd
+http://35.209.240.97:5080/海南.php?id=xwpd
 #EXTINF:-1 tvg-name="海南文旅" tvg-logo="https://gitee.com/letters101/TVLogo/raw/main/%E6%B5%B7%E5%8D%97%E6%96%87%E6%97%85.png" group-title="未分组",海南文旅
-https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/海南.php?id=wlpd
+http://35.209.240.97:5080/海南.php?id=wlpd
 #EXTINF:-1 tvg-name="海南自贸" tvg-logo="https://gitee.com/letters101/TVLogo/raw/main/%E6%B5%B7%E5%8D%97%E6%96%87%E6%97%85.png" group-title="未分组",海南自贸
-https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/海南.php?id=jjpd
+http://35.209.240.97:5080/海南.php?id=jjpd
 #EXTINF:-1 tvg-name="海南公共" tvg-logo="https://gitee.com/letters101/TVLogo/raw/main/%E6%B5%B7%E5%8D%97%E5%85%AC%E5%85%B1.png" group-title="未分组",海南公共
-https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/海南.php?id=ggpd
+http://35.209.240.97:5080/海南.php?id=ggpd
 #EXTINF:-1 tvg-name="海南少儿" tvg-logo="https://gitee.com/letters101/TVLogo/raw/main/%E6%B5%B7%E5%8D%97%E5%B0%91%E5%84%BF.png" group-title="未分组",海南少儿
-https://uvwmbzpmuurj.ap-northeast-1.clawcloudrun.com/海南.php?id=sepd
+http://35.209.240.97:5080/海南.php?id=sepd
 #EXTINF:-1 tvg-name="浙江公共新闻" tvg-logo="https://gitee.com/letters101/TVLogo/raw/main/%E6%B5%99%E6%B1%9F%E5%85%AC%E5%85%B1%E6%96%B0%E9%97%BB.png" group-title="未分组",浙江新闻
 https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
 #EXTINF:-1 tvg-name="浙江国际" tvg-logo="https://gitee.com/letters101/TVLogo/raw/main/%E6%B5%99%E6%B1%9F%E5%9B%BD%E9%99%85.png" group-title="未分组",浙江国际
