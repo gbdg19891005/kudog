@@ -20,7 +20,7 @@ rtmp://f13h.mine.nu/sat/tv091
 rtmp://f13h.mine.nu/sat/tv111
 #EXTINF:-1 tvg-name="民視" tvg-logo="https://logo.catvod.com/民视.png" group-title="JULI",民視
 rtmp://f13h.mine.nu/sat/tv051
-#EXTINF:-1 tvg-name="KCTV(朝鮮勞動黨中央電視台)" tvg-logo="https://raw.githubusercontent.com/HiDigital/Logo/refs/heads/main/朝鲜电视台.png" group-title="JULI",KCTV(朝鮮勞動黨中央電視台)
+#EXTINF:-1 tvg-name="KCTV(朝鮮勞動黨)" tvg-logo="https://raw.githubusercontent.com/HiDigital/Logo/refs/heads/main/朝鲜电视台.png" group-title="JULI",KCTV(朝鮮勞動黨)
 https://tv.intchoson.com/kctv/index.m3u8
 #EXTINF:-1 tvg-name="緯來體育" tvg-logo="https://logo.catvod.com/纬来体育.png" group-title="JULI",緯來體育
 rtmp://f13h.mine.nu/sat/tv721
@@ -28,8 +28,6 @@ rtmp://f13h.mine.nu/sat/tv721
 http://php.jdshipin.com:8880/1905.php?id=1905dy
 #EXTINF:-1 tvg-name="RTHKTV32" tvg-logo="https://logo.catvod.com/RTHK32.png"" group-title="未分组",RTHKTV32
 https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/master.m3u8
-#EXTINF:-1 tvg-name="NOW英超台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/now3.png" group-title="未分组",NOW英超台
-http://lunar.pm:8080/melodyg/uQnLQnTkRj/117457
 #EXTINF:-1 tvg-name="Hoy77" tvg-logo="https://logo.catvod.com/HOYTV.png"" group-title="未分组",Hoy77
 http://hls.168.us.kg/u/77/master.m3u8
 #EXTINF:-1 tvg-name="華藝中文" tvg-logo="https://logo.catvod.com/NOW.png"" group-title="未分组",華藝中文
@@ -57,21 +55,6 @@ http://cdn8.163189.xyz/163189/lhxj
 
 #EXTINF:-1 tvg-name="龙华洋片" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_litv-longturn02_mobile.png" group-title="未分组",龙华洋片
 http://cdn8.163189.xyz/163189/lhyp
-
-#EXTINF:-1 tvg-name="澳视澳门" tvg-logo="https://logo.catvod.com/澳视澳门.png" group-title="未分组",澳视澳门
-http://php.jdshipin.com/TVOD/iptv.php?id=asam
-
-#EXTINF:-1 tvg-name="澳视卫星" tvg-logo="https://logo.catvod.com/澳门卫星.png" group-title="未分组",澳视卫星
-http://php.jdshipin.com/TVOD/iptv.php?id=as
-
-#EXTINF:-1 tvg-name="澳门体育" tvg-logo="https://logo.catvod.com/澳门体育.png" group-title="未分组",澳门体育
-http://cdn6.163189.xyz/163189/amty
-
-#EXTINF:-1 tvg-name="澳门综艺" tvg-logo="https://logo.catvod.com/澳门综艺.png" group-title="未分组",澳门综艺
-http://cdn6.163189.xyz/163189/amzy
-
-#EXTINF:-1 tvg-name="澳门莲花" tvg-logo="https://logo.catvod.com/澳门莲花.png" group-title="未分组",澳门莲花
-http://cdn6.163189.xyz/163189/amlh
 
 #EXTINF:-1 tvg-name="HOY剧集台" tvg-logo="https://hoy.tv/_next/static/media/icon_logo.c8ff4d86.png" group-title="未分组",HOY剧集台
 http://cdn.163189.xyz/163189/hoyjj
@@ -286,12 +269,20 @@ https://cdn.ryplay10.com/20250125/35961_cf038721/index.m3u8
 https://live.laobaitv.net/huya/660000
 #EXTINF:-1 tvg-name="香港卫视" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/HKS.png" group-title="未分组",香港卫视
 http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8
-#EXTINF:-1 tvg-name="澳视澳门" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Aoshi1.png" group-title="未分组",澳视澳门
+#EXTINF:-1 tvg-name="澳视澳门" tvg-logo="https://logo.catvod.com/澳视澳门.png" group-title="未分组",澳视澳门
 http://php.jdshipin.com/TVOD/iptv.php?id=asam
-#EXTINF:-1 tvg-name="澳视卫星" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Aoshi6.png" group-title="未分组",澳视卫星
+
+#EXTINF:-1 tvg-name="澳视卫星" tvg-logo="https://logo.catvod.com/澳门卫星.png" group-title="未分组",澳视卫星
 http://php.jdshipin.com/TVOD/iptv.php?id=as
-#EXTINF:-1 tvg-name="澳视体育" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Aoshi3.png" group-title="未分组",澳视体育
+
+#EXTINF:-1 tvg-name="澳门体育" tvg-logo="https://logo.catvod.com/澳门体育.png" group-title="未分组",澳门体育
 http://cdn6.163189.xyz/163189/amty
+
+#EXTINF:-1 tvg-name="澳门综艺" tvg-logo="https://logo.catvod.com/澳门综艺.png" group-title="未分组",澳门综艺
+http://cdn6.163189.xyz/163189/amzy
+
+#EXTINF:-1 tvg-name="澳门莲花" tvg-logo="https://logo.catvod.com/澳门莲花.png" group-title="未分组",澳门莲花
+http://cdn6.163189.xyz/163189/amlh
 #EXTINF:-1 tvg-name="VIU TV" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/viutv.png" group-title="未分组",VIU TV
 http://php.jdshipin.com/TVOD/iptv.php?id=viutv
 #EXTINF:-1 tvg-name="广州综合" tvg-logo="https://tm-image.tianyancha.com/tm/90d426f2aed65cae1abe37b446c67371.jpg" group-title="未分组",广州综合
