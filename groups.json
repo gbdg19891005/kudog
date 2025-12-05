@@ -8,7 +8,7 @@
       "央视戏曲", "IPTV.*", "网络电视", "互动电视", "睛彩.*"
     ],
     "🇨🇳卫视频道": [
-      "卫视\\b", "衛視\\b", "北京卫视4K超高清", "莲花", "环球", "东方卫视4K", "深圳卫视4K", "湖南卫视4K", "浙江卫视4K", "蓮花"
+      "卫视\\b", "衛視\\b", "北京卫视4K超高清", "莲花", "环球", "东方卫视4K", "深圳卫视4K", "湖南卫视4K", "浙江卫视4K", "亞太", "蓮花"
     ],
     "💥港|澳|台": [
       "凤凰", "鳳凰", "翡翠", "明珠", "无线", "無線", "TVB", "ViuTV", "RTHK", "香蕉", "鳳梨",
@@ -40,14 +40,14 @@
     "🥇体育频道": [
       "体育", "體育", "Fight", "Sport", "SPORT", "籃球", "HOY", "SPO", "wwe", "FOX", "LALIGA", "NHL", "LFC", "Willow", "MUTV", "ACC", "Virgin",
       "Real Madrid", "Tennis Channel", "NFL Channel", "Billiard TV", "全运会", "城市联赛", "ITV", "Golf",
-      "Stadium", "Overtime", "MLB Network", "SEC Network", "運動", "ESPN", "博斯", "Football",
+      "Stadium", "Overtime", "MLB Network", "SEC Network", "運動", "ESPN", "博斯", "Football", "c+",
       "球赛", "球賽", "最经典", "賽事", "武术", "武術", "搏击", "搏擊", "ELTA", "DAZN", "FIFA+",
       "Red Bull", "Fishing", "钓鱼", "釣魚", "体坛"
     ],
     "🎥电影频道": [
       "日韩", "偶像", "电影", "電影", "Movie", "MOVIE", "Cinema", "CINEMA", "天映", "洋片", "新片", "武侠", "抗日",
       "Action Hollywood", "Thrillers", "Thriller TV", "Universal Monsters", "1905", "长影", "POPC",
-      "ION", "ION Plus", "Paramount Network", "Showtime", "Showtime 2", "象视界", "爱奇艺",
+      "ION", "ION Plus", "Paramount Network", "Showtime", "Showtime 2", "象视界", "爱奇艺", "经典",
       "Showtime Extreme", "TNT", "Sony One FAVES", "Icon Film Channel", "冰冰", "女神金", "影剧",
       "Popflix", "LG 1 Film", "影视", "影視", "影片", "大片", "HBO", "网神", "千禧经典", "千禧經典",
       "影院", "影城", "Cinemax", "Star Movies", "新视觉",
@@ -78,12 +78,12 @@
     ],
     "🧙‍♀️戏剧频道": [
       "戏剧", "戲劇", "影劇", "影劇台", "电视剧", "電視劇", "全家", "曲艺",
-      "梨园", "移动戏曲", "剧集", "剧场", "港剧", "重温", "Aod", "戏曲",
+      "梨园", "移动戏曲", "剧集", "剧场", "港剧", "重温", "Aod", "戏曲", "短剧",
       "Drama", "DRAMA"
     ],
     "🎵音乐频道": [
       "音乐", "音樂", "Music", "MEZZO", "MUSIC", "MTV", "Live", 
-      "广播", "之声", 
+      "广播", "之声", "原", 
       "LIVE", "TRACE", "古典", "KTV"
     ],
     "📗教育频道": [
@@ -145,6 +145,9 @@
   "Smart",
   "央卫",
   "部分源来自互联网",
+  "广告",
+  "寄付",
+  "URLs!",
   "广告",
   "付费",
   "BXTV",
