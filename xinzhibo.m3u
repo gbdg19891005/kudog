@@ -1,47 +1,19 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="爱尔达体育1台" tvg-name="爱尔达体育1台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/ELTA4.png" group-title="未分组",爱尔达体育1台
-https://tzh911.qzz.io/play-smt.php?id=eltasport_twn
-#EXTINF:-1 tvg-id="东森新闻台" tvg-name="东森新闻台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/EBC6.png" group-title="未分组",东森新闻台
-https://tzh911.qzz.io/play-smt.php?id=ettvnews
-#EXTINF:-1 tvg-id="三立台湾台" tvg-name="三立台湾台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/SET4.png" group-title="未分组",三立台湾台
-https://tzh911.qzz.io/play-smt.php?id=sanlitaiwan
-#EXTINF:-1 tvg-id="台视新闻台" tvg-name="台视新闻台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TTV2.png" group-title="未分组",台视新闻台
-https://tzh911.qzz.io/play-smt.php?id=ttvnews_twn
 #EXTINF:-1 tvg-id="台视新闻台" tvg-name="台视新闻台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TTV2.png" group-title="未分组",台视新闻台
 http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
 #EXTINF:-1 tvg-name="台视新闻台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TTV2.png" group-title="未分组",台视新闻台
 https://live.wcetv.com/hls/master-ttvnews.m3u8
 #EXTINF:-1 tvg-name="台视新闻台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TTV2.png" group-title="未分组",台视新闻台
 https://live.wcetv.com/hls/m3u8/ttvnews.m3u8
-#EXTINF:-1 tvg-id="中视新闻台" tvg-name="中视新闻台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/CTV1.png" group-title="未分组",中视新闻台
-https://tzh911.qzz.io/play-smt.php?id=zhongshinews_twn
-#EXTINF:-1 tvg-id="寰宇新闻台" tvg-name="寰宇新闻台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Global2.png" group-title="未分组",寰宇新闻台
-https://tzh911.qzz.io/play-smt.php?id=huanyuxinwen_twn
-#EXTINF:-1 tvg-name="中天新闻台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/CTI2.png" group-title="未分组",中天新闻台
-https://tzh911.qzz.io/play-smt.php?id=ctinews
-#EXTINF:-1 tvg-name="中天新闻台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/CTI2.png" group-title="未分组",中天新闻台
-https://tzh911.qzz.io/play-smt.php?id=ctiasia_twn
 #EXTINF:-1 tvg-name="TVBS新闻台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TVBS1.png" group-title="未分组",TVBS新闻台
 http://iptv.4666888.xyz/iptv2A.php?id=43
 #EXTINF:-1 tvg-name="TVBS新闻台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TVBS1.png" group-title="未分组",TVBS新闻台
 https://stream1.freetv.fun/tvbsxin-wen-6.ctv
 #EXTINF:-1 tvg-name="TVBS新闻台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TVBS1.png" group-title="未分组",TVBS新闻台
-https://tzh911.qzz.io/play-smt.php?id=tvbs_n
-#EXTINF:-1 tvg-name="TVBS新闻台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TVBS1.png" group-title="未分组",TVBS新闻台
 https://stream1.freetv.fun/tvbsxin-wen-8.ctv
-#EXTINF:-1 tvg-name="中天娱乐台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/CTI3.png" group-title="未分组",中天娱乐台
-http://61.221.215.25:8800/hls/47/index.m3u8
-#EXTINF:-1 tvg-name="中天娱乐台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/CTI3.png" group-title="未分组",中天娱乐台
-http://61.221.215.25:8800/hls/47/index.m3u8
-#EXTINF:-1 tvg-name="中天娱乐台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/CTI3.png" group-title="未分组",中天娱乐台
-https://tzh911.qzz.io/play-smt.php?id=ctient
-#EXTINF:-1 tvg-name="三立戏剧台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/SET6.png" group-title="未分组",三立戏剧
-https://tzh911.qzz.io/play-smt.php?id=sanlixiju_twn
 #EXTINF:-1 tvg-name="1905电影" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/1905%E7%94%B5%E5%BD%B1.png" group-title="未分组",1905电影
 http://php.jdshipin.com:8880/1905.php?id=1905dy
-#EXTINF:-1 tvg-name="大立 HD" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/SET6.png" group-title="未分组",大立 HD
-http://www.dalitv.com.tw:4568/live/dali/index.m3u8
 #EXTINF:-1 tvg-name="RTHKTV32" https://tm-image.tianyancha.com/tm/90d426f2aed65cae1abe37b446c67371.jpg group-title="未分组",RTHKTV32
 https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/master.m3u8
 #EXTINF:-1 tvg-name="NOW英超台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/now3.png" group-title="未分组",NOW英超台
