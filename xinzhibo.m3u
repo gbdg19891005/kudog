@@ -20,10 +20,6 @@ rtmp://f13h.mine.nu/sat/tv091
 rtmp://f13h.mine.nu/sat/tv111
 #EXTINF:-1 tvg-name="民視" tvg-logo="https://logo.catvod.com/民视.png" group-title="JULI",民視
 rtmp://f13h.mine.nu/sat/tv051
-#EXTINF:-1 tvg-name="緯來體育" tvg-logo="https://logo.catvod.com/纬来体育.png" group-title="JULI",緯來體育
-rtmp://f13h.mine.nu/sat/tv721
-#EXTINF:-1 tvg-name="1905电影" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/1905%E7%94%B5%E5%BD%B1.png" group-title="未分组",1905电影
-http://php.jdshipin.com:8880/1905.php?id=1905dy
 #EXTINF:-1 tvg-name="RTHKTV32" tvg-logo="https://logo.catvod.com/RTHK32.png"" group-title="未分组",RTHKTV32
 https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/master.m3u8
 #EXTINF:-1 tvg-name="Hoy77" tvg-logo="https://logo.catvod.com/HOYTV.png"" group-title="未分组",Hoy77
@@ -57,76 +53,6 @@ http://cdn8.163189.xyz/163189/lhyp
 #EXTINF:-1 tvg-name="HOY剧集台" tvg-logo="https://hoy.tv/_next/static/media/icon_logo.c8ff4d86.png" group-title="未分组",HOY剧集台
 http://cdn.163189.xyz/163189/hoyjj
 
-#EXTINF:-1 tvg-name="爱尔达综合台" tvg-logo="https://logo.catvod.com/爱尔达综合台.png" group-title="台湾",爱尔达综合台
-https://smart.946985.filegear-sg.me/smart.php?id=eltazonghe_twn
-#EXTINF:-1 tvg-name="爱尔达影剧台" tvg-logo="https://logo.catvod.com/爱尔达影剧台.png" group-title="台湾",爱尔达影剧台
-https://smart.946985.filegear-sg.me/smart.php?id=eltayingju_twn
-#EXTINF:-1 tvg-name="爱尔达体育1台" tvg-logo="https://logo.catvod.com/爱尔达体育1台.png" group-title="台湾",爱尔达体育1台
-https://smart.946985.filegear-sg.me/smart.php?id=eltasport_twn
-#EXTINF:-1 tvg-name="爱尔达体育2台" tvg-logo="https://logo.catvod.com/爱尔达体育2台.png" group-title="台湾",爱尔达体育2台
-https://smart.946985.filegear-sg.me/smart.php?id=eltasport2_twn
-#EXTINF:-1 tvg-name="爱尔达体育3台" tvg-logo="https://logo.catvod.com/爱尔达体育3台.png" group-title="台湾",爱尔达体育3台
-https://smart.946985.filegear-sg.me/smart.php?id=eltasport3_twn
-#EXTINF:-1 tvg-name="非凡新闻" tvg-logo="https://logo.catvod.com/非凡新闻.png" group-title="台湾",非凡新闻
-https://smart.946985.filegear-sg.me/smart.php?id=feifannews_twn
-#EXTINF:-1 tvg-name="年代新闻" tvg-logo="https://logo.catvod.com/年代新闻.png" group-title="台湾",年代新闻
-https://smart.946985.filegear-sg.me/smart.php?id=niandainews_twn
-#EXTINF:-1 tvg-name="靖天国际" tvg-logo="https://logo.catvod.com/靖天国际.png" group-title="台湾",靖天国际
-https://smart.946985.filegear-sg.me/smart.php?id=jingtianintl_twn
-#EXTINF:-1 tvg-name="靖天卡通" tvg-logo="https://logo.catvod.com/靖天卡通.png" group-title="台湾",靖天卡通
-https://smart.946985.filegear-sg.me/smart.php?id=jingtiancartoon_twn
-#EXTINF:-1 tvg-name="大愛電視" tvg-logo="https://logo.catvod.com/大愛電視.png" group-title="台湾",大愛電視
-https://smart.946985.filegear-sg.me/smart.php?id=daai_twn
-#EXTINF:-1 tvg-name="大愛二台" tvg-logo="https://logo.catvod.com/大愛二台.png" group-title="台湾",大愛二台
-https://smart.946985.filegear-sg.me/smart.php?id=daai2_twn
-#EXTINF:-1 tvg-name="EYE 旅游台" tvg-logo="https://logo.catvod.com/EYE 旅游台.png" group-title="台湾",EYE 旅游台
-https://smart.946985.filegear-sg.me/smart.php?id=eyetvtravel_twn
-#EXTINF:-1 tvg-name="EYE 戏剧台" tvg-logo="https://logo.catvod.com/EYE 戏剧台.png" group-title="台湾",EYE 戏剧台
-https://smart.946985.filegear-sg.me/smart.php?id=eyetvxiju_twn
-#EXTINF:-1 tvg-name="亚洲美食" tvg-logo="https://logo.catvod.com/亚洲美食.png" group-title="台湾",亚洲美食
-https://smart.946985.filegear-sg.me/smart.php?id=afc_twn
-#EXTINF:-1 tvg-name="美食星球" tvg-logo="https://logo.catvod.com/美食星球.png" group-title="台湾",美食星球
-https://smart.946985.filegear-sg.me/smart.php?id=foodplanet_twn
-#EXTINF:-1 tvg-name="TLC旅遊生活" tvg-logo="https://logo.catvod.com/TLC旅遊生活.png" group-title="台湾",TLC旅遊生活
-https://smart.946985.filegear-sg.me/smart.php?id=tlc_twn
-#EXTINF:-1 tvg-name="亚洲旅游台" tvg-logo="https://logo.catvod.com/亚洲旅游台.png" group-title="台湾",亚洲旅游台
-https://smart.946985.filegear-sg.me/smart.php?id=asiatravel_twn
-#EXTINF:-1 tvg-name="Arirang" tvg-logo="https://logo.catvod.com/Arirang.png" group-title="国际",Arirang
-https://smart.946985.filegear-sg.me/smart.php?id=arirang_twn
-#EXTINF:-1 tvg-name="AXN Taiwan" tvg-logo="https://logo.catvod.com/AXN Taiwan.png" group-title="国际",AXN Taiwan
-https://smart.946985.filegear-sg.me/smart.php?id=axn_twn
-#EXTINF:-1 tvg-name="MTV Live" tvg-logo="https://logo.catvod.com/MTV Live.png" group-title="国际",MTV Live
-https://smart.946985.filegear-sg.me/smart.php?id=mtvhd_twn
-#EXTINF:-1 tvg-name="HBO_HD" tvg-logo="https://logo.catvod.com/HBO_HD.png" group-title="国际",HBO_HD
-https://smart.946985.filegear-sg.me/smart.php?id=hbohd_twn
-#EXTINF:-1 tvg-name="HBO_HITS" tvg-logo="https://logo.catvod.com/HBO_HITS.png" group-title="国际",HBO_HITS
-https://smart.946985.filegear-sg.me/smart.php?id=hbohit_twn
-#EXTINF:-1 tvg-name="CINEMAX" tvg-logo="https://logo.catvod.com/CINEMAX.png" group-title="国际",CINEMAX
-https://smart.946985.filegear-sg.me/smart.php?id=cinemax_twn
-#EXTINF:-1 tvg-name="好萊塢電影台" tvg-logo="https://logo.catvod.com/好萊塢電影台.png" group-title="国际",好萊塢電影台
-https://smart.946985.filegear-sg.me/smart.php?id=hollywoodmovies_twn
-#EXTINF:-1 tvg-name="卫视电影台" tvg-logo="https://logo.catvod.com/卫视电影台.png" group-title="国际",卫视电影台
-https://smart.946985.filegear-sg.me/smart.php?id=weishimovie_twn
-#EXTINF:-1 tvg-name="龙祥时代" tvg-logo="https://logo.catvod.com/龙祥时代.png" group-title="国际",龙祥时代
-https://smart.946985.filegear-sg.me/smart.php?id=lungxiangtime_twn
-#EXTINF:-1 tvg-name="美亚电影" tvg-logo="https://logo.catvod.com/美亚电影.png" group-title="国际",美亚电影
-https://smart.946985.filegear-sg.me/smart.php?id=meiyamovie_twn
-#EXTINF:-1 tvg-name="華藝綜合" tvg-logo="https://logo.catvod.com/華藝綜合.png" group-title="国际",華藝綜合
-https://smart.946985.filegear-sg.me/smart.php?id=weishichinese_twn
-#EXTINF:-1 tvg-name="博斯运动一台" tvg-logo="https://logo.catvod.com/博斯运动一台.png" group-title="体育",博斯运动一台
-https://smart.946985.filegear-sg.me/smart.php?id=bosisport1_twn
-#EXTINF:-1 tvg-name="博斯运动二台" tvg-logo="https://logo.catvod.com/博斯运动二台.png" group-title="体育",博斯运动二台
-https://smart.946985.filegear-sg.me/smart.php?id=bosisport2_twn
-#EXTINF:-1 tvg-name="博斯高球一台" tvg-logo="https://logo.catvod.com/博斯高球一台.png" group-title="体育",博斯高球一台
-https://smart.946985.filegear-sg.me/smart.php?id=bosigolf1_twn
-#EXTINF:-1 tvg-name="博斯高球二台" tvg-logo="https://logo.catvod.com/博斯高球二台.png" group-title="体育",博斯高球二台
-https://smart.946985.filegear-sg.me/smart.php?id=bosigolf2_twn
-#EXTINF:-1 tvg-name="博斯网球台" tvg-logo="https://logo.catvod.com/博斯网球台.png" group-title="体育",博斯网球台
-https://smart.946985.filegear-sg.me/smart.php?id=bositennis_twn
-#EXTINF:-1 tvg-name="博斯无限台" tvg-logo="https://logo.catvod.com/博斯无限台.png" group-title="体育",博斯无限台
-https://smart.946985.filegear-sg.me/smart.php?id=bosiunlimited_twn
-#EXTINF:-1 tvg-name="好消息 2" tvg-logo="https://logo.catvod.com/好消息 2.png" group-title="宗教",好消息 2
-https://smart.946985.filegear-sg.me/smart.php?id=good2_twn
 
 #EXTINF:-1 tvg-name="wwe格斗风云" tvg-logo="https://i0.hdslb.com/bfs/archive/2cb07b644ff1f8ebc9045899a9c0b2859b17b450.jpg" group-title="未分组",wwe格斗风云
 http://iptv.4666888.xyz/iptv2A.php?id=5
@@ -588,61 +514,6 @@ https://live.iill.top/douyu/7722576
 
 #EXTINF:-1 tvg-name="游戏 斗鱼跑跑卡丁车•手游" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 斗鱼跑跑卡丁车•手游
 https://live.iill.top/douyu/6672862
-
-#EXTINF:-1 tvg-name="轮播 古天乐电影" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="轮播频道",轮播 古天乐电影
-http://cfss.cc/cdn/hy/29982675.m3u8
-#EXTINF:-1 tvg-name="轮播 甄子丹电影" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="轮播频道",轮播 甄子丹电影
-http://cfss.cc/cdn/hy/11352935.m3u8
-#EXTINF:-1 tvg-name="轮播 封神榜" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="轮播频道",轮播 封神榜
-http://cfss.cc/cdn/hy/23749096.m3u8
-#EXTINF:-1 tvg-name="轮播 洗冤录" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="轮播频道",轮播 洗冤录
-http://cfss.cc/cdn/hy/23903130.m3u8
-#EXTINF:-1 tvg-name="轮播 创世纪" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="轮播频道",轮播 创世纪
-http://cfss.cc/cdn/hy/23749083.m3u8
-#EXTINF:-1 tvg-name="轮播 大时代" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="轮播频道",轮播 大时代
-http://cfss.cc/cdn/hy/23865161.m3u8
-#EXTINF:-1 tvg-name="轮播 柳舟计" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="轮播频道",轮播 柳舟计
-http://cfss.cc/cdn/hy/23860039.m3u8
-#EXTINF:-1 tvg-name="轮播 大秦赋" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="轮播频道",轮播 大秦赋
-http://cfss.cc/cdn/hy/23903130.m3u8
-#EXTINF:-1 tvg-name="轮播封神榜" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="轮播频道",轮播 封神榜
-http://cfss.cc/cdn/hy/29465849.m3u8
-#EXTINF:-1 tvg-name="轮播 寻秦记" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="轮播频道",轮播 寻秦记
-http://cfss.cc/cdn/hy/29465848.m3u8
-#EXTINF:-1 tvg-name="轮播 洗冤录" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="轮播频道",轮播 洗冤录
-http://cfss.cc/cdn/hy/29465851.m3u8
-#EXTINF:-1 tvg-name="轮播 创世纪" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="轮播频道",轮播 创世纪
-http://cfss.cc/cdn/hy/23749083.m3u8
-#EXTINF:-1 tvg-name="轮播 大时代" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="轮播频道",轮播 大时代
-http://cfss.cc/cdn/hy/23865161.m3u8
-#EXTINF:-1 tvg-name="轮播 柳舟计" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="轮播频道",轮播 柳舟计
-http://cfss.cc/cdn/hy/23860039.m3u8
-#EXTINF:-1 tvg-name="轮播 大秦赋" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="轮播频道",轮播 大秦赋
-http://cfss.cc/cdn/hy/23903130.m3u8
-#EXTINF:-1 tvg-name="轮播 封神榜" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="轮播频道",轮播 封神榜
-http://cfss.cc/cdn/hy/29465849.m3u8
-#EXTINF:-1 tvg-name="轮播 寻秦记" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="轮播频道",轮播 寻秦记
-http://cfss.cc/cdn/hy/29465848.m3u8
-#EXTINF:-1 tvg-name="轮播 洗冤录" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="轮播频道",轮播 洗冤录
-http://cfss.cc/cdn/hy/29465851.m3u8
-#EXTINF:-1 tvg-name="轮播 创世纪" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="轮播频道",轮播 创世纪
-http://cfss.cc/cdn/hy/29465852.m3u8
-#EXTINF:-1 tvg-name="轮播 刘德华电影" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="轮播频道",轮播 刘德华电影
-http://cfss.cc/cdn/hy/11342424.m3u8
-#EXTINF:-1 tvg-name="轮播 洪金宝电影" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="轮播频道",轮播 洪金宝电影
-http://cfss.cc/cdn/hy/11279251.m3u8
-#EXTINF:-1 tvg-name="轮播 埋堆堆" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="轮播频道",轮播 埋堆堆
-http://cfss.cc/cdn/hy/23903123.m3u8
-#EXTINF:-1 tvg-name="轮播 埋堆堆2" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="轮播频道",轮播 埋堆堆2
-http://cfss.cc/cdn/hy/23864973.m3u8
-#EXTINF:-1 tvg-name="轮播 王晶电影" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="轮播频道",轮播 王晶电影
-http://cfss.cc/cdn/hy/11602058.m3u8
-#EXTINF:-1 tvg-name="轮播 功夫电影" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="轮播频道",轮播 功夫电影
-http://cfss.cc/cdn/hy/11352941.m3u8
-#EXTINF:-1 tvg-name="动漫 猫和老鼠" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="轮播频道",动漫 猫和老鼠
-http://cfss.cc/cdn/hy/11352879.m3u8
-#EXTINF:-1 tvg-name="轮播 强森电影" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="轮播频道",轮播 强森电影
-http://cfss.cc/cdn/hy/21059581.m3u8
 
 #EXTINF:-1 tvg-name="KCTV(朝鮮勞動黨)" tvg-logo="https://raw.githubusercontent.com/HiDigital/Logo/refs/heads/main/朝鲜电视台.png" group-title="JULI",KCTV(朝鮮勞動黨)
 https://tv.intchoson.com/kctv/index.m3u8
