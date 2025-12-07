@@ -270,7 +270,7 @@ http://php.jdshipin.com/TVOD/iptv.php?id=asam
 #EXTINF:-1 tvg-name="澳视卫星" tvg-logo="https://logo.catvod.com/澳门卫星.png" group-title="未分组",澳视卫星
 http://php.jdshipin.com/TVOD/iptv.php?id=as
 
-#EXTINF:-1 tvg-name="澳门体育" tvg-logo="https://logo.catvod.com/澳门体育.png" group-title="未分组",澳门体育
+#EXTINF:-1 tvg-name="澳门体育" tvg-logo="https://logo.catvod.com/%E6%BE%B3%E9%97%A8.png" group-title="未分组",澳门体育
 http://cdn6.163189.xyz/163189/amty
 
 #EXTINF:-1 tvg-name="澳门综艺" tvg-logo="https://logo.catvod.com/澳门综艺.png" group-title="未分组",澳门综艺
