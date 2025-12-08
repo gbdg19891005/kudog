@@ -2,7 +2,7 @@ name: Merge and Group M3U Files
 
 on:
   schedule:
-    - cron: "0 */4 * * *"   # 每两小时运行一次
+    - cron: "0 */4 * * *"   # 每四小时运行一次
   workflow_dispatch:
 
 permissions:
@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Checkout A repo
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -26,23 +28,21 @@ jobs:
       - name: Run merge script
         run: python merge.py --debug
 
-      - name: Commit updated M3U files to A repo
+      - name: Commit updated M3U file to A repo
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
-          git add *.m3u
-          git commit -m "Auto update M3U playlists" || echo "No changes"
-          git push
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add kudog.m3u || true
+          git commit -m "Auto update kudog.m3u playlist" || echo "No changes"
+          git push origin main
 
-      - name: Push updated M3U files to B repo
+      - name: Push updated M3U file to B repo
         run: |
-          # 克隆目标仓库（用 PAT 认证）
           git clone https://x-access-token:${{ secrets.TARGET_REPO_TOKEN }}@github.com/Gbin1989/v2ray_configs.git target-repo
-          cp *.m3u target-repo/
+          cp kudog.m3u target-repo/
           cd target-repo
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add *.m3u
-          git commit -m "Update M3U from A repo" || echo "No changes"
-          git pull --rebase origin main
+          git add kudog.m3u || true
+          git commit -m "Update kudog.m3u from A repo" || echo "No changes"
           git push origin main
