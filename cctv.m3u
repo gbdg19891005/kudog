@@ -1,4 +1,5 @@
 #EXTM3U
+
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" group-title="央视",CCTV1综合
 http://218.206.221.78:90/hls/1/index.m3u8
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" group-title="央视",CCTV2财经
@@ -33,6 +34,8 @@ http://218.206.221.78:90/hls/14/index.m3u8
 http://218.206.221.78:90/hls/15/index.m3u8
 #EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://logo.catvod.com/CCTV16%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B.png",CCTV16奥林匹克
 http://39.135.138.8:6610/PLTV/88888910/224/3221226230/index.m3u8
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://logo.catvod.com/CCTV16%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B.png",CCTV16奥林匹克
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226233/index.m3u8
 #EXTINF:-1 tvg-name="CCTV17" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" group-title="央视",CCTV17农业农村
 http://218.206.221.78:90/hls/17/index.m3u8
 #EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://logo.catvod.com/guizhou.png" group-title="卫视",贵州卫视
@@ -282,30 +285,6 @@ http://39.135.138.8:6610/PLTV/88888888/224/3221226199/2/index.m3u8
 http://39.135.138.8:6610/PLTV/88888910/224/3221225723/index.m3u8
 #EXTINF:-1 tvg-name="中国教育1台" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育1台.png",中国教育1台
 http://39.135.139.214:6610/PLTV/88888888/224/3221225917/2/index.m3u8
-#EXTINF:-1 tvg-name="江西卫视 都市" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangxi.png",江西卫视 都市
-http://39.135.138.8:6610/PLTV/88888910/224/3221225584/index.m3u8
-#EXTINF:-1 tvg-name="江西卫视 经济生活" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangxi.png",江西卫视 经济生活
-http://39.135.138.8:6610/PLTV/88888888/224/3221226206/2/index.m3u8
-#EXTINF:-1 tvg-name="江西卫视 公共农业" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangxi.png",江西卫视 公共农业
-http://39.135.138.8:6610/PLTV/88888910/224/3221225578/index.m3u8
-#EXTINF:-1 tvg-name="江西卫视 少儿" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangxi.png",江西卫视 少儿
-http://39.135.138.8:6610/PLTV/88888888/224/3221226194/2/index.m3u8
-#EXTINF:-1 tvg-name="江西卫视 新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangxi.png",江西卫视 新闻
-http://39.135.138.8:6610/PLTV/88888888/224/3221225615/2/index.m3u8
-#EXTINF:-1 tvg-name="江西卫视 教育" tvg-logo="https://www.right.com.cn/forum/data/attachment/forum/202210/09/170531eud8gghzrzhugwr4.png",江西卫视 教育
-http://39.135.138.8:6610/PLTV/88888888/224/3221226197/2/index.m3u8
-#EXTINF:-1 tvg-name="黑莓电影" tvg-logo="https://tse2-mm.cn.bing.net/th/id/OIP-C.hKIXsxIpMUdljBxxj7t0pgAAAA?rs=1&pid=ImgDetMain",黑莓电影
-http://39.135.138.8:6610/PLTV/88888910/224/3221225769/index.m3u8
-#EXTINF:-1 tvg-name="黑莓动画" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/xindongman.png",黑莓动画
-http://39.135.138.8:6610/PLTV/88888910/224/3221225672/index.m3u8
-#EXTINF:-1 tvg-name="CHC家庭影院" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/554/911/202308221200_1692676843082_H32_1080.webp",CHC家庭影院
-http://39.135.138.8:6610/PLTV/88888910/224/3221226319/index.m3u8
-#EXTINF:-1 tvg-name="凤凰中文" tvg-logo="https://logo.catvod.com/%E5%87%A4%E5%87%B0%E4%B8%AD%E6%96%87.png",凤凰中文
-http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226248/index.m3u8
-#EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="https://logo.catvod.com/%E5%87%A4%E5%87%B0%E8%B5%84%E8%AE%AF.png",凤凰资讯
-http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226274/index.m3u8
-#EXTINF:-1 tvg-name="凤凰香港" tvg-logo="https://logo.catvod.com/%E5%87%A4%E5%87%B0%E9%A6%99%E6%B8%AF.png",凤凰香港
-http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226251/index.m3u8
 
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://logo.catvod.com/CCTV1.png" group-title="央视",CCTV1综合
 http://222.85.198.92:8000/hls/1/index.m3u8
@@ -468,6 +447,8 @@ https://jrdfjupypxyv.sealosbja.site/619495952
 https://jrdfjupypxyv.sealosbja.site/952383261
 #EXTINF:-1 svg-id="CHC动作电影" svg-name="CHC动作电影" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/554/795/202308221159_1692676746119_H32_1080.webp" group-title="影视",CHC动作电影
 https://jrdfjupypxyv.sealosbja.site/644368714
+#EXTINF:-1 tvg-name="CHC家庭影院" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/554/911/202308221200_1692676843082_H32_1080.webp",CHC家庭影院
+http://39.135.138.8:6610/PLTV/88888910/224/3221226319/index.m3u8
 #EXTINF:-1 svg-id="CHC家庭影院" svg-name="CHC家庭影院" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/554/911/202308221200_1692676843082_H32_1080.webp" group-title="影视",CHC家庭影院
 https://jrdfjupypxyv.sealosbja.site/644368373
 #EXTINF:-1 svg-id="和美乡途轮播台" svg-name="和美乡途轮播台" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/019/525/202504151721_1744708812840_H32_1080.webp" group-title="影视",和美乡途轮播台
@@ -498,5 +479,4 @@ https://jrdfjupypxyv.sealosbja.site/713589837
 https://jrdfjupypxyv.sealosbja.site/959986618
 #EXTINF:-1 svg-id="环球旅游" svg-name="环球旅游" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/200/202509251348_1758698362959_H32_1080.webp" group-title="纪实",环球旅游
 https://jrdfjupypxyv.sealosbja.site/958475356
-
 
