@@ -8,6 +8,10 @@ timeout: 10
 # true = 保留多个URL，false = 只保留第一个
 keep_multiple_urls: true
 
+# ===== 并发下载配置 =====
+# 最大并发下载数（建议 3-10，默认 5）
+max_concurrent_downloads: 5
+
 # ===== 日志配置 =====
 # 可选值: DEBUG / INFO / WARNING / ERROR
 log_level: "INFO"
