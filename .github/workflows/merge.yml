@@ -1,4 +1,4 @@
-name: Merge and Group M3U Files
+name: Merge and Push M3U Files
 
 on:
   schedule:
@@ -15,7 +15,7 @@ jobs:
       - name: Checkout A repo
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0   # 拉取完整历史，避免 rebase 问题
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -25,29 +25,24 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Pull latest changes from A repo
-        run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git pull origin main || true   # 普通 pull，不用 rebase，避免未暂存改动报错
-
       - name: Run merge script
         run: python merge.py --debug
 
-      - name: Commit updated M3U files to A repo
+      - name: Commit and push to A repo
         run: |
-          git add *.m3u || true
-          git commit -m "Auto update M3U playlists" || echo "No changes"
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add -A
+          git commit -m "Update M3U playlists" || echo "No changes"
           git push origin main
 
       - name: Push updated M3U files to B repo
         run: |
           git clone https://x-access-token:${{ secrets.TARGET_REPO_TOKEN }}@github.com/Gbin1989/v2ray_configs.git target-repo
+          cp *.m3u target-repo/
           cd target-repo
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git pull origin main || true   # 普通 pull，避免 rebase 报错
-          cp ../*.m3u .                  # 复制最新文件
-          git add *.m3u || true
+          git add -A
           git commit -m "Update M3U from A repo" || echo "No changes"
           git push origin main
