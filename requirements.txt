@@ -1,2 +1,4 @@
-requests>=2.31.0    # HTTP请求库，支持重试机制
+requests>=2.31.0    # HTTP请求库
 PyYAML>=6.0         # YAML配置文件解析
+urllib3>=2.0.0      # requests 依赖
+pytz>=2024.1        # 时区支持（可选，如不安装将使用系统时间）
