@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Checkout A repo
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0   # 拉取完整历史，避免浅克隆问题
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -30,19 +32,19 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
+          git pull --rebase origin main || true   # 先拉取远端，避免覆盖
           git add *.m3u || true
           git commit -m "Auto update M3U playlists" || echo "No changes"
-          git pull --rebase origin main || true
-          git push
+          git push origin main
 
       - name: Push updated M3U files to B repo
         run: |
           git clone https://x-access-token:${{ secrets.TARGET_REPO_TOKEN }}@github.com/Gbin1989/v2ray_configs.git target-repo
-          cp *.m3u target-repo/
           cd target-repo
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git pull --rebase origin main || true
+          git pull --rebase origin main || true   # 先拉取远端
+          cp ../*.m3u .                          # 再复制最新文件
           git add *.m3u || true
           git commit -m "Update M3U from A repo" || echo "No changes"
           git push origin main
