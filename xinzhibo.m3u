@@ -1,6 +1,6 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="台视新闻台" tvg-name="台视新闻台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TTV2.png" group-title="未分组",台视新闻台
+#EXTINF:-1 tvg-name="台视新闻台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TTV2.png" group-title="未分组",台视新闻台
 http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
 #EXTINF:-1 tvg-name="台视新闻台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TTV2.png" group-title="未分组",台视新闻台
 https://live.wcetv.com/hls/master-ttvnews.m3u8
@@ -28,6 +28,20 @@ http://hls.168.us.kg/u/77/master.m3u8
 http://iptv.4666888.xyz/iptv2A.php?id=37
 #EXTINF:-1 tvg-name="八度空间" tvg-logo="https://logo.catvod.com/8TV.png"" group-title="未分组",八度空间
 http://iptv.4666888.xyz/iptv2A.php?id=52
+#EXTINF:-1 tvg-name="无线新闻" tvg-logo="https://logo.catvod.com/无线新闻.png" group-title="未分组",无线新闻
+http://r.jdshipin.com/CkuBd
+#EXTINF:-1 tvg-name="无线财经" tvg-logo="https://logo.catvod.com/无线财经.png" group-title="未分组",无线财经
+http://r.jdshipin.com/jUx8K
+#EXTINF:-1 tvg-name="广东体育" tvg-logo="https://logo.catvod.com/广东体育.png" group-title="未分组",广东体育
+http://r.jdshipin.com/LiYdg
+#EXTINF:-1 tvg-name="緯來體育" tvg-logo="https://logo.catvod.com/%E7%B7%AF%E4%BE%86%E9%AB%94%E8%82%B2.png" group-title="未分组",緯來體育
+rtmp://f13h.mine.nu/sat/tv721
+#EXTINF:-1 tvg-name="凤凰中文" tvg-logo="https://logo.catvod.com/%E5%87%A4%E5%87%B0%E4%B8%AD%E6%96%87.png",凤凰中文
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226248/index.m3u8
+#EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="https://logo.catvod.com/%E5%87%A4%E5%87%B0%E8%B5%84%E8%AE%AF.png",凤凰资讯
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226274/index.m3u8
+#EXTINF:-1 tvg-name="凤凰香港" tvg-logo="https://logo.catvod.com/%E5%87%A4%E5%87%B0%E9%A6%99%E6%B8%AF.png",凤凰香港
+http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226251/index.m3u8
 
 #EXTINF:-1 tvg-name="龙华电影" tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_litv-longturn03_mobile.png" group-title="未分组",龙华电影
 http://cdn8.163189.xyz/163189/lhdy
@@ -54,12 +68,6 @@ http://cdn8.163189.xyz/163189/lhyp
 http://cdn.163189.xyz/163189/hoyjj
 
 
-#EXTINF:-1 tvg-name="wwe格斗风云" tvg-logo="https://i0.hdslb.com/bfs/archive/2cb07b644ff1f8ebc9045899a9c0b2859b17b450.jpg" group-title="未分组",wwe格斗风云
-http://iptv.4666888.xyz/iptv2A.php?id=5
-#EXTINF:-1 tvg-name="wwe格斗风云" tvg-logo="https://i0.hdslb.com/bfs/archive/2cb07b644ff1f8ebc9045899a9c0b2859b17b450.jpg" group-title="未分组",wwe格斗风云
-https://tzh911.qzz.io/play-smt.php?id=Wwe
-#EXTINF:-1 tvg-name="wwe格斗风云" tvg-logo="https://i0.hdslb.com/bfs/archive/2cb07b644ff1f8ebc9045899a9c0b2859b17b450.jpg" group-title="未分组",wwe格斗风云
-https://live.catvod.com/beesports.php?id=WWE
 #EXTINF:-1 tvg-name="wwe格斗风云" tvg-logo="https://i0.hdslb.com/bfs/archive/2cb07b644ff1f8ebc9045899a9c0b2859b17b450.jpg" group-title="未分组",wwe格斗风云
 http://iptv.4666888.xyz/iptv2A.php?id=5
 #EXTINF:-1 tvg-name="棋牌 八卦大师" tvg-logo="https://photo.xunpic.cn/xt/xiaoniu/00/17/88/pic-178874-61FD7ADE.jpg" group-title="未分组",棋牌 八卦大师
@@ -164,14 +172,8 @@ https://www.goodiptv.club/douyu/260322
 https://www.goodiptv.club/douyu/953193
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",孤独的美食家4
 http://live.iill.top/douyu.php?id=260322
-#EXTINF:-1 tvg-name="深圳卫视4k" tvg-logo="https://gitee.com/letters101/TVLogo/raw/main/%E7%BA%AF%E4%BA%AB4K.png" group-title="未分组",深圳卫视 4k
+#EXTINF:-1 tvg-name="深圳卫视4K" tvg-logo="https://gitee.com/letters101/TVLogo/raw/main/%E7%BA%AF%E4%BA%AB4K.png" group-title="未分组",深圳卫视4K
 http://35.209.240.97:5080/sztv.php?channel=%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%864K
-#EXTINF:-1 tvg-name="湖南卫视4K" tvg-logo="https://gitee.com/letters101/TVLogo/raw/main/%E7%BA%AF%E4%BA%AB4K.png" group-title="未分组",湖南卫视4K
-https://migu.188766.xyz/?migutoken=ec730cac9ed18a59cc1e3702e8c7b08b&id=%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%864K&pp=1
-#EXTINF:-1 tvg-name="浙江卫视4K" tvg-logo="https://gitee.com/letters101/TVLogo/raw/main/%E7%BA%AF%E4%BA%AB4K.png" group-title="未分组",浙江卫视4K
-https://migu.188766.xyz/?migutoken=089ea5e10f06ff0b306f8053759cf39d&id=%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%864K&pp=1
-#EXTINF:-1 tvg-name="东方卫视4K" tvg-logo="https://gitee.com/letters101/TVLogo/raw/main/%E7%BA%AF%E4%BA%AB4K.png" group-title="未分组",东方卫视4K
-https://migu.188766.xyz/?migutoken=1709d7e8764396fedbf349a6732617f8&id=dfws&type=sz
 #EXTINF:-1 tvg-name="深圳财经" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Shenzhen4.png" group-title="未分组",深圳财经频道
 http://35.209.240.97:5080/sztv.php?channel=%E6%B7%B1%E5%9C%B3%E8%B4%A2%E7%BB%8F
 #EXTINF:-1 tvg-name="深圳少儿" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Shenzhen6.png" group-title="未分组",深圳少儿频道
@@ -270,7 +272,7 @@ http://php.jdshipin.com/TVOD/iptv.php?id=asam
 #EXTINF:-1 tvg-name="澳视卫星" tvg-logo="https://logo.catvod.com/澳门卫星.png" group-title="未分组",澳视卫星
 http://php.jdshipin.com/TVOD/iptv.php?id=as
 
-#EXTINF:-1 tvg-name="澳门体育" tvg-logo="https://logo.catvod.com/%E6%BE%B3%E9%97%A8.png" group-title="未分组",澳门体育
+#EXTINF:-1 tvg-name="澳门体育" tvg-logo="https://logo.catvod.com/澳门.png" group-title="未分组",澳门体育
 http://cdn6.163189.xyz/163189/amty
 
 #EXTINF:-1 tvg-name="澳门综艺" tvg-logo="https://logo.catvod.com/澳门综艺.png" group-title="未分组",澳门综艺
@@ -314,76 +316,54 @@ https://alicoccdncmnet-hd.inter.71edge.com/tslive/l1/c51_lb_728_300_t10/S2SosBg_
 #EXTINF:-1 tvg-name="电影 战争大片不间断" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",电影 战争大片不间断
 https://bscdncmnet.inter.71edge.com/tslive/l1/c53_lb_549_300_t10/nyNwfh1_ucKhYKBD_TC9H1cpPSW_kASRIHpzOyCbAlSQKCoa7yX04RS-69HeMU8vCtcLuBJr7PGxskrxih6fuqCnWcqae7adNI637bzmiWKfT_5A6rzyfSZ0MGGLVBTtyXGJSL_WfsYMsulW2MG8itaUpLb_fvhCXnp17W6sSRRqLz0TAntuHJX6Y_vRC2F5yK9Obu3pf-GYMV6g9nu9HxQQtP3HHX0Mv6VU0Jt4MbYOz49rR_krhRY1JjgFrM36_XgKxzRdQ9Z3pV96146JaeZMoAEJa9thzHYsP180Ex4pnwDC-hKCjxCHkeys7slENFpiSFYXlRqpkcxXAM9_Uw/1a38f2e9c9e4c3cce8152b1a430323419/c53_lb_549_300_t10.m3u8?key=0baa5db205ac0d2966049d19ebdc0a20d&dis_t=1752408382&uuid=6f1d53dc-6873a13e-458&qdpv=3&qd_bid=1&qd_sft=0&pv=0.1&cpt=0
 
-#EXTINF:-1 tvg-name="动漫 名侦探柯南" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",动漫 名侦探柯南
-http://cfss.cc/cdn/hy/30080236.m3u8
+#EXTINF:-1 tvg-name="动漫 樱桃小丸子" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",动漫 樱桃小丸子
+http://cfss.cc/cdn/hy/11342394.flv
+#EXTINF:-1 tvg-name="动漫 数码宝贝" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",动漫 数码宝贝
+http://cfss.cc/cdn/hy/29465874.flv
+#EXTINF:-1 tvg-name="动漫 七龙珠改" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",动漫 七龙珠改
+http://cfss.cc/cdn/hy/11601966.flv
+#EXTINF:-1 tvg-name="动漫 中华小当家" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",动漫 中华小当家
+http://cfss.cc/cdn/hy/11342413.flv
+#EXTINF:-1 tvg-name="剧集_老三国" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",剧集_老三国
+http://cfss.cc/cdn/hy/11602081.flv
+#EXTINF:-1 tvg-name="剧集_新三国" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",剧集_新三国
+http://cfss.cc/cdn/hy/11352944.flv
+#EXTINF:-1 tvg-name="剧集_新水浒" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",剧集_新水浒
+http://cfss.cc/cdn/hy/11342384.flv
+#EXTINF:-1 tvg-name="剧集_纪晓岚" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",剧集_纪晓岚
+http://cfss.cc/cdn/hy/11342396.flv
+#EXTINF:-1 tvg-name="剧集_庆余年" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",剧集_庆余年
+http://cfss.cc/cdn/hy/11352960.flv
+#EXTINF:-1 tvg-name="剧集_雍正王朝" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",剧集_雍正王朝
+http://cfss.cc/cdn/hy/11342439.flv
+#EXTINF:-1 tvg-name="剧集_士兵突击" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",剧集_士兵突击
+http://cfss.cc/cdn/hy/11342430.flv
+#EXTINF:-1 tvg-name="剧集_爱情公寓" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",剧集_爱情公寓
+http://cfss.cc/cdn/hy/11336726.flv
+#EXTINF:-1 tvg-name="剧集_家有儿女" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",剧集_家有儿女
+http://cfss.cc/cdn/hy/11352872.flv
+#EXTINF:-1 tvg-name="剧集_武林外传" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",剧集_武林外传
+http://cfss.cc/cdn/hy/21059598.flv
 
-#EXTINF:-1 tvg-name="动漫 火影忍者" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",动漫 火影忍者
-http://cfss.cc/cdn/hy/29465866.m3u8
-
-#EXTINF:-1 tvg-name="动漫 宫崎骏系列" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",动漫 宫崎骏系列
-http://cfss.cc/cdn/hy/21059614.m3u8
-
-#EXTINF:-1 tvg-name="动漫 黑子的篮球" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",动漫 黑子的篮球
-http://cfss.cc/cdn/hy/30080253.m3u8
-
-#EXTINF:-1 tvg-name="动漫 瑞克与莫蒂" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",动漫 瑞克与莫蒂
-http://cfss.cc/cdn/hy/29982655.m3u8
-
-#EXTINF:-1 tvg-name="动漫 飞天小女警" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",动漫 飞天小女警
-http://cfss.cc/cdn/hy/11601958.m3u8
-
-#EXTINF:-1 tvg-name="动漫 蜡笔小新" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",动漫 蜡笔小新
-http://cfss.cc/cdn/hy/11352970.m3u8
-
-#EXTINF:-1 tvg-name="动漫 猫和老鼠" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",动漫 猫和老鼠
-http://cfss.cc/cdn/hy/11352879.m3u8
-
-#EXTINF:-1 tvg-name="动漫 全职高手" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",动漫 全职高手
-http://cfss.cc/cdn/hy/21059628.m3u8
-
-#EXTINF:-1 tvg-name="动漫 哆啦A梦" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",动漫 哆啦A梦
-http://cfss.cc/cdn/hy/11601963.m3u8
-
-#EXTINF:-1 tvg-name="动漫 海绵宝宝" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",动漫 海绵宝宝
-http://cfss.cc/cdn/hy/11352919.m3u8
-
-#EXTINF:-1 tvg-name="动漫 魔法少女" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",动漫 魔法少女
-http://cfss.cc/cdn/hy/21059587.m3u8
-
-#EXTINF:-1 tvg-name="动漫 四驱兄弟" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",动漫 四驱兄弟
-http://cfss.cc/cdn/hy/11352922.m3u8
-
-#EXTINF:-1 tvg-name="动漫 一人之上" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",动漫 一人之上
-http://cfss.cc/cdn/hy/11602065.m3u8
-
-#EXTINF:-1 tvg-name="动漫 网球王子" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",动漫 网球王子
-http://cfss.cc/cdn/hy/11352882.m3u8
-
-#EXTINF:-1 tvg-name="电视剧 鬼吹灯之精绝古城" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",电视剧 鬼吹灯之精绝古城
-http://live.iill.top/huya.php?id=11352871
-
-#EXTINF:-1 tvg-name="电视剧 鬼吹灯之虫谷" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",电视剧 鬼吹灯之云南虫谷
-http://live.iill.top/huya.php?id=11352898
-
-#EXTINF:-1 tvg-name="游戏 B站CS 2" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 B站CS 2
+#EXTINF:-1 tvg-name="游戏 CS 2" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 CS 2
 https://live.iill.top/bilibili/21622811
 
-#EXTINF:-1 tvg-name="游戏 虎牙CS 2" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 虎牙CS 2
+#EXTINF:-1 tvg-name="游戏 CS 2" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 CS 2
 https://live.iill.top/huya/483917
 
-#EXTINF:-1 tvg-name="游戏 B站英雄联盟" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 B站英雄联盟
+#EXTINF:-1 tvg-name="游戏 英雄联盟" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 英雄联盟
 https://live.iill.top/bilibili/6
 
-#EXTINF:-1 tvg-name="游戏 虎牙英雄联盟 𝟙" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 虎牙英雄联盟 𝟙
+#EXTINF:-1 tvg-name="游戏 英雄联盟" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 英雄联盟
 https://live.iill.top/huya/660000
 
-#EXTINF:-1 tvg-name="游戏 虎牙英雄联盟 𝟚" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 虎牙英雄联盟 𝟚
+#EXTINF:-1 tvg-name="游戏 英雄联盟" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 英雄联盟
 https://live.iill.top/huya/660001
 
-#EXTINF:-1 tvg-name="游戏 斗鱼英雄联盟 𝟙" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 斗鱼英雄联盟 𝟙
+#EXTINF:-1 tvg-name="游戏 英雄联盟" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 英雄联盟
 https://live.iill.top/douyu/288016
 
-#EXTINF:-1 tvg-name="游戏 斗鱼英雄联盟 𝟚" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 斗鱼英雄联盟 𝟚
+#EXTINF:-1 tvg-name="游戏 英雄联盟" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 英雄联盟
 https://live.iill.top/douyu/424559
 
 #EXTINF:-1 tvg-name="游戏 王者荣耀" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 王者荣耀
@@ -404,115 +384,115 @@ https://live.iill.top/douyu/1863767
 #EXTINF:-1 tvg-name="游戏 王者荣耀" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 王者荣耀
 https://live.iill.top/douyu/1984839
 
-#EXTINF:-1 tvg-name="游戏 B站绝地求生" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 B站绝地求生
+#EXTINF:-1 tvg-name="游戏 绝地求生" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 绝地求生
 https://live.iill.top/bilibili/98
 
-#EXTINF:-1 tvg-name="游戏 虎牙绝地求生 𝟙" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 虎牙绝地求生 𝟙
+#EXTINF:-1 tvg-name="游戏 绝地求生" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 绝地求生
 https://live.iill.top/huya/660004
 
-#EXTINF:-1 tvg-name="游戏 斗鱼绝地求生" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 斗鱼绝地求生
+#EXTINF:-1 tvg-name="游戏 绝地求生" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 绝地求生
 https://live.iill.top/douyu/100
 
-#EXTINF:-1 tvg-name="游戏 虎牙和平精英" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 虎牙和平精英
+#EXTINF:-1 tvg-name="游戏 和平精英" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 和平精英
 https://live.iill.top/huya/660006
 
-#EXTINF:-1 tvg-name="游戏 斗鱼和平精英" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 斗鱼和平精英
+#EXTINF:-1 tvg-name="游戏 和平精英" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 和平精英
 https://live.iill.top/douyu/999
 
-#EXTINF:-1 tvg-name="游戏 虎牙金铲铲之战" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 虎牙金铲铲之战
+#EXTINF:-1 tvg-name="游戏 金铲铲之战" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 金铲铲之战
 https://live.iill.top/huya/660579
 
-#EXTINF:-1 tvg-name="游戏 斗鱼金铲铲之战" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 斗鱼金铲铲之战
+#EXTINF:-1 tvg-name="游戏 金铲铲之战" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 金铲铲之战
 https://live.iill.top/douyu/9715241
 
-#EXTINF:-1 tvg-name="游戏 虎牙DOTA2" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 虎牙DOTA2
+#EXTINF:-1 tvg-name="游戏 DOTA2" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 DOTA2
 https://live.iill.top/huya/660118
 
-#EXTINF:-1 tvg-name="游戏 斗鱼DOTA2" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 斗鱼DOTA2
+#EXTINF:-1 tvg-name="游戏 DOTA2" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 DOTA2
 https://live.iill.top/douyu/3811559
 
-#EXTINF:-1 tvg-name="游戏 斗鱼云顶之弈" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 斗鱼云顶之弈
+#EXTINF:-1 tvg-name="游戏 云顶之弈" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 云顶之弈
 https://live.iill.top/douyu/522423
 
-#EXTINF:-1 tvg-name="游戏 虎牙永劫无间" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 虎牙永劫无间
+#EXTINF:-1 tvg-name="游戏 永劫无间" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 永劫无间
 https://live.iill.top/huya/660115
 
-#EXTINF:-1 tvg-name="游戏 斗鱼永劫无间" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 斗鱼永劫无间
+#EXTINF:-1 tvg-name="游戏 永劫无间" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 永劫无间
 https://live.iill.top/huya/9662891
 
-#EXTINF:-1 tvg-name="游戏 B站使命召唤•手游" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 B站使命召唤•手游
+#EXTINF:-1 tvg-name="游戏 使命召唤•手游" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 使命召唤•手游
 https://live.iill.top/bilibili/22741849
 
-#EXTINF:-1 tvg-name="游戏 虎牙使命召唤•手游" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 虎牙使命召唤•手游
+#EXTINF:-1 tvg-name="游戏 使命召唤•手游" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 使命召唤•手游
 https://live.iill.top/huya/11718629
 
-#EXTINF:-1 tvg-name="游戏 斗鱼使命召唤•手游" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 斗鱼使命召唤•手游
+#EXTINF:-1 tvg-name="游戏 使命召唤•手游" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 使命召唤•手游
 https://live.iill.top/douyu/9223245
 
-#EXTINF:-1 tvg-name="游戏 虎牙穿越火线" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 虎牙穿越火线
+#EXTINF:-1 tvg-name="游戏 穿越火线" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 穿越火线
 https://live.iill.top/huya/660101
 
-#EXTINF:-1 tvg-name="游戏 斗鱼穿越火线 𝟙" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 斗鱼穿越火线 𝟙
+#EXTINF:-1 tvg-name="游戏 穿越火线" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 穿越火线
 https://live.iill.top/douyu/605964
 
-#EXTINF:-1 tvg-name="游戏 斗鱼穿越火线 𝟚" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 斗鱼穿越火线 𝟚
+#EXTINF:-1 tvg-name="游戏 穿越火线" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 穿越火线
 https://live.iill.top/douyu/5388537
 
-#EXTINF:-1 tvg-name="游戏 虎牙穿越火线•手游" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 虎牙穿越火线•手游
+#EXTINF:-1 tvg-name="游戏 穿越火线•手游" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 穿越火线•手游
 https://live.iill.top/huya/660102
 
-#EXTINF:-1 tvg-name="游戏 B站第五人格" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 B站第五人格
+#EXTINF:-1 tvg-name="游戏 第五人格" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 第五人格
 https://live.iill.top/bilibili/5555
 
-#EXTINF:-1 tvg-name="游戏 虎牙第五人格" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 虎牙第五人格
+#EXTINF:-1 tvg-name="游戏 第五人格" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 第五人格
 https://live.iill.top/huya/idvesports
 
-#EXTINF:-1 tvg-name="游戏 斗鱼第五人格" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 斗鱼第五人格
+#EXTINF:-1 tvg-name="游戏 第五人格" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 第五人格
 https://live.iill.top/douyu/3226194
 
-#EXTINF:-1 tvg-name="游戏 虎牙逆战" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 虎牙逆战
+#EXTINF:-1 tvg-name="游戏 逆战" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 逆战
 https://live.iill.top/huya/nsl2021
 
-#EXTINF:-1 tvg-name="游戏 B站无畏契约" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 B站无畏契约
+#EXTINF:-1 tvg-name="游戏 无畏契约" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 无畏契约
 https://live.iill.top/bilibili/22908869
 
-#EXTINF:-1 tvg-name="游戏 虎牙无畏契约" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 虎牙无畏契约
+#EXTINF:-1 tvg-name="游戏 无畏契约" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 无畏契约
 https://live.iill.top/huya/660679
 
-#EXTINF:-1 tvg-name="游戏 斗鱼无畏契约" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 斗鱼无畏契约
+#EXTINF:-1 tvg-name="游戏 无畏契约" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 无畏契约
 https://live.iill.top/douyu/4585645
 
-#EXTINF:-1 tvg-name="游戏 斗鱼原神" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 斗鱼原神
+#EXTINF:-1 tvg-name="游戏 原神" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 原神
 https://live.iill.top/douyu/10853239
 
-#EXTINF:-1 tvg-name="游戏 B站QQ飞车•手游" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 B站QQ飞车•手游
+#EXTINF:-1 tvg-name="游戏 QQ飞车•手游" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 QQ飞车•手游
 https://live.iill.top/bilibili/21743919
 
-#EXTINF:-1 tvg-name="游戏 斗鱼QQ飞车•手游" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 斗鱼QQ飞车•手游
+#EXTINF:-1 tvg-name="游戏 QQ飞车•手游" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 QQ飞车•手游
 https://live.iill.top/douyu/5040227
 
-#EXTINF:-1 tvg-name="游戏 斗鱼梦幻西游·手游" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 斗鱼梦幻西游·手游
+#EXTINF:-1 tvg-name="游戏 梦幻西游·手游" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 梦幻西游·手游
 https://live.iill.top/huya/9163712
 
-#EXTINF:-1 tvg-name="游戏 B站JJ斗地主" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 B站JJ斗地主
+#EXTINF:-1 tvg-name="游戏 JJ斗地主" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 JJ斗地主
 https://live.iill.top/bilibili/22021983
 
-#EXTINF:-1 tvg-name="游戏 斗鱼JJ斗地主" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 斗鱼JJ斗地主
+#EXTINF:-1 tvg-name="游戏 JJ斗地主" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 JJ斗地主
 https://live.iill.top/douyu/488743
 
-#EXTINF:-1 tvg-name="游戏 斗鱼我的世界" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 斗鱼我的世界
+#EXTINF:-1 tvg-name="游戏 我的世界" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 我的世界
 https://live.iill.top/douyu/738878
 
-#EXTINF:-1 tvg-name="游戏 斗鱼FIFA" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 斗鱼FIFA
+#EXTINF:-1 tvg-name="游戏 FIFA" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 FIFA
 https://live.iill.top/douyu/7692166
 
-#EXTINF:-1 tvg-name="游戏 斗鱼火影忍者" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 斗鱼火影忍者
+#EXTINF:-1 tvg-name="游戏 火影忍者" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 火影忍者
 https://live.iill.top/douyu/1997723
 
-#EXTINF:-1 tvg-name="游戏 斗鱼跑跑卡丁车" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 斗鱼跑跑卡丁车
+#EXTINF:-1 tvg-name="游戏 跑跑卡丁车" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 跑跑卡丁车
 https://live.iill.top/douyu/7722576
 
-#EXTINF:-1 tvg-name="游戏 斗鱼跑跑卡丁车•手游" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 斗鱼跑跑卡丁车•手游
+#EXTINF:-1 tvg-name="游戏 跑跑卡丁车•手游" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 跑跑卡丁车•手游
 https://live.iill.top/douyu/6672862
 
 #EXTINF:-1 tvg-name="KCTV(朝鮮勞動黨)" tvg-logo="https://raw.githubusercontent.com/HiDigital/Logo/refs/heads/main/朝鲜电视台.png" group-title="JULI",KCTV(朝鮮勞動黨)
