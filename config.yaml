@@ -1,6 +1,6 @@
 # ===== 基础配置 =====
 ua: "Mozilla/5.0"
-referrer: "https://kudog.chatgb.dpdns.org/"
+referrer: ""
 epg: "https://epg.catvod.com/epg.xml"
 timeout: 10
 
