@@ -72,16 +72,6 @@ http://cdn.163189.xyz/163189/hoyjj
 http://iptv.4666888.xyz/iptv2A.php?id=5
 #EXTINF:-1 tvg-name="棋牌 八卦大师" tvg-logo="https://photo.xunpic.cn/xt/xiaoniu/00/17/88/pic-178874-61FD7ADE.jpg" group-title="未分组",棋牌 八卦大师
 https://live.ottiptv.cc/douyu/851040
-#EXTINF:-1 tvg-name="棋牌 帽子象棋" tvg-logo="https://photo.xunpic.cn/xt/xiaoniu/00/17/88/pic-178874-61FD7ADE.jpg" group-title="未分组",棋牌 帽子象棋
-https://live.ottiptv.cc/douyu/4487219
-#EXTINF:-1 tvg-name="棋牌 笑笑象棋" tvg-logo="https://photo.xunpic.cn/xt/xiaoniu/00/17/88/pic-178874-61FD7ADE.jpg" group-title="未分组",棋牌 笑笑象棋
-https://live.ottiptv.cc/douyu/9969
-#EXTINF:-1 tvg-name="棋牌 大神象棋" tvg-logo="https://photo.xunpic.cn/xt/xiaoniu/00/17/88/pic-178874-61FD7ADE.jpg" group-title="未分组",棋牌 大神象棋
-https://live.ottiptv.cc/douyu/1227260
-#EXTINF:-1 tvg-name="棋牌 九拙讲棋" tvg-logo="https://photo.xunpic.cn/xt/xiaoniu/00/17/88/pic-178874-61FD7ADE.jpg" group-title="未分组",棋牌 九拙讲棋
-https://live.ottiptv.cc/douyu/4369877
-#EXTINF:-1 tvg-name="棋牌 熊山雷疯" tvg-logo="https://photo.xunpic.cn/xt/xiaoniu/00/17/88/pic-178874-61FD7ADE.jpg" group-title="未分组",棋牌 熊山雷疯
-https://live.ottiptv.cc/douyu/291514
 #EXTINF:-1 tvg-name="每日经济" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",每日经济
 http://swiftplay.hxkjmedia.com/tv/spbW.m3u8
 #EXTINF:-1 tvg-name="长影频道" tvg-logo="https://logo.catvod.com/%E9%95%BF%E5%BD%B1%E9%A2%91%E9%81%93.png" group-title="未分组",长影频道
@@ -480,20 +470,9 @@ https://live.iill.top/bilibili/22021983
 #EXTINF:-1 tvg-name="游戏 JJ斗地主" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 JJ斗地主
 https://live.iill.top/douyu/488743
 
-#EXTINF:-1 tvg-name="游戏 我的世界" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 我的世界
-https://live.iill.top/douyu/738878
-
 #EXTINF:-1 tvg-name="游戏 FIFA" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 FIFA
 https://live.iill.top/douyu/7692166
 
 #EXTINF:-1 tvg-name="游戏 火影忍者" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 火影忍者
 https://live.iill.top/douyu/1997723
 
-#EXTINF:-1 tvg-name="游戏 跑跑卡丁车" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 跑跑卡丁车
-https://live.iill.top/douyu/7722576
-
-#EXTINF:-1 tvg-name="游戏 跑跑卡丁车•手游" tvg-logo="https://gitee.com/csjhxk/TVLogo/raw/main/%E5%B0%8F%E7%94%B5%E8%A7%86.png" group-title="未分组",游戏 跑跑卡丁车•手游
-https://live.iill.top/douyu/6672862
-
-#EXTINF:-1 tvg-name="KCTV(朝鮮勞動黨)" tvg-logo="https://raw.githubusercontent.com/HiDigital/Logo/refs/heads/main/朝鲜电视台.png" group-title="JULI",KCTV(朝鮮勞動黨)
-https://tv.intchoson.com/kctv/index.m3u8
