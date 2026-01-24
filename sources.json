@@ -1,12 +1,10 @@
 {
   "remote_urls": [
-    "http://35.208.55.75:5080/shanghai.php",
-    "http://101.37.150.170:5080/gztv.php",
-    "https://raw.githubusercontent.com/mytv-android/BRTV-Live-M3U8/refs/heads/main/iptv.m3u",
-    "https://raw.githubusercontent.com/Supprise0901/TVBox_live/refs/heads/main/live.txt",
-    "http://iptv.4666888.xyz/FYTV.m3u",
-    "https://raw.githubusercontent.com/dbghelp/Free-to-air-TV/refs/heads/main/japan.m3u8",
-    "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u"
+    "http://101.37.150.170:5080/%E6%97%A5%E9%9F%A9%E7%BB%BC%E8%89%BA.php",
+    "http://101.37.150.170:5080/%E6%97%A5%E9%9F%A9%E5%8A%A8%E6%BC%AB.php",
+    "http://101.37.150.170:5080/%E5%9B%BD%E4%BA%A7%E5%8A%A8%E6%BC%AB.php",
+    "http://101.37.150.170:5080/NBA.php",
+    "http://101.37.150.170:5080/%E8%B6%B3%E7%90%83.php"
   ],
   "local_files": [
   ]
