@@ -1,14 +1,5 @@
 {
   "remote_urls": [
-  {
-      "url": "https://nos.netease.com/ysf/3d75a78a0fc7ede372c03598d6d10367.m3u",
-      "include_channels": ["CCTV", "卫视", "浙江"]
-  },
-    "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/GATV.m3u",
-  {
-      "url": "https://bc.188766.xyz/?ip=&mima=mianfeibuhuaqian",
-      "include_channels": ["NBA杯", "nba", "德甲", "翡翠台4K", "意甲", "Now新闻台", "睛彩", "法甲", "西甲", "TVB Plus", "欧冠", "NBA", "明珠台"]
-  },
     "http://35.208.55.75:5080/shanghai.php",
     "http://101.37.150.170:5080/gztv.php",
     "https://raw.githubusercontent.com/mytv-android/BRTV-Live-M3U8/refs/heads/main/iptv.m3u",
@@ -18,7 +9,5 @@
     "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u"
   ],
   "local_files": [
-    "cctv.m3u",
-    "xinzhibo.m3u"
   ]
 }
