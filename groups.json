@@ -1,110 +1,19 @@
 {
   "rules": {
-    "🇨🇳央视频道": [
-      "^CCTV", "央视", "中央", "央視", "超高清4K",
-      "风云足球", "CCTV风云足球", "风云剧场", "风云音乐",
-      "兵器科技", "怀旧剧场", "世界地理", "央视音乐", "新华社",
-      "央视精品", "央视台球", "央视高尔夫", "央视文化",
-      "央视戏曲", "IPTV.*", "网络电视", "互动电视", "睛彩.*"
-    ],
-    "🇨🇳卫视频道": [
-      "卫视\\b", "衛視\\b", "4K超高清", "莲花", "环球", "GLOBALink", "东方卫视4K", "深圳卫视4K", "湖南卫视4K", "浙江卫视4K", "亞太", "KCTV", "蓮花"
-    ],
-    "💥港|澳|台": [
-      "凤凰", "鳳凰", "翡翠", "明珠", "无线", "無線", "TVB", "ViuTV", "RTHK", "香蕉", "鳳梨",
-      "有线", "有線", "台视", "台視", "中视", "中視", "华视", "華視", "民视", "民視", "澳视",
-      "VIU", "原住民", "滾動力", "东森", "三立", "TVBS", "年代", "Macau", "台湾台", "台语台",
-      "番薯", "寰宇", "中天", "鏡電視", "镜电视", "客家", "大立", "SUPER",
-      "大愛", "國會", "好消息", "非凡", "东风", "東風", "综合台", "第一台",
-      "JET", "壹电视", "壹電視", "Taiwan Plus", "AXN", "公视", "国会",
-      "新闻台$", "新聞台$", "资讯台$", "資訊台$"
-    ],
-    "💎地市频道": [
-      "魔都", "BTV", "北京", "廣東", "广东", "深圳", "珠江", "山东", "山東", "民生", "新闻",
-      "江苏", "江蘇", "浙江", "湖北", "湖南", "黑龙江", "黑龍江", "法治频道", 
-      "公共", "苏州", "龙南", "南昌", "辽宁", "遼寧", "吉林", "河北", "河南", "山西", "陕西", "陝西", "南京", "HZTV", "吉视",
-      "甘肃", "甘肅", "云南", "雲南", "贵州", "貴州", "广西", "廣西", "新动力量创一流",
-      "海南", "宁夏", "寧夏", "青海", "西藏", "新疆", "内蒙古", "內蒙古", "新闻综合",
-      "都市", "都市频道", "省台", "省臺", "综合", "新闻频道", "公共新闻"
-    ],
-    "🌈综艺频道": [
-      "综艺", "綜藝", "娱乐", "娛樂", "综艺台", "綜藝台", "テレ東", "孤独",
-      "欢乐", "FastTV飛速看", "TVBS歡樂", "小品", "フジテレビ", "華藝", "欢喜", "Aec",
-      "Talk", "Oprah Winfrey Network", "BET", "BET HER", "KFN", "Korea", "Gugak",
-      "BRAVO", "BuZZr", "Gusto TV", "HGTV", "Comedy TV", "八度", "美食", "德云社",
-      "Sony One Dragons' Den", "Great British Menu", "HollyWire", "日本",
-      "Fashion Channel", "Fashion TV", "Pulse", "Tastemade",
-      "八大综艺", "八大綜藝", "旅遊", "旅游", "豬哥亮",
-      "猪哥亮"
-    ],
-    "🥇体育频道": [
-      "体育", "體育", "Fight", "Sport", "SPORT", "籃球", "HOY", "SPO", "wwe", "FOX", "LALIGA", "NHL", "LFC", "Willow", "MUTV", "ACC", "Virgin",
-      "Real Madrid", "Tennis Channel", "NFL Channel", "Billiard TV", "全运会", "城市联赛", "ITV", "Golf",
-      "Stadium", "Overtime", "MLB Network", "SEC Network", "運動", "ESPN", "博斯", "Football",
-      "球赛", "球賽", "最经典", "賽事", "武术", "武術", "搏击", "搏擊", "ELTA", "DAZN", "FIFA+",
-      "Red Bull", "Fishing", "钓鱼", "釣魚", "体坛"
-    ],
-    "🎥电影频道": [
-      "日韩", "偶像", "电影", "電影", "Movie", "MOVIE", "Cinema", "CINEMA", "天映", "洋片", "新片", "武侠", "抗日",
-      "Action Hollywood", "Thrillers", "Thriller TV", "Universal Monsters", "1905", "长影", "POPC",
-      "ION", "ION Plus", "Paramount Network", "Showtime", "Showtime 2", "象视界", "爱奇艺",
-      "Showtime Extreme", "TNT", "Sony One FAVES", "Icon Film Channel", "冰冰", "女神金", "影剧",
-      "Popflix", "LG 1 Film", "影视", "影視", "影片", "大片", "HBO", "网神", "千禧经典", "千禧經典",
-      "影院", "影城", "Cinemax", "Star Movies", "新视觉",
-      "CinemaWorld"
-    ],
-    "🌝动画频道": [
-      "动画", "動畫", "少儿", "少兒", "兒童", "儿童", "Kartoon Channel",
-      "Kids", "KIDS", "Cartoon", "CARTOON", "动漫", "動漫", "中学生", "哈哈",
-      "DISNEY CHANNEL", "DISNEY JR", "卡通", "卡通台", "布袋戲", "育乐",
-      "Anime", "靖天映画", "靖天映畫", "ANIME"
-    ],
-    "🐷纪录频道": [
-      "纪录", "紀錄", "纪实", "紀實", "Documentary", "達文西", "DOCUMENTARY", "贝爷",
-      "History", "HISTORY", "自然", "Nature", "NATURE", "Magellan", "老故事", "中华特产",
-      "Wild Earth", "Travel XP", "4K Travel", "探索", "Discovery", "DISCOVERY", "中国天气", 
-      "WeatherSpy", "GoUSA TV", "Autentic Travel", "Inside Outside", "Historian", "达文西",
-      "National Geographic", "國家地理", "NatGeo", "Animal Planet", "发现之旅", 
-      "动物星球", "動物星球", "CI"
-    ],
-    "🌍️海外频道": [
-      "国际", "國際", "World", "WORLD", "NHK", "CNN", "BBC", "DIG", "日テ", "FNN", "新加坡",
-      "GB News", "RT News", "Euronews", "NBC", "CBC News", "法·时尚", "Pearl", "Gugbang",
-      "Newsmax", "TBS Seoul", "WION", "Newsy", "News 12", "Scripps News", "美国之音",
-      "Sky News", "FOX NEWS", "Fox News", "France24", "FRANCE24", "阿里郎", "Buddhist",
-      "Arirang", "KBS", "MBC", "SBS", "英语", "CGTN", "CNA", "BTN", "Chosun", "JTV",
-      "Al Jazeera", "半岛", "半島", "德國", "ROCK", "HITS",
-      "INULTRA", "Global", "LUXE"
-    ],
-    "🧙‍♀️戏剧": [
-      "戏剧", "戲劇", "影劇", "影劇台", "电视剧", "NewTV", "電視劇", "全家", "曲艺", "轮播",
-      "梨园", "移动戏曲", "剧集", "剧场", "港剧", "重温", "Aod", "戏曲", "短剧",
-      "Drama", "DRAMA"
-    ],
-    "📗教育频道": [
-      "教育", "国学", "文物", "CETV", "EDU", "Edu", "LEARN", "Learn", 
-      "学习", "學習", "法治", "金色", "生命", "茶",
-      "MOMO", "幸福", "車迷", "育乐", "科教", "ELTV", "Cloudflare",
-      "Redbull", "PowerNation", "Outdoor Channel"
-    ],
-    "📦️购物+音乐频道": [
-      "购物", "購物", "乐游", "Shopping", "SHOPPING", "TV5MONDE", "Shop", "生活", "音乐", "音樂", "Music", "MEZZO", "MUSIC", "MTV", "Live",
-      "東森購物", "女性时尚", "时尚", "广播", 
-      "之声", "LIVE", "TRACE", "古典", "KTV", "SHOP"
-    ],
-    "⚡️财经频道": [
-      "财经", "財經", "Finance", "FINANCE", "Business", "BUSINESS", "商業",
-      "财富", "財富", "Economy", "ECONOMY", "Bloomberg", "CNBC", "经济",
-      "Cheddar News"
-    ],
     "🏀NBA频道": [
       "nba", "nba杯", "NBA杯", "NBA"
     ],
     "⚽️足球频道": [
       "欧冠", "欧冠联赛", "德甲", "德甲联赛", "意甲", "意甲联赛", "法甲", "法甲联赛", "西甲联赛", "西甲"
     ],
-    "🕹️娱乐+直播频道": [
-       "游戏", "JJ", "掼蛋", "直播", "英雄联盟", "Ginx", "电竞", "虎牙", "哒啵", "斗鱼", "棋牌", "斗地主"
+    "🕹️日韩动漫": [
+       "日韩动漫"
+    ],
+    "🕹️国产动漫": [
+       "国产动漫"
+    ],
+    "🕹️日韩综艺": [
+       "日韩综艺"
     ]
   },
   "custom_channels": [
